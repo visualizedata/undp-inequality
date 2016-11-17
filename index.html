@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Parsons Data Visualization Thesis Projects and Research</title>
+
+  <link href="web/css/style.css" rel="stylesheet">
+  <link href="web/css/color.css" rel="stylesheet">
+  <link href="web/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <script>
+    // use preview images if available otherwise iframes directly
+    var usePreview = true;
+
+    $(document).ready(function() {
+
+      // images
+      $("div .project").each(function() {
+        if ($(this).attr('href') != undefined) {
+
+          // scale
+          var str = "";
+          str += "<a href='#top'><span class='pull-right glyphicon glyphicon-chevron-up' data-toggle='tooltip' data-placement='left' title='top'></span></a>";
+          $(this).append(str);
+
+          // create text field to copy from
+          var iframe = "<input id='embed' type='text' class='collapse pull-right btn btn-default col-md-12' value='" +
+            $(this).find("p").html() +
+            "<iframe width=\"100%\" height=\"100%\" src=\"" + window.location.href + "/." + $(this).attr('href') + "\"></iframe>" +
+            "<a href=\"https://visualizedata.github.io/undp/\"><img style=\"width:200px !important\" src=\"" + window.location.href + "/../" + "web/img/ParsonsDataVisualization.png" + "\"></a>" +
+            "'>";
+          if ($(this).find("input").length == 0) {
+            $(this).append(iframe);
+          }
+
+          // add preview image when available
+          if (usePreview) {
+            $(this).append("<img data-toggle='tooltip' data-placement='left' title='launch project' width=\"100%\" src='" + $(this).attr('img-src') + "' target='_blank' onClick='window.open(\"" + $(this).attr('href') + "\")'>");
+            $(this).find("img").error(function() {
+              $(this).parent().append("<iframe width='100%' height='100%' src='" + $(this).parent().attr('href') +
+                "' frameborder='0' allowfullscreen></iframe>");
+              $(this).parent().find("img").remove();
+              $(this).parent().find(".title").remove();
+            });
+
+          }
+          else {
+            $(this).append("<iframe width='100%' height='566' src='" + $(this).attr('href') + "'></iframe>");
+          }
+        }
+      });
+
+      // index
+      $("h3").each(function(i) {
+        if (!$(this).hasClass("no-touch")) {
+          $("#index").append("<li><a href='#" + i + "'>" +
+            "<span class='glyphicon glyphicon-chevron-down'></span>  &nbsp;" +
+            $(this).text() + "</a><li>");
+          $(this).prepend("<a id='" + i + "'>");
+         }
+        else {
+          $("#index").append("<li class='no-touch'><a href='#" + i + "'>" +
+            "<span class='glyphicon glyphicon-chevron-down'></span>  &nbsp;" +
+            $(this).text() + "</a><li>");
+          $(this).prepend("<a id='" + i + "'>");
+        }
+      });
+
+      // check for touch screens
+      var hasTouch = window.matchMedia('(pointer: coarse)').matches;
+      if (hasTouch) {
+        $(".no-touch").hide();
+      }
+
+      // activate tooltip
+      $('[data-toggle="tooltip"]').tooltip();
+
+    });
+  </script>
+</head>
+
+<body>
+  <div class="container">
+
+    <!--MENU-->
+    <div id="banner">
+      <div id="menu_button_wrapper">
+        <a href="#" id="menu_button" class="right-off-canvas-toggle menu-icon"><i class="fa fa-bars"></i></a>
+        <a href="#" id="search_button" class="right-off-canvas-toggle menu-icon"><i class="fa fa-search"></i></a>
+      </div>
+
+      <div id="site_lockup">
+        <h1 class="u_name col-md-12">
+          <a href="http://newschool.edu/">
+              <span class="font-width-1">T</span><span class="font-width-2">h</span><span class="font-width-1">e</span><span class="font-width-1">&nbsp;</span><span class="font-width-2">N</span><span class="font-width-1">e</span><span class="font-width-3">w</span><span class="font-width-1">&nbsp;</span><span class="font-width-1">S</span><span class="font-width-1">c</span><span class="font-width-2">h</span><span class="font-width-2">o</span><span class="font-width-2">o</span><span class="font-width-3">l</span>
+          </a>
+        </h1>
+        <div class="bottom-stripe col-md-12">
+          <div class="bottom-stripe-inner"></div>
+        </div>
+
+        <div id="stripe_menu" class="col-md-12">
+          <div id="inner-menu-stripe" class="bottom-stripe">
+            <div class="bottom-stripe-inner"></div>
+          </div>
+          <h1 class="sitename"><span class="font-width-3 kern-decrease-10"><a href="http://www.newschool.edu/parsons/ms-data-visualization/">Data Visualization</a></span></h1>
+        </div>
+        <div class="subtitle font-width-3 kern-decrease-10 col-md-10">
+          UNDP RBA Inequality Project Partnership
+        </div>
+
+      </div>
+    </div>
+
+
+    <h2 class="col-md-10 col-md-offset-1">
+      Partnering with the <a href="http://www.africa.undp.org/">United Nations Development Programme Regional Bureau for Africa (RBA)</a>, Parsons Data Visualization students investigate inequality interactions in Sub-Saharan Africa.
+    </h2>
+
+    <!--YEAR-->
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+    <div class="font-width-3 col-md-12">
+      2016
+    </div>
+
+    <!--INDEX-->
+    <div class="col-md-12 col-md-10 col-md-offset-1">
+      <ul id="index">
+        <!--dynamically generated-->
+      </ul>
+      <br />
+    </div>
+
+    <!--PROJECT-->
+
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+    <h3 class="col-md-12">Riley Hoonan</h3>
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+
+    <a id="riley"></a>
+    <div href="https://rhoon.github.io/major-studio-1/narrative/" img-src="https://rhoon.github.io/major-studio-1/preview.png" class="project col-md-12">
+      <p class=" col-md-2">
+        <span class="title"></span>
+      </p>
+      <p class="col-md-9">
+      </p>
+    </div>
+
+    <!--PROJECT-->
+
+    <div class="bottom-stripe col-md-12 no-touch">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+    <h3 class="col-md-12 no-touch">Aseem Agarwal</h3>
+    <div class="bottom-stripe col-md-12 no-touch">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+
+    <a id="aseem"></a>
+    <div href="https://agaase.github.io/major-studio-1/undp/public/v2/" img-src="https://agaase.github.io/major-studio-1/undp/public/v2/preview.png" class="project col-md-12 no-touch">
+      <p class=" col-md-2">
+        <span class="title"></span>
+      </p>
+      <p class="col-md-9">
+      </p>
+    </div>
+
+    <!--PROJECT-->
+
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+    <h3 class="col-md-12">Sambhav Jain</h3>
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+
+    <a id="sambhav"></a>
+    <div href="https://jainsambhav91.github.io/major-studio-1/UNDP/quantData7/index.html" img-src="https://jainsambhav91.github.io/major-studio-1/preview.png" class="project col-md-12">
+      <p class=" col-md-2">
+        <span class="title"></span>
+      </p>
+      <p class="col-md-9">
+      </p>
+    </div>
+
+    <!--PROJECT-->
+
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+    <h3 class="col-md-12">Ian Smith</h3>
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+
+    <a id="ian"></a>
+    <div href="https://ianssmith.github.io/major-studio-1/quant2/" img-src="https://ianssmith.github.io/major-studio-1/quant2/screenshotUNDP_RBA.png" class="project col-md-12">
+      <p class=" col-md-2">
+        <span class="title"></span>
+      </p>
+      <p class="col-md-9">
+      </p>
+    </div>
+
+    <!--PROJECT-->
+
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+    <h3 class="col-md-12">Nancy Zhao</h3>
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+
+    <a id="nancy"></a>
+    <div href="https://nancyzhao888.github.io/major-studio-1/exercises/undp.1/" img-src="https://nancyzhao888.github.io/major-studio-1/exercises/undp.1/preview.png" class="project col-md-12">
+      <p class="col-md-2">
+        <span class="title"></span>
+      </p>
+      <p class="col-md-9">
+      </p>
+    </div>
+
+    <!--PROJECT-->
+
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+    <h3 class="col-md-12">Joshua Lee</h3>
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+
+    <a id="joshua"></a>
+    <div href="https://neuralism.github.io/major-studio-1/quantitative-iteration/" img-src="http://neuralism.github.io/major-studio-1/quantitative-iteration/images/preview.png" class="project col-md-12">
+      <p class=" col-md-2">
+        <span class="title"></span>
+      </p>
+      <p class="col-md-9">
+      </p>
+    </div>
+
+    <!--PROJECT-->
+
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+    <h3 class="col-md-12">Sam Vickars</h3>
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+
+    <a id="sam"></a>
+    <div href="https://svickars.github.io/major-studio-1/a3/" img-src="https://raw.githubusercontent.com/svickars/major-studio-1/master/screencap.png" class="project col-md-12">
+      <p class=" col-md-2">
+        <span class="title"></span>
+      </p>
+      <p class="col-md-9">
+      </p>
+    </div>
+
+    <!--FOOTER-->
+
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+
+    <div id="about">
+      <div class="row">
+
+        <div class="col-md-2 text-right">
+            <p>&nbsp;</p>
+            <a href="https://github.com/visualizedata/undp-inequality"><img data-toggle='tooltip' title='Source' src="web/img/GitHub.png" style="width:30px"></a>
+        </div>
+
+        <div class="col-md-3">
+
+          <p><a href="http://www.newschool.edu/parsons/ms-data-visualization/">MS Data Visualization</a></p>
+
+                 <a href="https://github.com/rhoon/major-studio-1/blob/master/README.md" class="no-touch">Riley Hoonan</a>
+          <br /> <a href="https://github.com/agaase/major-studio-1/tree/master/undp">Aseem Agarwal</a>
+          <br /> <a href="https://github.com/jainsambhav91/major-studio-1/blob/master/README.md">Sambhav Jain</a>
+          <br /> <a href="https://github.com/Ianssmith/major-studio-1/blob/master/README.md">Ian Smith</a>
+          <br /> <a href="https://github.com/nancyzhao888/major-studio-1/blob/master/README.md">Nancy Zhao</a>
+          <br /> <a href="https://github.com/neuralism/major-studio-1/blob/master/README.md">Joshua Lee</a>
+          <br /> <a href="https://github.com/svickars/major-studio-1/blob/master/README.md">Sam Vickars</a>
+          <p></p>
+
+        </div>
+        <div class="col-md-3">
+
+          <p><a href="https://courses.newschool.edu/courses/PGDV5200">PGDV Major Studio 1</a></p>
+          Fall 2016
+          <br /><a href="http://www.newschool.edu/parsons/faculty.aspx?id=4e54-5978-4d7a-4932">Daniel Sauter, Assoc. Prof.</a>
+          <p></p>
+
+        </div>
+        <div class="col-md-3">
+
+          <p><a href="http://www.newschool.edu/parsons/">Parsons School of Design</a></p>
+          <a href="http://www.newschool.edu/parsons/ms-data-visualization/">MS Data Visualization</a>
+          <br /> <a href="http://www.newschool.edu/parsons/art-media-technology-school-amt/">Art, Media, and Technology</a>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="bottom-stripe col-md-12 marginbot-50">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+
+  </div>
+  <script src="web/js/bootstrap.min.js"></script>
+  <script src="web/js/jquery.easing.min.js"></script>
+  <script src="web/js/custom.js"></script>
+</body>
+
+</html>

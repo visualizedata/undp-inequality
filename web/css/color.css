@@ -1,0 +1,88 @@
+/* foreground */
+
+.c-1, .midnight-blue { 
+  color: MidnightBlue
+}
+.c-2, .slate-grey { 
+  color: SlateGrey
+}
+.c-3, .steel-blue { 
+  color: SteelBlue
+}
+.c-4, .sea-green { 
+  color: SeaGreen
+}
+.c-5, .lime-green { 
+  color: LimeGreen
+}
+.c-6, .red { 
+  color: Red
+}
+.c-7, .marron { 
+  color: Maroon
+}
+.c-8, .golden-rod { 
+  color: GoldenRod
+}
+.c-9, .dim-grey { 
+  color: DimGrey
+}
+.c-10, .tan { 
+  color: Tan
+}
+.c-11, .white { 
+  color: White
+}
+.c-12, .black { 
+  color: Black
+}
+
+/* background */
+.bg-1 { background-color: MidnightBlue }
+.bg-2 { background-color: SlateGrey }
+.bg-3 { background-color: SteelBlue }
+.bg-4 { background-color: SeaGreen }
+.bg-5 { background-color: LimeGreen }
+.bg-6 { background-color: Red }
+.bg-7 { background-color: Maroon }
+.bg-8 { background-color: GoldenRod }
+.bg-9 { background-color: DimGrey }
+.bg-10 { background-color: Tan }
+.bg-11 { background-color: White }
+.bg-12 { background-color: Black }
+
+/* Miyazaki Colors */
+
+.miyazaki_c-1, .green { 
+  color: rgb(88,166,86)
+}
+.miyazaki_c-2, .light-blue { 
+  color: rgb(50,153,143)
+}
+.miyazaki_c-3, .dark-blue { 
+  color: rgb(2, 39, 95)
+}
+.miyazaki_c-4, .black { 
+  color: rgb(0,0,0)
+}
+.miyazaki_c-5, .off-white { 
+  color: rgb(238,226,210)
+}
+.miyazaki_c-6, .gray { 
+  color: rgb(113, 121, 124)
+}
+.miyazaki_c-7, .brown { 
+  color: rgb(108,58,32)
+}
+.miyazaki_c-8, .dark-red { 
+  color: rgb(147,38,47)
+}
+.miyazaki_c-9, .mid-red { 
+  color: rgb(185,61,71)
+}
+.miyazaki_c-10, .light-red { 
+  color: rgb(225,96,108)
+}
+.miyazaki_c-11, .white { 
+  color: rgb(255,255,255)
+}
