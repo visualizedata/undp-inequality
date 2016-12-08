@@ -107,7 +107,12 @@ h2 {
     font-family: "neue-regular" !important;
 }
 
-div + .bottom-stripe, 
+@media (max-width: @screen-sm) {
+    h2 {font-size: 11pt;}
+}
+
+
+div + .bottom-stripe,
 .project + .project,
 .bottom-stripe + .project
 {
