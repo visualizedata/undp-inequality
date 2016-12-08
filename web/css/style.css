@@ -108,7 +108,7 @@ h2 {
 }
 
 @media (max-width: @screen-sm) {
-    h2 {font-size: 11pt;}
+    h2, .h2 {font-size: 11pt;}
 }
 
 
@@ -210,7 +210,7 @@ span {
     font-size: 4.33333rem;
     line-height: 4.46667rem;
     margin-top: -0.2rem;
-    padding-left: 95px;
+    padding-left: 80px;
     color: #E82E21 !important;
     margin-left: .2rem;
 }
