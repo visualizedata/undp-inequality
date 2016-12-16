@@ -1,0 +1,2161 @@
+country,Country_OLD,year,ptsa,ptsh,ptss
+Algeria,Algeria,1976,2,,
+Algeria,Algeria,1977,2,,
+Algeria,Algeria,1978,,,
+Algeria,Algeria,1979,4,,2
+Algeria,Algeria,1980,2,,1
+Algeria,Algeria,1981,2,,1
+Algeria,Algeria,1982,2,,1
+Algeria,Algeria,1983,2,,1
+Algeria,Algeria,1984,2,,2
+Algeria,Algeria,1985,2,,2
+Algeria,Algeria,1986,2,,2
+Algeria,Algeria,1987,2,,2
+Algeria,Algeria,1988,4,,3
+Algeria,Algeria,1989,2,,2
+Algeria,Algeria,1990,2,,2
+Algeria,Algeria,1991,3,,3
+Algeria,Algeria,1992,4,,4
+Algeria,Algeria,1993,4,,5
+Algeria,Algeria,1994,5,,5
+Algeria,Algeria,1995,5,,5
+Algeria,Algeria,1996,5,,5
+Algeria,Algeria,1997,5,,5
+Algeria,Algeria,1998,5,,5
+Algeria,Algeria,1999,5,,5
+Algeria,Algeria,2000,5,,4
+Algeria,Algeria,2001,5,,4
+Algeria,Algeria,2002,4,,4
+Algeria,Algeria,2003,5,,4
+Algeria,Algeria,2004,4,,4
+Algeria,Algeria,2005,4,,4
+Algeria,Algeria,2006,4,,4
+Algeria,Algeria,2007,4,,3
+Algeria,Algeria,2008,3,,3
+Algeria,Algeria,2009,3,,2
+Algeria,Algeria,2010,3,,3
+Algeria,Algeria,2011,3,,3
+Algeria,Algeria,2012,2,,2
+Algeria,Algeria,2013,,3,2
+Algeria,Algeria,2014,3,2,3
+Algeria,Algeria,2015,3,3,2
+Angola,Angola,1976,3,,
+Angola,Angola,1977,,,
+Angola,Angola,1978,3,,
+Angola,Angola,1979,3,,2
+Angola,Angola,1980,3,,3
+Angola,Angola,1981,3,,3
+Angola,Angola,1982,3,,3
+Angola,Angola,1983,3,,5
+Angola,Angola,1984,3,,3
+Angola,Angola,1985,3,,5
+Angola,Angola,1986,4,,5
+Angola,Angola,1987,4,,5
+Angola,Angola,1988,4,,4
+Angola,Angola,1989,4,,4
+Angola,Angola,1990,4,,4
+Angola,Angola,1991,3,,3
+Angola,Angola,1992,4,,5
+Angola,Angola,1993,5,,5
+Angola,Angola,1994,5,,5
+Angola,Angola,1995,4,,5
+Angola,Angola,1996,4,,5
+Angola,Angola,1997,4,,4
+Angola,Angola,1998,5,,5
+Angola,Angola,1999,5,,5
+Angola,Angola,2000,4,,5
+Angola,Angola,2001,5,,4
+Angola,Angola,2002,3,,4
+Angola,Angola,2003,4,,4
+Angola,Angola,2004,4,,4
+Angola,Angola,2005,3,,4
+Angola,Angola,2006,3,,3
+Angola,Angola,2007,3,,4
+Angola,Angola,2008,3,,3
+Angola,Angola,2009,3,,4
+Angola,Angola,2010,3,,3
+Angola,Angola,2011,3,,3
+Angola,Angola,2012,3,,3
+Angola,Angola,2013,,4,3
+Angola,Angola,2014,4,4,3
+Angola,Angola,2015,3,3,3
+Benin,Benin,1976,2,,
+Benin,Benin,1977,2,,2
+Benin,Benin,1978,,,2
+Benin,Benin,1979,2,,2
+Benin,Benin,1980,3,,2
+Benin,Benin,1981,3,,3
+Benin,Benin,1982,2,,3
+Benin,Benin,1983,2,,2
+Benin,Benin,1984,2,,2
+Benin,Benin,1985,3,,3
+Benin,Benin,1986,3,,2
+Benin,Benin,1987,2,,2
+Benin,Benin,1988,3,,3
+Benin,Benin,1989,3,,3
+Benin,Benin,1990,2,,1
+Benin,Benin,1991,1,,1
+Benin,Benin,1992,2,,1
+Benin,Benin,1993,2,,1
+Benin,Benin,1994,2,,1
+Benin,Benin,1995,,,2
+Benin,Benin,1996,,,1
+Benin,Benin,1997,,,1
+Benin,Benin,1998,2,,2
+Benin,Benin,1999,2,,2
+Benin,Benin,2000,,,2
+Benin,Benin,2001,,,2
+Benin,Benin,2002,,,2
+Benin,Benin,2003,,,2
+Benin,Benin,2004,,,2
+Benin,Benin,2005,,,3
+Benin,Benin,2006,,,3
+Benin,Benin,2007,2,,2
+Benin,Benin,2008,2,,3
+Benin,Benin,2009,1,,3
+Benin,Benin,2010,1,,3
+Benin,Benin,2011,1,,3
+Benin,Benin,2012,1,,2
+Benin,Benin,2013,,,2
+Benin,Benin,2014,1,,3
+Benin,Benin,2015,2,,2
+Botswana,Botswana,1976,2,,1
+Botswana,Botswana,1977,,,1
+Botswana,Botswana,1978,,,1
+Botswana,Botswana,1979,,,1
+Botswana,Botswana,1980,1,,1
+Botswana,Botswana,1981,1,,1
+Botswana,Botswana,1982,,,1
+Botswana,Botswana,1983,,,1
+Botswana,Botswana,1984,1,,1
+Botswana,Botswana,1985,,,1
+Botswana,Botswana,1986,1,,1
+Botswana,Botswana,1987,,,1
+Botswana,Botswana,1988,,,1
+Botswana,Botswana,1989,,,1
+Botswana,Botswana,1990,,,1
+Botswana,Botswana,1991,,,1
+Botswana,Botswana,1992,2,,1
+Botswana,Botswana,1993,,,1
+Botswana,Botswana,1994,,,1
+Botswana,Botswana,1995,1,,1
+Botswana,Botswana,1996,1,,1
+Botswana,Botswana,1997,,,1
+Botswana,Botswana,1998,,,1
+Botswana,Botswana,1999,,,1
+Botswana,Botswana,2000,,,1
+Botswana,Botswana,2001,,,1
+Botswana,Botswana,2002,,,2
+Botswana,Botswana,2003,,,2
+Botswana,Botswana,2004,,,2
+Botswana,Botswana,2005,,,2
+Botswana,Botswana,2006,,,2
+Botswana,Botswana,2007,,,2
+Botswana,Botswana,2008,,,2
+Botswana,Botswana,2009,,,2
+Botswana,Botswana,2010,,,1
+Botswana,Botswana,2011,,,1
+Botswana,Botswana,2012,,,2
+Botswana,Botswana,2013,,,1
+Botswana,Botswana,2014,,,1
+Botswana,Botswana,2015,,,1
+Burkina Faso,Burkina Faso,1976,,,
+Burkina Faso,Burkina Faso,1977,,,1
+Burkina Faso,Burkina Faso,1978,,,1
+Burkina Faso,Burkina Faso,1979,,,2
+Burkina Faso,Burkina Faso,1980,,,2
+Burkina Faso,Burkina Faso,1981,,,2
+Burkina Faso,Burkina Faso,1982,,,2
+Burkina Faso,Burkina Faso,1983,3,,3
+Burkina Faso,Burkina Faso,1984,2,,2
+Burkina Faso,Burkina Faso,1985,2,,3
+Burkina Faso,Burkina Faso,1986,2,,2
+Burkina Faso,Burkina Faso,1987,2,,3
+Burkina Faso,Burkina Faso,1988,3,,3
+Burkina Faso,Burkina Faso,1989,2,,3
+Burkina Faso,Burkina Faso,1990,2,,3
+Burkina Faso,Burkina Faso,1991,1,,3
+Burkina Faso,Burkina Faso,1992,1,,2
+Burkina Faso,Burkina Faso,1993,,,2
+Burkina Faso,Burkina Faso,1994,,,3
+Burkina Faso,Burkina Faso,1995,3,,3
+Burkina Faso,Burkina Faso,1996,,,2
+Burkina Faso,Burkina Faso,1997,2,,2
+Burkina Faso,Burkina Faso,1998,2,,2
+Burkina Faso,Burkina Faso,1999,3,,2
+Burkina Faso,Burkina Faso,2000,2,,2
+Burkina Faso,Burkina Faso,2001,1,,3
+Burkina Faso,Burkina Faso,2002,3,,3
+Burkina Faso,Burkina Faso,2003,1,,3
+Burkina Faso,Burkina Faso,2004,1,,2
+Burkina Faso,Burkina Faso,2005,,,2
+Burkina Faso,Burkina Faso,2006,,,3
+Burkina Faso,Burkina Faso,2007,,,3
+Burkina Faso,Burkina Faso,2008,3,,3
+Burkina Faso,Burkina Faso,2009,1,,3
+Burkina Faso,Burkina Faso,2010,1,,3
+Burkina Faso,Burkina Faso,2011,3,,3
+Burkina Faso,Burkina Faso,2012,1,,2
+Burkina Faso,Burkina Faso,2013,,,3
+Burkina Faso,Burkina Faso,2014,3,,3
+Burkina Faso,Burkina Faso,2015,3,,3
+Burundi,Burundi,1976,2,,
+Burundi,Burundi,1977,,,2
+Burundi,Burundi,1978,,,2
+Burundi,Burundi,1979,2,,2
+Burundi,Burundi,1980,2,,2
+Burundi,Burundi,1981,,,2
+Burundi,Burundi,1982,,,2
+Burundi,Burundi,1983,2,,2
+Burundi,Burundi,1984,2,,2
+Burundi,Burundi,1985,3,,2
+Burundi,Burundi,1986,3,,3
+Burundi,Burundi,1987,2,,2
+Burundi,Burundi,1988,4,,4
+Burundi,Burundi,1989,2,,2
+Burundi,Burundi,1990,2,,2
+Burundi,Burundi,1991,5,,4
+Burundi,Burundi,1992,4,,4
+Burundi,Burundi,1993,5,,5
+Burundi,Burundi,1994,5,,5
+Burundi,Burundi,1995,5,,5
+Burundi,Burundi,1996,5,,5
+Burundi,Burundi,1997,5,,5
+Burundi,Burundi,1998,5,,5
+Burundi,Burundi,1999,5,,5
+Burundi,Burundi,2000,4,,5
+Burundi,Burundi,2001,5,,5
+Burundi,Burundi,2002,5,,5
+Burundi,Burundi,2003,4,,4
+Burundi,Burundi,2004,4,,5
+Burundi,Burundi,2005,4,,5
+Burundi,Burundi,2006,4,,4
+Burundi,Burundi,2007,4,,4
+Burundi,Burundi,2008,4,,4
+Burundi,Burundi,2009,3,,3
+Burundi,Burundi,2010,3,,4
+Burundi,Burundi,2011,3,,4
+Burundi,Burundi,2012,3,,4
+Burundi,Burundi,2013,,4,4
+Burundi,Burundi,2014,3,3,3
+Burundi,Burundi,2015,4,4,4
+Cabo Verde,Cape Verde,1976,,,
+Cabo Verde,Cape Verde,1977,,,2
+Cabo Verde,Cape Verde,1978,,,2
+Cabo Verde,Cape Verde,1979,,,1
+Cabo Verde,Cape Verde,1980,,,1
+Cabo Verde,Cape Verde,1981,,,2
+Cabo Verde,Cape Verde,1982,2,,2
+Cabo Verde,Cape Verde,1983,2,,1
+Cabo Verde,Cape Verde,1984,,,1
+Cabo Verde,Cape Verde,1985,,,1
+Cabo Verde,Cape Verde,1986,,,1
+Cabo Verde,Cape Verde,1987,2,,1
+Cabo Verde,Cape Verde,1988,2,,1
+Cabo Verde,Cape Verde,1989,,,2
+Cabo Verde,Cape Verde,1990,,,1
+Cabo Verde,Cape Verde,1991,,,1
+Cabo Verde,Cape Verde,1992,,,1
+Cabo Verde,Cape Verde,1993,,,1
+Cabo Verde,Cape Verde,1994,,,1
+Cabo Verde,Cape Verde,1995,,,1
+Cabo Verde,Cape Verde,1996,,,1
+Cabo Verde,Cape Verde,1997,,,1
+Cabo Verde,Cape Verde,1998,,,1
+Cabo Verde,Cape Verde,1999,,,1
+Cabo Verde,Cape Verde,2000,,,1
+Cabo Verde,Cape Verde,2001,,,1
+Cabo Verde,Cape Verde,2002,,,2
+Cabo Verde,Cape Verde,2003,,,1
+Cabo Verde,Cape Verde,2004,,,1
+Cabo Verde,Cape Verde,2005,,,2
+Cabo Verde,Cape Verde,2006,,,1
+Cabo Verde,Cape Verde,2007,,,2
+Cabo Verde,Cape Verde,2008,,,2
+Cabo Verde,Cape Verde,2009,,,2
+Cabo Verde,Cape Verde,2010,,,2
+Cabo Verde,Cape Verde,2011,,,2
+Cabo Verde,Cape Verde,2012,,,1
+Cabo Verde,Cape Verde,2013,,,2
+Cabo Verde,Cape Verde,2014,,,
+Cabo Verde,Cape Verde,2015,,,1
+Cameroon,Cameroon,1976,3,,2
+Cameroon,Cameroon,1977,3,,1
+Cameroon,Cameroon,1978,3,,2
+Cameroon,Cameroon,1979,4,,3
+Cameroon,Cameroon,1980,2,,2
+Cameroon,Cameroon,1981,2,,2
+Cameroon,Cameroon,1982,2,,2
+Cameroon,Cameroon,1983,2,,2
+Cameroon,Cameroon,1984,4,,3
+Cameroon,Cameroon,1985,3,,2
+Cameroon,Cameroon,1986,2,,2
+Cameroon,Cameroon,1987,2,,2
+Cameroon,Cameroon,1988,2,,2
+Cameroon,Cameroon,1989,2,,2
+Cameroon,Cameroon,1990,2,,3
+Cameroon,Cameroon,1991,3,,4
+Cameroon,Cameroon,1992,3,,4
+Cameroon,Cameroon,1993,3,,3
+Cameroon,Cameroon,1994,4,,4
+Cameroon,Cameroon,1995,3,,3
+Cameroon,Cameroon,1996,3,,3
+Cameroon,Cameroon,1997,3,,3
+Cameroon,Cameroon,1998,4,,3
+Cameroon,Cameroon,1999,4,,4
+Cameroon,Cameroon,2000,4,,4
+Cameroon,Cameroon,2001,3,,3
+Cameroon,Cameroon,2002,2,,4
+Cameroon,Cameroon,2003,4,,4
+Cameroon,Cameroon,2004,3,,4
+Cameroon,Cameroon,2005,3,,4
+Cameroon,Cameroon,2006,3,,4
+Cameroon,Cameroon,2007,3,,3
+Cameroon,Cameroon,2008,4,,4
+Cameroon,Cameroon,2009,2,,3
+Cameroon,Cameroon,2010,2,,3
+Cameroon,Cameroon,2011,2,,3
+Cameroon,Cameroon,2012,2,,3
+Cameroon,Cameroon,2013,,,3
+Cameroon,Cameroon,2014,4,,3
+Cameroon,Cameroon,2015,3,,3
+Central African Republic (CAR),Central African Republic (CAR) (CAR),1976,2,,
+Central African Republic (CAR),Central African Republic (CAR) (CAR),1977,2,,2
+Central African Republic (CAR),Central African Republic (CAR) (CAR),1978,4,,2
+Central African Republic (CAR),Central African Republic (CAR) (CAR),1979,4,,4
+Central African Republic (CAR),Central African Republic (CAR) (CAR),1980,,,
+Central African Republic (CAR),Central African Republic (CAR) (CAR),1981,,,
+Central African Republic (CAR),Central African Republic (CAR) (CAR),1982,,,
+Central African Republic (CAR),Central African Republic (CAR) (CAR),1983,,,
+Central African Republic (CAR),Central African Republic (CAR) (CAR),1984,,,
+Central African Republic (CAR),Central African Republic (CAR) (CAR),1985,,,
+Central African Republic (CAR),Central African Republic (CAR) (CAR),1986,,,
+Central African Republic (CAR),Central African Republic (CAR) (CAR),1987,2,,2
+Central African Republic (CAR),Central African Republic (CAR) (CAR),1988,2,,2
+Central African Republic (CAR),Central African Republic (CAR) (CAR),1989,2,,2
+Central African Republic (CAR),Central African Republic (CAR) (CAR),1990,2,,2
+Central African Republic (CAR),Central African Republic (CAR) (CAR),1991,2,,2
+Central African Republic (CAR),Central African Republic (CAR) (CAR),1992,2,,3
+Central African Republic (CAR),Central African Republic (CAR) (CAR),1993,2,,2
+Central African Republic (CAR),Central African Republic (CAR) (CAR),1994,,,2
+Central African Republic (CAR),Central African Republic (CAR) (CAR),1995,,,2
+Central African Republic (CAR),Central African Republic (CAR) (CAR),1996,,,2
+Central African Republic (CAR),Central African Republic (CAR) (CAR),1997,,,3
+Central African Republic (CAR),Central African Republic (CAR) (CAR),1998,,,2
+Central African Republic (CAR),Central African Republic (CAR) (CAR),1999,,,3
+Central African Republic (CAR),Central African Republic (CAR) (CAR),2000,,,2
+Central African Republic (CAR),Central African Republic (CAR) (CAR),2001,4,,4
+Central African Republic (CAR),Central African Republic (CAR) (CAR),2002,3,,3
+Central African Republic (CAR),Central African Republic (CAR) (CAR),2003,4,,4
+Central African Republic (CAR),Central African Republic (CAR) (CAR),2004,2,,4
+Central African Republic (CAR),Central African Republic (CAR) (CAR),2005,3,,4
+Central African Republic (CAR),Central African Republic (CAR) (CAR),2006,4,,5
+Central African Republic (CAR),Central African Republic (CAR) (CAR),2007,4,,5
+Central African Republic (CAR),Central African Republic (CAR) (CAR),2008,4,,4
+Central African Republic (CAR),Central African Republic (CAR) (CAR),2009,4,,4
+Central African Republic (CAR),Central African Republic (CAR) (CAR),2010,4,,5
+Central African Republic (CAR),Central African Republic (CAR) (CAR),2011,4,,4
+Central African Republic (CAR),Central African Republic (CAR) (CAR),2012,3,,5
+Central African Republic (CAR),Central African Republic (CAR) (CAR),2013,,5,5
+Central African Republic (CAR),Central African Republic (CAR) (CAR),2014,5,5,5
+Central African Republic (CAR),Central African Republic (CAR) (CAR),2015,4,,4
+Chad,Chad,1976,2,,
+Chad,Chad,1977,3,,3
+Chad,Chad,1978,3,,3
+Chad,Chad,1979,3,,3
+Chad,Chad,1980,,,
+Chad,Chad,1981,,,
+Chad,Chad,1982,3,,3
+Chad,Chad,1983,3,,
+Chad,Chad,1984,5,,5
+Chad,Chad,1985,5,,5
+Chad,Chad,1986,2,,3
+Chad,Chad,1987,4,,3
+Chad,Chad,1988,3,,3
+Chad,Chad,1989,3,,3
+Chad,Chad,1990,4,,4
+Chad,Chad,1991,3,,4
+Chad,Chad,1992,5,,4
+Chad,Chad,1993,5,,4
+Chad,Chad,1994,4,,4
+Chad,Chad,1995,4,,4
+Chad,Chad,1996,4,,2
+Chad,Chad,1997,4,,4
+Chad,Chad,1998,4,,4
+Chad,Chad,1999,4,,4
+Chad,Chad,2000,3,,4
+Chad,Chad,2001,4,,4
+Chad,Chad,2002,2,,4
+Chad,Chad,2003,3,,4
+Chad,Chad,2004,3,,4
+Chad,Chad,2005,2,,4
+Chad,Chad,2006,4,,4
+Chad,Chad,2007,4,,4
+Chad,Chad,2008,5,,5
+Chad,Chad,2009,5,,4
+Chad,Chad,2010,4,,4
+Chad,Chad,2011,4,,3
+Chad,Chad,2012,3,,3
+Chad,Chad,2013,,,3
+Chad,Chad,2014,3,,3
+Chad,Chad,2015,3,,3
+Comoros,Comoros,1976,2,,
+Comoros,Comoros,1977,3,,
+Comoros,Comoros,1978,3,,2
+Comoros,Comoros,1979,2,,2
+Comoros,Comoros,1980,2,,2
+Comoros,Comoros,1981,2,,2
+Comoros,Comoros,1982,2,,2
+Comoros,Comoros,1983,2,,2
+Comoros,Comoros,1984,,,2
+Comoros,Comoros,1985,3,,2
+Comoros,Comoros,1986,3,,2
+Comoros,Comoros,1987,3,,3
+Comoros,Comoros,1988,2,,2
+Comoros,Comoros,1989,2,,2
+Comoros,Comoros,1990,2,,1
+Comoros,Comoros,1991,2,,1
+Comoros,Comoros,1992,3,,2
+Comoros,Comoros,1993,3,,1
+Comoros,Comoros,1994,,,2
+Comoros,Comoros,1995,,,2
+Comoros,Comoros,1996,1,,1
+Comoros,Comoros,1997,2,,3
+Comoros,Comoros,1998,,,1
+Comoros,Comoros,1999,,,3
+Comoros,Comoros,2000,,,2
+Comoros,Comoros,2001,,,2
+Comoros,Comoros,2002,1,,1
+Comoros,Comoros,2003,2,,2
+Comoros,Comoros,2004,,,1
+Comoros,Comoros,2005,,,1
+Comoros,Comoros,2006,,,1
+Comoros,Comoros,2007,,,3
+Comoros,Comoros,2008,,,3
+Comoros,Comoros,2009,,,1
+Comoros,Comoros,2010,,,1
+Comoros,Comoros,2011,,,2
+Comoros,Comoros,2012,,,2
+Comoros,Comoros,2013,,,1
+Comoros,Comoros,2014,,,1
+Comoros,Comoros,2015,,,1
+Republic of the Congo,Republic of the Congo,1976,2,,
+Republic of the Congo,Republic of the Congo,1977,2,,
+Republic of the Congo,Republic of the Congo,1978,2,,1
+Republic of the Congo,Republic of the Congo,1979,2,,2
+Republic of the Congo,Republic of the Congo,1980,2,,2
+Republic of the Congo,Republic of the Congo,1981,2,,2
+Republic of the Congo,Republic of the Congo,1982,2,,2
+Republic of the Congo,Republic of the Congo,1983,2,,2
+Republic of the Congo,Republic of the Congo,1984,2,,2
+Republic of the Congo,Republic of the Congo,1985,2,,2
+Republic of the Congo,Republic of the Congo,1986,2,,2
+Republic of the Congo,Republic of the Congo,1987,3,,3
+Republic of the Congo,Republic of the Congo,1988,2,,2
+Republic of the Congo,Republic of the Congo,1989,2,,2
+Republic of the Congo,Republic of the Congo,1990,2,,2
+Republic of the Congo,Republic of the Congo,1991,2,,1
+Republic of the Congo,Republic of the Congo,1992,2,,2
+Republic of the Congo,Republic of the Congo,1993,3,,4
+Republic of the Congo,Republic of the Congo,1994,4,,4
+Republic of the Congo,Republic of the Congo,1995,3,,3
+Republic of the Congo,Republic of the Congo,1996,3,,3
+Republic of the Congo,Republic of the Congo,1997,5,,5
+Republic of the Congo,Republic of the Congo,1998,4,,5
+Republic of the Congo,Republic of the Congo,1999,5,,5
+Republic of the Congo,Republic of the Congo,2000,5,,3
+Republic of the Congo,Republic of the Congo,2001,,,3
+Republic of the Congo,Republic of the Congo,2002,4,,4
+Republic of the Congo,Republic of the Congo,2003,4,,4
+Republic of the Congo,Republic of the Congo,2004,3,,2
+Republic of the Congo,Republic of the Congo,2005,2,,3
+Republic of the Congo,Republic of the Congo,2006,2,,3
+Republic of the Congo,Republic of the Congo,2007,2,,3
+Republic of the Congo,Republic of the Congo,2008,3,,3
+Republic of the Congo,Republic of the Congo,2009,3,,2
+Republic of the Congo,Republic of the Congo,2010,2,,2
+Republic of the Congo,Republic of the Congo,2011,2,,2
+Republic of the Congo,Republic of the Congo,2012,2,,3
+Republic of the Congo,Republic of the Congo,2013,,,3
+Republic of the Congo,Republic of the Congo,2014,4,,3
+Republic of the Congo,Republic of the Congo,2015,4,,4
+Democratic Republic of the Congo,Democratic Republic of the Congo,1976,,,2
+Democratic Republic of the Congo,Democratic Republic of the Congo,1977,4,,2
+Democratic Republic of the Congo,Democratic Republic of the Congo,1978,4,,3
+Democratic Republic of the Congo,Democratic Republic of the Congo,1979,3,,3
+Democratic Republic of the Congo,Democratic Republic of the Congo,1980,4,,3
+Democratic Republic of the Congo,Democratic Republic of the Congo,1981,4,,3
+Democratic Republic of the Congo,Democratic Republic of the Congo,1982,4,,3
+Democratic Republic of the Congo,Democratic Republic of the Congo,1983,4,,3
+Democratic Republic of the Congo,Democratic Republic of the Congo,1984,3,,3
+Democratic Republic of the Congo,Democratic Republic of the Congo,1985,3,,4
+Democratic Republic of the Congo,Democratic Republic of the Congo,1986,3,,4
+Democratic Republic of the Congo,Democratic Republic of the Congo,1987,3,,3
+Democratic Republic of the Congo,Democratic Republic of the Congo,1988,3,,3
+Democratic Republic of the Congo,Democratic Republic of the Congo,1989,3,,3
+Democratic Republic of the Congo,Democratic Republic of the Congo,1990,3,,3
+Democratic Republic of the Congo,Democratic Republic of the Congo,1991,4,,3
+Democratic Republic of the Congo,Democratic Republic of the Congo,1992,4,,4
+Democratic Republic of the Congo,Democratic Republic of the Congo,1993,5,,5
+Democratic Republic of the Congo,Democratic Republic of the Congo,1994,4,,5
+Democratic Republic of the Congo,Democratic Republic of the Congo,1995,4,,4
+Democratic Republic of the Congo,Democratic Republic of the Congo,1996,4,,5
+Democratic Republic of the Congo,Democratic Republic of the Congo,1997,5,,5
+Democratic Republic of the Congo,Democratic Republic of the Congo,1998,5,,5
+Democratic Republic of the Congo,Democratic Republic of the Congo,1999,5,,5
+Democratic Republic of the Congo,Democratic Republic of the Congo,2000,5,,5
+Democratic Republic of the Congo,Democratic Republic of the Congo,2001,4,,5
+Democratic Republic of the Congo,Democratic Republic of the Congo,2002,5,,5
+Democratic Republic of the Congo,Democratic Republic of the Congo,2003,5,,5
+Democratic Republic of the Congo,Democratic Republic of the Congo,2004,5,,5
+Democratic Republic of the Congo,Democratic Republic of the Congo,2005,5,,4
+Democratic Republic of the Congo,Democratic Republic of the Congo,2006,5,,4
+Democratic Republic of the Congo,Democratic Republic of the Congo,2007,5,,5
+Democratic Republic of the Congo,Democratic Republic of the Congo,2008,5,,5
+Democratic Republic of the Congo,Democratic Republic of the Congo,2009,5,,5
+Democratic Republic of the Congo,Democratic Republic of the Congo,2010,5,,5
+Democratic Republic of the Congo,Democratic Republic of the Congo,2011,5,,4
+Democratic Republic of the Congo,Democratic Republic of the Congo,2012,5,,5
+Democratic Republic of the Congo,Democratic Republic of the Congo,2013,,5,5
+Democratic Republic of the Congo,Democratic Republic of the Congo,2014,5,3,5
+Democratic Republic of the Congo,Democratic Republic of the Congo,2015,4,4,5
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),1976,,,
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),1977,,,2
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),1978,2,,1
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),1979,2,,2
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),1980,2,,1
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),1981,2,,2
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),1982,,,1
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),1983,,,1
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),1984,,,1
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),1985,,,1
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),1986,2,,1
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),1987,2,,1
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),1988,1,,1
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),1989,2,,2
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),1990,2,,2
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),1991,2,,2
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),1992,3,,3
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),1993,2,,2
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),1994,2,,3
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),1995,2,,3
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),1996,3,,3
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),1997,2,,3
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),1998,2,,3
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),1999,2,,3
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),2000,3,,4
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),2001,2,,3
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),2002,4,,4
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),2003,4,,4
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),2004,4,,5
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),2005,4,,4
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),2006,4,,4
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),2007,4,,4
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),2008,3,,4
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),2009,3,,4
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),2010,3,,4
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),2011,5,,4
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),2012,4,,4
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),2013,,3,3
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),2014,3,3,3
+Cote d'Ivoire,Ivory Coast (Cote d'Ivoire),2015,3,3,3
+Djibouti,Djibouti,1976,,,
+Djibouti,Djibouti,1977,,,
+Djibouti,Djibouti,1978,3,,2
+Djibouti,Djibouti,1979,3,,2
+Djibouti,Djibouti,1980,2,,2
+Djibouti,Djibouti,1981,2,,1
+Djibouti,Djibouti,1982,1,,2
+Djibouti,Djibouti,1983,2,,2
+Djibouti,Djibouti,1984,2,,1
+Djibouti,Djibouti,1985,,,2
+Djibouti,Djibouti,1986,,,1
+Djibouti,Djibouti,1987,1,,2
+Djibouti,Djibouti,1988,2,,1
+Djibouti,Djibouti,1989,2,,2
+Djibouti,Djibouti,1990,2,,2
+Djibouti,Djibouti,1991,3,,3
+Djibouti,Djibouti,1992,3,,3
+Djibouti,Djibouti,1993,,,4
+Djibouti,Djibouti,1994,4,,3
+Djibouti,Djibouti,1995,,,2
+Djibouti,Djibouti,1996,2,,2
+Djibouti,Djibouti,1997,2,,2
+Djibouti,Djibouti,1998,3,,4
+Djibouti,Djibouti,1999,3,,3
+Djibouti,Djibouti,2000,,,2
+Djibouti,Djibouti,2001,,,3
+Djibouti,Djibouti,2002,,,2
+Djibouti,Djibouti,2003,,,3
+Djibouti,Djibouti,2004,,,2
+Djibouti,Djibouti,2005,,,2
+Djibouti,Djibouti,2006,,,3
+Djibouti,Djibouti,2007,,,3
+Djibouti,Djibouti,2008,,,2
+Djibouti,Djibouti,2009,1,,2
+Djibouti,Djibouti,2010,,,2
+Djibouti,Djibouti,2011,,,3
+Djibouti,Djibouti,2012,,,3
+Djibouti,Djibouti,2013,,,3
+Djibouti,Djibouti,2014,,,3
+Djibouti,Djibouti,2015,,,3
+Egypt,Egypt,1976,3,,1
+Egypt,Egypt,1977,3,,2
+Egypt,Egypt,1978,3,,2
+Egypt,Egypt,1979,3,,2
+Egypt,Egypt,1980,3,,1
+Egypt,Egypt,1981,3,,3
+Egypt,Egypt,1982,3,,3
+Egypt,Egypt,1983,3,,3
+Egypt,Egypt,1984,3,,2
+Egypt,Egypt,1985,3,,2
+Egypt,Egypt,1986,3,,3
+Egypt,Egypt,1987,3,,2
+Egypt,Egypt,1988,3,,3
+Egypt,Egypt,1989,4,,3
+Egypt,Egypt,1990,3,,3
+Egypt,Egypt,1991,4,,3
+Egypt,Egypt,1992,3,,3
+Egypt,Egypt,1993,4,,4
+Egypt,Egypt,1994,4,,4
+Egypt,Egypt,1995,4,,4
+Egypt,Egypt,1996,4,,3
+Egypt,Egypt,1997,4,,4
+Egypt,Egypt,1998,3,,3
+Egypt,Egypt,1999,3,,3
+Egypt,Egypt,2000,3,,3
+Egypt,Egypt,2001,4,,3
+Egypt,Egypt,2002,4,,3
+Egypt,Egypt,2003,4,,3
+Egypt,Egypt,2004,4,,3
+Egypt,Egypt,2005,3,,4
+Egypt,Egypt,2006,4,,4
+Egypt,Egypt,2007,4,,3
+Egypt,Egypt,2008,4,,3
+Egypt,Egypt,2009,4,,3
+Egypt,Egypt,2010,4,,4
+Egypt,Egypt,2011,4,,4
+Egypt,Egypt,2012,3,,3
+Egypt,Egypt,2013,,4,4
+Egypt,Egypt,2014,4,4,4
+Egypt,Egypt,2015,4,4,4
+Equatorial Guinea,Equatorial Guinea,1976,3,,
+Equatorial Guinea,Equatorial Guinea,1977,5,,
+Equatorial Guinea,Equatorial Guinea,1978,3,,
+Equatorial Guinea,Equatorial Guinea,1979,2,,
+Equatorial Guinea,Equatorial Guinea,1980,,,
+Equatorial Guinea,Equatorial Guinea,1981,2,,2
+Equatorial Guinea,Equatorial Guinea,1982,,,2
+Equatorial Guinea,Equatorial Guinea,1983,1,,2
+Equatorial Guinea,Equatorial Guinea,1984,,,
+Equatorial Guinea,Equatorial Guinea,1985,1,,2
+Equatorial Guinea,Equatorial Guinea,1986,1,,2
+Equatorial Guinea,Equatorial Guinea,1987,2,,2
+Equatorial Guinea,Equatorial Guinea,1988,2,,2
+Equatorial Guinea,Equatorial Guinea,1989,2,,2
+Equatorial Guinea,Equatorial Guinea,1990,3,,2
+Equatorial Guinea,Equatorial Guinea,1991,3,,3
+Equatorial Guinea,Equatorial Guinea,1992,3,,
+Equatorial Guinea,Equatorial Guinea,1993,3,,3
+Equatorial Guinea,Equatorial Guinea,1994,3,,4
+Equatorial Guinea,Equatorial Guinea,1995,3,,4
+Equatorial Guinea,Equatorial Guinea,1996,3,,3
+Equatorial Guinea,Equatorial Guinea,1997,3,,3
+Equatorial Guinea,Equatorial Guinea,1998,3,,3
+Equatorial Guinea,Equatorial Guinea,1999,3,,3
+Equatorial Guinea,Equatorial Guinea,2000,2,,3
+Equatorial Guinea,Equatorial Guinea,2001,2,,3
+Equatorial Guinea,Equatorial Guinea,2002,3,,3
+Equatorial Guinea,Equatorial Guinea,2003,2,,3
+Equatorial Guinea,Equatorial Guinea,2004,3,,3
+Equatorial Guinea,Equatorial Guinea,2005,3,,3
+Equatorial Guinea,Equatorial Guinea,2006,3,,3
+Equatorial Guinea,Equatorial Guinea,2007,4,,2
+Equatorial Guinea,Equatorial Guinea,2008,3,,3
+Equatorial Guinea,Equatorial Guinea,2009,3,,3
+Equatorial Guinea,Equatorial Guinea,2010,3,,4
+Equatorial Guinea,Equatorial Guinea,2011,2,,3
+Equatorial Guinea,Equatorial Guinea,2012,3,,3
+Equatorial Guinea,Equatorial Guinea,2013,,3,3
+Equatorial Guinea,Equatorial Guinea,2014,3,2,3
+Equatorial Guinea,Equatorial Guinea,2015,3,,3
+Eritrea,Eritrea,1976,,,
+Eritrea,Eritrea,1977,,,
+Eritrea,Eritrea,1978,,,
+Eritrea,Eritrea,1979,,,
+Eritrea,Eritrea,1980,,,
+Eritrea,Eritrea,1981,,,
+Eritrea,Eritrea,1982,,,
+Eritrea,Eritrea,1983,,,
+Eritrea,Eritrea,1984,,,
+Eritrea,Eritrea,1985,,,
+Eritrea,Eritrea,1986,,,
+Eritrea,Eritrea,1987,,,
+Eritrea,Eritrea,1988,,,
+Eritrea,Eritrea,1989,,,
+Eritrea,Eritrea,1990,,,
+Eritrea,Eritrea,1991,,,
+Eritrea,Eritrea,1992,,,
+Eritrea,Eritrea,1993,2,,1
+Eritrea,Eritrea,1994,2,,1
+Eritrea,Eritrea,1995,2,,1
+Eritrea,Eritrea,1996,2,,1
+Eritrea,Eritrea,1997,3,,2
+Eritrea,Eritrea,1998,5,,4
+Eritrea,Eritrea,1999,4,,3
+Eritrea,Eritrea,2000,4,,2
+Eritrea,Eritrea,2001,3,,3
+Eritrea,Eritrea,2002,3,,2
+Eritrea,Eritrea,2003,3,,3
+Eritrea,Eritrea,2004,4,,3
+Eritrea,Eritrea,2005,3,,3
+Eritrea,Eritrea,2006,4,,4
+Eritrea,Eritrea,2007,4,,4
+Eritrea,Eritrea,2008,3,,4
+Eritrea,Eritrea,2009,4,,4
+Eritrea,Eritrea,2010,4,,4
+Eritrea,Eritrea,2011,4,,4
+Eritrea,Eritrea,2012,5,,4
+Eritrea,Eritrea,2013,,5,4
+Eritrea,Eritrea,2014,5,4,4
+Eritrea,Eritrea,2015,5,4,5
+Ethiopia,Ethiopia,1976,5,,4
+Ethiopia,Ethiopia,1977,5,,4
+Ethiopia,Ethiopia,1978,5,,5
+Ethiopia,Ethiopia,1979,4,,4
+Ethiopia,Ethiopia,1980,4,,5
+Ethiopia,Ethiopia,1981,4,,4
+Ethiopia,Ethiopia,1982,4,,4
+Ethiopia,Ethiopia,1983,4,,4
+Ethiopia,Ethiopia,1984,3,,4
+Ethiopia,Ethiopia,1985,4,,4
+Ethiopia,Ethiopia,1986,4,,5
+Ethiopia,Ethiopia,1987,4,,5
+Ethiopia,Ethiopia,1988,5,,5
+Ethiopia,Ethiopia,1989,4,,4
+Ethiopia,Ethiopia,1990,4,,4
+Ethiopia,Ethiopia,1991,4,,4
+Ethiopia,Ethiopia,1992,4,,3
+Ethiopia,Ethiopia,1993,4,,3
+Ethiopia,Ethiopia,1994,4,,4
+Ethiopia,Ethiopia,1995,3,,4
+Ethiopia,Ethiopia,1996,4,,2
+Ethiopia,Ethiopia,1997,4,,3
+Ethiopia,Ethiopia,1998,5,,4
+Ethiopia,Ethiopia,1999,5,,4
+Ethiopia,Ethiopia,2000,4,,3
+Ethiopia,Ethiopia,2001,4,,3
+Ethiopia,Ethiopia,2002,4,,4
+Ethiopia,Ethiopia,2003,4,,4
+Ethiopia,Ethiopia,2004,4,,4
+Ethiopia,Ethiopia,2005,4,,4
+Ethiopia,Ethiopia,2006,3,,4
+Ethiopia,Ethiopia,2007,4,,4
+Ethiopia,Ethiopia,2008,3,,4
+Ethiopia,Ethiopia,2009,3,,4
+Ethiopia,Ethiopia,2010,3,,4
+Ethiopia,Ethiopia,2011,4,,3
+Ethiopia,Ethiopia,2012,4,,3
+Ethiopia,Ethiopia,2013,,3,3
+Ethiopia,Ethiopia,2014,4,4,3
+Ethiopia,Ethiopia,2015,4,3,3
+Gabon,Gabon,1976,,,1
+Gabon,Gabon,1977,,,1
+Gabon,Gabon,1978,,,1
+Gabon,Gabon,1979,1,,1
+Gabon,Gabon,1980,2,,1
+Gabon,Gabon,1981,3,,1
+Gabon,Gabon,1982,2,,2
+Gabon,Gabon,1983,2,,2
+Gabon,Gabon,1984,2,,2
+Gabon,Gabon,1985,2,,2
+Gabon,Gabon,1986,,,1
+Gabon,Gabon,1987,2,,1
+Gabon,Gabon,1988,,,3
+Gabon,Gabon,1989,2,,1
+Gabon,Gabon,1990,1,,2
+Gabon,Gabon,1991,,,2
+Gabon,Gabon,1992,,,2
+Gabon,Gabon,1993,,,2
+Gabon,Gabon,1994,3,,4
+Gabon,Gabon,1995,,,2
+Gabon,Gabon,1996,,,2
+Gabon,Gabon,1997,,,2
+Gabon,Gabon,1998,,,2
+Gabon,Gabon,1999,,,2
+Gabon,Gabon,2000,,,2
+Gabon,Gabon,2001,,,2
+Gabon,Gabon,2002,,,2
+Gabon,Gabon,2003,,,2
+Gabon,Gabon,2004,,,2
+Gabon,Gabon,2005,,,3
+Gabon,Gabon,2006,,,3
+Gabon,Gabon,2007,,,3
+Gabon,Gabon,2008,,,3
+Gabon,Gabon,2009,,,3
+Gabon,Gabon,2010,,,2
+Gabon,Gabon,2011,,,2
+Gabon,Gabon,2012,,,2
+Gabon,Gabon,2013,,,2
+Gabon,Gabon,2014,,,2
+Gabon,Gabon,2015,,,2
+Gambia,Gambia,1976,,,
+Gambia,Gambia,1977,,,1
+Gambia,Gambia,1978,,,1
+Gambia,Gambia,1979,,,1
+Gambia,Gambia,1980,2,,1
+Gambia,Gambia,1981,3,,1
+Gambia,Gambia,1982,2,,2
+Gambia,Gambia,1983,2,,1
+Gambia,Gambia,1984,2,,1
+Gambia,Gambia,1985,2,,1
+Gambia,Gambia,1986,2,,1
+Gambia,Gambia,1987,2,,2
+Gambia,Gambia,1988,2,,1
+Gambia,Gambia,1989,,,1
+Gambia,Gambia,1990,2,,1
+Gambia,Gambia,1991,2,,1
+Gambia,Gambia,1992,1,,1
+Gambia,Gambia,1993,1,,1
+Gambia,Gambia,1994,2,,2
+Gambia,Gambia,1995,2,,3
+Gambia,Gambia,1996,2,,2
+Gambia,Gambia,1997,2,,2
+Gambia,Gambia,1998,2,,2
+Gambia,Gambia,1999,2,,2
+Gambia,Gambia,2000,3,,3
+Gambia,Gambia,2001,2,,3
+Gambia,Gambia,2002,2,,2
+Gambia,Gambia,2003,2,,2
+Gambia,Gambia,2004,,,2
+Gambia,Gambia,2005,,,2
+Gambia,Gambia,2006,3,,3
+Gambia,Gambia,2007,3,,3
+Gambia,Gambia,2008,2,,3
+Gambia,Gambia,2009,3,,3
+Gambia,Gambia,2010,3,,3
+Gambia,Gambia,2011,3,,3
+Gambia,Gambia,2012,3,,3
+Gambia,Gambia,2013,,,3
+Gambia,Gambia,2014,3,,3
+Gambia,Gambia,2015,4,3,3
+Ghana,Ghana,1976,2,,1
+Ghana,Ghana,1977,3,,3
+Ghana,Ghana,1978,3,,2
+Ghana,Ghana,1979,3,,3
+Ghana,Ghana,1980,3,,1
+Ghana,Ghana,1981,,,2
+Ghana,Ghana,1982,3,,3
+Ghana,Ghana,1983,3,,3
+Ghana,Ghana,1984,3,,2
+Ghana,Ghana,1985,2,,2
+Ghana,Ghana,1986,3,,2
+Ghana,Ghana,1987,2,,2
+Ghana,Ghana,1988,2,,2
+Ghana,Ghana,1989,2,,2
+Ghana,Ghana,1990,2,,2
+Ghana,Ghana,1991,3,,2
+Ghana,Ghana,1992,2,,2
+Ghana,Ghana,1993,2,,1
+Ghana,Ghana,1994,4,,2
+Ghana,Ghana,1995,,,2
+Ghana,Ghana,1996,1,,2
+Ghana,Ghana,1997,2,,2
+Ghana,Ghana,1998,2,,2
+Ghana,Ghana,1999,2,,3
+Ghana,Ghana,2000,2,,2
+Ghana,Ghana,2001,2,,3
+Ghana,Ghana,2002,,,3
+Ghana,Ghana,2003,2,,3
+Ghana,Ghana,2004,2,,3
+Ghana,Ghana,2005,1,,3
+Ghana,Ghana,2006,2,,3
+Ghana,Ghana,2007,2,,3
+Ghana,Ghana,2008,2,,3
+Ghana,Ghana,2009,2,,3
+Ghana,Ghana,2010,3,,3
+Ghana,Ghana,2011,3,,3
+Ghana,Ghana,2012,2,,3
+Ghana,Ghana,2013,,,2
+Ghana,Ghana,2014,1,,3
+Ghana,Ghana,2015,2,,3
+Guinea,Guinea,1976,4,,
+Guinea,Guinea,1977,4,,3
+Guinea,Guinea,1978,3,,3
+Guinea,Guinea,1979,3,,2
+Guinea,Guinea,1980,3,,3
+Guinea,Guinea,1981,3,,2
+Guinea,Guinea,1982,3,,2
+Guinea,Guinea,1983,4,,1
+Guinea,Guinea,1984,3,,3
+Guinea,Guinea,1985,3,,2
+Guinea,Guinea,1986,2,,3
+Guinea,Guinea,1987,3,,3
+Guinea,Guinea,1988,3,,2
+Guinea,Guinea,1989,2,,2
+Guinea,Guinea,1990,3,,2
+Guinea,Guinea,1991,2,,3
+Guinea,Guinea,1992,3,,3
+Guinea,Guinea,1993,3,,3
+Guinea,Guinea,1994,3,,3
+Guinea,Guinea,1995,3,,3
+Guinea,Guinea,1996,3,,3
+Guinea,Guinea,1997,2,,3
+Guinea,Guinea,1998,3,,3
+Guinea,Guinea,1999,3,,3
+Guinea,Guinea,2000,3,,4
+Guinea,Guinea,2001,4,,4
+Guinea,Guinea,2002,2,,3
+Guinea,Guinea,2003,1,,3
+Guinea,Guinea,2004,1,,3
+Guinea,Guinea,2005,2,,3
+Guinea,Guinea,2006,3,,3
+Guinea,Guinea,2007,4,,4
+Guinea,Guinea,2008,4,,3
+Guinea,Guinea,2009,5,,5
+Guinea,Guinea,2010,3,,3
+Guinea,Guinea,2011,3,,3
+Guinea,Guinea,2012,3,,3
+Guinea,Guinea,2013,,3,3
+Guinea,Guinea,2014,3,3,3
+Guinea,Guinea,2015,3,2,3
+Guinea-Bissau,Guinea-Bissau,1976,,,
+Guinea-Bissau,Guinea-Bissau,1977,,,2
+Guinea-Bissau,Guinea-Bissau,1978,,,2
+Guinea-Bissau,Guinea-Bissau,1979,,,2
+Guinea-Bissau,Guinea-Bissau,1980,,,
+Guinea-Bissau,Guinea-Bissau,1981,2,,2
+Guinea-Bissau,Guinea-Bissau,1982,2,,2
+Guinea-Bissau,Guinea-Bissau,1983,2,,2
+Guinea-Bissau,Guinea-Bissau,1984,,,
+Guinea-Bissau,Guinea-Bissau,1985,2,,2
+Guinea-Bissau,Guinea-Bissau,1986,2,,2
+Guinea-Bissau,Guinea-Bissau,1987,2,,2
+Guinea-Bissau,Guinea-Bissau,1988,2,,2
+Guinea-Bissau,Guinea-Bissau,1989,2,,2
+Guinea-Bissau,Guinea-Bissau,1990,2,,2
+Guinea-Bissau,Guinea-Bissau,1991,1,,2
+Guinea-Bissau,Guinea-Bissau,1992,2,,
+Guinea-Bissau,Guinea-Bissau,1993,2,,3
+Guinea-Bissau,Guinea-Bissau,1994,2,,2
+Guinea-Bissau,Guinea-Bissau,1995,,,2
+Guinea-Bissau,Guinea-Bissau,1996,3,,2
+Guinea-Bissau,Guinea-Bissau,1997,,,3
+Guinea-Bissau,Guinea-Bissau,1998,4,,5
+Guinea-Bissau,Guinea-Bissau,1999,4,,4
+Guinea-Bissau,Guinea-Bissau,2000,2,,2
+Guinea-Bissau,Guinea-Bissau,2001,2,,2
+Guinea-Bissau,Guinea-Bissau,2002,2,,2
+Guinea-Bissau,Guinea-Bissau,2003,2,,2
+Guinea-Bissau,Guinea-Bissau,2004,2,,2
+Guinea-Bissau,Guinea-Bissau,2005,2,,3
+Guinea-Bissau,Guinea-Bissau,2006,3,,2
+Guinea-Bissau,Guinea-Bissau,2007,2,,1
+Guinea-Bissau,Guinea-Bissau,2008,1,,2
+Guinea-Bissau,Guinea-Bissau,2009,4,,3
+Guinea-Bissau,Guinea-Bissau,2010,3,,2
+Guinea-Bissau,Guinea-Bissau,2011,2,,2
+Guinea-Bissau,Guinea-Bissau,2012,3,,3
+Guinea-Bissau,Guinea-Bissau,2013,,,2
+Guinea-Bissau,Guinea-Bissau,2014,2,,2
+Guinea-Bissau,Guinea-Bissau,2015,2,,3
+Kenya,Kenya,1976,2,,2
+Kenya,Kenya,1977,2,,2
+Kenya,Kenya,1978,3,,2
+Kenya,Kenya,1979,2,,2
+Kenya,Kenya,1980,,,2
+Kenya,Kenya,1981,2,,2
+Kenya,Kenya,1982,3,,2
+Kenya,Kenya,1983,3,,2
+Kenya,Kenya,1984,4,,3
+Kenya,Kenya,1985,2,,2
+Kenya,Kenya,1986,3,,2
+Kenya,Kenya,1987,3,,3
+Kenya,Kenya,1988,3,,2
+Kenya,Kenya,1989,2,,2
+Kenya,Kenya,1990,3,,3
+Kenya,Kenya,1991,3,,3
+Kenya,Kenya,1992,4,,4
+Kenya,Kenya,1993,3,,4
+Kenya,Kenya,1994,4,,4
+Kenya,Kenya,1995,4,,3
+Kenya,Kenya,1996,3,,4
+Kenya,Kenya,1997,4,,4
+Kenya,Kenya,1998,3,,3
+Kenya,Kenya,1999,3,,3
+Kenya,Kenya,2000,3,,3
+Kenya,Kenya,2001,3,,3
+Kenya,Kenya,2002,4,,4
+Kenya,Kenya,2003,3,,4
+Kenya,Kenya,2004,3,,3
+Kenya,Kenya,2005,3,,4
+Kenya,Kenya,2006,3,,4
+Kenya,Kenya,2007,4,,4
+Kenya,Kenya,2008,4,,4
+Kenya,Kenya,2009,3,,4
+Kenya,Kenya,2010,3,,4
+Kenya,Kenya,2011,2,,3
+Kenya,Kenya,2012,,,4
+Kenya,Kenya,2013,,3,4
+Kenya,Kenya,2014,4,3,4
+Kenya,Kenya,2015,3,3,4
+Lesotho,Lesotho,1976,2,,1
+Lesotho,Lesotho,1977,2,,1
+Lesotho,Lesotho,1978,2,,1
+Lesotho,Lesotho,1979,3,,2
+Lesotho,Lesotho,1980,2,,2
+Lesotho,Lesotho,1981,3,,2
+Lesotho,Lesotho,1982,3,,2
+Lesotho,Lesotho,1983,2,,2
+Lesotho,Lesotho,1984,2,,2
+Lesotho,Lesotho,1985,3,,3
+Lesotho,Lesotho,1986,3,,2
+Lesotho,Lesotho,1987,2,,2
+Lesotho,Lesotho,1988,3,,3
+Lesotho,Lesotho,1989,2,,2
+Lesotho,Lesotho,1990,2,,2
+Lesotho,Lesotho,1991,3,,2
+Lesotho,Lesotho,1992,,,3
+Lesotho,Lesotho,1993,2,,3
+Lesotho,Lesotho,1994,3,,3
+Lesotho,Lesotho,1995,2,,2
+Lesotho,Lesotho,1996,2,,1
+Lesotho,Lesotho,1997,2,,2
+Lesotho,Lesotho,1998,3,,2
+Lesotho,Lesotho,1999,2,,2
+Lesotho,Lesotho,2000,2,,1
+Lesotho,Lesotho,2001,2,,2
+Lesotho,Lesotho,2002,,,2
+Lesotho,Lesotho,2003,,,2
+Lesotho,Lesotho,2004,,,2
+Lesotho,Lesotho,2005,,,2
+Lesotho,Lesotho,2006,,,2
+Lesotho,Lesotho,2007,,,3
+Lesotho,Lesotho,2008,,,2
+Lesotho,Lesotho,2009,,,2
+Lesotho,Lesotho,2010,,,2
+Lesotho,Lesotho,2011,,,2
+Lesotho,Lesotho,2012,,,2
+Lesotho,Lesotho,2013,,,2
+Lesotho,Lesotho,2014,,,2
+Lesotho,Lesotho,2015,3,,3
+Liberia,Liberia,1976,,,1
+Liberia,Liberia,1977,,,1
+Liberia,Liberia,1978,,,1
+Liberia,Liberia,1979,3,,2
+Liberia,Liberia,1980,3,,3
+Liberia,Liberia,1981,3,,2
+Liberia,Liberia,1982,3,,2
+Liberia,Liberia,1983,3,,3
+Liberia,Liberia,1984,2,,3
+Liberia,Liberia,1985,3,,3
+Liberia,Liberia,1986,3,,3
+Liberia,Liberia,1987,2,,3
+Liberia,Liberia,1988,3,,3
+Liberia,Liberia,1989,4,,3
+Liberia,Liberia,1990,5,,5
+Liberia,Liberia,1991,4,,5
+Liberia,Liberia,1992,4,,5
+Liberia,Liberia,1993,5,,5
+Liberia,Liberia,1994,5,,5
+Liberia,Liberia,1995,5,,5
+Liberia,Liberia,1996,5,,5
+Liberia,Liberia,1997,2,,4
+Liberia,Liberia,1998,3,,4
+Liberia,Liberia,1999,5,,4
+Liberia,Liberia,2000,4,,4
+Liberia,Liberia,2001,5,,5
+Liberia,Liberia,2002,5,,4
+Liberia,Liberia,2003,5,,4
+Liberia,Liberia,2004,3,,3
+Liberia,Liberia,2005,3,,3
+Liberia,Liberia,2006,3,,3
+Liberia,Liberia,2007,3,,3
+Liberia,Liberia,2008,2,,3
+Liberia,Liberia,2009,2,,3
+Liberia,Liberia,2010,3,,2
+Liberia,Liberia,2011,2,,2
+Liberia,Liberia,2012,2,,2
+Liberia,Liberia,2013,,2,2
+Liberia,Liberia,2014,,,2
+Liberia,Liberia,2015,,,3
+Libya,Libya,1976,3,,
+Libya,Libya,1977,3,,
+Libya,Libya,1978,3,,
+Libya,Libya,1979,3,,2
+Libya,Libya,1980,4,,4
+Libya,Libya,1981,3,,4
+Libya,Libya,1982,3,,3
+Libya,Libya,1983,3,,3
+Libya,Libya,1984,3,,4
+Libya,Libya,1985,3,,3
+Libya,Libya,1986,3,,4
+Libya,Libya,1987,4,,4
+Libya,Libya,1988,3,,3
+Libya,Libya,1989,3,,3
+Libya,Libya,1990,3,,3
+Libya,Libya,1991,3,,3
+Libya,Libya,1992,3,,3
+Libya,Libya,1993,3,,3
+Libya,Libya,1994,3,,3
+Libya,Libya,1995,3,,3
+Libya,Libya,1996,3,,3
+Libya,Libya,1997,4,,3
+Libya,Libya,1998,3,,4
+Libya,Libya,1999,3,,4
+Libya,Libya,2000,3,,3
+Libya,Libya,2001,3,,3
+Libya,Libya,2002,3,,3
+Libya,Libya,2003,3,,3
+Libya,Libya,2004,3,,3
+Libya,Libya,2005,3,,3
+Libya,Libya,2006,3,,3
+Libya,Libya,2007,3,,3
+Libya,Libya,2008,3,,3
+Libya,Libya,2009,3,,3
+Libya,Libya,2010,3,,3
+Libya,Libya,2011,5,,5
+Libya,Libya,2012,4,,4
+Libya,Libya,2013,,4,4
+Libya,Libya,2014,5,4,4
+Libya,Libya,2015,5,3,5
+Madagascar,Madagascar,1976,3,,
+Madagascar,Madagascar,1977,,,
+Madagascar,Madagascar,1978,,,1
+Madagascar,Madagascar,1979,2,,2
+Madagascar,Madagascar,1980,2,,2
+Madagascar,Madagascar,1981,2,,2
+Madagascar,Madagascar,1982,2,,2
+Madagascar,Madagascar,1983,2,,2
+Madagascar,Madagascar,1984,,,2
+Madagascar,Madagascar,1985,2,,2
+Madagascar,Madagascar,1986,2,,2
+Madagascar,Madagascar,1987,2,,2
+Madagascar,Madagascar,1988,4,,3
+Madagascar,Madagascar,1989,3,,3
+Madagascar,Madagascar,1990,2,,2
+Madagascar,Madagascar,1991,3,,3
+Madagascar,Madagascar,1992,3,,3
+Madagascar,Madagascar,1993,,,3
+Madagascar,Madagascar,1994,,,2
+Madagascar,Madagascar,1995,,,2
+Madagascar,Madagascar,1996,,,2
+Madagascar,Madagascar,1997,,,2
+Madagascar,Madagascar,1998,,,2
+Madagascar,Madagascar,1999,,,2
+Madagascar,Madagascar,2000,2,,2
+Madagascar,Madagascar,2001,,,2
+Madagascar,Madagascar,2002,3,,3
+Madagascar,Madagascar,2003,2,,2
+Madagascar,Madagascar,2004,,,2
+Madagascar,Madagascar,2005,,,2
+Madagascar,Madagascar,2006,,,2
+Madagascar,Madagascar,2007,,,2
+Madagascar,Madagascar,2008,,,2
+Madagascar,Madagascar,2009,4,,4
+Madagascar,Madagascar,2010,2,,3
+Madagascar,Madagascar,2011,3,,3
+Madagascar,Madagascar,2012,4,,3
+Madagascar,Madagascar,2013,,,3
+Madagascar,Madagascar,2014,,,3
+Madagascar,Madagascar,2015,4,,3
+Malawi,Malawi,1976,3,,
+Malawi,Malawi,1977,2,,3
+Malawi,Malawi,1978,2,,2
+Malawi,Malawi,1979,2,,2
+Malawi,Malawi,1980,2,,2
+Malawi,Malawi,1981,2,,2
+Malawi,Malawi,1982,2,,2
+Malawi,Malawi,1983,3,,3
+Malawi,Malawi,1984,2,,2
+Malawi,Malawi,1985,3,,3
+Malawi,Malawi,1986,3,,2
+Malawi,Malawi,1987,,,
+Malawi,Malawi,1988,2,,2
+Malawi,Malawi,1989,3,,2
+Malawi,Malawi,1990,2,,3
+Malawi,Malawi,1991,3,,3
+Malawi,Malawi,1992,3,,3
+Malawi,Malawi,1993,2,,2
+Malawi,Malawi,1994,2,,2
+Malawi,Malawi,1995,2,,2
+Malawi,Malawi,1996,2,,2
+Malawi,Malawi,1997,2,,2
+Malawi,Malawi,1998,,,2
+Malawi,Malawi,1999,,,2
+Malawi,Malawi,2000,2,,2
+Malawi,Malawi,2001,2,,2
+Malawi,Malawi,2002,3,,3
+Malawi,Malawi,2003,2,,3
+Malawi,Malawi,2004,3,,2
+Malawi,Malawi,2005,3,,3
+Malawi,Malawi,2006,3,,3
+Malawi,Malawi,2007,2,,3
+Malawi,Malawi,2008,2,,3
+Malawi,Malawi,2009,2,,2
+Malawi,Malawi,2010,2,,3
+Malawi,Malawi,2011,3,,3
+Malawi,Malawi,2012,2,,3
+Malawi,Malawi,2013,,,2
+Malawi,Malawi,2014,2,,3
+Malawi,Malawi,2015,2,,2
+Mali,Mali,1976,2,,
+Mali,Mali,1977,3,,2
+Mali,Mali,1978,3,,2
+Mali,Mali,1979,3,,3
+Mali,Mali,1980,3,,3
+Mali,Mali,1981,3,,3
+Mali,Mali,1982,3,,2
+Mali,Mali,1983,3,,2
+Mali,Mali,1984,3,,2
+Mali,Mali,1985,,,2
+Mali,Mali,1986,2,,2
+Mali,Mali,1987,2,,2
+Mali,Mali,1988,2,,2
+Mali,Mali,1989,2,,2
+Mali,Mali,1990,4,,3
+Mali,Mali,1991,4,,3
+Mali,Mali,1992,3,,3
+Mali,Mali,1993,3,,1
+Mali,Mali,1994,3,,3
+Mali,Mali,1995,3,,1
+Mali,Mali,1996,1,,1
+Mali,Mali,1997,2,,2
+Mali,Mali,1998,2,,2
+Mali,Mali,1999,2,,2
+Mali,Mali,2000,1,,2
+Mali,Mali,2001,,,2
+Mali,Mali,2002,,,2
+Mali,Mali,2003,,,2
+Mali,Mali,2004,,,2
+Mali,Mali,2005,,,2
+Mali,Mali,2006,2,,2
+Mali,Mali,2007,2,,2
+Mali,Mali,2008,2,,2
+Mali,Mali,2009,1,,2
+Mali,Mali,2010,1,,2
+Mali,Mali,2011,1,,2
+Mali,Mali,2012,4,,3
+Mali,Mali,2013,,4,4
+Mali,Mali,2014,3,4,4
+Mali,Mali,2015,3,4,4
+Mauritania,Mauritania,1976,,,
+Mauritania,Mauritania,1977,,,1
+Mauritania,Mauritania,1978,3,,2
+Mauritania,Mauritania,1979,2,,2
+Mauritania,Mauritania,1980,3,,2
+Mauritania,Mauritania,1981,2,,2
+Mauritania,Mauritania,1982,2,,2
+Mauritania,Mauritania,1983,3,,2
+Mauritania,Mauritania,1984,3,,2
+Mauritania,Mauritania,1985,2,,2
+Mauritania,Mauritania,1986,2,,2
+Mauritania,Mauritania,1987,2,,2
+Mauritania,Mauritania,1988,3,,2
+Mauritania,Mauritania,1989,3,,4
+Mauritania,Mauritania,1990,4,,4
+Mauritania,Mauritania,1991,4,,4
+Mauritania,Mauritania,1992,3,,4
+Mauritania,Mauritania,1993,2,,3
+Mauritania,Mauritania,1994,2,,2
+Mauritania,Mauritania,1995,2,,2
+Mauritania,Mauritania,1996,1,,2
+Mauritania,Mauritania,1997,2,,3
+Mauritania,Mauritania,1998,2,,2
+Mauritania,Mauritania,1999,2,,2
+Mauritania,Mauritania,2000,3,,2
+Mauritania,Mauritania,2001,3,,2
+Mauritania,Mauritania,2002,3,,3
+Mauritania,Mauritania,2003,2,,3
+Mauritania,Mauritania,2004,3,,3
+Mauritania,Mauritania,2005,3,,3
+Mauritania,Mauritania,2006,3,,3
+Mauritania,Mauritania,2007,3,,2
+Mauritania,Mauritania,2008,3,,3
+Mauritania,Mauritania,2009,3,,3
+Mauritania,Mauritania,2010,3,,2
+Mauritania,Mauritania,2011,3,,2
+Mauritania,Mauritania,2012,3,,2
+Mauritania,Mauritania,2013,,,2
+Mauritania,Mauritania,2014,3,,2
+Mauritania,Mauritania,2015,3,,2
+Mauritius,Mauritius,1976,,,
+Mauritius,Mauritius,1977,,,1
+Mauritius,Mauritius,1978,2,,1
+Mauritius,Mauritius,1979,,,1
+Mauritius,Mauritius,1980,,,1
+Mauritius,Mauritius,1981,,,1
+Mauritius,Mauritius,1982,,,1
+Mauritius,Mauritius,1983,,,1
+Mauritius,Mauritius,1984,2,,1
+Mauritius,Mauritius,1985,,,1
+Mauritius,Mauritius,1986,1,,1
+Mauritius,Mauritius,1987,1,,1
+Mauritius,Mauritius,1988,1,,1
+Mauritius,Mauritius,1989,1,,1
+Mauritius,Mauritius,1990,1,,1
+Mauritius,Mauritius,1991,1,,1
+Mauritius,Mauritius,1992,1,,1
+Mauritius,Mauritius,1993,1,,1
+Mauritius,Mauritius,1994,,,2
+Mauritius,Mauritius,1995,1,,1
+Mauritius,Mauritius,1996,,,1
+Mauritius,Mauritius,1997,,,1
+Mauritius,Mauritius,1998,,,2
+Mauritius,Mauritius,1999,2,,2
+Mauritius,Mauritius,2000,,,2
+Mauritius,Mauritius,2001,2,,2
+Mauritius,Mauritius,2002,1,,1
+Mauritius,Mauritius,2003,,,1
+Mauritius,Mauritius,2004,,,2
+Mauritius,Mauritius,2005,,,2
+Mauritius,Mauritius,2006,,,2
+Mauritius,Mauritius,2007,,,2
+Mauritius,Mauritius,2008,,,2
+Mauritius,Mauritius,2009,,,2
+Mauritius,Mauritius,2010,,,2
+Mauritius,Mauritius,2011,,,2
+Mauritius,Mauritius,2012,,,2
+Mauritius,Mauritius,2013,,,2
+Mauritius,Mauritius,2014,,,2
+Mauritius,Mauritius,2015,,,2
+Morocco,Morocco,1976,3,,3
+Morocco,Morocco,1977,4,,2
+Morocco,Morocco,1978,3,,2
+Morocco,Morocco,1979,3,,2
+Morocco,Morocco,1980,3,,2
+Morocco,Morocco,1981,3,,3
+Morocco,Morocco,1982,4,,3
+Morocco,Morocco,1983,4,,3
+Morocco,Morocco,1984,4,,3
+Morocco,Morocco,1985,4,,3
+Morocco,Morocco,1986,3,,3
+Morocco,Morocco,1987,3,,3
+Morocco,Morocco,1988,3,,3
+Morocco,Morocco,1989,3,,3
+Morocco,Morocco,1990,3,,3
+Morocco,Morocco,1991,3,,3
+Morocco,Morocco,1992,3,,3
+Morocco,Morocco,1993,3,,3
+Morocco,Morocco,1994,3,,3
+Morocco,Morocco,1995,3,,3
+Morocco,Morocco,1996,3,,2
+Morocco,Morocco,1997,2,,3
+Morocco,Morocco,1998,2,,2
+Morocco,Morocco,1999,2,,2
+Morocco,Morocco,2000,2,,3
+Morocco,Morocco,2001,2,,2
+Morocco,Morocco,2002,2,,2
+Morocco,Morocco,2003,3,,2
+Morocco,Morocco,2004,2,,3
+Morocco,Morocco,2005,3,,3
+Morocco,Morocco,2006,3,,3
+Morocco,Morocco,2007,3,,3
+Morocco,Morocco,2008,3,,3
+Morocco,Morocco,2009,3,,3
+Morocco,Morocco,2010,3,,3
+Morocco,Morocco,2011,3,,3
+Morocco,Morocco,2012,3,,3
+Morocco,Morocco,2013,,2,3
+Morocco,Morocco,2014,3,2,3
+Morocco,Morocco,2015,3,3,2
+Mozambique,Mozambique,1976,4,,
+Mozambique,Mozambique,1977,3,,3
+Mozambique,Mozambique,1978,3,,3
+Mozambique,Mozambique,1979,3,,3
+Mozambique,Mozambique,1980,3,,3
+Mozambique,Mozambique,1981,3,,2
+Mozambique,Mozambique,1982,3,,3
+Mozambique,Mozambique,1983,3,,5
+Mozambique,Mozambique,1984,3,,3
+Mozambique,Mozambique,1985,4,,5
+Mozambique,Mozambique,1986,4,,5
+Mozambique,Mozambique,1987,4,,5
+Mozambique,Mozambique,1988,3,,4
+Mozambique,Mozambique,1989,3,,4
+Mozambique,Mozambique,1990,3,,4
+Mozambique,Mozambique,1991,3,,4
+Mozambique,Mozambique,1992,4,,5
+Mozambique,Mozambique,1993,3,,4
+Mozambique,Mozambique,1994,3,,3
+Mozambique,Mozambique,1995,2,,3
+Mozambique,Mozambique,1996,3,,3
+Mozambique,Mozambique,1997,2,,3
+Mozambique,Mozambique,1998,3,,3
+Mozambique,Mozambique,1999,2,,2
+Mozambique,Mozambique,2000,3,,3
+Mozambique,Mozambique,2001,3,,3
+Mozambique,Mozambique,2002,2,,3
+Mozambique,Mozambique,2003,2,,3
+Mozambique,Mozambique,2004,3,,3
+Mozambique,Mozambique,2005,3,,3
+Mozambique,Mozambique,2006,3,,3
+Mozambique,Mozambique,2007,3,,3
+Mozambique,Mozambique,2008,3,,3
+Mozambique,Mozambique,2009,3,,3
+Mozambique,Mozambique,2010,4,,3
+Mozambique,Mozambique,2011,3,,3
+Mozambique,Mozambique,2012,3,,3
+Mozambique,Mozambique,2013,,,3
+Mozambique,Mozambique,2014,3,,3
+Mozambique,Mozambique,2015,2,,3
+Namibia,Namibia,1976,4,,4
+Namibia,Namibia,1977,4,,
+Namibia,Namibia,1978,3,,
+Namibia,Namibia,1979,3,,
+Namibia,Namibia,1980,4,,3
+Namibia,Namibia,1981,3,,
+Namibia,Namibia,1982,3,,
+Namibia,Namibia,1983,3,,
+Namibia,Namibia,1984,4,,3
+Namibia,Namibia,1985,4,,4
+Namibia,Namibia,1986,4,,5
+Namibia,Namibia,1987,4,,5
+Namibia,Namibia,1988,4,,4
+Namibia,Namibia,1989,3,,3
+Namibia,Namibia,1990,2,,2
+Namibia,Namibia,1991,2,,2
+Namibia,Namibia,1992,2,,2
+Namibia,Namibia,1993,,,2
+Namibia,Namibia,1994,,,2
+Namibia,Namibia,1995,,,2
+Namibia,Namibia,1996,,,2
+Namibia,Namibia,1997,,,2
+Namibia,Namibia,1998,,,3
+Namibia,Namibia,1999,3,,3
+Namibia,Namibia,2000,3,,2
+Namibia,Namibia,2001,3,,3
+Namibia,Namibia,2002,3,,3
+Namibia,Namibia,2003,2,,3
+Namibia,Namibia,2004,2,,2
+Namibia,Namibia,2005,2,,2
+Namibia,Namibia,2006,2,,2
+Namibia,Namibia,2007,2,,2
+Namibia,Namibia,2008,1,,2
+Namibia,Namibia,2009,1,,2
+Namibia,Namibia,2010,2,,2
+Namibia,Namibia,2011,2,,2
+Namibia,Namibia,2012,2,,2
+Namibia,Namibia,2013,,,2
+Namibia,Namibia,2014,2,,2
+Namibia,Namibia,2015,2,,1
+Niger,Niger,1976,2,,
+Niger,Niger,1977,2,,2
+Niger,Niger,1978,,,2
+Niger,Niger,1979,,,3
+Niger,Niger,1980,,,2
+Niger,Niger,1981,3,,2
+Niger,Niger,1982,3,,2
+Niger,Niger,1983,3,,1
+Niger,Niger,1984,3,,2
+Niger,Niger,1985,2,,3
+Niger,Niger,1986,2,,2
+Niger,Niger,1987,2,,2
+Niger,Niger,1988,2,,2
+Niger,Niger,1989,2,,2
+Niger,Niger,1990,4,,3
+Niger,Niger,1991,2,,2
+Niger,Niger,1992,3,,3
+Niger,Niger,1993,2,,3
+Niger,Niger,1994,3,,3
+Niger,Niger,1995,4,,2
+Niger,Niger,1996,3,,2
+Niger,Niger,1997,2,,2
+Niger,Niger,1998,4,,2
+Niger,Niger,1999,3,,3
+Niger,Niger,2000,2,,2
+Niger,Niger,2001,2,,2
+Niger,Niger,2002,2,,2
+Niger,Niger,2003,2,,3
+Niger,Niger,2004,3,,2
+Niger,Niger,2005,2,,2
+Niger,Niger,2006,2,,2
+Niger,Niger,2007,3,,4
+Niger,Niger,2008,3,,4
+Niger,Niger,2009,3,,3
+Niger,Niger,2010,3,,3
+Niger,Niger,2011,2,,3
+Niger,Niger,2012,2,,2
+Niger,Niger,2013,,,3
+Niger,Niger,2014,2,,3
+Niger,Niger,2015,4,,3
+Nigeria,Nigeria,1976,1,,2
+Nigeria,Nigeria,1977,2,,2
+Nigeria,Nigeria,1978,3,,2
+Nigeria,Nigeria,1979,2,,2
+Nigeria,Nigeria,1980,2,,2
+Nigeria,Nigeria,1981,,,2
+Nigeria,Nigeria,1982,,,2
+Nigeria,Nigeria,1983,2,,2
+Nigeria,Nigeria,1984,3,,2
+Nigeria,Nigeria,1985,2,,2
+Nigeria,Nigeria,1986,3,,2
+Nigeria,Nigeria,1987,2,,3
+Nigeria,Nigeria,1988,2,,2
+Nigeria,Nigeria,1989,3,,3
+Nigeria,Nigeria,1990,3,,3
+Nigeria,Nigeria,1991,2,,3
+Nigeria,Nigeria,1992,3,,3
+Nigeria,Nigeria,1993,4,,4
+Nigeria,Nigeria,1994,4,,5
+Nigeria,Nigeria,1995,4,,4
+Nigeria,Nigeria,1996,3,,4
+Nigeria,Nigeria,1997,3,,4
+Nigeria,Nigeria,1998,2,,4
+Nigeria,Nigeria,1999,4,,4
+Nigeria,Nigeria,2000,3,,3
+Nigeria,Nigeria,2001,4,,4
+Nigeria,Nigeria,2002,4,,4
+Nigeria,Nigeria,2003,3,,4
+Nigeria,Nigeria,2004,4,,4
+Nigeria,Nigeria,2005,4,,4
+Nigeria,Nigeria,2006,4,,4
+Nigeria,Nigeria,2007,4,,3
+Nigeria,Nigeria,2008,4,,4
+Nigeria,Nigeria,2009,4,,4
+Nigeria,Nigeria,2010,4,,5
+Nigeria,Nigeria,2011,4,,4
+Nigeria,Nigeria,2012,4,,4
+Nigeria,Nigeria,2013,,4,4
+Nigeria,Nigeria,2014,4,4,5
+Nigeria,Nigeria,2015,5,3,4
+Rwanda,Rwanda,1976,2,,
+Rwanda,Rwanda,1977,,,2
+Rwanda,Rwanda,1978,,,1
+Rwanda,Rwanda,1979,,,2
+Rwanda,Rwanda,1980,,,
+Rwanda,Rwanda,1981,2,,1
+Rwanda,Rwanda,1982,3,,1
+Rwanda,Rwanda,1983,2,,1
+Rwanda,Rwanda,1984,2,,
+Rwanda,Rwanda,1985,,,2
+Rwanda,Rwanda,1986,3,,2
+Rwanda,Rwanda,1987,2,,1
+Rwanda,Rwanda,1988,2,,1
+Rwanda,Rwanda,1989,2,,2
+Rwanda,Rwanda,1990,5,,4
+Rwanda,Rwanda,1991,5,,4
+Rwanda,Rwanda,1992,4,,
+Rwanda,Rwanda,1993,4,,4
+Rwanda,Rwanda,1994,5,,5
+Rwanda,Rwanda,1995,5,,5
+Rwanda,Rwanda,1996,5,,5
+Rwanda,Rwanda,1997,5,,5
+Rwanda,Rwanda,1998,5,,5
+Rwanda,Rwanda,1999,5,,4
+Rwanda,Rwanda,2000,4,,4
+Rwanda,Rwanda,2001,5,,4
+Rwanda,Rwanda,2002,4,,4
+Rwanda,Rwanda,2003,3,,4
+Rwanda,Rwanda,2004,3,,4
+Rwanda,Rwanda,2005,2,,3
+Rwanda,Rwanda,2006,2,,3
+Rwanda,Rwanda,2007,3,,3
+Rwanda,Rwanda,2008,2,,2
+Rwanda,Rwanda,2009,2,,3
+Rwanda,Rwanda,2010,3,,2
+Rwanda,Rwanda,2011,3,,3
+Rwanda,Rwanda,2012,2,,3
+Rwanda,Rwanda,2013,,2,3
+Rwanda,Rwanda,2014,3,3,4
+Rwanda,Rwanda,2015,2,2,3
+Sao Tome and Principe,Sao Tome and Principe,1976,,,
+Sao Tome and Principe,Sao Tome and Principe,1977,,,1
+Sao Tome and Principe,Sao Tome and Principe,1978,,,1
+Sao Tome and Principe,Sao Tome and Principe,1979,2,,1
+Sao Tome and Principe,Sao Tome and Principe,1980,2,,2
+Sao Tome and Principe,Sao Tome and Principe,1981,2,,2
+Sao Tome and Principe,Sao Tome and Principe,1982,2,,2
+Sao Tome and Principe,Sao Tome and Principe,1983,2,,2
+Sao Tome and Principe,Sao Tome and Principe,1984,,,2
+Sao Tome and Principe,Sao Tome and Principe,1985,,,2
+Sao Tome and Principe,Sao Tome and Principe,1986,,,2
+Sao Tome and Principe,Sao Tome and Principe,1987,,,1
+Sao Tome and Principe,Sao Tome and Principe,1988,2,,2
+Sao Tome and Principe,Sao Tome and Principe,1989,2,,2
+Sao Tome and Principe,Sao Tome and Principe,1990,1,,1
+Sao Tome and Principe,Sao Tome and Principe,1991,1,,1
+Sao Tome and Principe,Sao Tome and Principe,1992,,,1
+Sao Tome and Principe,Sao Tome and Principe,1993,,,1
+Sao Tome and Principe,Sao Tome and Principe,1994,,,1
+Sao Tome and Principe,Sao Tome and Principe,1995,,,1
+Sao Tome and Principe,Sao Tome and Principe,1996,,,1
+Sao Tome and Principe,Sao Tome and Principe,1997,,,1
+Sao Tome and Principe,Sao Tome and Principe,1998,,,1
+Sao Tome and Principe,Sao Tome and Principe,1999,,,1
+Sao Tome and Principe,Sao Tome and Principe,2000,,,1
+Sao Tome and Principe,Sao Tome and Principe,2001,,,1
+Sao Tome and Principe,Sao Tome and Principe,2002,,,2
+Sao Tome and Principe,Sao Tome and Principe,2003,,,2
+Sao Tome and Principe,Sao Tome and Principe,2004,,,1
+Sao Tome and Principe,Sao Tome and Principe,2005,,,1
+Sao Tome and Principe,Sao Tome and Principe,2006,,,1
+Sao Tome and Principe,Sao Tome and Principe,2007,,,1
+Sao Tome and Principe,Sao Tome and Principe,2008,,,1
+Sao Tome and Principe,Sao Tome and Principe,2009,,,1
+Sao Tome and Principe,Sao Tome and Principe,2010,,,1
+Sao Tome and Principe,Sao Tome and Principe,2011,,,1
+Sao Tome and Principe,Sao Tome and Principe,2012,,,1
+Sao Tome and Principe,Sao Tome and Principe,2013,,,1
+Sao Tome and Principe,Sao Tome and Principe,2014,,,1
+Sao Tome and Principe,Sao Tome and Principe,2015,,,1
+Senegal,Senegal,1976,,,1
+Senegal,Senegal,1977,,,1
+Senegal,Senegal,1978,,,1
+Senegal,Senegal,1979,,,1
+Senegal,Senegal,1980,,,1
+Senegal,Senegal,1981,,,1
+Senegal,Senegal,1982,,,2
+Senegal,Senegal,1983,,,1
+Senegal,Senegal,1984,2,,2
+Senegal,Senegal,1985,3,,1
+Senegal,Senegal,1986,2,,2
+Senegal,Senegal,1987,3,,2
+Senegal,Senegal,1988,2,,2
+Senegal,Senegal,1989,2,,2
+Senegal,Senegal,1990,3,,3
+Senegal,Senegal,1991,3,,3
+Senegal,Senegal,1992,3,,3
+Senegal,Senegal,1993,3,,3
+Senegal,Senegal,1994,3,,2
+Senegal,Senegal,1995,4,,3
+Senegal,Senegal,1996,3,,2
+Senegal,Senegal,1997,3,,3
+Senegal,Senegal,1998,4,,3
+Senegal,Senegal,1999,3,,3
+Senegal,Senegal,2000,3,,2
+Senegal,Senegal,2001,3,,2
+Senegal,Senegal,2002,2,,3
+Senegal,Senegal,2003,3,,2
+Senegal,Senegal,2004,1,,2
+Senegal,Senegal,2005,2,,2
+Senegal,Senegal,2006,3,,3
+Senegal,Senegal,2007,,,3
+Senegal,Senegal,2008,3,,2
+Senegal,Senegal,2009,3,,3
+Senegal,Senegal,2010,3,,2
+Senegal,Senegal,2011,3,,2
+Senegal,Senegal,2012,3,,3
+Senegal,Senegal,2013,,,2
+Senegal,Senegal,2014,2,,3
+Senegal,Senegal,2015,2,,2
+Seychelles,Seychelles,1976,1,,
+Seychelles,Seychelles,1977,,,
+Seychelles,Seychelles,1978,,,1
+Seychelles,Seychelles,1979,2,,2
+Seychelles,Seychelles,1980,,,2
+Seychelles,Seychelles,1981,2,,2
+Seychelles,Seychelles,1982,2,,2
+Seychelles,Seychelles,1983,,,2
+Seychelles,Seychelles,1984,2,,2
+Seychelles,Seychelles,1985,2,,2
+Seychelles,Seychelles,1986,2,,2
+Seychelles,Seychelles,1987,2,,2
+Seychelles,Seychelles,1988,,,2
+Seychelles,Seychelles,1989,,,2
+Seychelles,Seychelles,1990,,,2
+Seychelles,Seychelles,1991,2,,2
+Seychelles,Seychelles,1992,,,2
+Seychelles,Seychelles,1993,,,1
+Seychelles,Seychelles,1994,,,1
+Seychelles,Seychelles,1995,,,1
+Seychelles,Seychelles,1996,,,1
+Seychelles,Seychelles,1997,,,2
+Seychelles,Seychelles,1998,,,1
+Seychelles,Seychelles,1999,,,1
+Seychelles,Seychelles,2000,,,1
+Seychelles,Seychelles,2001,,,1
+Seychelles,Seychelles,2002,,,2
+Seychelles,Seychelles,2003,,,2
+Seychelles,Seychelles,2004,,,2
+Seychelles,Seychelles,2005,,,1
+Seychelles,Seychelles,2006,,,1
+Seychelles,Seychelles,2007,,,1
+Seychelles,Seychelles,2008,,,2
+Seychelles,Seychelles,2009,,,2
+Seychelles,Seychelles,2010,,,1
+Seychelles,Seychelles,2011,,,1
+Seychelles,Seychelles,2012,,,1
+Seychelles,Seychelles,2013,,,2
+Seychelles,Seychelles,2014,,,2
+Seychelles,Seychelles,2015,,,2
+Sierra Leone,Sierra Leone,1976,4,,
+Sierra Leone,Sierra Leone,1977,3,,2
+Sierra Leone,Sierra Leone,1978,2,,1
+Sierra Leone,Sierra Leone,1979,,,1
+Sierra Leone,Sierra Leone,1980,,,2
+Sierra Leone,Sierra Leone,1981,2,,1
+Sierra Leone,Sierra Leone,1982,,,2
+Sierra Leone,Sierra Leone,1983,3,,2
+Sierra Leone,Sierra Leone,1984,2,,2
+Sierra Leone,Sierra Leone,1985,2,,2
+Sierra Leone,Sierra Leone,1986,2,,2
+Sierra Leone,Sierra Leone,1987,2,,2
+Sierra Leone,Sierra Leone,1988,2,,3
+Sierra Leone,Sierra Leone,1989,2,,2
+Sierra Leone,Sierra Leone,1990,2,,2
+Sierra Leone,Sierra Leone,1991,3,,3
+Sierra Leone,Sierra Leone,1992,4,,4
+Sierra Leone,Sierra Leone,1993,4,,4
+Sierra Leone,Sierra Leone,1994,5,,5
+Sierra Leone,Sierra Leone,1995,4,,4
+Sierra Leone,Sierra Leone,1996,5,,5
+Sierra Leone,Sierra Leone,1997,4,,5
+Sierra Leone,Sierra Leone,1998,5,,5
+Sierra Leone,Sierra Leone,1999,5,,5
+Sierra Leone,Sierra Leone,2000,5,,4
+Sierra Leone,Sierra Leone,2001,4,,4
+Sierra Leone,Sierra Leone,2002,2,,3
+Sierra Leone,Sierra Leone,2003,3,,4
+Sierra Leone,Sierra Leone,2004,2,,3
+Sierra Leone,Sierra Leone,2005,2,,3
+Sierra Leone,Sierra Leone,2006,2,,3
+Sierra Leone,Sierra Leone,2007,2,,3
+Sierra Leone,Sierra Leone,2008,3,,2
+Sierra Leone,Sierra Leone,2009,2,,2
+Sierra Leone,Sierra Leone,2010,3,,2
+Sierra Leone,Sierra Leone,2011,2,,2
+Sierra Leone,Sierra Leone,2012,2,,3
+Sierra Leone,Sierra Leone,2013,,,3
+Sierra Leone,Sierra Leone,2014,2,,2
+Sierra Leone,Sierra Leone,2015,2,,2
+Somalia,Somalia,1976,2,,
+Somalia,Somalia,1977,3,,2
+Somalia,Somalia,1978,3,,2
+Somalia,Somalia,1979,3,,3
+Somalia,Somalia,1980,3,,3
+Somalia,Somalia,1981,3,,2
+Somalia,Somalia,1982,3,,2
+Somalia,Somalia,1983,3,,3
+Somalia,Somalia,1984,3,,3
+Somalia,Somalia,1985,3,,3
+Somalia,Somalia,1986,4,,3
+Somalia,Somalia,1987,4,,3
+Somalia,Somalia,1988,5,,4
+Somalia,Somalia,1989,5,,5
+Somalia,Somalia,1990,5,,5
+Somalia,Somalia,1991,5,,5
+Somalia,Somalia,1992,5,,5
+Somalia,Somalia,1993,4,,5
+Somalia,Somalia,1994,5,,5
+Somalia,Somalia,1995,5,,4
+Somalia,Somalia,1996,4,,5
+Somalia,Somalia,1997,4,,3
+Somalia,Somalia,1998,4,,3
+Somalia,Somalia,1999,4,,4
+Somalia,Somalia,2000,4,,4
+Somalia,Somalia,2001,4,,4
+Somalia,Somalia,2002,4,,4
+Somalia,Somalia,2003,4,,4
+Somalia,Somalia,2004,4,,4
+Somalia,Somalia,2005,4,,4
+Somalia,Somalia,2006,4,,4
+Somalia,Somalia,2007,5,,5
+Somalia,Somalia,2008,5,,5
+Somalia,Somalia,2009,5,,4
+Somalia,Somalia,2010,5,,4
+Somalia,Somalia,2011,5,,5
+Somalia,Somalia,2012,5,,4
+Somalia,Somalia,2013,,5,4
+Somalia,Somalia,2014,5,5,5
+Somalia,Somalia,2015,4,5,4
+South Africa,South Africa,1976,4,,
+South Africa,South Africa,1977,4,,3
+South Africa,South Africa,1978,3,,
+South Africa,South Africa,1979,3,,3
+South Africa,South Africa,1980,3,,3
+South Africa,South Africa,1981,3,,2
+South Africa,South Africa,1982,3,,3
+South Africa,South Africa,1983,4,,2
+South Africa,South Africa,1984,3,,3
+South Africa,South Africa,1985,4,,4
+South Africa,South Africa,1986,5,,5
+South Africa,South Africa,1987,4,,5
+South Africa,South Africa,1988,4,,5
+South Africa,South Africa,1989,4,,4
+South Africa,South Africa,1990,4,,4
+South Africa,South Africa,1991,5,,4
+South Africa,South Africa,1992,5,,4
+South Africa,South Africa,1993,5,,5
+South Africa,South Africa,1994,5,,4
+South Africa,South Africa,1995,4,,4
+South Africa,South Africa,1996,4,,4
+South Africa,South Africa,1997,4,,3
+South Africa,South Africa,1998,4,,4
+South Africa,South Africa,1999,3,,3
+South Africa,South Africa,2000,4,,2
+South Africa,South Africa,2001,4,,3
+South Africa,South Africa,2002,3,,3
+South Africa,South Africa,2003,3,,3
+South Africa,South Africa,2004,3,,3
+South Africa,South Africa,2005,3,,3
+South Africa,South Africa,2006,3,,3
+South Africa,South Africa,2007,3,,4
+South Africa,South Africa,2008,3,,3
+South Africa,South Africa,2009,3,,3
+South Africa,South Africa,2010,3,,3
+South Africa,South Africa,2011,3,,3
+South Africa,South Africa,2012,3,,4
+South Africa,South Africa,2013,,2,4
+South Africa,South Africa,2014,3,3,3
+South Africa,South Africa,2015,3,3,4
+South Sudan,South Sudan,1976,,,
+South Sudan,South Sudan,1977,,,
+South Sudan,South Sudan,1978,,,
+South Sudan,South Sudan,1979,,,
+South Sudan,South Sudan,1980,,,
+South Sudan,South Sudan,1981,,,
+South Sudan,South Sudan,1982,,,
+South Sudan,South Sudan,1983,,,
+South Sudan,South Sudan,1984,,,
+South Sudan,South Sudan,1985,,,
+South Sudan,South Sudan,1986,,,
+South Sudan,South Sudan,1987,,,
+South Sudan,South Sudan,1988,,,
+South Sudan,South Sudan,1989,,,
+South Sudan,South Sudan,1990,,,
+South Sudan,South Sudan,1991,,,
+South Sudan,South Sudan,1992,,,
+South Sudan,South Sudan,1993,,,
+South Sudan,South Sudan,1994,,,
+South Sudan,South Sudan,1995,,,
+South Sudan,South Sudan,1996,,,
+South Sudan,South Sudan,1997,,,
+South Sudan,South Sudan,1998,,,
+South Sudan,South Sudan,1999,,,
+South Sudan,South Sudan,2000,,,
+South Sudan,South Sudan,2001,,,
+South Sudan,South Sudan,2002,,,
+South Sudan,South Sudan,2003,,,
+South Sudan,South Sudan,2004,,,
+South Sudan,South Sudan,2005,,,
+South Sudan,South Sudan,2006,,,
+South Sudan,South Sudan,2007,,,
+South Sudan,South Sudan,2008,,,
+South Sudan,South Sudan,2009,,,
+South Sudan,South Sudan,2010,,,
+South Sudan,South Sudan,2011,4,,5
+South Sudan,South Sudan,2012,4,,4
+South Sudan,South Sudan,2013,,4,5
+South Sudan,South Sudan,2014,5,5,5
+South Sudan,South Sudan,2015,5,5,5
+Sudan,Sudan,1976,4,,3
+Sudan,Sudan,1977,3,,2
+Sudan,Sudan,1978,3,,2
+Sudan,Sudan,1979,3,,3
+Sudan,Sudan,1980,3,,2
+Sudan,Sudan,1981,3,,3
+Sudan,Sudan,1982,3,,2
+Sudan,Sudan,1983,3,,2
+Sudan,Sudan,1984,3,,3
+Sudan,Sudan,1985,3,,3
+Sudan,Sudan,1986,3,,4
+Sudan,Sudan,1987,4,,4
+Sudan,Sudan,1988,5,,5
+Sudan,Sudan,1989,4,,3
+Sudan,Sudan,1990,4,,4
+Sudan,Sudan,1991,4,,5
+Sudan,Sudan,1992,5,,5
+Sudan,Sudan,1993,5,,5
+Sudan,Sudan,1994,5,,5
+Sudan,Sudan,1995,4,,5
+Sudan,Sudan,1996,5,,4
+Sudan,Sudan,1997,4,,5
+Sudan,Sudan,1998,4,,5
+Sudan,Sudan,1999,5,,5
+Sudan,Sudan,2000,5,,5
+Sudan,Sudan,2001,5,,5
+Sudan,Sudan,2002,4,,5
+Sudan,Sudan,2003,5,,5
+Sudan,Sudan,2004,5,,5
+Sudan,Sudan,2005,5,,5
+Sudan,Sudan,2006,5,,5
+Sudan,Sudan,2007,5,,5
+Sudan,Sudan,2008,5,,5
+Sudan,Sudan,2009,5,,5
+Sudan,Sudan,2010,5,,5
+Sudan,Sudan,2011,5,,5
+Sudan,Sudan,2012,5,,5
+Sudan,Sudan,2013,,5,5
+Sudan,Sudan,2014,5,5,5
+Sudan,Sudan,2015,5,5,5
+Swaziland,Swaziland,1976,1,,2
+Swaziland,Swaziland,1977,2,,2
+Swaziland,Swaziland,1978,2,,1
+Swaziland,Swaziland,1979,2,,2
+Swaziland,Swaziland,1980,2,,1
+Swaziland,Swaziland,1981,2,,1
+Swaziland,Swaziland,1982,2,,1
+Swaziland,Swaziland,1983,2,,2
+Swaziland,Swaziland,1984,3,,2
+Swaziland,Swaziland,1985,2,,2
+Swaziland,Swaziland,1986,2,,1
+Swaziland,Swaziland,1987,2,,2
+Swaziland,Swaziland,1988,1,,2
+Swaziland,Swaziland,1989,2,,2
+Swaziland,Swaziland,1990,2,,2
+Swaziland,Swaziland,1991,2,,2
+Swaziland,Swaziland,1992,1,,2
+Swaziland,Swaziland,1993,3,,2
+Swaziland,Swaziland,1994,3,,2
+Swaziland,Swaziland,1995,2,,2
+Swaziland,Swaziland,1996,1,,2
+Swaziland,Swaziland,1997,2,,2
+Swaziland,Swaziland,1998,2,,2
+Swaziland,Swaziland,1999,2,,2
+Swaziland,Swaziland,2000,2,,2
+Swaziland,Swaziland,2001,2,,2
+Swaziland,Swaziland,2002,2,,2
+Swaziland,Swaziland,2003,2,,2
+Swaziland,Swaziland,2004,2,,2
+Swaziland,Swaziland,2005,3,,2
+Swaziland,Swaziland,2006,3,,3
+Swaziland,Swaziland,2007,3,,3
+Swaziland,Swaziland,2008,3,,3
+Swaziland,Swaziland,2009,3,,3
+Swaziland,Swaziland,2010,3,,3
+Swaziland,Swaziland,2011,2,,3
+Swaziland,Swaziland,2012,3,,3
+Swaziland,Swaziland,2013,,,3
+Swaziland,Swaziland,2014,2,,3
+Swaziland,Swaziland,2015,2,2,3
+"Tanzania, United Republic of",Tanzania,1976,4,,
+"Tanzania, United Republic of",Tanzania,1977,3,,3
+"Tanzania, United Republic of",Tanzania,1978,3,,2
+"Tanzania, United Republic of",Tanzania,1979,2,,2
+"Tanzania, United Republic of",Tanzania,1980,2,,2
+"Tanzania, United Republic of",Tanzania,1981,2,,2
+"Tanzania, United Republic of",Tanzania,1982,2,,2
+"Tanzania, United Republic of",Tanzania,1983,,,3
+"Tanzania, United Republic of",Tanzania,1984,2,,3
+"Tanzania, United Republic of",Tanzania,1985,2,,2
+"Tanzania, United Republic of",Tanzania,1986,2,,2
+"Tanzania, United Republic of",Tanzania,1987,2,,3
+"Tanzania, United Republic of",Tanzania,1988,2,,2
+"Tanzania, United Republic of",Tanzania,1989,2,,2
+"Tanzania, United Republic of",Tanzania,1990,2,,3
+"Tanzania, United Republic of",Tanzania,1991,2,,2
+"Tanzania, United Republic of",Tanzania,1992,1,,2
+"Tanzania, United Republic of",Tanzania,1993,2,,2
+"Tanzania, United Republic of",Tanzania,1994,2,,2
+"Tanzania, United Republic of",Tanzania,1995,3,,2
+"Tanzania, United Republic of",Tanzania,1996,3,,3
+"Tanzania, United Republic of",Tanzania,1997,,,3
+"Tanzania, United Republic of",Tanzania,1998,3,,3
+"Tanzania, United Republic of",Tanzania,1999,2,,3
+"Tanzania, United Republic of",Tanzania,2000,3,,3
+"Tanzania, United Republic of",Tanzania,2001,3,,3
+"Tanzania, United Republic of",Tanzania,2002,2,,3
+"Tanzania, United Republic of",Tanzania,2003,3,,3
+"Tanzania, United Republic of",Tanzania,2004,2,,3
+"Tanzania, United Republic of",Tanzania,2005,3,,3
+"Tanzania, United Republic of",Tanzania,2006,2,,3
+"Tanzania, United Republic of",Tanzania,2007,2,,3
+"Tanzania, United Republic of",Tanzania,2008,2,,3
+"Tanzania, United Republic of",Tanzania,2009,2,,2
+"Tanzania, United Republic of",Tanzania,2010,2,,3
+"Tanzania, United Republic of",Tanzania,2011,2,,3
+"Tanzania, United Republic of",Tanzania,2012,2,,3
+"Tanzania, United Republic of",Tanzania,2013,,,3
+"Tanzania, United Republic of",Tanzania,2014,3,,3
+"Tanzania, United Republic of",Tanzania,2015,2,,3
+Togo,Togo,1976,3,,
+Togo,Togo,1977,2,,2
+Togo,Togo,1978,3,,2
+Togo,Togo,1979,2,,2
+Togo,Togo,1980,2,,2
+Togo,Togo,1981,2,,3
+Togo,Togo,1982,2,,2
+Togo,Togo,1983,3,,3
+Togo,Togo,1984,3,,3
+Togo,Togo,1985,2,,3
+Togo,Togo,1986,2,,3
+Togo,Togo,1987,2,,3
+Togo,Togo,1988,2,,1
+Togo,Togo,1989,2,,2
+Togo,Togo,1990,3,,2
+Togo,Togo,1991,3,,3
+Togo,Togo,1992,2,,3
+Togo,Togo,1993,4,,5
+Togo,Togo,1994,3,,4
+Togo,Togo,1995,2,,3
+Togo,Togo,1996,2,,3
+Togo,Togo,1997,2,,3
+Togo,Togo,1998,4,,4
+Togo,Togo,1999,3,,3
+Togo,Togo,2000,3,,2
+Togo,Togo,2001,2,,3
+Togo,Togo,2002,2,,2
+Togo,Togo,2003,3,,3
+Togo,Togo,2004,3,,3
+Togo,Togo,2005,5,,4
+Togo,Togo,2006,3,,3
+Togo,Togo,2007,3,,3
+Togo,Togo,2008,2,,3
+Togo,Togo,2009,3,,2
+Togo,Togo,2010,2,,3
+Togo,Togo,2011,3,,3
+Togo,Togo,2012,3,,2
+Togo,Togo,2013,,,1
+Togo,Togo,2014,2,,1
+Togo,Togo,2015,3,,1
+Tunisia,Tunisia,1976,2,,2
+Tunisia,Tunisia,1977,3,,1
+Tunisia,Tunisia,1978,3,,2
+Tunisia,Tunisia,1979,3,,3
+Tunisia,Tunisia,1980,3,,1
+Tunisia,Tunisia,1981,3,,2
+Tunisia,Tunisia,1982,3,,2
+Tunisia,Tunisia,1983,3,,3
+Tunisia,Tunisia,1984,3,,3
+Tunisia,Tunisia,1985,3,,2
+Tunisia,Tunisia,1986,3,,3
+Tunisia,Tunisia,1987,3,,3
+Tunisia,Tunisia,1988,2,,2
+Tunisia,Tunisia,1989,2,,2
+Tunisia,Tunisia,1990,3,,3
+Tunisia,Tunisia,1991,4,,3
+Tunisia,Tunisia,1992,3,,3
+Tunisia,Tunisia,1993,3,,3
+Tunisia,Tunisia,1994,4,,3
+Tunisia,Tunisia,1995,4,,2
+Tunisia,Tunisia,1996,3,,2
+Tunisia,Tunisia,1997,4,,3
+Tunisia,Tunisia,1998,3,,3
+Tunisia,Tunisia,1999,3,,3
+Tunisia,Tunisia,2000,3,,3
+Tunisia,Tunisia,2001,3,,3
+Tunisia,Tunisia,2002,3,,2
+Tunisia,Tunisia,2003,3,,3
+Tunisia,Tunisia,2004,3,,3
+Tunisia,Tunisia,2005,3,,2
+Tunisia,Tunisia,2006,3,,3
+Tunisia,Tunisia,2007,3,,3
+Tunisia,Tunisia,2008,3,,3
+Tunisia,Tunisia,2009,3,,3
+Tunisia,Tunisia,2010,3,,3
+Tunisia,Tunisia,2011,3,,1
+Tunisia,Tunisia,2012,3,,2
+Tunisia,Tunisia,2013,,3,3
+Tunisia,Tunisia,2014,2,2,3
+Tunisia,Tunisia,2015,3,2,2
+Uganda,Uganda,1976,5,,
+Uganda,Uganda,1977,5,,
+Uganda,Uganda,1978,5,,
+Uganda,Uganda,1979,4,,2
+Uganda,Uganda,1980,4,,4
+Uganda,Uganda,1981,5,,4
+Uganda,Uganda,1982,4,,5
+Uganda,Uganda,1983,5,,5
+Uganda,Uganda,1984,4,,4
+Uganda,Uganda,1985,5,,5
+Uganda,Uganda,1986,4,,4
+Uganda,Uganda,1987,4,,4
+Uganda,Uganda,1988,4,,4
+Uganda,Uganda,1989,4,,4
+Uganda,Uganda,1990,4,,4
+Uganda,Uganda,1991,4,,4
+Uganda,Uganda,1992,3,,3
+Uganda,Uganda,1993,3,,3
+Uganda,Uganda,1994,3,,3
+Uganda,Uganda,1995,3,,4
+Uganda,Uganda,1996,4,,3
+Uganda,Uganda,1997,4,,3
+Uganda,Uganda,1998,4,,3
+Uganda,Uganda,1999,4,,3
+Uganda,Uganda,2000,4,,3
+Uganda,Uganda,2001,4,,3
+Uganda,Uganda,2002,4,,4
+Uganda,Uganda,2003,4,,4
+Uganda,Uganda,2004,4,,4
+Uganda,Uganda,2005,4,,5
+Uganda,Uganda,2006,4,,4
+Uganda,Uganda,2007,4,,4
+Uganda,Uganda,2008,3,,4
+Uganda,Uganda,2009,3,,4
+Uganda,Uganda,2010,3,,4
+Uganda,Uganda,2011,3,,4
+Uganda,Uganda,2012,3,,3
+Uganda,Uganda,2013,,3,3
+Uganda,Uganda,2014,3,3,3
+Uganda,Uganda,2015,3,2,3
+Zambia,Zambia,1976,3,,
+Zambia,Zambia,1977,,,2
+Zambia,Zambia,1978,,,3
+Zambia,Zambia,1979,2,,3
+Zambia,Zambia,1980,3,,3
+Zambia,Zambia,1981,3,,3
+Zambia,Zambia,1982,3,,3
+Zambia,Zambia,1983,3,,2
+Zambia,Zambia,1984,2,,2
+Zambia,Zambia,1985,2,,2
+Zambia,Zambia,1986,3,,3
+Zambia,Zambia,1987,3,,2
+Zambia,Zambia,1988,2,,3
+Zambia,Zambia,1989,2,,2
+Zambia,Zambia,1990,3,,3
+Zambia,Zambia,1991,1,,2
+Zambia,Zambia,1992,3,,2
+Zambia,Zambia,1993,3,,3
+Zambia,Zambia,1994,2,,3
+Zambia,Zambia,1995,2,,3
+Zambia,Zambia,1996,2,,3
+Zambia,Zambia,1997,3,,3
+Zambia,Zambia,1998,4,,3
+Zambia,Zambia,1999,2,,2
+Zambia,Zambia,2000,3,,2
+Zambia,Zambia,2001,3,,3
+Zambia,Zambia,2002,3,,3
+Zambia,Zambia,2003,3,,3
+Zambia,Zambia,2004,3,,3
+Zambia,Zambia,2005,3,,3
+Zambia,Zambia,2006,3,,3
+Zambia,Zambia,2007,2,,3
+Zambia,Zambia,2008,,,3
+Zambia,Zambia,2009,,,3
+Zambia,Zambia,2010,,,4
+Zambia,Zambia,2011,,,3
+Zambia,Zambia,2012,,,3
+Zambia,Zambia,2013,,,3
+Zambia,Zambia,2014,3,,3
+Zambia,Zambia,2015,2,,3
+Zimbabwe,Zimbabwe,1976,,,
+Zimbabwe,Zimbabwe,1977,,,
+Zimbabwe,Zimbabwe,1978,,,
+Zimbabwe,Zimbabwe,1979,,,
+Zimbabwe,Zimbabwe,1980,3,,2
+Zimbabwe,Zimbabwe,1981,3,,2
+Zimbabwe,Zimbabwe,1982,3,,3
+Zimbabwe,Zimbabwe,1983,4,,5
+Zimbabwe,Zimbabwe,1984,5,,4
+Zimbabwe,Zimbabwe,1985,4,,5
+Zimbabwe,Zimbabwe,1986,3,,3
+Zimbabwe,Zimbabwe,1987,3,,3
+Zimbabwe,Zimbabwe,1988,2,,3
+Zimbabwe,Zimbabwe,1989,2,,3
+Zimbabwe,Zimbabwe,1990,2,,3
+Zimbabwe,Zimbabwe,1991,2,,2
+Zimbabwe,Zimbabwe,1992,2,,2
+Zimbabwe,Zimbabwe,1993,2,,2
+Zimbabwe,Zimbabwe,1994,2,,2
+Zimbabwe,Zimbabwe,1995,2,,2
+Zimbabwe,Zimbabwe,1996,2,,4
+Zimbabwe,Zimbabwe,1997,2,,2
+Zimbabwe,Zimbabwe,1998,3,,2
+Zimbabwe,Zimbabwe,1999,3,,3
+Zimbabwe,Zimbabwe,2000,4,,3
+Zimbabwe,Zimbabwe,2001,4,,3
+Zimbabwe,Zimbabwe,2002,4,,3
+Zimbabwe,Zimbabwe,2003,4,,4
+Zimbabwe,Zimbabwe,2004,3,,4
+Zimbabwe,Zimbabwe,2005,4,,4
+Zimbabwe,Zimbabwe,2006,4,,4
+Zimbabwe,Zimbabwe,2007,4,,4
+Zimbabwe,Zimbabwe,2008,4,,5
+Zimbabwe,Zimbabwe,2009,3,,4
+Zimbabwe,Zimbabwe,2010,3,,4
+Zimbabwe,Zimbabwe,2011,3,,4
+Zimbabwe,Zimbabwe,2012,3,,4
+Zimbabwe,Zimbabwe,2013,,3,3
+Zimbabwe,Zimbabwe,2014,3,3,3
+Zimbabwe,Zimbabwe,2015,3,3,4

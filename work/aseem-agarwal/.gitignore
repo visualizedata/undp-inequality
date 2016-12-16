@@ -1,9 +1,0 @@
-.DS_Store
-node_modules
-node_modules/*
-undp/dumps
-undp/dumps/*
-undp/data
-undp/data/*
-undp/public/v2/data
-undp/public/v2/data/*

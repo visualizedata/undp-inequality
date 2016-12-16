@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>UNDP-Narrative</title>
+  <!--D3-->
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://d3js.org/d3-selection-multi.v0.4.min.js"></script>
+  <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div id='header'>
+    <div id='headerBox'>
+    
+      <div class="btn" id="expandAll">Expand All</div>
+      <div class="btn" id="collapseAll">Collapse All</div>
+
+      <div class="toggle">
+        <select id="hider"> 
+          <option selected>All Regions</option>
+          <option>Southern</option>
+          <option>North</option>
+          <option>West</option>
+          <option>East</option>
+        </select>
+      </div>
+      
+    </div>
+  </div>
+  
+  <div id='intro'>
+        
+    <h1 id='title'><span id='leadin'>The Impact of </span><br />Violence & Revolution <br />on Inequality in Africa</h1>
+
+    <p id="explainer">
+    Africa has been home to over 60 revolution events over the past thirty years. 
+    Even with the best of intentions, a coup can have a multitude of results, 
+    from a public democracy, to military dictatorship, and everything in between.
+    <br /><br />
+    This chart examines the relationship between <img src='bar-pts.png' class='key'> <a href='http://politicalterrorscale.org/' target='new'>political violence,</a>
+    <img src='bar-pitf.png' class='key'> <a href='http://www.systemicpeace.org/inscr/PITF%20Consolidated%20Case%20List%202015.pdf' target='new'>revolution events,</a> and 
+    <img src='bar-gini.png' class='key'> <a href='https://www.wider.unu.edu/project/wiid-world-income-inequality-database' target='new'>income inequality,</a>
+    per country in Africa, over the last forty years, to further  the causes anmes of those connected histories.
+    <br /><br />
+    </p>
+
+  </div>
+
+  <script>
+    
+    var smScreen = false;
+    var winWidth = window.innerWidth;
+    
+    var margin = { top: 10, right: 10, bottom: 0, left: 0 };
+
+    var width = 580 - margin.left - margin.right,
+        height = 20 - margin.top - margin.bottom;
+        
+    //computed dimensions
+    var lWidth= 30;
+    var divOpen = 196;
+    var divOpenB = divOpen;
+    var divClosed = 40;
+    var divClosedB = divClosed;
+    var divWidth = 800;
+    var tSize = 5;
+    
+    var dura = 300;
+    
+    // case - mobile
+    if (window.matchMedia("(min-device-width : 375px) and (max-device-width : 667px)").matches) {
+      smScreen = true;
+      
+      width = (winWidth*.95); 
+      lWidth = (winWidth*.05);
+      height = 60 - margin.top - margin.bottom;
+      
+      divClosed = 240;
+      divClosedB = 120;
+      divOpen = 400;
+      divOpenB = 550; //537
+      tSize = 10;
+      
+      divWidth = (winWidth*.95);
+      
+      dura = 0; // cut animation transitions
+    } 
+  
+    var ptsColors = ['#56c02c', '#fcc30c', '#fd9d24', '#fd6926', '#ff3a22', '#e0240d'];
+  
+
+    var xScale = d3.scaleLinear()
+      .range([0, width])
+      .domain([1976, 2016]);
+      
+    var yScaleGini = d3.scaleLinear()
+      .range([height, 0])
+      .domain([0, 100]);
+
+    var yScale = d3.scaleLinear()
+      .range([height, 0])
+      .domain([0, 5]);
+
+    var xAxis = d3.axisTop()
+      .tickFormat(d3.format("d"))
+      .tickSize(tSize)
+      .tickValues([1980, 1984, 1988, 1992, 1996, 2000, 2004, 2008, 2012])
+      .scale(xScale);
+
+    var yAxis = d3.axisRight()
+      .ticks(5)
+      .tickSize(tSize)
+      .scale(yScale);
+      
+    var yAxisGini = d3.axisRight()
+      .ticks(5)
+      .tickSize(tSize)
+      .scale(yScaleGini);
+
+    var barWidth = width / (2016 - 1976);
+    
+    d3.json('data/v2-consolidated.json', drawCharts);
+    
+    //hider isolates regions
+    function hider(selected) {
+      return function(d) {
+          
+          var index = d3.event.target.selectedIndex;
+        
+          var regions = ['All', 'Southern', 'North', 'West', 'East', 'Central'];
+          
+          if (regions[index] == 'All') {
+            d3.selectAll('div.chart').classed('hidden', false);
+          } else { // region selected
+            for (var i in regions) {
+            	if (regions[i] !=  regions[index]) {
+            	  d3.selectAll('div.'+regions[i]).classed('hidden', true);
+              } else {   
+                d3.selectAll('div.'+regions[i]).classed('hidden', false);
+              }
+            } // end loop
+          } // end region selected
+      
+      }
+    }
+
+
+    //close all charts
+    function collapseAll() {
+      return function(d) {
+        var allCharts = d3.selectAll('div.chart');
+        collapseChart(d, allCharts);
+        closed(allCharts);
+      }
+    }
+
+    //close full detail view 
+    function closeChart() {
+      return function(d) {
+        var thisDiv = d3.select(this.parentNode);
+        collapseChart(d, thisDiv, function() {
+          closed(thisDiv);
+        });
+      }
+    }
+
+    //remove class 'open'
+    function closed(thisDiv) {
+      thisDiv.classed('open', false);
+    }
+
+    function collapseChart(d, thisDiv) {
+      
+      margin = {  top: 10,  right: 10,  bottom: 0,  left: 0 };
+      
+      var newHeight = (divClosedB/2) - margin.top - margin.bottom;
+      
+      yScale.range([newHeight, 0])
+      yScaleGini.range([0, newHeight]);
+      
+      //hide pitf data
+      thisDiv.selectAll('div.info')
+        .transition()
+        .duration(dura)
+        .style('opacity', 0);
+        
+      thisDiv.selectAll('svg.labels')
+        .transition()
+        .duration(dura)
+        .styles({
+          opacity: 0,
+          right: (width-lWidth)+'px'
+        });
+
+      //select the chart
+      var chart = thisDiv.select('svg')
+        .transition()
+        .duration(dura);
+      
+      chart.select('g').attr("transform", "translate("+margin.left+","+margin.top+")");
+      
+      //update midline
+      chart.select('line.zero')
+        .attrs({
+          x1:0,
+          y1:newHeight,
+          y2:newHeight
+        })
+        
+      //update bg
+      chart.select('.bg')
+        .attr('height', divClosedB)
+        .attr('y', 0-margin.top);
+
+      //update pts bars  
+      chart.selectAll('rect.ptsAvg')
+        .attr('y', function(d) {  return yScale(d.value.ptsAvg);  })
+        .attr('height', function(d) {  return newHeight - yScale(d.value.ptsAvg);  });
+      
+      //update gini bars
+      chart.selectAll('rect.giniAvg')
+        .attr('y', newHeight)
+        .attr('height', function(d) {  return yScaleGini(d.value.giniAvg);  });
+
+      //update pitf bar
+      chart.selectAll('rect.pitf')
+        .attr('height', divClosedB)
+        .attr('y', 0-margin.top);
+
+      //hide axes
+      chart.selectAll('.axis').style('opacity', 0);
+
+      chart.select('.y').call(yAxis);
+        
+      chart.select('.y.gini').call(yAxisGini);
+        
+      thisDiv.select('svg').attr('overflow', 'hidden');
+      
+      thisDiv.selectAll('g.tip').classed('on', false);
+      
+      //close div
+      thisDiv.transition()
+        .duration(dura)
+        .style('height', divClosed+'px'); // HEIGHT CLOSED
+
+    }
+
+    function expandAll() {
+      return function(d) {
+        var allCharts = d3.selectAll('div.chart');
+        expandChart(allCharts, d)
+      }
+    }
+
+    //show full detail view of country on click
+    function chartClick() {
+      return function(d) {
+        var thisDiv = d3.select(this);
+        expandChart(thisDiv, d);
+        
+      }
+    }
+    
+    
+    
+    function expandChart(thisDiv, d) {
+      //make sure chart is not already open
+      if (!thisDiv.classed('open')) {
+        
+        margin = {  top: 20,  right: 20,  bottom: 0,  left: 0 };
+        if (smScreen) { margin = {  top: 50,  right: 20,  bottom: 0,  left: 0 }; }
+        
+        thisDiv.classed('open', true);
+        thisDiv.selectAll('g.tip').classed('on', true);
+        
+        //access data
+        var years = d3.entries(d.value.years);
+
+        //make chart taller
+        thisDiv.transition()
+          .duration(dura)
+          .style('height', function() {
+            if (smScreen) {
+              var heightMult = thisDiv.selectAll('div.info')._groups[0].length;
+              var newHeight = divOpenB+(190*heightMult);
+              return newHeight+'px';
+            } else {
+              return divOpenB+'px';
+            }
+        });
+        
+        //declare var for use in svg, adjust yScale
+        var newHeight = ((divOpen/2)-margin.top)-margin.bottom;
+        
+        yScale.range([newHeight, 0]);
+        yScaleGini.range([0, newHeight]);
+
+        //update height of container
+        var chart = thisDiv.select('svg')
+          .transition()
+          .duration(dura)
+          .attr('height', newHeight);
+          
+        chart.select('g').attr("transform", "translate("+margin.left+","+margin.top+")");
+          
+        chart.select('rect.bg').attr('height', divOpen).attr('y', 0-margin.top);
+
+        //update pts bars
+        chart.selectAll('rect.ptsAvg')
+          .attrs({
+            y: function(d) { return yScale(d.value.ptsAvg); },
+            height: function(d) { return newHeight - yScale(d.value.ptsAvg); }
+          });
+        
+        //update gini bars
+        chart.selectAll('rect.giniAvg')
+          .attrs({
+            y: newHeight,
+            height: function(d) { return yScaleGini(d.value.giniAvg); }
+          });
+        
+        //show pitf data
+        thisDiv.selectAll('div.info').transition().duration(dura).style('opacity', 1);
+          
+        chart.selectAll('rect.giniAvg').attr('y', newHeight);
+          
+        chart.selectAll('rect.pitf').attr('height', divOpen).attr('y', 0-margin.top);
+
+        //show axes
+        chart.select('line.zero').attrs({
+          x1: 20,
+          y1: newHeight,
+          y2: newHeight
+        });
+        
+        chart.selectAll('.axis').style('opacity', 1);
+
+        chart.select('.y').call(yAxis);
+          
+        chart.select('.y.gini')
+          .call(yAxisGini)
+          .attr('transform', 'translate(0, ' + newHeight + ')');
+
+        chart.selectAll('.x.axis')
+          .attr('transform', 'translate(0, ' + (divOpen-margin.top) + ')');
+          
+        thisDiv.select('svg.labels')
+          .transition()
+          .duration(dura)
+          // .delay(dura)
+          .styles({
+            right: width+'px',
+            opacity: 1
+          });
+        
+      } // end if
+    } // end function expand chart   
+
+    function openModal(id) {
+      d3.selectAll(id).style('display', 'visible');
+    }
+
+    function closeModal(id) {
+      d3.selectAll(id).style('display', 'hidden');
+    }
+    
+    function reg(fullRegion) {
+      var firstWord = fullRegion.split(" ")[0].toLowerCase();
+      return firstWord;
+    }
+
+    function drawCharts(data) {
+      var body = d3.select('body');
+      
+      data = d3.entries(data);
+      
+      data.sort(function(a,b) {
+        return b.value.overallPTS-a.value.overallPTS;
+      })
+      
+      // buttons to expand / collapse all
+      body.select('#collapseAll')
+        .on('mouseup', collapseAll());
+        
+      body.select('#expandAll')
+        .data(data)  // data has to be re-bound, unsure as to why
+        .on('mouseup', expandAll());
+      
+      body.select('#hider')
+        .on('change', hider());
+      
+      //draw chart
+      var svg = body.selectAll('div.chart')
+        .data(data)
+        .enter()
+        .append('div')
+        .attr('class', function(d) {
+          return d.value.region + ' chart '+d.key;
+        })
+        .style('width', divWidth+'px')
+        .each(function(d) {
+          var block = d3.select(this);
+          block.on('mouseup', chartClick());
+          drawChart(block, d);
+
+        }); //end each
+        
+    }
+
+    function drawChart(elem, d) {
+
+      var country = d.value.name;
+      var countryCode = d.key;
+      
+      elem.append('h1').attr('class', 'chart').text(country);
+    
+      var chart = elem.append('svg')
+        .attr('width', width + margin.right + margin.left)
+        .attr('height', height + margin.top + margin.bottom)
+      .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+      
+      var fullHeight = (height+margin.top+margin.bottom)*2;
+      
+      var pitf = d.value.pitf;
+      
+      //background
+      chart.append('rect')
+        .attrs({
+          'width':width,
+          'height': fullHeight, 
+          fill: '#e3e3e3',
+          y: 0-margin.top,
+          class: 'bg'
+        });
+      
+      var years = d3.entries(d.value.years);
+      
+      // append pitf
+      chart.selectAll('rect.pitf')
+        .data(pitf)
+        .enter()
+        .append('rect')
+        .attr('class', 'pitf')
+        .attr('x', function(d) {
+          return xScale(began(d.began));
+        })
+        .attr('y', 0-margin.top)
+        .attr('height', fullHeight)
+        .attr('width', function(d) {
+          var length = xScale(endedNum(d.ended)) - xScale(began(d.began));
+          if (length > 0) {  return length;  }
+          else {  return barWidth;  }
+        });
+
+      //append bars
+      chart.selectAll('rect.ptsAvg')
+        .data(years)
+        .enter()
+        .append('rect')
+        .attrs({
+          class: 'ptsAvg',
+          x: function(d) { return xScale(parseFloat(d.key)); },
+          y: function(d) { return yScale(d.value.ptsAvg); },
+          width: barWidth,
+          height: function(d) { return height - yScale(d.value.ptsAvg); },
+          fill: function(d) {
+            var i = Math.ceil(d.value.ptsAvg)-1;
+            return ptsColors[i];
+          }
+        })
+        .on('mouseover', nummers(countryCode))
+        .on('mouseout', nummers(countryCode));
+        
+      chart.selectAll('rect.giniAvg')
+        .data(years)
+        .enter()
+        .append('rect')
+        .attrs({
+          class: function(d){ return d.value.giniEst+' giniAvg'; },
+          x: function(d) {  return xScale(parseFloat(d.key));  },
+          y: height,
+          width: barWidth,
+          height: function(d) { return height - yScaleGini(d.value.giniAvg); }
+        })
+        .on('mouseover', nummers(countryCode))
+        .on('mouseout', nummers(countryCode));
+
+      //descriptions of events
+      var info = elem.selectAll('div.info')
+        .data(pitf)
+        .enter()
+        .append('div')
+        .classed('info', true)
+        .style('opacity', 0);
+      
+      info.append('h5')
+        .attr('class', 'date')
+        .text(function(d) {
+          var dates = Math.floor(parseFloat(d.began)) + '-' + endedString(d.ended);
+          return dates;
+        });
+      
+      info.append('p')
+        .attr('class', 'brief')
+        .text(function(d) {
+          var findSpace = d.eventDescription.slice(20, 40).indexOf(' ');
+          return d.eventDescription.slice(0, 20 + findSpace) + '...';
+        });
+
+      info.append('a')
+        .attr('class', 'pitf read')
+        .text('Read More')
+        .on('mouseup', showFullText(d, country));
+
+      // create axes
+      function midLine(addLine, w, h) {
+        addLine.append('line')
+        .attrs({
+          x1: 0,
+          x2: w,
+          y1: h,
+          y2: h,
+          class: 'zero',
+          'stroke-width': 1
+        })
+      }
+      
+      midLine(chart, width, height);
+      
+      chart.append('g')
+        .call(xAxis)
+        .attr('class', 'x axis')
+        .attr('transform', 'translate(0, ' + height + ')');
+
+      chart.append('g')
+        .call(yAxis)
+        .attr('class', 'y axis');
+        
+      chart.append('g')
+        .call(yAxisGini)
+        .attr('class', 'y axis gini')
+        .attr('transform', 'translate(0, ' + height + ')');
+        
+      // LABELS
+      var labels = elem.append('svg')
+        .attrs({
+          class: 'labels',
+          width: lWidth,
+          height: divOpen
+        })
+        .styles({
+          right: (width-lWidth)+'px',
+          opacity: 0
+        });
+        
+      midLine(labels, lWidth, divOpen/2);
+        
+      labels.append('text')
+        .attrs({
+          y: (divOpen/2)+18,
+          x: 10,
+          transform: 'rotate (-90, 0,'+((divOpen/2))+')',
+          class: 'label'
+        }).text('Political Violence');
+        
+      labels.append('text')
+        .attrs({
+          y: (divOpen/2)+18,
+          x: -10,
+          transform: 'rotate (-90, 0,'+((divOpen/2))+')',
+          class: 'label',
+          'text-anchor': 'end'
+        }).text('Inequality (Gini)');
+        
+      // TOOLTIPS / HOVERS
+      
+      // dims
+      var lineHt = 15,
+          boxHt = 65,
+          boxWd = 100;
+          leftPad = 10;
+          topPad = 5;
+      if (smScreen) {
+         lineHt = lineHt*2;
+         boxHt = boxHt*2;
+         boxWd = boxWd*2;
+         leftPad = leftPad*2;
+         topPad = topPad*2;
+      }
+          
+      //append
+      var tooltip = chart.selectAll('g.tip')
+        .data(years)
+        .enter()
+        .append('g')
+        .attrs({
+          class: function(d) { return 'p'+d.key+' tip hidden' },
+          transform: function(d) {
+            var x = xScale(parseFloat(d.key))+barWidth;
+            if (parseFloat(d.key)>1996) {
+              x = xScale(parseFloat(d.key))-boxWd;
+            } 
+            return 'translate('+x+',0)';
+          }
+        });
+        
+      tooltip.append('rect')
+        .attrs({
+          width: boxWd,
+          height: boxHt,
+          x: 0,
+          y: 0,
+          fill: '#ffffff'
+        });
+        
+      tooltip.append('text')
+        .attrs({
+          x: leftPad,
+          y: topPad+lineHt,
+          class: 'tipYear'
+        })
+        .text(function(d) { return d.key });
+        
+      tooltip.append('text')
+        .attrs({
+          x: leftPad,
+          y: topPad+(lineHt*2),
+          class: 'tipPTS',
+          fill: function(d) {
+            var i = Math.ceil(d.value.ptsAvg)-1;
+            return ptsColors[i];
+          }
+        })
+        .text(function(d) { return 'PTS: '+d.value.ptsAvg});
+        
+      tooltip.append('text')
+        .attrs({
+          x: leftPad,
+          y: topPad+(lineHt*3),
+          class: 'tipGini',
+          fill: '#a21942'
+        })
+        .text(function(d) { 
+          var gini = d.value.giniAvg,
+              est = '';
+          if (d.value.giniEst && gini != 0) { est = ' (EST)' };
+          if (gini == 0) { gini = 'N/A' };
+          return 'Gini: '+gini+est;
+        })
+        
+    } // end draw charts
+
+    function showFullText(d, country) {
+      return function(d) {
+
+        var dates = d.began + ' - ' + endedString(d.ended);
+
+        d3.select('body')
+          .append('div')
+          .attr('class', 'modal back')
+          .on('mouseup', removeModal());
+
+        textBox = d3.select('body')
+          .append('div')
+          .attr('class', 'modal front');
+
+        textBox.append('span')
+          .text(dates);
+
+        textBox.append('h1')
+          .text(country)
+
+        textBox.append('p')
+          .text(d.eventDescription);
+
+        textBox.append('p')
+          .attr('class', 'sources')
+          .html('Description quoted verbatim from <a href="http://www.systemicpeace.org/inscr/PITF%20Consolidated%20Case%20List%202015.pdf">Center for Systemic Peace INSCR Consolidated Case List</a> (Accessed Oct. 2016)');
+
+      }
+    }
+    
+    //show numbers on hover / tap for open charts
+      function nummers(c) {
+        return function(d) {
+          
+          var bar = d3.select(this);
+          var tooltip = d3.select('.'+c).select('g.'+'p'+d.key+'.tip');
+            
+            if (tooltip.classed('hidden') && tooltip.classed('on')) {
+              tooltip.classed('hidden', false);
+            } else {
+              tooltip.classed('hidden', true);
+            }
+            
+        } 
+      } // nummers
+
+    function removeModal() {
+      return function() {
+        d3.selectAll('div.modal')
+          .remove();
+      }
+    }
+
+    function endedString(d) {
+      var numDate = Math.floor(parseFloat(d)); 
+
+      if (isNaN(numDate)) {
+        return 'ONGOING';
+      }
+      else {
+        return numDate;
+      }
+
+    }
+    
+    //date parsers for pitf data
+    function began(d) {
+        if (parseFloat(d) > 1976) {
+          return parseFloat(d);
+        }
+        else {
+          return 1976;
+        }
+    }
+
+    function beganText(d) {
+        if (parseFloat(d) > 1976) {
+          return parseFloat(d);
+        }
+        else {
+          return 1977.5;
+        }
+    }
+
+    function endedNum(d) {
+        var numDate = Math.floor(parseFloat(d)); 
+        if (isNaN(numDate)) {
+          return 2016;
+        }
+        else {
+          return numDate+1;
+        }
+    }
+    
+    
+  </script>
+
+</body>
+
+
+</html>
