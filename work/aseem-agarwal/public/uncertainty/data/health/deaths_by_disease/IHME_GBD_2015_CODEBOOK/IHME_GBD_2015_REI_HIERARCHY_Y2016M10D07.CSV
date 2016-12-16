@@ -1,0 +1,110 @@
+﻿rei_id,rei_name,parent_id,level,sort_order
+169,"All risk factors",169,0,1.000000
+171,Etiologies,171,0,2.000000
+191,Impairments,191,0,3.000000
+192,Anemia,191,1,4.000000
+203,"Behavioral risks",169,1,5.000000
+172,"Diarrheal disease etiologies",171,1,9.000000
+202,"Environmental/occupational risks",169,1,10.000000
+193,Epilepsy,191,1,11.000000
+194,"Guillain-Barré syndrome",191,1,12.000000
+195,"Hearing loss",191,1,13.000000
+196,"Heart failure",191,1,14.000000
+198,Infertility,191,1,15.000000
+197,"Intellectual disability",191,1,16.000000
+186,"Lower respiratory infection etiologies",171,1,17.000000
+104,"Metabolic risks",169,1,18.000000
+199,"Pelvic inflammatory disease",191,1,33.000000
+200,"Vision loss",191,1,47.000000
+185,Adenovirus,172,2,48.000000
+182,Aeromonas,172,2,49.000000
+85,"Air pollution",202,2,50.000000
+101,"Alcohol and drug use",203,2,51.000000
+179,Amoebiasis,172,2,52.000000
+178,"Campylobacter enteritis",172,2,53.000000
+92,"Child and maternal malnutrition",203,2,54.000000
+173,Cholera,172,2,55.000000
+183,"Clostridium difficile",172,2,56.000000
+180,Cryptosporidiosis,172,2,57.000000
+110,"Dietary risks",203,2,58.000000
+176,"Enteropathogenic E coli infection",172,2,59.000000
+177,"Enterotoxigenic E coli infection",172,2,60.000000
+189,"H influenzae type B pneumonia",186,2,61.000000
+108,"High body-mass index",104,2,62.000000
+105,"High fasting plasma glucose",104,2,63.000000
+107,"High systolic blood pressure",104,2,64.000000
+106,"High total cholesterol",104,2,65.000000
+187,Influenza,186,2,66.000000
+109,"Low bone mineral density",104,2,67.000000
+143,"Low glomerular filtration rate",104,2,68.000000
+125,"Low physical activity",203,2,69.000000
+184,Norovirus,172,2,70.000000
+126,"Occupational risks",202,2,71.000000
+89,"Other environmental risks",202,2,72.000000
+174,"Other salmonella infections",172,2,73.000000
+188,"Pneumococcal pneumonia",186,2,74.000000
+190,"Respiratory syncytial virus pneumonia",186,2,75.000000
+181,"Rotaviral enteritis",172,2,76.000000
+133,"Sexual abuse and violence",203,2,77.000000
+175,Shigellosis,172,2,78.000000
+98,"Tobacco smoke",203,2,79.000000
+170,"Unsafe sex",203,2,80.000000
+82,"Unsafe water, sanitation, and handwashing",202,2,81.000000
+102,"Alcohol use",101,3,82.000000
+88,"Ambient ozone pollution",85,3,83.000000
+86,"Ambient particulate matter pollution",85,3,84.000000
+134,"Childhood sexual abuse",133,3,85.000000
+239,"Childhood undernutrition",92,3,86.000000
+117,"Diet high in processed meat",110,3,87.000000
+116,"Diet high in red meat",110,3,88.000000
+124,"Diet high in sodium",110,3,89.000000
+118,"Diet high in sugar-sweetened beverages",110,3,90.000000
+123,"Diet high in trans fatty acids",110,3,91.000000
+119,"Diet low in fiber",110,3,92.000000
+111,"Diet low in fruits",110,3,93.000000
+115,"Diet low in milk",110,3,94.000000
+114,"Diet low in nuts and seeds",110,3,95.000000
+122,"Diet low in polyunsaturated fatty acids",110,3,96.000000
+121,"Diet low in seafood omega-3 fatty acids",110,3,97.000000
+112,"Diet low in vegetables",110,3,98.000000
+113,"Diet low in whole grains",110,3,99.000000
+120,"Diet suboptimal in calcium",110,3,100.000000
+103,"Drug use",101,3,101.000000
+87,"Household air pollution from solid fuels",85,3,102.000000
+135,"Intimate partner violence",133,3,103.000000
+95,"Iron deficiency",92,3,104.000000
+91,"Lead exposure",89,3,105.000000
+238,"No handwashing with soap",82,3,106.000000
+128,"Occupational asthmagens",126,3,107.000000
+127,"Occupational carcinogens",126,3,108.000000
+132,"Occupational ergonomic factors",126,3,109.000000
+131,"Occupational injuries",126,3,110.000000
+130,"Occupational noise",126,3,111.000000
+129,"Occupational particulate matter, gases, and fumes",126,3,112.000000
+90,"Residential radon",89,3,113.000000
+100,"Secondhand smoke",98,3,114.000000
+99,Smoking,98,3,115.000000
+93,"Suboptimal breastfeeding",92,3,116.000000
+84,"Unsafe sanitation",82,3,117.000000
+83,"Unsafe water source",82,3,118.000000
+96,"Vitamin A deficiency",92,3,119.000000
+97,"Zinc deficiency",92,3,120.000000
+241,"Childhood stunting",239,4,121.000000
+94,"Childhood underweight",239,4,122.000000
+240,"Childhood wasting",239,4,123.000000
+137,"Discontinued breastfeeding",93,4,124.000000
+136,"Non-exclusive breastfeeding",93,4,125.000000
+151,"Occupational exposure to arsenic",127,4,126.000000
+150,"Occupational exposure to asbestos",127,4,127.000000
+152,"Occupational exposure to benzene",127,4,128.000000
+153,"Occupational exposure to beryllium",127,4,129.000000
+154,"Occupational exposure to cadmium",127,4,130.000000
+155,"Occupational exposure to chromium",127,4,131.000000
+156,"Occupational exposure to diesel engine exhaust",127,4,132.000000
+158,"Occupational exposure to formaldehyde",127,4,133.000000
+159,"Occupational exposure to nickel",127,4,134.000000
+160,"Occupational exposure to polycyclic aromatic hydrocarbons",127,4,135.000000
+157,"Occupational exposure to secondhand smoke",127,4,136.000000
+161,"Occupational exposure to silica",127,4,137.000000
+162,"Occupational exposure to sulfuric acid",127,4,138.000000
+237,"Occupational exposure to trichloroethylene",127,4,139.000000

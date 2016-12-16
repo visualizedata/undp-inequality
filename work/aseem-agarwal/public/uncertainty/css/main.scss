@@ -1,0 +1,316 @@
+ $base-color: #4A4A4A;
+$bg-color: #f9f9f9;
+$highlight-color : #EF5050;
+$second-highlight-color: #006e98;
+@import 'mobile';
+
+body{
+	padding: 0;
+	margin:0;
+	background-color: $bg-color;
+	color: $base-color;
+	max-width: 2400px;
+	margin: auto;
+	font-size: 2vh;
+	font-family: 'Roboto Condensed', sans-serif;
+
+}
+.leaflet-container{
+	background-color:transparent;
+}
+.tooltipCont{
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	z-index: 99999;
+	display: none;
+	.tooltip{
+	    border-radius: 5px;
+	    box-shadow: 0 0 5px;
+	    position: fixed;
+	    background-color: #f9f9f9;
+	    padding: 15px 10px;
+	    width: 30vw;
+	    line-height: 150%;
+	    .scale{
+	    	display: block;
+		    padding: 5px 0;
+	    }
+	}
+}
+.info{
+	padding-right: 17px;
+    background-image: url(../images/info.png);
+    background-repeat: no-repeat;
+    background-size: auto 15px;
+    background-position: right 0px;
+    cursor: pointer;
+    display: table;
+    padding-top: 2px;
+}
+.left{
+	height: 100vh;
+	width: 40%;
+	float: left;
+	.header{
+		height: 13%;
+		margin-left: 4%;
+		padding-top: 4%;
+		.sub{
+			display: inline-block;
+			vertical-align: bottom;
+			width: 5%;
+			height: 30%;
+			background-image: url(../images/sub.png);
+			background-position: center;
+			background-size: auto 60%;
+			background-repeat: no-repeat;
+			border: 1px solid $highlight-color;
+    		border-radius: 3px;
+			&.disabled{
+				display: none;
+			}
+		}
+		.title{
+			width: 91%;
+			height: 60%;
+			display: inline-block;
+			vertical-align: top;
+			.label{
+				display: inline-block;
+				font-size: 175%;
+			}
+		}
+		.descr{
+			font-size: 110%;
+			width: 90%;
+			font-style: italic;
+		}
+	}
+	.ctypes{
+			height: 2%;
+			width: 92%;
+			margin-top: 5%;
+			margin-left: 4%;
+			text-align: left;
+			display: none;	
+			.ctype{
+				cursor: pointer;
+				width: 32%;
+	    		height: 100%;
+	    		display: inline-block;
+				.btn{
+					width: 10%;
+	    			height: 100%;
+	    			border: 1px solid $base-color;
+	    			border-radius: 2px;	
+	    			display: inline-block;
+	    			vertical-align: bottom;
+				}
+				.label{
+					display: inline-block;
+					font-size: 90%;
+				}
+
+			}
+			.ctype.active{
+				.btn{
+					background-color: $highlight-color;
+					border: 0px solid;
+				}
+			}
+		}
+	.mapLegend{
+		margin-left: 4%;
+		margin-top: 5%;
+		.label{
+			display: inline-block;
+		}
+		.keys{
+			width: 70%;
+			display: inline-block;
+			.key{
+				width: 10%;
+				display: inline-block;
+				.label{
+					text-align: center;
+				}
+				.color{
+					width: 100%;
+					height: 1vh;
+					background-color: $highlight-color;
+				}
+			}
+		}
+		.key:nth-child(1) .color{
+			opacity: 0.2;
+		}
+		.key:nth-child(2) .color{
+			opacity: 0.4;
+		}
+		.key:nth-child(3) .color{
+			opacity: 0.6;
+		}
+		.key:nth-child(4) .color{
+			opacity: 0.8;
+		}
+		.key:nth-child(5) .color{
+			opacity: 1;
+		}
+
+	}
+	#mapp{
+		background-color: transparent;
+		height: 75%;
+		width: 90%;
+		margin-left: 5%;
+		color: #333;
+
+		.leaflet-bar{
+			box-shadow: 0 0 0;
+			border: 1px solid $base-color;
+			a{
+				background-color: $bg-color;
+				color: $base-color;
+			}
+		}
+	}
+}
+.right{
+	height: 100vh;
+	width: 57%;
+	margin-right: 2%;
+	float: left;
+	position: relative;
+	.user_selection{
+		height: 8%;
+		width: 100%;
+		line-height: 150%;
+		padding-top: 3%;
+		z-index: 100;
+		.static,.dynamic{
+			display: inline-block;
+		}
+		.dynamic{
+			padding: 0 3px;
+			font-weight: bold;
+			font-size: 120%;
+		}
+		.country.label{
+			display: block;
+			font-size: 150%;
+			font-weight: bold;
+			margin-bottom: 0.5%;
+			text-decoration: underline;
+			height: 100%;
+			.selected{
+				background-image: url(../images/dd_blue.png);
+			    background-repeat: no-repeat;
+			    background-size: auto 45%;
+			    background-position: right 50%;
+			    width: auto;
+			    padding-right: 5%;
+			    cursor: pointer;
+			}
+		}
+	}
+	.list{
+		display: none;
+		border: 1px solid $base-color;
+		border-radius: 4px;
+		background-color: $bg-color;
+		max-height: 30%;
+		width: 30%;
+		top: 7%;
+    	z-index: 99;
+    	position: absolute;
+    	overflow: scroll;
+		.listItem{
+			padding: 10px;
+			font-size: 100%;
+			cursor: pointer;
+		}
+	}
+	.viz{
+		width: 100%;
+		height: 85%;
+		padding-bottom: 4%;
+		.indicators{
+			height: 61%;
+			.indicator{
+				height: 94%;
+				margin: 3% 0;
+				border: 1px solid #eee;
+				position: relative;
+				.label{
+					position: relative;
+					left: 84%;
+					width: 14%;
+					top: -10px;
+					background-color: $bg-color;
+					padding-top:0px;
+					font-weight:bold;
+				}
+				.dummy{
+					position: relative;
+					height: 10%;
+				}
+			}
+		}
+		.timeline{
+			height: 6%;
+			margin-bottom: 3%;
+			opacity: 0.6;
+		}
+
+		#dyads{
+			height: 27%;
+			margin: 1% 0;
+			border: 1px solid #eee;
+			position: relative;
+			svg{
+				float: left;
+			}
+			.label{
+				position: absolute;
+				right: 0;
+				top: -10px;
+				background-color: $bg-color;
+				padding-top:0px;
+				display: inline-block;
+				font-weight: bold;
+			}
+			.label.dataQuality{
+				width: 20%;
+				position: relative;
+				margin-left: 55%;
+				height: 10%;
+				text-decoration: underline;
+			}
+			.label.legend{
+				position: relative;
+				margin-left: 35%;
+				height: 10%;
+				width: 38%;
+				.key{
+					width: 40.5%;
+					display: inline-block;
+					padding-left: 9%;
+					position: relative;
+					background-repeat: no-repeat;
+					background-position: 9% center;
+				    &.high{
+				    	background-image: url(../images/high.png);
+				    }
+				    &.best{
+				    	background-image: url(../images/best.png);
+				    }
+				}
+			}
+		}
+		#dyads::-webkit-scrollbar { 
+		    display: none; 
+		}
+	}
+	
+}

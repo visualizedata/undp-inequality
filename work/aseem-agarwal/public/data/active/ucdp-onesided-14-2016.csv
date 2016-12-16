@@ -1,0 +1,871 @@
+ActorId,Year,CoalitionComponents,ActorName,BestFatalityEstimate,LowFatalityEstimate,HighFatalityEstimate,IsGovernmentActor,Location,GWNOLocation,Region,Version
+41,1991,,Government of Haiti,70,70,296,1,Haiti,41,5,v1.4-2016
+41,1993,,Government of Haiti,37,37,137,1,Haiti,41,5,v1.4-2016
+41,1994,,Government of Haiti,44,44,463,1,Haiti,41,5,v1.4-2016
+41,2005,,Government of Haiti,40,40,78,1,Haiti,41,5,v1.4-2016
+70,2014,,Government of Mexico,28,28,32,1,Mexico,70,5,v1.4-2016
+90,1989,,Government of Guatemala,409,46,409,1,Guatemala,90,5,v1.4-2016
+90,1990,,Government of Guatemala,598,75,598,1,Guatemala,90,5,v1.4-2016
+90,1991,,Government of Guatemala,354,46,354,1,Guatemala,90,5,v1.4-2016
+90,1992,,Government of Guatemala,326,53,326,1,Guatemala,90,5,v1.4-2016
+90,1993,,Government of Guatemala,160,28,293,1,Guatemala,90,5,v1.4-2016
+90,1994,,Government of Guatemala,250,24,250,1,Guatemala,90,5,v1.4-2016
+90,1995,,Government of Guatemala,95,21,95,1,Guatemala,90,5,v1.4-2016
+100,1990,,Government of Colombia,92,80,100,1,Colombia,100,5,v1.4-2016
+100,1991,,Government of Colombia,42,39,65,1,Colombia,100,5,v1.4-2016
+101,1989,,Government of Venezuela,61,61,416,1,Venezuela,101,5,v1.4-2016
+101,1990,,Government of Venezuela,64,64,79,1,Venezuela,101,5,v1.4-2016
+101,1991,,Government of Venezuela,30,30,41,1,Venezuela,101,5,v1.4-2016
+101,1992,,Government of Venezuela,79,79,95,1,Venezuela,101,5,v1.4-2016
+101,1993,,Government of Venezuela,63,63,92,1,Venezuela,101,5,v1.4-2016
+101,1994,,Government of Venezuela,36,36,52,1,Venezuela,101,5,v1.4-2016
+101,1995,,Government of Venezuela,26,26,79,1,Venezuela,101,5,v1.4-2016
+101,1996,,Government of Venezuela,33,33,58,1,Venezuela,101,5,v1.4-2016
+101,1999,,Government of Venezuela,26,26,47,1,Venezuela,101,5,v1.4-2016
+101,2000,,Government of Venezuela,25,25,46,1,Venezuela,101,5,v1.4-2016
+101,2001,,Government of Venezuela,27,27,60,1,Venezuela,101,5,v1.4-2016
+101,2003,,Government of Venezuela,25,25,53,1,Venezuela,101,5,v1.4-2016
+101,2004,,Government of Venezuela,31,22,67,1,Venezuela,101,5,v1.4-2016
+101,2005,,Government of Venezuela,30,19,45,1,Venezuela,101,5,v1.4-2016
+140,1993,,Government of Brazil,29,29,29,1,Brazil,140,5,v1.4-2016
+140,2005,,Government of Brazil,34,34,42,1,Brazil,140,5,v1.4-2016
+344,1993,,Government of Croatia,28,28,94,1,Croatia,344,1,v1.4-2016
+344,1995,,Government of Croatia,137,87,277,1,"Bosnia-Herzegovina, Croatia","344, 346",1,v1.4-2016
+345,1998,,Government of Serbia (Yugoslavia),211,211,484,1,Serbia (Yugoslavia),345,1,v1.4-2016
+345,1999,,Government of Serbia (Yugoslavia),781,781,2837,1,Serbia (Yugoslavia),345,1,v1.4-2016
+346,1992,,Government of Bosnia-Herzegovina,80,80,159,1,Bosnia-Herzegovina,346,1,v1.4-2016
+346,1993,,Government of Bosnia-Herzegovina,167,167,515,1,Bosnia-Herzegovina,346,1,v1.4-2016
+360,1989,,Government of Rumania,199,199,799,1,Rumania,360,1,v1.4-2016
+365,1991,,Government of Russia (Soviet Union),33,33,54,1,Russia (Soviet Union),365,1,v1.4-2016
+365,1995,,Government of Russia (Soviet Union),141,141,2471,1,"Afghanistan, Russia (Soviet Union)","365, 700","1,3",v1.4-2016
+365,1996,,Government of Russia (Soviet Union),42,42,54,1,Russia (Soviet Union),365,1,v1.4-2016
+365,1999,,Government of Russia (Soviet Union),311,311,475,1,Russia (Soviet Union),365,1,v1.4-2016
+365,2000,,Government of Russia (Soviet Union),1411,1384,1666,1,Russia (Soviet Union),365,1,v1.4-2016
+365,2001,,Government of Russia (Soviet Union),188,188,389,1,Russia (Soviet Union),365,1,v1.4-2016
+365,2002,,Government of Russia (Soviet Union),205,178,380,1,Russia (Soviet Union),365,1,v1.4-2016
+432,1990,,Government of Mali,125,125,262,1,Mali,432,4,v1.4-2016
+432,1991,,Government of Mali,176,176,204,1,Mali,432,4,v1.4-2016
+432,1992,,Government of Mali,77,77,119,1,Mali,432,4,v1.4-2016
+432,1994,,Government of Mali,251,251,989,1,Mali,432,4,v1.4-2016
+433,1998,,Government of Senegal,38,38,38,1,Senegal,433,4,v1.4-2016
+435,1989,,Government of Mauritania,27,27,32,1,"Mauritania, Senegal","433, 435",4,v1.4-2016
+436,1990,,Government of Niger,200,63,603,1,Niger,436,4,v1.4-2016
+436,1995,,Government of Niger,31,31,31,1,Niger,436,4,v1.4-2016
+436,1998,,Government of Niger,147,147,148,1,Niger,436,4,v1.4-2016
+437,2000,,Government of Ivory Coast,101,101,121,1,Ivory Coast,437,4,v1.4-2016
+437,2002,,Government of Ivory Coast,228,228,279,1,Ivory Coast,437,4,v1.4-2016
+437,2003,,Government of Ivory Coast,73,73,73,1,Ivory Coast,437,4,v1.4-2016
+437,2004,,Government of Ivory Coast,42,39,109,1,Ivory Coast,437,4,v1.4-2016
+437,2011,,Government of Ivory Coast,277,275,443,1,Ivory Coast,437,4,v1.4-2016
+438,2007,,Government of Guinea,45,42,56,1,Guinea,438,4,v1.4-2016
+438,2009,,Government of Guinea,160,90,160,1,Guinea,438,4,v1.4-2016
+450,1990,,Government of Liberia,1250,1250,1427,1,Liberia,450,4,v1.4-2016
+450,1999,,Government of Liberia,70,70,70,1,Liberia,450,4,v1.4-2016
+450,2000,,Government of Liberia,44,44,44,1,Liberia,450,4,v1.4-2016
+450,2001,,Government of Liberia,120,120,120,1,Liberia,450,4,v1.4-2016
+450,2002,,Government of Liberia,1648,1648,1648,1,Liberia,450,4,v1.4-2016
+450,2003,,Government of Liberia,1076,1076,1076,1,Liberia,450,4,v1.4-2016
+451,1991,,Government of Sierra Leone,56,56,56,1,Sierra Leone,451,4,v1.4-2016
+451,1994,,Government of Sierra Leone,46,46,46,1,Sierra Leone,451,4,v1.4-2016
+451,1997,,Government of Sierra Leone,345,345,557,1,Sierra Leone,451,4,v1.4-2016
+451,1998,,Government of Sierra Leone,84,84,84,1,Sierra Leone,451,4,v1.4-2016
+451,1999,,Government of Sierra Leone,88,88,88,1,Sierra Leone,451,4,v1.4-2016
+461,1991,,Government of Togo,32,30,32,1,Togo,461,4,v1.4-2016
+461,1993,,Government of Togo,48,19,58,1,Togo,461,4,v1.4-2016
+461,2005,,Government of Togo,436,436,461,1,Togo,461,4,v1.4-2016
+471,1994,,Government of Cameroon,55,55,61,1,"Cameroon, Nigeria","471, 475",4,v1.4-2016
+475,1990,,Government of Nigeria,80,80,80,1,Nigeria,475,4,v1.4-2016
+475,1994,,Government of Nigeria,56,56,106,1,Nigeria,475,4,v1.4-2016
+475,1998,,Government of Nigeria,43,43,67,1,Nigeria,475,4,v1.4-2016
+475,1999,,Government of Nigeria,2704,2704,2846,1,"Nigeria, Sierra Leone","451, 475",4,v1.4-2016
+475,2001,,Government of Nigeria,367,367,594,1,Nigeria,475,4,v1.4-2016
+475,2002,,Government of Nigeria,112,112,112,1,Nigeria,475,4,v1.4-2016
+475,2003,,Government of Nigeria,43,43,43,1,Nigeria,475,4,v1.4-2016
+475,2004,,Government of Nigeria,38,38,90,1,Nigeria,475,4,v1.4-2016
+475,2008,,Government of Nigeria,146,146,150,1,Nigeria,475,4,v1.4-2016
+475,2011,,Government of Nigeria,35,34,91,1,Nigeria,475,4,v1.4-2016
+475,2012,,Government of Nigeria,209,209,209,1,Nigeria,475,4,v1.4-2016
+475,2014,,Government of Nigeria,41,41,41,1,Nigeria,475,4,v1.4-2016
+475,2015,,Government of Nigeria,33,33,49,1,Nigeria,475,4,v1.4-2016
+482,2001,,Government of Central African Republic,25,25,60,1,"Central African Republic, Chad","482, 483",4,v1.4-2016
+482,2006,,Government of Central African Republic,119,119,145,1,Central African Republic,482,4,v1.4-2016
+482,2007,,Government of Central African Republic,29,25,37,1,Central African Republic,482,4,v1.4-2016
+482,2013,,Government of Central African Republic,1276,906,1693,1,Central African Republic,482,4,v1.4-2016
+483,1990,,Government of Chad,41,41,441,1,"Chad, Sudan","483, 625",4,v1.4-2016
+483,1991,,Government of Chad,27,27,32,1,Chad,483,4,v1.4-2016
+483,1992,,Government of Chad,298,198,341,1,Chad,483,4,v1.4-2016
+483,1993,,Government of Chad,193,193,247,1,Chad,483,4,v1.4-2016
+483,1994,,Government of Chad,230,230,230,1,Chad,483,4,v1.4-2016
+483,1995,,Government of Chad,47,47,48,1,Chad,483,4,v1.4-2016
+483,1998,,Government of Chad,145,145,145,1,Chad,483,4,v1.4-2016
+484,1993,,Government of Congo,82,82,82,1,Congo,484,4,v1.4-2016
+484,1997,,Government of Congo,371,371,1171,1,Congo,484,4,v1.4-2016
+484,1998,,Government of Congo,431,431,1560,1,Congo,484,4,v1.4-2016
+484,1999,,Government of Congo,326,326,327,1,Congo,484,4,v1.4-2016
+490,1989,,Government of DR Congo (Zaire) ,28,28,28,1,DR Congo (Zaire),490,4,v1.4-2016
+490,1990,,Government of DR Congo (Zaire) ,147,18,147,1,DR Congo (Zaire),490,4,v1.4-2016
+490,1991,,Government of DR Congo (Zaire) ,33,33,210,1,DR Congo (Zaire),490,4,v1.4-2016
+490,1992,,Government of DR Congo (Zaire) ,65,48,92,1,DR Congo (Zaire),490,4,v1.4-2016
+490,1993,,Government of DR Congo (Zaire) ,86,18,347,1,"DR Congo (Zaire), Zambia","490, 551",4,v1.4-2016
+490,1995,,Government of DR Congo (Zaire) ,58,49,81,1,DR Congo (Zaire),490,4,v1.4-2016
+490,1996,,Government of DR Congo (Zaire) ,1353,1253,1746,1,DR Congo (Zaire),490,4,v1.4-2016
+490,1997,,Government of DR Congo (Zaire) ,4160,4160,5083,1,"DR Congo (Zaire), Uganda","490, 500",4,v1.4-2016
+490,1998,,Government of DR Congo (Zaire) ,1591,1291,1666,1,DR Congo (Zaire),490,4,v1.4-2016
+490,1999,,Government of DR Congo (Zaire) ,619,619,632,1,DR Congo (Zaire),490,4,v1.4-2016
+490,2000,,Government of DR Congo (Zaire) ,82,82,82,1,DR Congo (Zaire),490,4,v1.4-2016
+490,2002,,Government of DR Congo (Zaire) ,189,189,189,1,DR Congo (Zaire),490,4,v1.4-2016
+490,2004,,Government of DR Congo (Zaire) ,100,50,120,1,DR Congo (Zaire),490,4,v1.4-2016
+490,2006,,Government of DR Congo (Zaire) ,153,153,161,1,DR Congo (Zaire),490,4,v1.4-2016
+490,2007,,Government of DR Congo (Zaire) ,92,81,98,1,DR Congo (Zaire),490,4,v1.4-2016
+490,2008,,Government of DR Congo (Zaire) ,49,49,59,1,"DR Congo (Zaire), Uganda","490, 500",4,v1.4-2016
+490,2009,,Government of DR Congo (Zaire) ,887,887,1095,1,DR Congo (Zaire),490,4,v1.4-2016
+490,2012,,Government of DR Congo (Zaire) ,112,112,118,1,DR Congo (Zaire),490,4,v1.4-2016
+490,2013,,Government of DR Congo (Zaire) ,50,41,50,1,DR Congo (Zaire),490,4,v1.4-2016
+500,1990,,Government of Uganda,80,80,80,1,Uganda,500,4,v1.4-2016
+500,1991,,Government of Uganda,59,59,59,1,Uganda,500,4,v1.4-2016
+500,2000,,Government of Uganda,26,26,26,1,DR Congo (Zaire),490,4,v1.4-2016
+501,2007,,Government of Kenya,41,41,49,1,Kenya,501,4,v1.4-2016
+501,2008,,Government of Kenya,220,195,254,1,Kenya,501,4,v1.4-2016
+510,2001,,Government of Tanzania,37,37,71,1,Tanzania,510,4,v1.4-2016
+516,1995,,Government of Burundi,1118,740,1149,1,Burundi,516,4,v1.4-2016
+516,1996,,Government of Burundi,1542,1212,8018,1,Burundi,516,4,v1.4-2016
+516,1997,,Government of Burundi,199,199,856,1,Burundi,516,4,v1.4-2016
+516,1998,,Government of Burundi,314,271,393,1,Burundi,516,4,v1.4-2016
+516,1999,,Government of Burundi,225,225,581,1,Burundi,516,4,v1.4-2016
+516,2000,,Government of Burundi,389,359,408,1,Burundi,516,4,v1.4-2016
+516,2002,,Government of Burundi,243,243,340,1,Burundi,516,4,v1.4-2016
+516,2003,,Government of Burundi,129,129,206,1,Burundi,516,4,v1.4-2016
+516,2004,,Government of Burundi,33,33,33,1,Burundi,516,4,v1.4-2016
+516,2005,,Government of Burundi,26,26,26,1,Burundi,516,4,v1.4-2016
+516,2015,,Government of Burundi,49,49,63,1,Burundi,516,4,v1.4-2016
+517,1990,,Government of Rwanda,1466,1466,1970,1,Rwanda,517,4,v1.4-2016
+517,1991,,Government of Rwanda,932,932,1432,1,Rwanda,517,4,v1.4-2016
+517,1992,,Government of Rwanda,807,807,869,1,Rwanda,517,4,v1.4-2016
+517,1993,,Government of Rwanda,376,376,376,1,Rwanda,517,4,v1.4-2016
+517,1994,,Government of Rwanda,500000,171059,800000,1,"Burundi, DR Congo (Zaire), Rwanda","490, 516, 517",4,v1.4-2016
+517,1995,,Government of Rwanda,4141,2141,8235,1,"DR Congo (Zaire), Rwanda","490, 517",4,v1.4-2016
+517,1996,,Government of Rwanda,154,154,160,1,"Burundi, DR Congo (Zaire), Rwanda","490, 516, 517",4,v1.4-2016
+517,1997,,Government of Rwanda,3426,1126,4176,1,Rwanda,517,4,v1.4-2016
+517,2009,,Government of Rwanda,203,201,203,1,"DR Congo (Zaire), Rwanda","490, 517",4,v1.4-2016
+520,1989,,Government of Somalia,688,688,5234,1,Somalia,520,4,v1.4-2016
+520,1991,,Government of Somalia,450,400,455,1,Somalia,520,4,v1.4-2016
+520,2011,,Government of Somalia,36,35,53,1,Somalia,520,4,v1.4-2016
+520,2012,,Government of Somalia,27,24,29,1,Somalia,520,4,v1.4-2016
+530,1989,,Government of Ethiopia,900,900,1300,1,Ethiopia,530,4,v1.4-2016
+530,1990,,Government of Ethiopia,158,158,158,1,Ethiopia,530,4,v1.4-2016
+530,1991,,Government of Ethiopia,37,37,37,1,Ethiopia,530,4,v1.4-2016
+530,1993,,Government of Ethiopia,26,26,26,1,Ethiopia,530,4,v1.4-2016
+530,2002,,Government of Ethiopia,35,35,40,1,Ethiopia,530,4,v1.4-2016
+530,2003,,Government of Ethiopia,509,509,509,1,Ethiopia,530,4,v1.4-2016
+530,2004,,Government of Ethiopia,244,244,1252,1,Ethiopia,530,4,v1.4-2016
+530,2006,,Government of Ethiopia,26,26,26,1,"Ethiopia, Sudan","530, 625",4,v1.4-2016
+530,2007,,Government of Ethiopia,162,162,250,1,"Ethiopia, Somalia","520, 530",4,v1.4-2016
+530,2008,,Government of Ethiopia,33,33,57,1,"Ethiopia, Somalia","520, 530",4,v1.4-2016
+530,2012,,Government of Ethiopia,88,88,97,1,Ethiopia,530,4,v1.4-2016
+530,2015,,Government of Ethiopia,99,99,103,1,"Ethiopia, Somalia","520, 530",4,v1.4-2016
+540,1997,,Government of Angola,28,28,105,1,Angola,540,4,v1.4-2016
+540,1998,,Government of Angola,40,40,40,1,Angola,540,4,v1.4-2016
+540,2003,,Government of Angola,59,59,74,1,Angola,540,4,v1.4-2016
+552,2008,,Government of Zimbabwe (Rhodesia),253,253,317,1,Zimbabwe (Rhodesia),552,4,v1.4-2016
+560,1989,,Government of South Africa,57,57,388,1,"Namibia, South Africa, Swaziland","560, 565, 572",4,v1.4-2016
+560,1990,,Government of South Africa,196,196,219,1,"Botswana, South Africa","560, 571",4,v1.4-2016
+560,1991,,Government of South Africa,49,49,62,1,South Africa,560,4,v1.4-2016
+560,1992,,Government of South Africa,61,61,74,1,South Africa,560,4,v1.4-2016
+560,1993,,Government of South Africa,67,67,94,1,South Africa,560,4,v1.4-2016
+580,2009,,Government of Madagascar,31,28,50,1,Madagascar (Malagasy),580,4,v1.4-2016
+620,1989,,Government of Libya,170,170,170,1,Niger,436,4,v1.4-2016
+620,2011,,Government of Libya,152,152,168,1,Libya,620,4,v1.4-2016
+625,1989,,Government of Sudan,1000,1000,1150,1,Sudan,625,4,v1.4-2016
+625,1990,,Government of Sudan,263,263,400,1,Sudan,625,4,v1.4-2016
+625,1991,,Government of Sudan,250,250,350,1,Sudan,625,4,v1.4-2016
+625,1992,,Government of Sudan,1558,1358,2928,1,Sudan,625,4,v1.4-2016
+625,1993,,Government of Sudan,598,598,708,1,Sudan,625,4,v1.4-2016
+625,1994,,Government of Sudan,471,471,581,1,Sudan,625,4,v1.4-2016
+625,1995,,Government of Sudan,228,228,332,1,Sudan,625,4,v1.4-2016
+625,1996,,Government of Sudan,34,34,59,1,Sudan,625,4,v1.4-2016
+625,1997,,Government of Sudan,200,200,1157,1,Sudan,625,4,v1.4-2016
+625,1998,,Government of Sudan,397,397,1156,1,Sudan,625,4,v1.4-2016
+625,1999,,Government of Sudan,100,100,1070,1,Sudan,625,4,v1.4-2016
+625,2000,,Government of Sudan,279,279,503,1,Sudan,625,4,v1.4-2016
+625,2001,,Government of Sudan,51,51,136,1,Sudan,625,4,v1.4-2016
+625,2002,,Government of Sudan,55,55,55,1,Sudan,625,4,v1.4-2016
+625,2003,,Government of Sudan,1776,1776,12470,1,Sudan,625,4,v1.4-2016
+625,2004,,Government of Sudan,2593,2429,15408,1,Sudan,625,4,v1.4-2016
+625,2005,,Government of Sudan,403,303,706,1,"Chad, Sudan","483, 625",4,v1.4-2016
+625,2006,,Government of Sudan,252,252,362,1,"Chad, Sudan","483, 625",4,v1.4-2016
+625,2007,,Government of Sudan,99,99,145,1,Sudan,625,4,v1.4-2016
+625,2008,,Government of Sudan,186,186,357,1,Sudan,625,4,v1.4-2016
+625,2011,,Government of Sudan,176,176,364,1,Sudan,625,4,v1.4-2016
+625,2012,,Government of Sudan,53,53,65,1,"South Sudan, Sudan","625, 626",4,v1.4-2016
+625,2013,,Government of Sudan,27,27,40,1,"South Sudan, Sudan","625, 626",4,v1.4-2016
+625,2014,,Government of Sudan,94,94,174,1,Sudan,625,4,v1.4-2016
+625,2015,,Government of Sudan,348,348,567,1,Sudan,625,4,v1.4-2016
+626,2012,,Government of South Sudan,65,51,93,1,South Sudan,626,4,v1.4-2016
+626,2013,,Government of South Sudan,578,578,747,1,South Sudan,626,4,v1.4-2016
+626,2014,,Government of South Sudan,205,205,211,1,South Sudan,626,4,v1.4-2016
+626,2015,,Government of South Sudan,341,332,529,1,South Sudan,626,4,v1.4-2016
+645,1990,,Government of Iraq,294,294,2737,1,"Iraq, Kuwait","645, 690",2,v1.4-2016
+645,1991,,Government of Iraq,957,957,1969,1,"Iraq, Kuwait, Turkey","640, 645, 690",2,v1.4-2016
+645,1992,,Government of Iraq,159,159,253,1,"Iraq, Jordan","645, 663",2,v1.4-2016
+645,1993,,Government of Iraq,133,103,173,1,Iraq,645,2,v1.4-2016
+645,1994,,Government of Iraq,45,45,62,1,"Iraq, Lebanon","645, 660",2,v1.4-2016
+645,1995,,Government of Iraq,100,100,220,1,Iraq,645,2,v1.4-2016
+645,1996,,Government of Iraq,109,109,319,1,"Iraq, Kuwait","645, 690",2,v1.4-2016
+645,1999,,Government of Iraq,33,33,650,1,Iraq,645,2,v1.4-2016
+645,2005,,Government of Iraq,72,72,134,1,Iraq,645,2,v1.4-2016
+645,2006,,Government of Iraq,84,15,109,1,Iraq,645,2,v1.4-2016
+645,2007,,Government of Iraq,63,63,109,1,Iraq,645,2,v1.4-2016
+645,2015,,Government of Iraq,56,56,72,1,Iraq,645,2,v1.4-2016
+651,2005,,Government of Egypt,36,36,36,1,Egypt,651,2,v1.4-2016
+652,2011,,Government of Syria,2924,2823,3317,1,"Lebanon, Syria","652, 660",2,v1.4-2016
+652,2012,,Government of Syria,337,333,397,1,Syria,652,2,v1.4-2016
+652,2013,,Government of Syria,606,501,634,1,Syria,652,2,v1.4-2016
+652,2014,,Government of Syria,39,39,39,1,Syria,652,2,v1.4-2016
+652,2015,,Government of Syria,39,39,56,1,Syria,652,2,v1.4-2016
+666,1989,,Government of Israel,62,62,66,1,Israel,666,2,v1.4-2016
+666,1996,,Government of Israel,102,102,105,1,Lebanon,660,2,v1.4-2016
+666,2004,,Government of Israel,31,31,75,1,Israel,666,2,v1.4-2016
+666,2005,,Government of Israel,27,26,39,1,Israel,666,2,v1.4-2016
+666,2006,,Government of Israel,182,182,222,1,"Israel, Lebanon","660, 666",2,v1.4-2016
+678,2011,,Government of Yemen (North Yemen),142,142,190,1,Yemen (North Yemen),678,2,v1.4-2016
+692,2011,,Government of Bahrain,26,26,30,1,Bahrain,692,2,v1.4-2016
+700,1993,,Government of Afghanistan,26,26,240,1,Afghanistan,700,3,v1.4-2016
+700,1997,,Government of Afghanistan,323,323,323,1,Afghanistan,700,3,v1.4-2016
+700,1998,,Government of Afghanistan,5801,3731,7381,1,Afghanistan,700,3,v1.4-2016
+700,1999,,Government of Afghanistan,436,436,912,1,Afghanistan,700,3,v1.4-2016
+700,2000,,Government of Afghanistan,152,152,152,1,Afghanistan,700,3,v1.4-2016
+700,2001,,Government of Afghanistan,298,298,1077,1,Afghanistan,700,3,v1.4-2016
+702,1992,,Government of Tajikistan,46,46,46,1,Tajikistan,702,3,v1.4-2016
+710,1989,,Government of China,2600,931,3138,1,China,710,3,v1.4-2016
+710,2008,,Government of China,51,51,151,1,China,710,3,v1.4-2016
+750,1990,,Government of India,43,43,282,1,"Bangladesh, India, Pakistan","750, 770, 771",3,v1.4-2016
+750,1993,,Government of India,56,56,306,1,India,750,3,v1.4-2016
+750,2002,,Government of India,59,59,66,1,India,750,3,v1.4-2016
+771,1992,,Government of Bangladesh,138,138,300,1,Bangladesh,771,3,v1.4-2016
+775,1991,,Government of Myanmar (Burma),231,231,235,1,"Bangladesh, Myanmar (Burma)","771, 775",3,v1.4-2016
+775,1992,,Government of Myanmar (Burma),142,118,223,1,"Bangladesh, Myanmar (Burma)","771, 775",3,v1.4-2016
+775,1994,,Government of Myanmar (Burma),98,97,98,1,"Bangladesh, Myanmar (Burma)","771, 775",3,v1.4-2016
+775,1995,,Government of Myanmar (Burma),128,125,135,1,"Myanmar (Burma), Thailand","775, 800",3,v1.4-2016
+775,1996,,Government of Myanmar (Burma),296,296,301,1,"Bangladesh, Myanmar (Burma)","771, 775",3,v1.4-2016
+775,1997,,Government of Myanmar (Burma),461,461,525,1,"Myanmar (Burma), Thailand","775, 800",3,v1.4-2016
+775,1998,,Government of Myanmar (Burma),435,433,441,1,"Bangladesh, Myanmar (Burma)","771, 775",3,v1.4-2016
+775,1999,,Government of Myanmar (Burma),299,299,299,1,"Bangladesh, Myanmar (Burma), Thailand","771, 775, 800",3,v1.4-2016
+775,2000,,Government of Myanmar (Burma),457,457,467,1,"Bangladesh, Myanmar (Burma)","771, 775",3,v1.4-2016
+775,2001,,Government of Myanmar (Burma),106,106,118,1,Myanmar (Burma),775,3,v1.4-2016
+775,2002,,Government of Myanmar (Burma),249,238,281,1,Myanmar (Burma),775,3,v1.4-2016
+775,2003,,Government of Myanmar (Burma),195,195,202,1,Myanmar (Burma),775,3,v1.4-2016
+775,2004,,Government of Myanmar (Burma),115,115,117,1,Myanmar (Burma),775,3,v1.4-2016
+775,2005,,Government of Myanmar (Burma),198,191,205,1,Myanmar (Burma),775,3,v1.4-2016
+775,2006,,Government of Myanmar (Burma),192,189,208,1,Myanmar (Burma),775,3,v1.4-2016
+775,2007,,Government of Myanmar (Burma),292,220,400,1,Myanmar (Burma),775,3,v1.4-2016
+775,2008,,Government of Myanmar (Burma),54,53,66,1,Myanmar (Burma),775,3,v1.4-2016
+775,2010,,Government of Myanmar (Burma),25,25,25,1,Myanmar (Burma),775,3,v1.4-2016
+775,2011,,Government of Myanmar (Burma),88,88,92,1,Myanmar (Burma),775,3,v1.4-2016
+775,2012,,Government of Myanmar (Burma),109,92,115,1,Myanmar (Burma),775,3,v1.4-2016
+775,2013,,Government of Myanmar (Burma),27,26,37,1,Myanmar (Burma),775,3,v1.4-2016
+775,2014,,Government of Myanmar (Burma),40,10,64,1,Myanmar (Burma),775,3,v1.4-2016
+775,2015,,Government of Myanmar (Burma),32,32,35,1,Myanmar (Burma),775,3,v1.4-2016
+780,1989,,Government of Sri Lanka,59,42,379,1,Sri Lanka,780,3,v1.4-2016
+780,1990,,Government of Sri Lanka,464,439,688,1,Sri Lanka,780,3,v1.4-2016
+780,1991,,Government of Sri Lanka,67,67,150,1,Sri Lanka,780,3,v1.4-2016
+780,1992,,Government of Sri Lanka,35,35,35,1,Sri Lanka,780,3,v1.4-2016
+780,1996,,Government of Sri Lanka,32,32,32,1,Sri Lanka,780,3,v1.4-2016
+780,2006,,Government of Sri Lanka,28,28,58,1,Sri Lanka,780,3,v1.4-2016
+790,1996,,Government of Nepal,27,27,29,1,Nepal,790,3,v1.4-2016
+790,1998,,Government of Nepal,106,106,106,1,Nepal,790,3,v1.4-2016
+790,1999,,Government of Nepal,89,89,89,1,Nepal,790,3,v1.4-2016
+790,2000,,Government of Nepal,51,51,51,1,Nepal,790,3,v1.4-2016
+790,2001,,Government of Nepal,74,74,76,1,Nepal,790,3,v1.4-2016
+790,2002,,Government of Nepal,274,274,278,1,Nepal,790,3,v1.4-2016
+790,2003,,Government of Nepal,197,197,269,1,Nepal,790,3,v1.4-2016
+790,2004,,Government of Nepal,176,176,250,1,Nepal,790,3,v1.4-2016
+790,2005,,Government of Nepal,108,108,136,1,Nepal,790,3,v1.4-2016
+790,2006,,Government of Nepal,47,46,51,1,Nepal,790,3,v1.4-2016
+811,1993,,Government of Cambodia (Kampuchea),26,26,94,1,Cambodia (Kampuchea),811,3,v1.4-2016
+812,2006,,Government of Laos,73,70,73,1,Laos,812,3,v1.4-2016
+840,1990,,Government of Philippines,35,35,69,1,Philippines,840,3,v1.4-2016
+840,1991,,Government of Philippines,30,30,33,1,Philippines,840,3,v1.4-2016
+850,1990,,Government of Indonesia,96,57,96,1,Indonesia,850,3,v1.4-2016
+850,1991,,Government of Indonesia,368,184,515,1,Indonesia,850,3,v1.4-2016
+850,1995,,Government of Indonesia,38,38,44,1,Indonesia,850,3,v1.4-2016
+850,1997,,Government of Indonesia,29,29,33,1,Indonesia,850,3,v1.4-2016
+850,1998,,Government of Indonesia,56,48,76,1,Indonesia,850,3,v1.4-2016
+850,1999,,Government of Indonesia,914,867,1472,1,Indonesia,850,3,v1.4-2016
+850,2000,,Government of Indonesia,36,36,49,1,Indonesia,850,3,v1.4-2016
+850,2001,,Government of Indonesia,48,48,87,1,Indonesia,850,3,v1.4-2016
+850,2002,,Government of Indonesia,37,19,51,1,Indonesia,850,3,v1.4-2016
+850,2003,,Government of Indonesia,52,51,297,1,Indonesia,850,3,v1.4-2016
+910,1992,,Government of Papua New Guinea,27,27,28,1,Papua New Guinea,910,3,v1.4-2016
+910,1996,,Government of Papua New Guinea,28,20,31,1,Papua New Guinea,910,3,v1.4-2016
+1010,2015,,CPP,34,34,35,0,Philippines,840,3,v1.4-2016
+1035,1990,,PWG,47,47,47,0,India,750,3,v1.4-2016
+1036,1992,,MCC,35,35,37,0,India,750,3,v1.4-2016
+1036,1999,,MCC,49,35,49,0,India,750,3,v1.4-2016
+1036,2000,,MCC,26,26,26,0,India,750,3,v1.4-2016
+1037,2005,,CPI-Maoist,43,43,50,0,India,750,3,v1.4-2016
+1037,2006,,CPI-Maoist,166,166,174,0,India,750,3,v1.4-2016
+1037,2007,,CPI-Maoist,135,135,167,0,India,750,3,v1.4-2016
+1037,2008,,CPI-Maoist,167,167,175,0,India,750,3,v1.4-2016
+1037,2009,,CPI-Maoist,243,224,289,0,India,750,3,v1.4-2016
+1037,2010,,CPI-Maoist,321,263,360,0,India,750,3,v1.4-2016
+1037,2011,,CPI-Maoist,195,195,202,0,India,750,3,v1.4-2016
+1037,2012,,CPI-Maoist,108,106,121,0,India,750,3,v1.4-2016
+1037,2013,,CPI-Maoist,126,99,129,0,India,750,3,v1.4-2016
+1037,2014,,CPI-Maoist,77,63,82,0,India,750,3,v1.4-2016
+1037,2015,,CPI-Maoist,76,73,89,0,India,750,3,v1.4-2016
+1050,2001,,PIJ,37,37,38,0,Israel,666,2,v1.4-2016
+1050,2002,,PIJ,26,26,28,0,Israel,666,2,v1.4-2016
+1050,2005,,PIJ,30,30,32,0,Israel,666,2,v1.4-2016
+1051,1994,,Hamas,55,55,57,0,Israel,666,2,v1.4-2016
+1051,1996,,Hamas,44,44,59,0,Israel,666,2,v1.4-2016
+1051,2001,,Hamas,55,54,57,0,Israel,666,2,v1.4-2016
+1051,2002,,Hamas,140,140,140,0,Israel,666,2,v1.4-2016
+1051,2003,,Hamas,79,79,84,0,Israel,666,2,v1.4-2016
+1051,2004,,Hamas,35,35,46,0,Israel,666,2,v1.4-2016
+1053,2002,,AMB,81,80,81,0,Israel,666,2,v1.4-2016
+1053,2003,,AMB,41,41,43,0,Israel,666,2,v1.4-2016
+1065,1989,,NSCN-IM,90,90,90,0,India,750,3,v1.4-2016
+1065,1993,,NSCN-IM,194,194,207,0,India,750,3,v1.4-2016
+1065,1994,,NSCN-IM,56,56,81,0,India,750,3,v1.4-2016
+1065,1995,,NSCN-IM,35,35,35,0,India,750,3,v1.4-2016
+1065,1996,,NSCN-IM,33,33,33,0,India,750,3,v1.4-2016
+1074,2006,,al-Mahdi Army,54,28,147,0,Iraq,645,2,v1.4-2016
+1074,2007,,al-Mahdi Army,70,67,83,0,Iraq,645,2,v1.4-2016
+1075,2004,,Ansar al-Islam,41,41,51,0,Iraq,645,2,v1.4-2016
+1075,2005,,Ansar al-Islam,76,76,77,0,Iraq,645,2,v1.4-2016
+1076,2004,,IS,92,92,97,0,Iraq,645,2,v1.4-2016
+1076,2005,,IS,727,721,785,0,"Iraq, Jordan","645, 663",2,v1.4-2016
+1076,2006,,IS,443,443,503,0,Iraq,645,2,v1.4-2016
+1076,2007,,IS,1991,1436,2089,0,Iraq,645,2,v1.4-2016
+1076,2008,,IS,526,510,542,0,Iraq,645,2,v1.4-2016
+1076,2009,,IS,636,518,664,0,Iraq,645,2,v1.4-2016
+1076,2010,,IS,706,570,741,0,Iraq,645,2,v1.4-2016
+1076,2011,,IS,322,300,341,0,Iraq,645,2,v1.4-2016
+1076,2012,,IS,769,714,772,0,Iraq,645,2,v1.4-2016
+1076,2013,,IS,2143,2072,2199,0,"Iraq, Syria","645, 652",2,v1.4-2016
+1076,2014,,IS,4187,4187,4522,0,"Iraq, Syria","645, 652",2,v1.4-2016
+1076,2015,,IS,5983,5719,6908,0,"Afghanistan, Bangladesh, Cameroon, Chad, Egypt, France, Iraq, Kuwait, Libya, Niger, Nigeria, Pakistan, Russia (Soviet Union), Saudi Arabia, Syria, Tunisia, Turkey, Yemen (North Yemen)","220, 365, 436, 471, 475, 483, 616, 620, 640, 645, 651, 652, 670, 678, 690, 700, 770, 771","2, 4, 3, 1",v1.4-2016
+1100,1999,,CPN-M,50,50,67,0,Nepal,790,3,v1.4-2016
+1100,2000,,CPN-M,46,41,58,0,Nepal,790,3,v1.4-2016
+1100,2001,,CPN-M,66,66,78,0,Nepal,790,3,v1.4-2016
+1100,2002,,CPN-M,212,212,220,0,Nepal,790,3,v1.4-2016
+1100,2003,,CPN-M,194,194,204,0,Nepal,790,3,v1.4-2016
+1100,2004,,CPN-M,400,400,427,0,Nepal,790,3,v1.4-2016
+1100,2005,,CPN-M,187,187,218,0,Nepal,790,3,v1.4-2016
+1100,2006,,CPN-M,62,61,75,0,Nepal,790,3,v1.4-2016
+1112,1990,,KR,103,103,127,0,Cambodia (Kampuchea),811,3,v1.4-2016
+1112,1991,,KR,92,92,92,0,Cambodia (Kampuchea),811,3,v1.4-2016
+1112,1992,,KR,73,73,91,0,Cambodia (Kampuchea),811,3,v1.4-2016
+1112,1993,,KR,184,181,310,0,Cambodia (Kampuchea),811,3,v1.4-2016
+1112,1994,,KR,102,102,167,0,Cambodia (Kampuchea),811,3,v1.4-2016
+1112,1995,,KR,29,29,29,0,Cambodia (Kampuchea),811,3,v1.4-2016
+1112,1996,,KR,53,53,53,0,Cambodia (Kampuchea),811,3,v1.4-2016
+1112,1998,,KR,25,23,45,0,Cambodia (Kampuchea),811,3,v1.4-2016
+1118,2000,,MILF,172,165,188,0,Philippines,840,3,v1.4-2016
+1118,2003,,MILF,55,39,128,0,Philippines,840,3,v1.4-2016
+1118,2008,,MILF,39,39,39,0,Philippines,840,3,v1.4-2016
+1119,1995,,ASG,25,25,51,0,Philippines,840,3,v1.4-2016
+1119,2001,,ASG,33,33,38,0,Philippines,840,3,v1.4-2016
+1119,2002,,ASG,38,38,38,0,Philippines,840,3,v1.4-2016
+1119,2004,,ASG,122,122,122,0,Philippines,840,3,v1.4-2016
+1119,2010,,ASG,25,25,30,0,Philippines,840,3,v1.4-2016
+1123,1989,,JVP,250,250,567,0,Sri Lanka,780,3,v1.4-2016
+1127,1989,,JSS/SB,54,54,54,0,Bangladesh,771,3,v1.4-2016
+1127,1990,,JSS/SB,47,47,47,0,Bangladesh,771,3,v1.4-2016
+1127,1991,,JSS/SB,67,67,68,0,Bangladesh,771,3,v1.4-2016
+1127,1992,,JSS/SB,52,52,52,0,Bangladesh,771,3,v1.4-2016
+1127,1996,,JSS/SB,30,30,31,0,Bangladesh,771,3,v1.4-2016
+1129,2010,,BLA,31,31,38,0,Pakistan,770,3,v1.4-2016
+1146,1996,,Taleban,42,12,42,0,Afghanistan,700,3,v1.4-2016
+1146,2004,,Taleban,53,51,69,0,Afghanistan,700,3,v1.4-2016
+1146,2005,,Taleban,114,114,149,0,"Afghanistan, Pakistan","700, 770",3,v1.4-2016
+1146,2006,,Taleban,196,194,253,0,Afghanistan,700,3,v1.4-2016
+1146,2007,,Taleban,113,113,142,0,Afghanistan,700,3,v1.4-2016
+1146,2008,,Taleban,108,74,120,0,Afghanistan,700,3,v1.4-2016
+1146,2009,,Taleban,154,151,179,0,Afghanistan,700,3,v1.4-2016
+1146,2010,,Taleban,185,184,286,0,Afghanistan,700,3,v1.4-2016
+1146,2011,,Taleban,76,76,163,0,Afghanistan,700,3,v1.4-2016
+1146,2012,,Taleban,83,82,131,0,Afghanistan,700,3,v1.4-2016
+1146,2013,,Taleban,64,62,80,0,Afghanistan,700,3,v1.4-2016
+1146,2014,,Taleban,240,237,297,0,Afghanistan,700,3,v1.4-2016
+1146,2015,,Taleban,160,160,245,0,Afghanistan,700,3,v1.4-2016
+1147,2001,,UIFSA,200,200,1000,0,Afghanistan,700,3,v1.4-2016
+1149,1993,,ATTF,25,25,25,0,India,750,3,v1.4-2016
+1149,1997,,ATTF,54,54,73,0,India,750,3,v1.4-2016
+1149,1998,,ATTF,29,29,29,0,India,750,3,v1.4-2016
+1149,2003,,ATTF,62,62,71,0,India,750,3,v1.4-2016
+1150,1996,,NLFT,36,36,39,0,India,750,3,v1.4-2016
+1150,1998,,NLFT,61,61,70,0,India,750,3,v1.4-2016
+1150,1999,,NLFT,48,45,51,0,India,750,3,v1.4-2016
+1150,2000,,NLFT,64,64,64,0,India,750,3,v1.4-2016
+1150,2001,,NLFT,48,48,48,0,"Bangladesh, India","750, 771",3,v1.4-2016
+1150,2002,,NLFT,40,24,51,0,India,750,3,v1.4-2016
+1150,2003,,NLFT,91,81,92,0,India,750,3,v1.4-2016
+1153,2009,,Jondullah,25,25,30,0,Iran,630,2,v1.4-2016
+1159,1997,,KNF,25,20,25,0,India,750,3,v1.4-2016
+1162,1989,,Sikh insurgents,140,140,1351,0,India,750,3,v1.4-2016
+1162,1990,,Sikh insurgents,296,296,376,0,India,750,3,v1.4-2016
+1162,1991,,Sikh insurgents,433,433,619,0,"India, Nepal","750, 790",3,v1.4-2016
+1162,1992,,Sikh insurgents,445,442,498,0,India,750,3,v1.4-2016
+1162,1993,,Sikh insurgents,34,34,34,0,India,750,3,v1.4-2016
+1163,1989,,LTTE,145,145,204,0,Sri Lanka,780,3,v1.4-2016
+1163,1990,,LTTE,683,683,713,0,Sri Lanka,780,3,v1.4-2016
+1163,1991,,LTTE,147,147,164,0,Sri Lanka,780,3,v1.4-2016
+1163,1992,,LTTE,318,315,321,0,Sri Lanka,780,3,v1.4-2016
+1163,1994,,LTTE,25,25,80,0,Sri Lanka,780,3,v1.4-2016
+1163,1995,,LTTE,197,197,217,0,Sri Lanka,780,3,v1.4-2016
+1163,1996,,LTTE,197,197,197,0,Sri Lanka,780,3,v1.4-2016
+1163,1998,,LTTE,60,60,61,0,Sri Lanka,780,3,v1.4-2016
+1163,1999,,LTTE,62,62,82,0,Sri Lanka,780,3,v1.4-2016
+1163,2000,,LTTE,35,35,43,0,Sri Lanka,780,3,v1.4-2016
+1163,2006,,LTTE,78,78,79,0,Sri Lanka,780,3,v1.4-2016
+1163,2007,,LTTE,46,46,121,0,Sri Lanka,780,3,v1.4-2016
+1163,2008,,LTTE,185,185,198,0,Sri Lanka,780,3,v1.4-2016
+1163,2009,,LTTE,248,248,261,0,Sri Lanka,780,3,v1.4-2016
+1166,1989,,PKK,74,74,77,0,Turkey,640,2,v1.4-2016
+1166,1990,,PKK,61,61,75,0,Turkey,640,2,v1.4-2016
+1166,1991,,PKK,49,49,58,0,Turkey,640,2,v1.4-2016
+1166,1992,,PKK,216,205,273,0,Turkey,640,2,v1.4-2016
+1166,1993,,PKK,404,404,1512,0,Turkey,640,2,v1.4-2016
+1166,1994,,PKK,205,205,306,0,Turkey,640,2,v1.4-2016
+1166,1995,,PKK,96,96,165,0,"Iraq, Turkey","640, 645",2,v1.4-2016
+1166,1998,,PKK,66,66,66,0,"Iraq, Turkey","640, 645",2,v1.4-2016
+1166,1999,,PKK,30,30,35,0,"Iraq, Turkey","640, 645",2,v1.4-2016
+1168,1990,,Kashmir insurgents,59,59,80,0,India,750,3,v1.4-2016
+1168,1993,,Kashmir insurgents,34,34,654,0,India,750,3,v1.4-2016
+1168,1995,,Kashmir insurgents,37,37,96,0,India,750,3,v1.4-2016
+1168,1996,,Kashmir insurgents,121,121,142,0,India,750,3,v1.4-2016
+1168,1997,,Kashmir insurgents,63,63,151,0,India,750,3,v1.4-2016
+1168,1998,,Kashmir insurgents,251,248,289,0,India,750,3,v1.4-2016
+1168,1999,,Kashmir insurgents,251,247,451,0,India,750,3,v1.4-2016
+1168,2000,,Kashmir insurgents,685,673,686,0,India,750,3,v1.4-2016
+1168,2001,,Kashmir insurgents,240,240,742,0,India,750,3,v1.4-2016
+1168,2002,,Kashmir insurgents,363,363,363,0,India,750,3,v1.4-2016
+1168,2003,,Kashmir insurgents,245,181,352,0,India,750,3,v1.4-2016
+1168,2004,,Kashmir insurgents,156,156,162,0,India,750,3,v1.4-2016
+1168,2005,,Kashmir insurgents,247,242,284,0,India,750,3,v1.4-2016
+1168,2006,,Kashmir insurgents,190,190,201,0,India,750,3,v1.4-2016
+1168,2007,,Kashmir insurgents,38,38,39,0,India,750,3,v1.4-2016
+1168,2008,,Kashmir insurgents,39,39,41,0,India,750,3,v1.4-2016
+1168,2009,,Kashmir insurgents,30,30,40,0,India,750,3,v1.4-2016
+1168,2010,,Kashmir insurgents,25,25,25,0,India,750,3,v1.4-2016
+1169,2000,,ULFA,85,74,85,0,India,750,3,v1.4-2016
+1169,2001,,ULFA,36,32,48,0,India,750,3,v1.4-2016
+1169,2004,,ULFA,64,51,78,0,India,750,3,v1.4-2016
+1169,2006,,ULFA,36,36,47,0,India,750,3,v1.4-2016
+1169,2007,,ULFA,180,172,190,0,India,750,3,v1.4-2016
+1169,2009,,ULFA,36,33,36,0,India,750,3,v1.4-2016
+1170,1990,,GAM,32,31,32,0,Indonesia,850,3,v1.4-2016
+1170,2003,,GAM,134,132,152,0,Indonesia,850,3,v1.4-2016
+1170,2004,,GAM,77,76,84,0,Indonesia,850,3,v1.4-2016
+1181,1992,,Republic of Nagorno-Karabakh,161,161,763,0,Azerbaijan,373,1,v1.4-2016
+1184,1995,,al-Gama'a al-Islamiyya,40,40,60,0,Egypt,651,2,v1.4-2016
+1184,1996,,al-Gama'a al-Islamiyya,64,64,68,0,Egypt,651,2,v1.4-2016
+1184,1997,,al-Gama'a al-Islamiyya,77,77,93,0,Egypt,651,2,v1.4-2016
+1185,1993,,Republic of Abkhazia,74,74,120,0,Georgia,372,1,v1.4-2016
+1185,1995,,Republic of Abkhazia,52,52,58,0,Georgia,372,1,v1.4-2016
+1193,1993,,Croatian Republic of Bosnia-Herzegovina,132,132,147,0,Bosnia-Herzegovina,346,1,v1.4-2016
+1193,1995,,Croatian Republic of Bosnia-Herzegovina,37,37,40,0,Bosnia-Herzegovina,346,1,v1.4-2016
+1195,1999,,Chechen Republic of Ichkeria,32,32,32,0,Russia (Soviet Union),365,1,v1.4-2016
+1195,2003,,Chechen Republic of Ichkeria,59,32,68,0,Russia (Soviet Union),365,1,v1.4-2016
+1195,2004,,Chechen Republic of Ichkeria,108,108,111,0,Russia (Soviet Union),365,1,v1.4-2016
+1199,2015,,TTP,55,55,59,0,Pakistan,770,3,v1.4-2016
+1199,2007,,TTP,58,58,58,0,Pakistan,770,3,v1.4-2016
+1199,2008,,TTP,243,243,257,0,Pakistan,770,3,v1.4-2016
+1199,2009,,TTP,225,225,243,0,Pakistan,770,3,v1.4-2016
+1199,2010,,TTP,549,536,618,0,Pakistan,770,3,v1.4-2016
+1199,2011,,TTP,198,198,198,0,Pakistan,770,3,v1.4-2016
+1199,2012,,TTP,166,166,166,0,Pakistan,770,3,v1.4-2016
+1199,2013,,TTP,496,496,496,0,Pakistan,770,3,v1.4-2016
+1199,2014,,TTP,173,173,186,0,Pakistan,770,3,v1.4-2016
+1205,1990,,ABSU,69,60,73,0,India,750,3,v1.4-2016
+1206,1992,,NDFB,83,83,114,0,India,750,3,v1.4-2016
+1206,1994,,NDFB,108,108,108,0,India,750,3,v1.4-2016
+1206,1995,,NDFB,39,39,39,0,India,750,3,v1.4-2016
+1206,1997,,NDFB,45,45,73,0,India,750,3,v1.4-2016
+1206,1998,,NDFB,60,60,88,0,India,750,3,v1.4-2016
+1206,2000,,NDFB,58,45,59,0,India,750,3,v1.4-2016
+1206,2001,,NDFB,46,44,46,0,India,750,3,v1.4-2016
+1206,2002,,NDFB,73,73,73,0,India,750,3,v1.4-2016
+1206,2004,,NDFB,51,51,91,0,"Bhutan, India","750, 760",3,v1.4-2016
+1206,2009,,NDFB,33,27,35,0,India,750,3,v1.4-2016
+1208,2015,,Patani insurgents,27,22,32,0,Thailand,800,3,v1.4-2016
+1208,2004,,Patani insurgents,146,146,147,0,Thailand,800,3,v1.4-2016
+1208,2005,,Patani insurgents,286,285,299,0,Thailand,800,3,v1.4-2016
+1208,2006,,Patani insurgents,329,329,329,0,Thailand,800,3,v1.4-2016
+1208,2007,,Patani insurgents,320,320,323,0,Thailand,800,3,v1.4-2016
+1208,2008,,Patani insurgents,180,180,180,0,Thailand,800,3,v1.4-2016
+1208,2009,,Patani insurgents,120,118,131,0,Thailand,800,3,v1.4-2016
+1208,2010,,Patani insurgents,136,136,137,0,Thailand,800,3,v1.4-2016
+1208,2011,,Patani insurgents,116,116,135,0,Thailand,800,3,v1.4-2016
+1208,2012,,Patani insurgents,111,109,132,0,Thailand,800,3,v1.4-2016
+1208,2013,,Patani insurgents,60,60,60,0,Thailand,800,3,v1.4-2016
+1208,2014,,Patani insurgents,32,25,41,0,Thailand,800,3,v1.4-2016
+1210,2010,,Forces of the Caucasus Emirate,58,58,60,0,Russia (Soviet Union),365,1,v1.4-2016
+1210,2011,,Forces of the Caucasus Emirate,40,39,45,0,Russia (Soviet Union),365,1,v1.4-2016
+1210,2013,,Forces of the Caucasus Emirate,40,40,43,0,Russia (Soviet Union),365,1,v1.4-2016
+1211,2008,,DHD - BW,35,35,37,0,India,750,3,v1.4-2016
+1216,1996,,BLTF,37,37,43,0,India,750,3,v1.4-2016
+1216,1998,,BLTF,31,31,33,0,India,750,3,v1.4-2016
+1225,2004,,Gazotan Murdash,41,38,50,0,Russia (Soviet Union),365,1,v1.4-2016
+1226,2004,,GICM,191,191,191,0,Spain,230,1,v1.4-2016
+1228,2005,,Jamaat Jund al-Sahaba,87,87,87,0,Iraq,645,2,v1.4-2016
+1228,2006,,Jamaat Jund al-Sahaba,69,69,74,0,Iraq,645,2,v1.4-2016
+1229,2002,,Jemaah Islamiya,202,202,202,0,Indonesia,850,3,v1.4-2016
+1232,2015,,LeJ,49,49,52,0,Pakistan,770,3,v1.4-2016
+1232,1998,,LeJ,25,25,25,0,Pakistan,770,3,v1.4-2016
+1232,1999,,LeJ,25,25,26,0,Pakistan,770,3,v1.4-2016
+1232,2003,,LeJ,66,66,66,0,Pakistan,770,3,v1.4-2016
+1232,2004,,LeJ,70,70,73,0,Pakistan,770,3,v1.4-2016
+1232,2010,,LeJ,166,124,186,0,Pakistan,770,3,v1.4-2016
+1232,2011,,LeJ,121,121,152,0,"Afghanistan, Pakistan","700, 770",3,v1.4-2016
+1232,2013,,LeJ,311,311,320,0,Pakistan,770,3,v1.4-2016
+1232,2014,,LeJ,43,43,43,0,Pakistan,770,3,v1.4-2016
+1236,1997,,Ranvir Sena,74,74,74,0,India,750,3,v1.4-2016
+1236,1999,,Ranvir Sena,46,46,52,0,India,750,3,v1.4-2016
+1236,2000,,Ranvir Sena,35,35,35,0,India,750,3,v1.4-2016
+1237,2003,,Salafia Jihadia,46,46,46,0,Morocco,600,4,v1.4-2016
+1239,2004,,Tawhid wal Jihad,34,34,34,0,Egypt,651,2,v1.4-2016
+1239,2005,,Tawhid wal Jihad,88,88,88,0,Egypt,651,2,v1.4-2016
+1240,2000,,UPDS,27,27,27,0,India,750,3,v1.4-2016
+1241,2002,,VHP,405,382,638,0,India,750,3,v1.4-2016
+1244,2012,,Lashkar-e-Islam,29,29,29,0,Pakistan,770,3,v1.4-2016
+1268,1996,,AFDL,30110,28854,38404,0,DR Congo (Zaire),490,4,v1.4-2016
+1268,1997,,AFDL,5016,5016,32241,0,DR Congo (Zaire),490,4,v1.4-2016
+1270,1998,,RCD,2322,2178,8522,0,DR Congo (Zaire),490,4,v1.4-2016
+1270,1999,,RCD,1761,1761,1813,0,DR Congo (Zaire),490,4,v1.4-2016
+1270,2000,,RCD,286,250,584,0,DR Congo (Zaire),490,4,v1.4-2016
+1270,2001,,RCD,173,173,173,0,DR Congo (Zaire),490,4,v1.4-2016
+1270,2002,,RCD,646,646,690,0,DR Congo (Zaire),490,4,v1.4-2016
+1270,2003,,RCD,126,87,130,0,DR Congo (Zaire),490,4,v1.4-2016
+1271,2001,,RCD-ML ,45,45,45,0,DR Congo (Zaire),490,4,v1.4-2016
+1272,2007,,CNDP,46,46,47,0,DR Congo (Zaire),490,4,v1.4-2016
+1272,2008,,CNDP,111,111,194,0,DR Congo (Zaire),490,4,v1.4-2016
+1277,1996,,CNDD,62,62,70,0,DR Congo (Zaire),490,4,v1.4-2016
+1278,2002,,Palipehutu-FNL,96,96,98,0,"Burundi, DR Congo (Zaire)","490, 516",4,v1.4-2016
+1278,2003,,Palipehutu-FNL,55,55,77,0,"Burundi, DR Congo (Zaire)","490, 516",4,v1.4-2016
+1278,2004,,Palipehutu-FNL,210,210,210,0,"Burundi, DR Congo (Zaire)","490, 516",4,v1.4-2016
+1278,2005,,Palipehutu-FNL,66,66,66,0,Burundi,516,4,v1.4-2016
+1278,2006,,Palipehutu-FNL,36,34,39,0,Burundi,516,4,v1.4-2016
+1280,2001,,CNDD-FDD ,58,53,64,0,Burundi,516,4,v1.4-2016
+1280,2002,,CNDD-FDD ,97,95,97,0,Burundi,516,4,v1.4-2016
+1280,2003,,CNDD-FDD ,90,90,116,0,"Burundi, DR Congo (Zaire)","490, 516",4,v1.4-2016
+1294,1994,,CSNPD,124,0,200,0,Chad,483,4,v1.4-2016
+1297,1997,,FARF,34,34,34,0,Chad,483,4,v1.4-2016
+1312,1989,,SPLM/A,120,120,120,0,Ethiopia,530,4,v1.4-2016
+1312,1992,,SPLM/A,161,161,161,0,Sudan,625,4,v1.4-2016
+1312,1993,,SPLM/A,460,460,460,0,"DR Congo (Zaire), Sudan","490, 625",4,v1.4-2016
+1312,1995,,SPLM/A,147,147,210,0,Sudan,625,4,v1.4-2016
+1312,1996,,SPLM/A,210,210,237,0,Sudan,625,4,v1.4-2016
+1312,1997,,SPLM/A,146,146,746,0,Sudan,625,4,v1.4-2016
+1312,1998,,SPLM/A,60,60,94,0,Sudan,625,4,v1.4-2016
+1312,2002,,SPLM/A,25,25,80,0,Sudan,625,4,v1.4-2016
+1312,2004,,SPLM/A,33,33,36,0,Sudan,625,4,v1.4-2016
+1315,2003,,JEM,69,69,69,0,Sudan,625,4,v1.4-2016
+1316,2005,,SLM/A,63,63,87,0,Sudan,625,4,v1.4-2016
+1318,2006,,SLM/A - MM,72,72,100,0,Sudan,625,4,v1.4-2016
+1334,1990,,UPA,40,40,40,0,Uganda,500,4,v1.4-2016
+1336,1989,,LRA,26,26,36,0,Uganda,500,4,v1.4-2016
+1336,1990,,LRA,63,63,63,0,Uganda,500,4,v1.4-2016
+1336,1991,,LRA,102,102,102,0,Uganda,500,4,v1.4-2016
+1336,1995,,LRA,275,275,285,0,"Sudan, Uganda","500, 625",4,v1.4-2016
+1336,1996,,LRA,586,586,666,0,"Sudan, Uganda","500, 625",4,v1.4-2016
+1336,1997,,LRA,452,452,452,0,"Sudan, Uganda","500, 625",4,v1.4-2016
+1336,1998,,LRA,105,105,105,0,"Sudan, Uganda","500, 625",4,v1.4-2016
+1336,1999,,LRA,33,33,56,0,"Sudan, Uganda","500, 625",4,v1.4-2016
+1336,2000,,LRA,94,94,104,0,"Sudan, Uganda","500, 625",4,v1.4-2016
+1336,2001,,LRA,60,60,69,0,"Sudan, Uganda","500, 625",4,v1.4-2016
+1336,2002,,LRA,1054,1054,1077,0,"Sudan, Uganda","500, 625",4,v1.4-2016
+1336,2003,,LRA,635,635,922,0,"Sudan, Uganda","500, 625",4,v1.4-2016
+1336,2004,,LRA,957,916,1050,0,"Sudan, Uganda","500, 625",4,v1.4-2016
+1336,2005,,LRA,304,304,308,0,"Sudan, Uganda","500, 625",4,v1.4-2016
+1336,2006,,LRA,47,47,62,0,"DR Congo (Zaire), Sudan, Uganda","490, 500, 625",4,v1.4-2016
+1336,2007,,LRA,62,62,62,0,"Sudan, Uganda","500, 625",4,v1.4-2016
+1336,2008,,LRA,732,732,1065,0,"Central African Republic, DR Congo (Zaire), Sudan","482, 490, 625",4,v1.4-2016
+1336,2009,,LRA,1352,1316,1422,0,"Central African Republic, DR Congo (Zaire), Sudan","482, 490, 625",4,v1.4-2016
+1336,2010,,LRA,434,424,462,0,"Central African Republic, DR Congo (Zaire), Sudan","482, 490, 625",4,v1.4-2016
+1336,2011,,LRA,145,145,145,0,"Central African Republic, DR Congo (Zaire), Sudan","482, 490, 625",4,v1.4-2016
+1336,2012,,LRA,64,64,65,0,"Central African Republic, DR Congo (Zaire), South Sudan","482, 490, 626",4,v1.4-2016
+1336,2013,,LRA,45,45,49,0,"Central African Republic, DR Congo (Zaire), South Sudan","482, 490, 626",4,v1.4-2016
+1336,2014,,LRA,37,37,38,0,"Central African Republic, DR Congo (Zaire)","482, 490",4,v1.4-2016
+1336,2015,,LRA,27,27,45,0,"Central African Republic, DR Congo (Zaire), South Sudan","482, 490, 626",4,v1.4-2016
+1337,1997,,ADF,144,144,144,0,Uganda,500,4,v1.4-2016
+1337,1998,,ADF,208,208,272,0,Uganda,500,4,v1.4-2016
+1337,1999,,ADF,268,268,300,0,Uganda,500,4,v1.4-2016
+1337,2000,,ADF,84,84,90,0,Uganda,500,4,v1.4-2016
+1337,2010,,ADF,38,38,38,0,DR Congo (Zaire),490,4,v1.4-2016
+1337,2013,,ADF,83,83,83,0,DR Congo (Zaire),490,4,v1.4-2016
+1337,2014,,ADF,299,299,301,0,DR Congo (Zaire),490,4,v1.4-2016
+1337,2015,,ADF,236,188,255,0,DR Congo (Zaire),490,4,v1.4-2016
+1338,1996,,WNBF,27,27,27,0,Uganda,500,4,v1.4-2016
+1346,2007,,ONLF,82,82,82,0,Ethiopia,530,4,v1.4-2016
+1347,1989,,Renamo,435,435,459,0,"Mozambique, Zambia, Zimbabwe (Rhodesia)","541, 551, 552",4,v1.4-2016
+1347,1990,,Renamo,228,228,294,0,"Mozambique, Zambia, Zimbabwe (Rhodesia)","541, 551, 552",4,v1.4-2016
+1347,1991,,Renamo,525,525,557,0,Mozambique,541,4,v1.4-2016
+1347,1992,,Renamo,212,212,328,0,Mozambique,541,4,v1.4-2016
+1358,1990,,NPFL,2011,2011,2243,0,Liberia,450,4,v1.4-2016
+1358,1991,,NPFL,271,271,289,0,"Liberia, Sierra Leone","450, 451",4,v1.4-2016
+1358,1992,,NPFL,403,403,559,0,"Liberia, Sierra Leone","450, 451",4,v1.4-2016
+1358,1993,,NPFL,994,994,1218,0,"Ivory Coast, Liberia, Sierra Leone","437, 450, 451",4,v1.4-2016
+1358,1994,,NPFL,1357,1357,1818,0,"Ivory Coast, Liberia","437, 450",4,v1.4-2016
+1358,1995,,NPFL,1006,1006,1006,0,"Ivory Coast, Liberia","437, 450",4,v1.4-2016
+1359,1990,,INPFL,84,84,84,0,Liberia,450,4,v1.4-2016
+1360,2002,,LURD,120,120,120,0,"Liberia, Sierra Leone","450, 451",4,v1.4-2016
+1360,2003,,LURD,418,418,418,0,Liberia,450,4,v1.4-2016
+1364,1993,,ANC,40,40,41,0,South Africa,560,4,v1.4-2016
+1374,1994,,FIAA,96,96,194,0,Mali,432,4,v1.4-2016
+1379,1990,,FPR,52,52,52,0,Rwanda,517,4,v1.4-2016
+1379,1992,,FPR,49,49,76,0,Rwanda,517,4,v1.4-2016
+1379,1993,,FPR,230,230,230,0,Rwanda,517,4,v1.4-2016
+1379,1994,,FPR,992,992,1622,0,"Burundi, Rwanda","516, 517",4,v1.4-2016
+1380,2004,,FDLR,66,66,66,0,DR Congo (Zaire),490,4,v1.4-2016
+1380,2005,,FDLR,31,31,46,0,DR Congo (Zaire),490,4,v1.4-2016
+1380,2006,,FDLR,46,46,48,0,"DR Congo (Zaire), Uganda","490, 500",4,v1.4-2016
+1380,2007,,FDLR,40,40,40,0,"DR Congo (Zaire), Tanzania","490, 510",4,v1.4-2016
+1380,2008,,FDLR,31,31,44,0,DR Congo (Zaire),490,4,v1.4-2016
+1380,2009,,FDLR,992,984,1039,0,DR Congo (Zaire),490,4,v1.4-2016
+1380,2010,,FDLR,70,47,77,0,DR Congo (Zaire),490,4,v1.4-2016
+1380,2012,,FDLR,187,183,227,0,DR Congo (Zaire),490,4,v1.4-2016
+1380,2015,,FDLR,54,54,54,0,DR Congo (Zaire),490,4,v1.4-2016
+1381,1992,,MFDC,51,51,67,0,Senegal,433,4,v1.4-2016
+1381,1993,,MFDC,49,49,59,0,Senegal,433,4,v1.4-2016
+1381,1995,,MFDC,25,25,29,0,Senegal,433,4,v1.4-2016
+1381,1997,,MFDC,39,39,43,0,Senegal,433,4,v1.4-2016
+1381,1998,,MFDC,57,57,57,0,Senegal,433,4,v1.4-2016
+1384,1991,,RUF,604,604,615,0,Sierra Leone,451,4,v1.4-2016
+1384,1992,,RUF,289,289,319,0,Sierra Leone,451,4,v1.4-2016
+1384,1993,,RUF,202,202,209,0,Sierra Leone,451,4,v1.4-2016
+1384,1994,,RUF,1390,1390,1967,0,Sierra Leone,451,4,v1.4-2016
+1384,1995,,RUF,1645,1645,2560,0,Sierra Leone,451,4,v1.4-2016
+1384,1996,,RUF,350,350,588,0,Sierra Leone,451,4,v1.4-2016
+1384,1997,,RUF,125,125,245,0,Sierra Leone,451,4,v1.4-2016
+1384,1998,,RUF,650,650,673,0,"Guinea, Sierra Leone","438, 451",4,v1.4-2016
+1384,1999,,RUF,232,232,232,0,"Guinea, Sierra Leone","438, 451",4,v1.4-2016
+1384,2000,,RUF,476,476,476,0,"Guinea, Sierra Leone","438, 451",4,v1.4-2016
+1385,1998,,AFRC,1132,1132,1164,0,"Guinea, Sierra Leone","438, 451",4,v1.4-2016
+1385,1999,,AFRC,933,933,3829,0,Sierra Leone,451,4,v1.4-2016
+1386,1995,,Kamajors,37,37,37,0,Sierra Leone,451,4,v1.4-2016
+1390,1993,,GIA,26,26,26,0,Algeria,615,4,v1.4-2016
+1390,1997,,GIA,355,160,1117,0,Algeria,615,4,v1.4-2016
+1390,1998,,GIA,129,129,629,0,Algeria,615,4,v1.4-2016
+1390,1999,,GIA,125,125,179,0,Algeria,615,4,v1.4-2016
+1390,2000,,GIA,245,245,248,0,Algeria,615,4,v1.4-2016
+1390,2001,,GIA,32,32,32,0,Algeria,615,4,v1.4-2016
+1390,2002,,GIA,526,524,543,0,Algeria,615,4,v1.4-2016
+1390,2003,,GIA,34,34,34,0,Algeria,615,4,v1.4-2016
+1391,2004,,AQIM,87,87,95,0,Algeria,615,4,v1.4-2016
+1391,2006,,AQIM,37,37,39,0,Algeria,615,4,v1.4-2016
+1391,2009,,AQIM,38,36,42,0,"Algeria, Mali, Mauritania","432, 435, 615",4,v1.4-2016
+1398,1997,,Cobras,39,39,39,0,Congo,484,4,v1.4-2016
+1401,1998,,Ntsiloulous,58,58,94,0,Congo,484,4,v1.4-2016
+1401,2002,,Ntsiloulous,58,58,80,0,Congo,484,4,v1.4-2016
+1410,2002,,MPCI,103,103,103,0,Ivory Coast,437,4,v1.4-2016
+1410,2003,,MPCI,50,50,100,0,Ivory Coast,437,4,v1.4-2016
+1411,2003,,MPIGO,65,65,67,0,Ivory Coast,437,4,v1.4-2016
+1412,2011,,FRCI,49,49,49,0,Ivory Coast,437,4,v1.4-2016
+1421,1989,,UNITA,63,63,307,0,Angola,540,4,v1.4-2016
+1421,1990,,UNITA,51,51,157,0,Angola,540,4,v1.4-2016
+1421,1993,,UNITA,343,343,1941,0,Angola,540,4,v1.4-2016
+1421,1994,,UNITA,35,35,365,0,"Angola, Namibia","540, 565",4,v1.4-2016
+1421,1995,,UNITA,47,47,488,0,Angola,540,4,v1.4-2016
+1421,1998,,UNITA,64,64,607,0,Angola,540,4,v1.4-2016
+1421,1999,,UNITA,393,393,508,0,Angola,540,4,v1.4-2016
+1421,2000,,UNITA,267,267,641,0,"Angola, Namibia, Zambia","540, 551, 565",4,v1.4-2016
+1421,2001,,UNITA,1029,1029,1230,0,Angola,540,4,v1.4-2016
+1421,2002,,UNITA,55,51,120,0,"Angola, Namibia","540, 565",4,v1.4-2016
+1440,1994,,AWB,39,39,39,0,South Africa,560,4,v1.4-2016
+1442,2000,,Bakassi boys,31,31,31,0,Nigeria,475,4,v1.4-2016
+1442,2005,,Bakassi boys,32,32,35,0,Nigeria,475,4,v1.4-2016
+1457,2004,,FAPC,28,28,28,0,DR Congo (Zaire),490,4,v1.4-2016
+1460,2002,,FNI,348,348,348,0,DR Congo (Zaire),490,4,v1.4-2016
+1460,2003,,FNI,1732,1409,2337,0,DR Congo (Zaire),490,4,v1.4-2016
+1460,2004,,FNI,200,100,200,0,DR Congo (Zaire),490,4,v1.4-2016
+1460,2005,,FNI,55,55,55,0,DR Congo (Zaire),490,4,v1.4-2016
+1474,1995,,Hutu rebels,158,153,447,0,Burundi,516,4,v1.4-2016
+1474,1996,,Hutu rebels,600,571,1085,0,Burundi,516,4,v1.4-2016
+1474,1997,,Hutu rebels,453,453,568,0,Burundi,516,4,v1.4-2016
+1474,1998,,Hutu rebels,428,283,655,0,Burundi,516,4,v1.4-2016
+1474,1999,,Hutu rebels,263,258,388,0,Burundi,516,4,v1.4-2016
+1474,2000,,Hutu rebels,234,234,285,0,Burundi,516,4,v1.4-2016
+1478,1994,,"Interahamwe, ex-FAR",77,77,203,0,"Burundi, DR Congo (Zaire), Rwanda","490, 516, 517",4,v1.4-2016
+1485,2001,,Janjaweed ,140,140,140,0,Sudan,625,4,v1.4-2016
+1485,2002,,Janjaweed ,28,28,188,0,"Chad, Sudan","483, 625",4,v1.4-2016
+1485,2003,,Janjaweed ,1064,1064,12733,0,Sudan,625,4,v1.4-2016
+1485,2004,,Janjaweed ,693,693,15215,0,"Chad, Sudan","483, 625",4,v1.4-2016
+1485,2005,,Janjaweed ,350,350,505,0,"Chad, Sudan","483, 625",4,v1.4-2016
+1485,2006,,Janjaweed ,899,895,1473,0,"Chad, Sudan","483, 625",4,v1.4-2016
+1485,2007,,Janjaweed ,303,303,514,0,"Central African Republic, Chad, Sudan","482, 483, 625",4,v1.4-2016
+1485,2008,,Janjaweed ,60,60,99,0,Sudan,625,4,v1.4-2016
+1485,2010,,Janjaweed ,41,41,70,0,Sudan,625,4,v1.4-2016
+1496,1993,,LPC,53,53,53,0,Liberia,450,4,v1.4-2016
+1496,1994,,LPC,1165,1165,1512,0,Liberia,450,4,v1.4-2016
+1496,1995,,LPC,1003,1003,1003,0,Liberia,450,4,v1.4-2016
+1502,2004,,Mayi Mayi - Chinja Chinja,130,75,130,0,DR Congo (Zaire),490,4,v1.4-2016
+1502,2005,,Mayi Mayi - Chinja Chinja,37,28,37,0,DR Congo (Zaire),490,4,v1.4-2016
+1505,1999,,Mayi Mayi,169,169,169,0,DR Congo (Zaire),490,4,v1.4-2016
+1505,2000,,Mayi Mayi,63,63,63,0,DR Congo (Zaire),490,4,v1.4-2016
+1505,2002,,Mayi Mayi,74,74,74,0,DR Congo (Zaire),490,4,v1.4-2016
+1505,2007,,Mayi Mayi,31,31,31,0,DR Congo (Zaire),490,4,v1.4-2016
+1507,2002,,MFDC - FN,25,25,26,0,Senegal,433,4,v1.4-2016
+1518,1996,,Mayi Mayi - Ngilima ,50,50,60,0,DR Congo (Zaire),490,4,v1.4-2016
+1524,1993,,PAC,47,47,47,0,South Africa,560,4,v1.4-2016
+1531,2005,,Rastas,139,139,171,0,DR Congo (Zaire),490,4,v1.4-2016
+1531,2007,,Rastas,29,18,33,0,DR Congo (Zaire),490,4,v1.4-2016
+1534,2004,,RCD - LN,139,139,270,0,DR Congo (Zaire),490,4,v1.4-2016
+1538,1999,,RRA,37,37,37,0,Somalia,520,4,v1.4-2016
+1539,1989,,RTC,170,170,170,0,Chad,483,4,v1.4-2016
+1546,1991,,SSDF,2000,2000,2000,0,Sudan,625,4,v1.4-2016
+1546,1992,,SSDF,271,271,271,0,Sudan,625,4,v1.4-2016
+1546,1993,,SSDF,36,36,90,0,Sudan,625,4,v1.4-2016
+1556,1995,,ULIMO - J,52,52,52,0,Liberia,450,4,v1.4-2016
+1556,1996,,ULIMO - J,1025,1025,1025,0,Liberia,450,4,v1.4-2016
+1557,1994,,ULIMO - K,1148,1148,1148,0,Liberia,450,4,v1.4-2016
+1557,1995,,ULIMO - K,211,211,250,0,Liberia,450,4,v1.4-2016
+1557,1996,,ULIMO - K,71,71,71,0,"Guinea, Liberia","438, 450",4,v1.4-2016
+1558,1993,,ULIMO,1272,1272,1272,0,"Liberia, Sierra Leone","450, 451",4,v1.4-2016
+1565,2007,,SLDF,53,53,107,0,Kenya,501,4,v1.4-2016
+1565,2008,,SLDF,51,51,51,0,Kenya,501,4,v1.4-2016
+1575,2007,,Mungiki,40,40,40,0,Kenya,501,4,v1.4-2016
+1575,2008,,Mungiki,29,29,32,0,Kenya,501,4,v1.4-2016
+1575,2009,,Mungiki,37,37,67,0,Kenya,501,4,v1.4-2016
+1576,1994,,MPGK ,246,246,271,0,Mali,432,4,v1.4-2016
+1578,2008,,Al-Shabaab,43,34,47,0,Somalia,520,4,v1.4-2016
+1578,2010,,Al-Shabaab,88,86,95,0,"Somalia, Uganda","500, 520",4,v1.4-2016
+1578,2011,,Al-Shabaab,44,35,56,0,"Kenya, Somalia","501, 520",4,v1.4-2016
+1578,2012,,Al-Shabaab,112,100,153,0,"Kenya, Somalia","501, 520",4,v1.4-2016
+1578,2013,,Al-Shabaab,185,145,209,0,"Kenya, Somalia","501, 520",4,v1.4-2016
+1578,2014,,Al-Shabaab,274,209,325,0,"Djibouti, Kenya, Somalia","501, 520, 522",4,v1.4-2016
+1578,2015,,Al-Shabaab,207,198,207,0,"Kenya, Somalia","501, 520",4,v1.4-2016
+1604,1994,,FARC,35,35,35,0,Colombia,100,5,v1.4-2016
+1604,1995,,FARC,53,53,63,0,Colombia,100,5,v1.4-2016
+1604,1996,,FARC,39,39,47,0,Colombia,100,5,v1.4-2016
+1604,1997,,FARC,31,31,36,0,Colombia,100,5,v1.4-2016
+1604,1998,,FARC,39,39,39,0,Colombia,100,5,v1.4-2016
+1604,1999,,FARC,30,21,46,0,Colombia,100,5,v1.4-2016
+1604,2000,,FARC,100,88,130,0,Colombia,100,5,v1.4-2016
+1604,2001,,FARC,97,97,253,0,Colombia,100,5,v1.4-2016
+1604,2002,,FARC,182,167,250,0,Colombia,100,5,v1.4-2016
+1604,2003,,FARC,109,107,116,0,Colombia,100,5,v1.4-2016
+1604,2004,,FARC,113,113,132,0,Colombia,100,5,v1.4-2016
+1604,2005,,FARC,57,57,62,0,Colombia,100,5,v1.4-2016
+1604,2006,,FARC,59,59,73,0,Colombia,100,5,v1.4-2016
+1604,2008,,FARC,27,27,27,0,Colombia,100,5,v1.4-2016
+1604,2009,,FARC,30,30,49,0,Colombia,100,5,v1.4-2016
+1605,1998,,ELN,88,88,88,0,Colombia,100,5,v1.4-2016
+1605,2000,,ELN,36,36,37,0,Colombia,100,5,v1.4-2016
+1605,2001,,ELN,25,25,36,0,Colombia,100,5,v1.4-2016
+1611,1989,,Sendero Luminoso,171,171,324,0,Peru,135,5,v1.4-2016
+1611,1990,,Sendero Luminoso,98,98,281,0,Peru,135,5,v1.4-2016
+1611,1991,,Sendero Luminoso,147,147,842,0,Peru,135,5,v1.4-2016
+1611,1992,,Sendero Luminoso,164,164,946,0,Peru,135,5,v1.4-2016
+1611,1993,,Sendero Luminoso,134,134,459,0,Peru,135,5,v1.4-2016
+1630,2001,,al-Qaida ,2753,2753,2753,0,United States of America,2,5,v1.4-2016
+1630,2003,,al-Qaida ,26,26,43,0,Saudi Arabia,670,2,v1.4-2016
+1630,2004,,al-Qaida ,33,33,35,0,Saudi Arabia,670,2,v1.4-2016
+1630,2005,,al-Qaida ,52,52,52,0,United Kingdom,200,1,v1.4-2016
+1632,1990,,AUC,43,24,43,0,Colombia,100,5,v1.4-2016
+1632,1997,,AUC,30,30,30,0,Colombia,100,5,v1.4-2016
+1632,1998,,AUC,117,117,135,0,Colombia,100,5,v1.4-2016
+1632,1999,,AUC,163,163,163,0,Colombia,100,5,v1.4-2016
+1632,2000,,AUC,261,261,307,0,Colombia,100,5,v1.4-2016
+1632,2001,,AUC,203,203,213,0,Colombia,100,5,v1.4-2016
+1632,2002,,AUC,199,155,540,0,Colombia,100,5,v1.4-2016
+1632,2004,,AUC,31,20,31,0,Colombia,100,5,v1.4-2016
+1632,2005,,AUC,38,38,38,0,Colombia,100,5,v1.4-2016
+1635,1989,,Medellín Cartel,114,114,121,0,Colombia,100,5,v1.4-2016
+1635,1993,,Medellín Cartel,40,40,40,0,Colombia,100,5,v1.4-2016
+1639,2004,,Mara Salvatrucha (Honduras),28,28,31,0,Honduras,91,5,v1.4-2016
+1640,1997,,Paz y Justicia,45,45,45,0,Mexico,70,5,v1.4-2016
+2378,2015,,FDPC,39,39,39,0,Central African Republic,482,4,v1.4-2016
+1748,2009,,Ampatuan militia,57,57,57,0,Philippines,840,3,v1.4-2016
+1749,2005,,DHD,79,54,84,0,India,750,3,v1.4-2016
+1750,2004,,KRA,34,34,43,0,India,750,3,v1.4-2016
+1751,2003,,HPC,28,28,28,0,India,750,3,v1.4-2016
+1752,2009,,AAH,35,35,35,0,Iraq,645,2,v1.4-2016
+1763,2008,,PARECO,41,41,41,0,DR Congo (Zaire),490,4,v1.4-2016
+1852,1992,,SPM/SNA ,90,90,90,0,Somalia,520,4,v1.4-2016
+1926,2004,,RCD - CP ,30,30,30,0,DR Congo (Zaire),490,4,v1.4-2016
+1928,2008,,Buxton gang,29,29,30,0,Guyana,110,5,v1.4-2016
+1929,2008,,Fedayeen Islam,54,54,54,0,Pakistan,770,3,v1.4-2016
+1930,2005,,Indian Mujahideen,78,78,79,0,India,750,3,v1.4-2016
+1930,2006,,Indian Mujahideen,205,205,210,0,India,750,3,v1.4-2016
+1930,2008,,Indian Mujahideen,136,22,136,0,India,750,3,v1.4-2016
+1930,2011,,Indian Mujahideen,26,26,26,0,India,750,3,v1.4-2016
+1935,2015,,Jama'atu Ahlis Sunna Lidda'awati wal-Jihad,1282,1269,1381,0,"Cameroon, Chad, Niger, Nigeria","436, 471, 475, 483",4,v1.4-2016
+1935,2010,,Jama'atu Ahlis Sunna Lidda'awati wal-Jihad,92,87,103,0,Nigeria,475,4,v1.4-2016
+1935,2011,,Jama'atu Ahlis Sunna Lidda'awati wal-Jihad,82,78,192,0,Nigeria,475,4,v1.4-2016
+1935,2012,,Jama'atu Ahlis Sunna Lidda'awati wal-Jihad,457,279,515,0,Nigeria,475,4,v1.4-2016
+1935,2013,,Jama'atu Ahlis Sunna Lidda'awati wal-Jihad,839,813,1028,0,"Cameroon, Nigeria","471, 475",4,v1.4-2016
+1935,2014,,Jama'atu Ahlis Sunna Lidda'awati wal-Jihad,5124,5023,6487,0,"Cameroon, Chad, Nigeria","471, 475, 483",4,v1.4-2016
+1950,2010,,NDFB - RD,32,30,32,0,India,750,3,v1.4-2016
+1954,2003,,Lashkar-e-Taiba,54,54,54,0,India,750,3,v1.4-2016
+1954,2007,,Lashkar-e-Taiba,68,0,68,0,India,750,3,v1.4-2016
+1954,2008,,Lashkar-e-Taiba,148,148,148,0,India,750,3,v1.4-2016
+1960,2002,,UPC,1894,1768,2541,0,DR Congo (Zaire),490,4,v1.4-2016
+1960,2003,,UPC,469,469,519,0,DR Congo (Zaire),490,4,v1.4-2016
+1961,2002,,FRPI,164,164,164,0,DR Congo (Zaire),490,4,v1.4-2016
+1961,2004,,FRPI,29,29,152,0,DR Congo (Zaire),490,4,v1.4-2016
+1961,2012,,FRPI,31,31,31,0,DR Congo (Zaire),490,4,v1.4-2016
+1973,2010,,Los Zetas,86,86,86,0,Mexico,70,5,v1.4-2016
+1973,2011,,Los Zetas,268,268,281,0,"Guatemala, Mexico","70, 90",5,v1.4-2016
+1989,2000,,Laskar Jihad,98,98,98,0,Indonesia,850,3,v1.4-2016
+1999,2010,,Mayi Mayi Complet,27,27,27,0,DR Congo (Zaire),490,4,v1.4-2016
+2001,1993,,LDF,269,269,269,0,Liberia,450,4,v1.4-2016
+2002,1993,,IFP,67,67,68,0,South Africa,560,4,v1.4-2016
+2013,1996,,ALiR,1171,650,5214,0,"DR Congo (Zaire), Rwanda","490, 517",4,v1.4-2016
+2013,1997,,ALiR,809,805,2313,0,"Burundi, DR Congo (Zaire), Rwanda","490, 516, 517",4,v1.4-2016
+2013,1998,,ALiR,1079,1077,1141,0,"Burundi, DR Congo (Zaire), Rwanda","490, 516, 517",4,v1.4-2016
+2013,1999,,ALiR,51,43,61,0,"DR Congo (Zaire), Rwanda, Uganda","490, 500, 517",4,v1.4-2016
+2013,2000,,ALiR,73,72,73,0,DR Congo (Zaire),490,4,v1.4-2016
+2016,2011,,AJPSN,52,52,54,0,Ivory Coast,437,4,v1.4-2016
+2045,2013,,M23,32,32,32,0,DR Congo (Zaire),490,4,v1.4-2016
+2072,2010,,PCPA,146,146,146,0,India,750,3,v1.4-2016
+2073,1992,,PFT,50,50,50,0,Tajikistan,702,3,v1.4-2016
+2074,2012,,PLFI,105,102,105,0,India,750,3,v1.4-2016
+2080,2003,,FNDIC,53,53,79,0,Nigeria,475,4,v1.4-2016
+2087,2004,,Jagrata Muslim Janata Bangladesh ,25,23,53,0,Bangladesh,771,3,v1.4-2016
+2089,2012,,Mayi Mayi Lumumba,32,32,102,0,DR Congo (Zaire),490,4,v1.4-2016
+2090,2012,,Raia Mutomboki,43,43,43,0,DR Congo (Zaire),490,4,v1.4-2016
+2100,2014,,PYD,35,35,52,0,Syria,652,2,v1.4-2016
+2102,2012,,TTP-Islahi,42,42,42,0,Pakistan,770,3,v1.4-2016
+2120,2013,,Signed-in-Blood Battalion,26,26,26,0,Algeria,615,4,v1.4-2016
+2933,2007,,Al-Khobar,31,31,31,0,Philippines,840,3,v1.4-2016
+3037,2013,,NDC,84,84,84,0,DR Congo (Zaire),490,4,v1.4-2016
+3040,2013,,Nyatura,34,34,34,0,DR Congo (Zaire),490,4,v1.4-2016
+3151,2014,,NDFB-S,135,16,178,0,India,750,3,v1.4-2016
+3192,2014,,UBA,41,41,41,0,Pakistan,770,3,v1.4-2016
+3554,2014,,FPR-BL,99,99,99,0,Central African Republic,482,4,v1.4-2016
+3967,2013,,Kata Katanga,173,173,174,0,DR Congo (Zaire),490,4,v1.4-2016
+4007,2013,,FPRC,457,457,458,0,Central African Republic,482,4,v1.4-2016
+4007,2014,,FPRC,623,615,660,0,Central African Republic,482,4,v1.4-2016
+4201,2015,,anti-Balaka,40,40,40,0,Central African Republic,482,4,v1.4-2016
+4201,2013,,anti-Balaka,685,648,708,0,Central African Republic,482,4,v1.4-2016
+4201,2014,,anti-Balaka,970,920,1015,0,Central African Republic,482,4,v1.4-2016
+4226,2013,,SPLM/A In Opposition,103,103,128,0,South Sudan,626,4,v1.4-2016
+4226,2014,,SPLM/A In Opposition,582,582,676,0,South Sudan,626,4,v1.4-2016
+4233,2013,,ADP,47,47,47,0,Lebanon,660,2,v1.4-2016
+4340,1993,,UDA,32,32,32,0,United Kingdom,200,1,v1.4-2016
+4456,2012,,Syrian insurgents,93,93,156,0,Syria,652,2,v1.4-2016
+4456,2013,,Syrian insurgents,405,240,452,0,Syria,652,2,v1.4-2016
+4456,2014,,Syrian insurgents,72,72,73,0,Syria,652,2,v1.4-2016
+4456,2015,,Syrian insurgents,111,111,127,0,Syria,652,2,v1.4-2016
+5546,1998,,Al-Umma,58,58,58,0,India,750,3,v1.4-2016
+5895,2014,,Jaish-ul-Islam,35,35,35,0,Pakistan,770,3,v1.4-2016
+5997,2002,,Mayi Mayi - Makabe,25,25,25,0,DR Congo (Zaire),490,4,v1.4-2016
+5997,2003,,Mayi Mayi - Makabe,25,25,25,0,DR Congo (Zaire),490,4,v1.4-2016
+5999,2015,,UPC,45,45,45,0,Central African Republic,482,4,v1.4-2016
+5999,2014,,UPC,35,35,35,0,Central African Republic,482,4,v1.4-2016
+6185,2015,,Elements,58,58,58,0,DR Congo (Zaire),490,4,v1.4-2016
+6186,2015,,Perci,47,47,47,0,DR Congo (Zaire),490,4,v1.4-2016
+534601,1992,"1182, 1214","Serbian Republic of Bosnia-Herzegovina, Serbian irregulars",3580,3580,3720,0,"Bosnia-Herzegovina, Serbia (Yugoslavia)","345, 346",1,v1.4-2016
+534601,1993,"1182, 1214","Serbian Republic of Bosnia-Herzegovina, Serbian irregulars",218,218,298,0,Bosnia-Herzegovina,346,1,v1.4-2016
+534601,1994,"1182, 1214","Serbian Republic of Bosnia-Herzegovina, Serbian irregulars",296,296,398,0,Bosnia-Herzegovina,346,1,v1.4-2016
+534601,1995,"1182, 1214","Serbian Republic of Bosnia-Herzegovina, Serbian irregulars",8360,8360,8472,0,"Bosnia-Herzegovina, Serbia (Yugoslavia)","345, 346",1,v1.4-2016
+549001,2002,"1269, 1511","MLC, RCD-N",185,173,185,0,DR Congo (Zaire),490,4,v1.4-2016
+549002,2003,"1460, 1961, 1650","FNI, FRPI, RCD-K-ML ",160,80,160,0,DR Congo (Zaire),490,4,v1.4-2016
+549003,2003,"1460, 1961","FNI, FRPI",325,265,415,0,DR Congo (Zaire),490,4,v1.4-2016
+549004,2002,"1961, 1650","FRPI, RCD-K-ML",1200,1200,3000,0,DR Congo (Zaire),490,4,v1.4-2016
+549007,2002,"1269, 1960, 1511","MLC, RCD-N, UPC",50,50,50,0,DR Congo (Zaire),490,4,v1.4-2016
+549015,2003,"1457, 1460","FAPC, FNI ",33,33,33,0,DR Congo (Zaire),490,4,v1.4-2016
+549017,1996,"1478, 1927","Interahamwe, MAGRIVI",315,209,984,0,DR Congo (Zaire),490,4,v1.4-2016
+549023,2012,"2090, 4148","Mayi Mayi Kifuafua, Raia Mutomboki",241,241,241,0,DR Congo (Zaire),490,4,v1.4-2016

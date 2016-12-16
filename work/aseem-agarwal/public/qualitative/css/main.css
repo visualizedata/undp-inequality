@@ -1,0 +1,254 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Oswald Regular"), local("Oswald-Regular"), url(https://fonts.gstatic.com/s/oswald/v11/Qw6_9HvXRQGg5mMbFR3Phn-_kf6ByYO6CLYdB4HQE-Y.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+/* latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Oswald Regular"), local("Oswald-Regular"), url(https://fonts.gstatic.com/s/oswald/v11/_P8jt3Y65hJ9c4AzRE0V1OvvDin1pK8aKteLpeZ5c0A.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+/* latin-ext */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Oswald Bold"), local("Oswald-Bold"), url(https://fonts.gstatic.com/s/oswald/v11/dI-qzxlKVQA6TUC5RKSb34X0hVgzZQUfRDuZrPvH3D8.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+/* latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Oswald Bold"), local("Oswald-Bold"), url(https://fonts.gstatic.com/s/oswald/v11/bH7276GfdCjMjApa_dkG6ZBw1xU1rKptJj_0jans920.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+body, html {
+  height: 100%; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald";
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #f9f9f9;
+  color: #4A4A4A;
+  max-width: 1000px;
+  margin: auto; }
+
+.tooltipCont {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: 99999;
+  display: none; }
+  .tooltipCont .tooltip {
+    font-family: sans-serif;
+    border-radius: 5px;
+    box-shadow: 0 0 5px;
+    position: fixed;
+    background-color: #f9f9f9;
+    padding: 15px 10px;
+    width: 20vw;
+    line-height: 175%;
+    font-size: 90%;
+    font-weight: 400; }
+    .tooltipCont .tooltip .scale {
+      display: block;
+      padding: 5px 0; }
+    .tooltipCont .tooltip a {
+      text-decoration: underline;
+      color: #4A4A4A; }
+    .tooltipCont .tooltip ul {
+      padding-left: 10%; }
+
+.info {
+  padding-right: 20px;
+  background-image: url(../images/info.png);
+  background-repeat: no-repeat;
+  background-size: auto 18px;
+  background-position: right 50%;
+  cursor: pointer;
+  display: table;
+  padding-top: 2px; }
+
+.header {
+  height: 10%;
+  font-size: 150%;
+  margin-top: 3%;
+  margin-bottom: 2%; }
+  .header a {
+    text-decoration: underline;
+    color: #039be5; }
+  .header .insights {
+    color: #039be5; }
+
+.outerContainer {
+  height: 75vh;
+  overflow: scroll; }
+  .outerContainer::-webkit-scrollbar {
+    display: none; }
+
+.divider {
+  position: fixed;
+  top: 27%;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #ccc; }
+
+.options {
+  height: 10%; }
+  .options .intervals {
+    font-size: 80%;
+    display: inline-block;
+    width: 600px; }
+    .options .intervals .label {
+      float: left;
+      margin-right: 10px;
+      line-height: 30px;
+      font-size: 124%;
+      opacity: 0.5;
+      text-transform: uppercase; }
+    .options .intervals .interval {
+      width: 100px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-right: 15px;
+      display: inline-block;
+      height: 100%;
+      float: left;
+      line-height: 25px;
+      background-color: #f1f1f1;
+      text-align: center;
+      cursor: pointer; }
+      .options .intervals .interval.active {
+        color: #fff;
+        background-color: #039be5; }
+  .options .keys {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top; }
+    .options .keys .red_mark {
+      display: inline-block; }
+      .options .keys .red_mark .icon {
+        width: 15px;
+        height: 15px;
+        display: inline-block;
+        background-color: #f44336;
+        border-radius: 50%;
+        opacity: 0.9; }
+      .options .keys .red_mark .label {
+        display: inline-block;
+        color: #f44336; }
+
+.articles {
+  height: 500px;
+  position: absolute;
+  width: 700px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 4px;
+  border-radius: 5px;
+  top: 50%;
+  left: 50%;
+  margin-top: -260px;
+  margin-left: -350px;
+  display: none;
+  padding: 35px;
+  overflow: scroll; }
+  .articles .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+    background-image: url(../images/close.png);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    opacity: 1;
+    cursor: pointer; }
+  .articles .heading {
+    font-size: 150%;
+    margin-bottom: 20px; }
+    .articles .heading .count {
+      font-size: 75%;
+      margin-left: 20px;
+      opacity: 0.7; }
+    .articles .heading .main {
+      text-decoration: underline; }
+  .articles .headlines {
+    height: 90%;
+    overflow: scroll; }
+    .articles .headlines::-webkit-scrollbar {
+      display: none; }
+    .articles .headlines .headline {
+      margin-bottom: 30px;
+      border-left: 2px solid #aaa;
+      padding-left: 10px; }
+      .articles .headlines .headline a {
+        display: inline;
+        color: #4A4A4A;
+        text-decoration: underline; }
+      .articles .headlines .headline .yr {
+        opacity: 0.6; }
+      .articles .headlines .headline .highlight {
+        font-weight: bold; }
+        .articles .headlines .headline .highlight.yellow {
+          color: #039be5; }
+
+.yearData {
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+  padding: 35px 0;
+  position: relative;
+  padding-right: 35px; }
+  .yearData .yrLabel {
+    font-size: 125%;
+    text-align: left;
+    display: inline-block;
+    width: 13%;
+    vertical-align: top;
+    font-weight: bold;
+    line-height: 30px; }
+  .yearData .wordsO::-webkit-scrollbar {
+    display: none; }
+  .yearData .wordsO {
+    width: 86%;
+    display: inline-block;
+    overflow: scroll; }
+    .yearData .wordsO .arrow {
+      height: 40px;
+      width: 30px;
+      line-height: 40px;
+      position: absolute;
+      background-color: #ccc;
+      opacity: 0.5;
+      text-align: center;
+      font-size: 125%;
+      border-radius: 5px;
+      cursor: pointer; }
+      .yearData .wordsO .arrow.left {
+        left: 10%;
+        display: none; }
+      .yearData .wordsO .arrow.right {
+        right: 10px; }
+    .yearData .wordsO .words {
+      width: 6000px; }
+      .yearData .wordsO .words .word {
+        font-size: 115%;
+        text-align: center;
+        color: #4A4A4A;
+        line-height: 30px;
+        text-decoration: underline;
+        cursor: pointer;
+        display: inline-block;
+        margin-right: 20px; }
+        .yearData .wordsO .words .word.important {
+          color: #f44336; }
+
+/*# sourceMappingURL=main.css.map */

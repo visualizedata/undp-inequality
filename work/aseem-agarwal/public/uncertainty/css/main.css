@@ -1,0 +1,263 @@
+@media screen and (max-width: 480px) {
+  .right {
+    width: 100%;
+    margin-right: 0; }
+    .right .viz {
+      width: 100%; }
+
+  .left {
+    display: none; } }
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f9f9f9;
+  color: #4A4A4A;
+  max-width: 2400px;
+  margin: auto;
+  font-size: 2vh;
+  font-family: 'Roboto Condensed', sans-serif; }
+
+.leaflet-container {
+  background-color: transparent; }
+
+.tooltipCont {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: 99999;
+  display: none; }
+  .tooltipCont .tooltip {
+    border-radius: 5px;
+    box-shadow: 0 0 5px;
+    position: fixed;
+    background-color: #f9f9f9;
+    padding: 15px 10px;
+    width: 30vw;
+    line-height: 150%; }
+    .tooltipCont .tooltip .scale {
+      display: block;
+      padding: 5px 0; }
+
+.info {
+  padding-right: 17px;
+  background-image: url(../images/info.png);
+  background-repeat: no-repeat;
+  background-size: auto 15px;
+  background-position: right 0px;
+  cursor: pointer;
+  display: table;
+  padding-top: 2px; }
+
+.left {
+  height: 100vh;
+  width: 40%;
+  float: left; }
+  .left .header {
+    height: 13%;
+    margin-left: 4%;
+    padding-top: 4%; }
+    .left .header .sub {
+      display: inline-block;
+      vertical-align: bottom;
+      width: 5%;
+      height: 30%;
+      background-image: url(../images/sub.png);
+      background-position: center;
+      background-size: auto 60%;
+      background-repeat: no-repeat;
+      border: 1px solid #EF5050;
+      border-radius: 3px; }
+      .left .header .sub.disabled {
+        display: none; }
+    .left .header .title {
+      width: 91%;
+      height: 60%;
+      display: inline-block;
+      vertical-align: top; }
+      .left .header .title .label {
+        display: inline-block;
+        font-size: 175%; }
+    .left .header .descr {
+      font-size: 110%;
+      width: 90%;
+      font-style: italic; }
+  .left .ctypes {
+    height: 2%;
+    width: 92%;
+    margin-top: 5%;
+    margin-left: 4%;
+    text-align: left;
+    display: none; }
+    .left .ctypes .ctype {
+      cursor: pointer;
+      width: 32%;
+      height: 100%;
+      display: inline-block; }
+      .left .ctypes .ctype .btn {
+        width: 10%;
+        height: 100%;
+        border: 1px solid #4A4A4A;
+        border-radius: 2px;
+        display: inline-block;
+        vertical-align: bottom; }
+      .left .ctypes .ctype .label {
+        display: inline-block;
+        font-size: 90%; }
+    .left .ctypes .ctype.active .btn {
+      background-color: #EF5050;
+      border: 0px solid; }
+  .left .mapLegend {
+    margin-left: 4%;
+    margin-top: 5%; }
+    .left .mapLegend .label {
+      display: inline-block; }
+    .left .mapLegend .keys {
+      width: 70%;
+      display: inline-block; }
+      .left .mapLegend .keys .key {
+        width: 10%;
+        display: inline-block; }
+        .left .mapLegend .keys .key .label {
+          text-align: center; }
+        .left .mapLegend .keys .key .color {
+          width: 100%;
+          height: 1vh;
+          background-color: #EF5050; }
+    .left .mapLegend .key:nth-child(1) .color {
+      opacity: 0.2; }
+    .left .mapLegend .key:nth-child(2) .color {
+      opacity: 0.4; }
+    .left .mapLegend .key:nth-child(3) .color {
+      opacity: 0.6; }
+    .left .mapLegend .key:nth-child(4) .color {
+      opacity: 0.8; }
+    .left .mapLegend .key:nth-child(5) .color {
+      opacity: 1; }
+  .left #mapp {
+    background-color: transparent;
+    height: 75%;
+    width: 90%;
+    margin-left: 5%;
+    color: #333; }
+    .left #mapp .leaflet-bar {
+      box-shadow: 0 0 0;
+      border: 1px solid #4A4A4A; }
+      .left #mapp .leaflet-bar a {
+        background-color: #f9f9f9;
+        color: #4A4A4A; }
+
+.right {
+  height: 100vh;
+  width: 57%;
+  margin-right: 2%;
+  float: left;
+  position: relative; }
+  .right .user_selection {
+    height: 8%;
+    width: 100%;
+    line-height: 150%;
+    padding-top: 3%;
+    z-index: 100; }
+    .right .user_selection .static, .right .user_selection .dynamic {
+      display: inline-block; }
+    .right .user_selection .dynamic {
+      padding: 0 3px;
+      font-weight: bold;
+      font-size: 120%; }
+    .right .user_selection .country.label {
+      display: block;
+      font-size: 150%;
+      font-weight: bold;
+      margin-bottom: 0.5%;
+      text-decoration: underline;
+      height: 100%; }
+      .right .user_selection .country.label .selected {
+        background-image: url(../images/dd_blue.png);
+        background-repeat: no-repeat;
+        background-size: auto 45%;
+        background-position: right 50%;
+        width: auto;
+        padding-right: 5%;
+        cursor: pointer; }
+  .right .list {
+    display: none;
+    border: 1px solid #4A4A4A;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    max-height: 30%;
+    width: 30%;
+    top: 7%;
+    z-index: 99;
+    position: absolute;
+    overflow: scroll; }
+    .right .list .listItem {
+      padding: 10px;
+      font-size: 100%;
+      cursor: pointer; }
+  .right .viz {
+    width: 100%;
+    height: 85%;
+    padding-bottom: 4%; }
+    .right .viz .indicators {
+      height: 61%; }
+      .right .viz .indicators .indicator {
+        height: 94%;
+        margin: 3% 0;
+        border: 1px solid #eee;
+        position: relative; }
+        .right .viz .indicators .indicator .label {
+          position: relative;
+          left: 84%;
+          width: 14%;
+          top: -10px;
+          background-color: #f9f9f9;
+          padding-top: 0px;
+          font-weight: bold; }
+        .right .viz .indicators .indicator .dummy {
+          position: relative;
+          height: 10%; }
+    .right .viz .timeline {
+      height: 6%;
+      margin-bottom: 3%;
+      opacity: 0.6; }
+    .right .viz #dyads {
+      height: 27%;
+      margin: 1% 0;
+      border: 1px solid #eee;
+      position: relative; }
+      .right .viz #dyads svg {
+        float: left; }
+      .right .viz #dyads .label {
+        position: absolute;
+        right: 0;
+        top: -10px;
+        background-color: #f9f9f9;
+        padding-top: 0px;
+        display: inline-block;
+        font-weight: bold; }
+      .right .viz #dyads .label.dataQuality {
+        width: 20%;
+        position: relative;
+        margin-left: 55%;
+        height: 10%;
+        text-decoration: underline; }
+      .right .viz #dyads .label.legend {
+        position: relative;
+        margin-left: 35%;
+        height: 10%;
+        width: 38%; }
+        .right .viz #dyads .label.legend .key {
+          width: 40.5%;
+          display: inline-block;
+          padding-left: 9%;
+          position: relative;
+          background-repeat: no-repeat;
+          background-position: 9% center; }
+          .right .viz #dyads .label.legend .key.high {
+            background-image: url(../images/high.png); }
+          .right .viz #dyads .label.legend .key.best {
+            background-image: url(../images/best.png); }
+    .right .viz #dyads::-webkit-scrollbar {
+      display: none; }
+
+/*# sourceMappingURL=main.css.map */

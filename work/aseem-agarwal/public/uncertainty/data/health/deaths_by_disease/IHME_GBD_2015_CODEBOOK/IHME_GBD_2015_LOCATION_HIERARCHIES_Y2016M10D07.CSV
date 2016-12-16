@@ -1,0 +1,279 @@
+location_set_version_id,location_set_version,location_id,location_name,parent_id,level,sort_order
+90,GBD Reporting 2015,1,Global,1,0,1
+90,GBD Reporting 2015,44637,Low SDI,1,0,100000
+90,GBD Reporting 2015,44636,Low-middle SDI,1,0,100100
+90,GBD Reporting 2015,44639,Middle SDI,1,0,100200
+90,GBD Reporting 2015,44634,High-middle SDI,1,0,100300
+90,GBD Reporting 2015,44635,High SDI,1,0,100400
+90,GBD Reporting 2015,4,"Southeast Asia, East Asia, and Oceania",1,1,300000
+90,GBD Reporting 2015,5,East Asia,4,2,310000
+90,GBD Reporting 2015,6,China,5,3,310100
+90,GBD Reporting 2015,7,North Korea,5,3,310200
+90,GBD Reporting 2015,8,Taiwan,5,3,310300
+90,GBD Reporting 2015,9,Southeast Asia,4,2,320000
+90,GBD Reporting 2015,10,Cambodia,9,3,320100
+90,GBD Reporting 2015,11,Indonesia,9,3,320200
+90,GBD Reporting 2015,12,Laos,9,3,320300
+90,GBD Reporting 2015,13,Malaysia,9,3,320400
+90,GBD Reporting 2015,14,Maldives,9,3,320500
+90,GBD Reporting 2015,183,Mauritius,9,3,320510
+90,GBD Reporting 2015,15,Myanmar,9,3,320600
+90,GBD Reporting 2015,16,Philippines,9,3,320700
+90,GBD Reporting 2015,17,Sri Lanka,9,3,320800
+90,GBD Reporting 2015,186,Seychelles,9,3,320810
+90,GBD Reporting 2015,18,Thailand,9,3,320900
+90,GBD Reporting 2015,19,Timor-Leste,9,3,321000
+90,GBD Reporting 2015,20,Vietnam,9,3,321100
+90,GBD Reporting 2015,21,Oceania,4,2,330000
+90,GBD Reporting 2015,298,American Samoa,21,3,330004
+90,GBD Reporting 2015,25,Federated States of Micronesia,21,3,330005
+90,GBD Reporting 2015,22,Fiji,21,3,330100
+90,GBD Reporting 2015,351,Guam,21,3,330105
+90,GBD Reporting 2015,23,Kiribati,21,3,330200
+90,GBD Reporting 2015,24,Marshall Islands,21,3,330300
+90,GBD Reporting 2015,376,Northern Mariana Islands,21,3,330400
+90,GBD Reporting 2015,26,Papua New Guinea,21,3,330500
+90,GBD Reporting 2015,27,Samoa,21,3,330600
+90,GBD Reporting 2015,28,Solomon Islands,21,3,330700
+90,GBD Reporting 2015,29,Tonga,21,3,330800
+90,GBD Reporting 2015,30,Vanuatu,21,3,330900
+90,GBD Reporting 2015,31,"Central Europe, Eastern Europe, and Central Asia",1,1,400000
+90,GBD Reporting 2015,32,Central Asia,31,2,410000
+90,GBD Reporting 2015,33,Armenia,32,3,410100
+90,GBD Reporting 2015,34,Azerbaijan,32,3,410200
+90,GBD Reporting 2015,35,Georgia,32,3,410300
+90,GBD Reporting 2015,36,Kazakhstan,32,3,410400
+90,GBD Reporting 2015,37,Kyrgyzstan,32,3,410500
+90,GBD Reporting 2015,38,Mongolia,32,3,410600
+90,GBD Reporting 2015,39,Tajikistan,32,3,410700
+90,GBD Reporting 2015,40,Turkmenistan,32,3,410800
+90,GBD Reporting 2015,41,Uzbekistan,32,3,410900
+90,GBD Reporting 2015,42,Central Europe,31,2,420000
+90,GBD Reporting 2015,43,Albania,42,3,420100
+90,GBD Reporting 2015,44,Bosnia and Herzegovina,42,3,420200
+90,GBD Reporting 2015,45,Bulgaria,42,3,420300
+90,GBD Reporting 2015,46,Croatia,42,3,420400
+90,GBD Reporting 2015,47,Czech Republic,42,3,420500
+90,GBD Reporting 2015,48,Hungary,42,3,420600
+90,GBD Reporting 2015,49,Macedonia,42,3,420700
+90,GBD Reporting 2015,50,Montenegro,42,3,420800
+90,GBD Reporting 2015,51,Poland,42,3,420900
+90,GBD Reporting 2015,52,Romania,42,3,421000
+90,GBD Reporting 2015,53,Serbia,42,3,421100
+90,GBD Reporting 2015,54,Slovakia,42,3,421200
+90,GBD Reporting 2015,55,Slovenia,42,3,421300
+90,GBD Reporting 2015,56,Eastern Europe,31,2,430000
+90,GBD Reporting 2015,57,Belarus,56,3,430100
+90,GBD Reporting 2015,58,Estonia,56,3,430200
+90,GBD Reporting 2015,59,Latvia,56,3,430300
+90,GBD Reporting 2015,60,Lithuania,56,3,430400
+90,GBD Reporting 2015,61,Moldova,56,3,430500
+90,GBD Reporting 2015,62,Russia,56,3,430600
+90,GBD Reporting 2015,63,Ukraine,56,3,430700
+90,GBD Reporting 2015,64,High-income,1,1,500000
+90,GBD Reporting 2015,65,High-income Asia Pacific,64,2,510000
+90,GBD Reporting 2015,66,Brunei,65,3,510100
+90,GBD Reporting 2015,67,Japan,65,3,510200
+90,GBD Reporting 2015,68,South Korea,65,3,510300
+90,GBD Reporting 2015,69,Singapore,65,3,510400
+90,GBD Reporting 2015,70,Australasia,64,2,520000
+90,GBD Reporting 2015,71,Australia,70,3,520100
+90,GBD Reporting 2015,72,New Zealand,70,3,520200
+90,GBD Reporting 2015,73,Western Europe,64,2,530000
+90,GBD Reporting 2015,74,Andorra,73,3,530100
+90,GBD Reporting 2015,75,Austria,73,3,530200
+90,GBD Reporting 2015,76,Belgium,73,3,530300
+90,GBD Reporting 2015,77,Cyprus,73,3,530400
+90,GBD Reporting 2015,78,Denmark,73,3,530500
+90,GBD Reporting 2015,79,Finland,73,3,530600
+90,GBD Reporting 2015,80,France,73,3,530700
+90,GBD Reporting 2015,81,Germany,73,3,530800
+90,GBD Reporting 2015,82,Greece,73,3,530900
+90,GBD Reporting 2015,83,Iceland,73,3,531000
+90,GBD Reporting 2015,84,Ireland,73,3,531100
+90,GBD Reporting 2015,85,Israel,73,3,531200
+90,GBD Reporting 2015,86,Italy,73,3,531300
+90,GBD Reporting 2015,87,Luxembourg,73,3,531400
+90,GBD Reporting 2015,88,Malta,73,3,531500
+90,GBD Reporting 2015,89,Netherlands,73,3,531600
+90,GBD Reporting 2015,90,Norway,73,3,531700
+90,GBD Reporting 2015,91,Portugal,73,3,531800
+90,GBD Reporting 2015,92,Spain,73,3,531900
+90,GBD Reporting 2015,93,Sweden,73,3,532000
+90,GBD Reporting 2015,94,Switzerland,73,3,532100
+90,GBD Reporting 2015,95,United Kingdom,73,3,532200
+90,GBD Reporting 2015,4749,England,95,4,532210
+90,GBD Reporting 2015,433,Northern Ireland,95,4,532220
+90,GBD Reporting 2015,434,Scotland,95,4,532230
+90,GBD Reporting 2015,4636,Wales,95,4,532240
+90,GBD Reporting 2015,96,Southern Latin America,64,2,540000
+90,GBD Reporting 2015,97,Argentina,96,3,540100
+90,GBD Reporting 2015,98,Chile,96,3,540200
+90,GBD Reporting 2015,99,Uruguay,96,3,540300
+90,GBD Reporting 2015,100,High-income North America,64,2,550000
+90,GBD Reporting 2015,101,Canada,100,3,550100
+90,GBD Reporting 2015,349,Greenland,100,3,550150
+90,GBD Reporting 2015,102,United States,100,3,550200
+90,GBD Reporting 2015,103,Latin America and Caribbean,1,1,600000
+90,GBD Reporting 2015,104,Caribbean,103,2,610000
+90,GBD Reporting 2015,105,Antigua and Barbuda,104,3,610100
+90,GBD Reporting 2015,106,The Bahamas,104,3,610200
+90,GBD Reporting 2015,107,Barbados,104,3,610300
+90,GBD Reporting 2015,108,Belize,104,3,610400
+90,GBD Reporting 2015,305,Bermuda,104,3,610405
+90,GBD Reporting 2015,109,Cuba,104,3,610500
+90,GBD Reporting 2015,110,Dominica,104,3,610600
+90,GBD Reporting 2015,111,Dominican Republic,104,3,610700
+90,GBD Reporting 2015,112,Grenada,104,3,610800
+90,GBD Reporting 2015,113,Guyana,104,3,610900
+90,GBD Reporting 2015,114,Haiti,104,3,611000
+90,GBD Reporting 2015,115,Jamaica,104,3,611100
+90,GBD Reporting 2015,385,Puerto Rico,104,3,611110
+90,GBD Reporting 2015,116,Saint Lucia,104,3,611200
+90,GBD Reporting 2015,117,Saint Vincent and the Grenadines,104,3,611300
+90,GBD Reporting 2015,118,Suriname,104,3,611400
+90,GBD Reporting 2015,119,Trinidad and Tobago,104,3,611500
+90,GBD Reporting 2015,422,"Virgin Islands, U.S.",104,3,611600
+90,GBD Reporting 2015,120,Andean Latin America,103,2,620000
+90,GBD Reporting 2015,121,Bolivia,120,3,620100
+90,GBD Reporting 2015,122,Ecuador,120,3,620200
+90,GBD Reporting 2015,123,Peru,120,3,620300
+90,GBD Reporting 2015,124,Central Latin America,103,2,630000
+90,GBD Reporting 2015,125,Colombia,124,3,630100
+90,GBD Reporting 2015,126,Costa Rica,124,3,630200
+90,GBD Reporting 2015,127,El Salvador,124,3,630300
+90,GBD Reporting 2015,128,Guatemala,124,3,630400
+90,GBD Reporting 2015,129,Honduras,124,3,630500
+90,GBD Reporting 2015,130,Mexico,124,3,630600
+90,GBD Reporting 2015,131,Nicaragua,124,3,630700
+90,GBD Reporting 2015,132,Panama,124,3,630800
+90,GBD Reporting 2015,133,Venezuela,124,3,630900
+90,GBD Reporting 2015,134,Tropical Latin America,103,2,640000
+90,GBD Reporting 2015,135,Brazil,134,3,640100
+90,GBD Reporting 2015,136,Paraguay,134,3,640200
+90,GBD Reporting 2015,137,North Africa and Middle East,1,1,700000
+90,GBD Reporting 2015,138,North Africa and Middle East,137,2,710000
+90,GBD Reporting 2015,160,Afghanistan,138,3,710010
+90,GBD Reporting 2015,139,Algeria,138,3,710100
+90,GBD Reporting 2015,140,Bahrain,138,3,710200
+90,GBD Reporting 2015,141,Egypt,138,3,710300
+90,GBD Reporting 2015,142,Iran,138,3,710400
+90,GBD Reporting 2015,143,Iraq,138,3,710500
+90,GBD Reporting 2015,144,Jordan,138,3,710600
+90,GBD Reporting 2015,145,Kuwait,138,3,710700
+90,GBD Reporting 2015,146,Lebanon,138,3,710800
+90,GBD Reporting 2015,147,Libya,138,3,710900
+90,GBD Reporting 2015,148,Morocco,138,3,711000
+90,GBD Reporting 2015,149,Palestine,138,3,711100
+90,GBD Reporting 2015,150,Oman,138,3,711200
+90,GBD Reporting 2015,151,Qatar,138,3,711300
+90,GBD Reporting 2015,152,Saudi Arabia,138,3,711400
+90,GBD Reporting 2015,522,Sudan,138,3,711450
+90,GBD Reporting 2015,153,Syria,138,3,711500
+90,GBD Reporting 2015,154,Tunisia,138,3,711600
+90,GBD Reporting 2015,155,Turkey,138,3,711700
+90,GBD Reporting 2015,156,United Arab Emirates,138,3,711800
+90,GBD Reporting 2015,157,Yemen,138,3,711900
+90,GBD Reporting 2015,158,South Asia,1,1,800000
+90,GBD Reporting 2015,159,South Asia,158,2,810000
+90,GBD Reporting 2015,161,Bangladesh,159,3,810200
+90,GBD Reporting 2015,162,Bhutan,159,3,810300
+90,GBD Reporting 2015,163,India,159,3,810400
+90,GBD Reporting 2015,164,Nepal,159,3,810500
+90,GBD Reporting 2015,165,Pakistan,159,3,810600
+90,GBD Reporting 2015,166,Sub-Saharan Africa,1,1,900000
+90,GBD Reporting 2015,167,Central Sub-Saharan Africa,166,2,910000
+90,GBD Reporting 2015,168,Angola,167,3,910100
+90,GBD Reporting 2015,169,Central African Republic,167,3,910200
+90,GBD Reporting 2015,170,Congo,167,3,910300
+90,GBD Reporting 2015,171,Democratic Republic of the Congo,167,3,910400
+90,GBD Reporting 2015,172,Equatorial Guinea,167,3,910500
+90,GBD Reporting 2015,173,Gabon,167,3,910600
+90,GBD Reporting 2015,174,Eastern Sub-Saharan Africa,166,2,920000
+90,GBD Reporting 2015,175,Burundi,174,3,920100
+90,GBD Reporting 2015,176,Comoros,174,3,920200
+90,GBD Reporting 2015,177,Djibouti,174,3,920300
+90,GBD Reporting 2015,178,Eritrea,174,3,920400
+90,GBD Reporting 2015,179,Ethiopia,174,3,920500
+90,GBD Reporting 2015,180,Kenya,174,3,920600
+90,GBD Reporting 2015,181,Madagascar,174,3,920700
+90,GBD Reporting 2015,182,Malawi,174,3,920800
+90,GBD Reporting 2015,184,Mozambique,174,3,921000
+90,GBD Reporting 2015,185,Rwanda,174,3,921100
+90,GBD Reporting 2015,187,Somalia,174,3,921300
+90,GBD Reporting 2015,435,South Sudan,174,3,921305
+90,GBD Reporting 2015,189,Tanzania,174,3,921400
+90,GBD Reporting 2015,190,Uganda,174,3,921500
+90,GBD Reporting 2015,191,Zambia,174,3,921600
+90,GBD Reporting 2015,192,Southern Sub-Saharan Africa,166,2,930000
+90,GBD Reporting 2015,193,Botswana,192,3,930100
+90,GBD Reporting 2015,194,Lesotho,192,3,930200
+90,GBD Reporting 2015,195,Namibia,192,3,930300
+90,GBD Reporting 2015,196,South Africa,192,3,930400
+90,GBD Reporting 2015,197,Swaziland,192,3,930500
+90,GBD Reporting 2015,198,Zimbabwe,192,3,930600
+90,GBD Reporting 2015,199,Western Sub-Saharan Africa,166,2,940000
+90,GBD Reporting 2015,200,Benin,199,3,940100
+90,GBD Reporting 2015,201,Burkina Faso,199,3,940200
+90,GBD Reporting 2015,202,Cameroon,199,3,940300
+90,GBD Reporting 2015,203,Cape Verde,199,3,940400
+90,GBD Reporting 2015,204,Chad,199,3,940500
+90,GBD Reporting 2015,205,Cote d'Ivoire,199,3,940600
+90,GBD Reporting 2015,206,The Gambia,199,3,940700
+90,GBD Reporting 2015,207,Ghana,199,3,940800
+90,GBD Reporting 2015,208,Guinea,199,3,940900
+90,GBD Reporting 2015,209,Guinea-Bissau,199,3,941000
+90,GBD Reporting 2015,210,Liberia,199,3,941100
+90,GBD Reporting 2015,211,Mali,199,3,941200
+90,GBD Reporting 2015,212,Mauritania,199,3,941300
+90,GBD Reporting 2015,213,Niger,199,3,941400
+90,GBD Reporting 2015,214,Nigeria,199,3,941500
+90,GBD Reporting 2015,215,Sao Tome and Principe,199,3,941600
+90,GBD Reporting 2015,216,Senegal,199,3,941700
+90,GBD Reporting 2015,217,Sierra Leone,199,3,941800
+90,GBD Reporting 2015,218,Togo,199,3,941900
+105,African Union (AU) 2015,44587,African Union,44587,0,1
+101,Commonwealth 2015,44534,Commonwealth,44534,0,1
+101,Commonwealth 2015,44535,Commonwealth High Income,44534,1,2
+101,Commonwealth 2015,44536,Commonwealth Middle Income,44534,1,15
+101,Commonwealth 2015,44537,Commonwealth Low Income,44534,1,46
+103,European Free Trade Association (EFTA) 2015,44585,European Free Trade Association,44585,0,1
+108,European Union (EU15) 2015,44593,EU-15,44593,0,1
+99,EU Version 2015,4743,European Union,4743,0,1
+98,EU and EFTA 2015,4744,EU and EFTA,4744,0,1
+95,Four World Regions 2015,44590,Four World Regions,44590,0,1
+95,Four World Regions 2015,44559,Africa,44590,1,2
+95,Four World Regions 2015,44560,America,44590,1,57
+95,Four World Regions 2015,44561,Asia,44590,1,92
+95,Four World Regions 2015,44562,Europe,44590,1,148
+104,G20 2015,44586,G20,44586,0,1
+107,Gulf Cooperation Council (GCC) 2015,44589,Gulf Cooperation Council,44589,0,1
+102,Nordic Region 2015,44642,Nordic Region,44642,0,1
+97,OECD 2015,44584,OECD Countries,44584,0,1
+106,South African Development Community (SADC) 2015,44588,Southern African Development Community,44588,0,1
+100,UN Regional Commissions 2015,44592,UN Regional Commissions,44592,0,1
+100,UN Regional Commissions 2015,44579,ECA,44592,1,2
+100,UN Regional Commissions 2015,44580,ECE,44592,1,57
+100,UN Regional Commissions 2015,44581,ECLAC,44592,1,111
+100,UN Regional Commissions 2015,44582,ESCAP,44592,1,155
+100,UN Regional Commissions 2015,44583,ESCWA,44592,1,206
+83,WHO Regions 2015,479,WHO region,479,0,1
+83,WHO Regions 2015,44563,African Region,479,1,2
+83,WHO Regions 2015,44567,Eastern Mediterranean Region,479,1,50
+83,WHO Regions 2015,44566,European Region,479,1,73
+83,WHO Regions 2015,44564,Region of the Americas,479,1,125
+83,WHO Regions 2015,44565,South-East Asia Region,479,1,161
+83,WHO Regions 2015,44568,Western Pacific Region,479,1,173
+96,World Bank Income Levels 2015,44591,World Bank Income Levels,44591,0,1
+96,World Bank Income Levels 2015,44575,World Bank High Income,44591,1,2
+96,World Bank Income Levels 2015,44578,World Bank Low Income,44591,1,63
+96,World Bank Income Levels 2015,44577,World Bank Lower Middle Income,44591,1,95
+96,World Bank Income Levels 2015,44576,World Bank Upper Middle Income,44591,1,147
+84,World Bank Regions 2015,478,World Bank Regions,478,0,1
+84,World Bank Regions 2015,239,East Asia & Pacific - WB,478,1,2
+84,World Bank Regions 2015,240,Europe & Central Asia - WB,478,1,36
+84,World Bank Regions 2015,241,Latin America & Caribbean - WB,478,1,86
+84,World Bank Regions 2015,243,Middle East & North Africa - WB,478,1,121
+84,World Bank Regions 2015,44638,North America,478,1,143
+84,World Bank Regions 2015,244,South Asia - WB,478,1,147
+84,World Bank Regions 2015,242,Sub-Saharan Africa - WB,478,1,156

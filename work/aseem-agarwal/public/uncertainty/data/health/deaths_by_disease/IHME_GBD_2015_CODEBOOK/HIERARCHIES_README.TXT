@@ -1,0 +1,3 @@
+The cause hierarchy file and the REI (risk factor, etiology, and impairment) hierarchy file contain GBD 2015 reporting hierarchies. The location hierarchies file contains the GBD 2015 reporting hierarchy and a number of other hierarchies, which will allow GBD 2015 results users to aggregate results by location in various ways (by GBD regions, World Bank regions, OECD countries, European Union countries, etc.).
+
+To view each hierarchy in its nested order (e.g. for locations, a country would appear on the list beneath the region it belongs to), sort by the sort_order column. For the location_hierarchies file, sort first by location_set_version_id, and then by sort_order.

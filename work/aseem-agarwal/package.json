@@ -1,0 +1,29 @@
+{
+  "name": "week2-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "cors": "2.7.1",
+    "csv-pair": "^0.4.0",
+    "deferred": "^0.7.5",
+    "elasticsearch": "^11.0.1",
+    "express": "~4.9.x",
+    "jQuery": "^1.7.4",
+    "jquery": "^3.1.1",
+    "jsdom": "^3.1.2",
+    "lda": "^0.1.8",
+    "najax": "0.1.5",
+    "promise": "^7.1.1",
+    "request": "2.58.0",
+    "rita": "^1.1.40",
+    "string": "^3.3.3",
+    "wordpos": "^1.1.0"
+  },
+  "author": "agaase",
+  "license": "ISC"
+}

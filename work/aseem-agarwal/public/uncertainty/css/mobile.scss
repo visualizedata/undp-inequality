@@ -1,0 +1,12 @@
+@media screen and (max-width: 480px) {
+	.right{
+		width: 100%;
+		margin-right: 0;
+		.viz{
+			width: 100%;
+		}
+	}
+	.left{
+		display: none;
+	}
+}

@@ -1,0 +1,124 @@
+@media screen and (max-width: 800px) {
+	
+	body{
+		font-size: 2.5vh;
+	}
+	.tooltipCont{
+		.tooltip{
+			width: 75%;
+		}
+	}
+	.tooltip2{
+		width: 50%;
+	}
+	.left{
+		float: none;
+		height: auto;
+		width: 95%;
+		margin-left: 2.5%;
+		.header{
+			height: 20vh;
+			padding-bottom: 3vh;
+			margin:0;
+			.title{
+				height: auto;
+				margin-bottom: 4%;
+				width: 100%;
+				margin-top: 4%;
+			}
+			.descr{
+				width: 100%;
+			}
+		}
+		.mapContainer{
+			height: 72vh;
+			overflow: hidden;
+			border-bottom: 1px solid $base-color-light;
+			border-top: 1px solid $base-color-light;
+			.mapLegend{
+				padding-top: 5%;
+				margin-left: 0;
+				.label{
+					font-size: 80%;
+					margin-right: 0;
+				}
+				.keys{
+					width: 100%;
+					.key{
+						font-size: 70%;
+						margin-top: 0;
+					}
+					
+				}
+			}
+		}
+	}
+	.right{
+		width: 95%;
+		margin-right: 0;
+		display: block;
+		margin-left: 2.5%;
+		.user_selection{
+			padding-top: 5%;
+			
+			.country{
+				&.label{
+					display: inline-block;
+					font-size: 150%;
+					width: 80%;	
+					.selected{
+						padding-right: 10%;
+					}	
+					.text{
+						max-width: 60%;
+					    font-size: 50%;
+					}
+				}
+			}
+			.africaToggle{
+				width: 18%;
+				display: inline-block;
+				background-image: url(../images/africa-icon.png);
+			    background-position: center top;
+			    background-repeat: no-repeat;
+			    background-size: 70%;
+			    height: 100%;
+			    vertical-align: top;
+			    margin-top: -9%;
+			    background-color: $bg-color;
+			}
+		}
+		.list{
+			width: 60%;
+
+		}
+		.viz{
+			height: 88%;
+			padding-bottom: 0;
+			.indicators{
+				.indicator{
+					height: 40%;
+					margin:0;
+					margin-top: 10%;
+					.label{
+						height: 15%;
+						position: static;
+						font-weight: normal;
+					}
+				}
+			}
+			#dyads{
+				.label{
+					height: 15%;
+					font-weight: normal;
+				}
+				svg{
+					border: 1px solid #eee;
+					.yLabel{
+						font-size: 70%;
+					}
+				}
+			}
+		}
+	}
+}

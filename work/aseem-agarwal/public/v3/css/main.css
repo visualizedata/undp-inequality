@@ -1,0 +1,386 @@
+/* latin */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto Condensed"), local("RobotoCondensed-Regular"), url(fonts/Zd2E9abXLFGSr9G3YK2MsH4vxAoi6d67T_UKWi0EoHQ.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+/* latin */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Condensed Bold"), local("RobotoCondensed-Bold"), url(fonts/b9QBgL0iMZfDSpmcXcE8nPX2or14QGUHgbhSBV1Go0E.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+/* latin */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Roboto Condensed Italic"), local("RobotoCondensed-Italic"), url(fonts/BP5K8ZAJv9qEbmuFp8RpJcGP5JAryr3W9Ob0znExBvs.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f9f9f9;
+  color: #4A4A4A;
+  max-width: 2400px;
+  margin: auto;
+  font-size: 2vh;
+  font-family: 'Roboto Condensed', sans-serif; }
+
+.leaflet-container {
+  background-color: transparent; }
+
+.tooltipCont {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: 99999;
+  display: none; }
+  .tooltipCont .tooltip {
+    border-radius: 5px;
+    box-shadow: 0 0 5px;
+    position: fixed;
+    background-color: #f9f9f9;
+    padding: 15px 10px;
+    width: 20%;
+    line-height: 150%; }
+    .tooltipCont .tooltip .scale {
+      display: block;
+      padding: 5px 0; }
+    .tooltipCont .tooltip a {
+      text-decoration: underline;
+      color: #4A4A4A; }
+
+.tooltip2 {
+  border-radius: 5px;
+  box-shadow: 0 0 5px;
+  position: fixed;
+  background-color: #f9f9f9;
+  padding: 5px;
+  line-height: 150%;
+  display: none;
+  width: 10%;
+  font-size: 90%;
+  z-index: 99; }
+
+.tooltipValue {
+  cursor: pointer;
+  font-weight: bold; }
+
+.info {
+  padding-right: 20px;
+  background-image: url(../images/info.png);
+  background-repeat: no-repeat;
+  background-size: auto 18px;
+  background-position: right 50%;
+  cursor: pointer;
+  display: table;
+  padding-top: 2px; }
+
+.left {
+  height: 100vh;
+  width: 40%;
+  float: left; }
+  .left .header {
+    height: 13%;
+    margin-left: 4%;
+    padding-top: 2%; }
+    .left .header .sub {
+      display: inline-block;
+      vertical-align: bottom;
+      width: 5%;
+      height: 30%;
+      background-image: url(../images/sub.png);
+      background-position: center;
+      background-size: auto 60%;
+      background-repeat: no-repeat;
+      border: 1px solid #EF5050;
+      border-radius: 3px; }
+      .left .header .sub.disabled {
+        display: none; }
+    .left .header .title {
+      width: 91%;
+      height: 60%;
+      display: inline-block;
+      vertical-align: top; }
+      .left .header .title .label {
+        display: inline-block;
+        font-size: 140%;
+        font-weight: bold; }
+    .left .header .descr {
+      font-size: 110%;
+      width: 90%;
+      font-style: italic; }
+  .left .mapContainer {
+    height: 87%; }
+    .left .mapContainer .mapLegend {
+      margin-left: 4%;
+      height: 10%;
+      margin-top: 4%; }
+      .left .mapContainer .mapLegend .label {
+        vertical-align: bottom;
+        margin-right: 3%; }
+      .left .mapContainer .mapLegend .keys {
+        width: 95%; }
+        .left .mapContainer .mapLegend .keys .key {
+          margin-top: 1%;
+          width: 15%;
+          display: inline-block; }
+          .left .mapContainer .mapLegend .keys .key .label {
+            text-align: left;
+            font-size: 80%;
+            margin-right: 0;
+            width: 49.5%;
+            display: inline-block; }
+            .left .mapContainer .mapLegend .keys .key .label.rightL {
+              text-align: right; }
+          .left .mapContainer .mapLegend .keys .key .color {
+            width: 100%;
+            height: 1vh;
+            opacity: 0.7; }
+          .left .mapContainer .mapLegend .keys .key.genocide, .left .mapContainer .mapLegend .keys .key.nodata {
+            width: 10.5%;
+            margin-left: 2%; }
+            .left .mapContainer .mapLegend .keys .key.genocide .label, .left .mapContainer .mapLegend .keys .key.nodata .label {
+              width: 100%; }
+    .left .mapContainer #mapp {
+      background-color: transparent;
+      height: 90%;
+      width: 90%;
+      margin-left: 5%;
+      color: #333; }
+      .left .mapContainer #mapp .leaflet-bar {
+        box-shadow: 0 0 0;
+        border: 1px solid #4A4A4A; }
+        .left .mapContainer #mapp .leaflet-bar a {
+          background-color: #f9f9f9;
+          color: #4A4A4A; }
+
+.right {
+  height: 100vh;
+  width: 57%;
+  margin-right: 2%;
+  float: left;
+  position: relative; }
+  .right .user_selection {
+    height: 10%;
+    width: 100%;
+    line-height: 150%;
+    padding-top: 2%;
+    z-index: 100; }
+    .right .user_selection .africaToggle {
+      display: none; }
+    .right .user_selection .static, .right .user_selection .dynamic {
+      display: inline-block; }
+    .right .user_selection .dynamic {
+      padding: 0 3px;
+      font-weight: bold;
+      font-size: 120%; }
+    .right .user_selection .country.label {
+      font-weight: bold;
+      display: block;
+      font-size: 150%;
+      margin-bottom: 0.5%;
+      height: 100%; }
+      .right .user_selection .country.label .selected {
+        background-image: url(../images/dd_blue.png);
+        background-repeat: no-repeat;
+        background-size: auto 20%;
+        background-position: right 5%;
+        width: auto;
+        padding-right: 5%;
+        cursor: pointer;
+        display: inline-block;
+        max-width: 20%;
+        width: auto;
+        height: 100%; }
+      .right .user_selection .country.label .text {
+        display: inline-block;
+        font-size: 65%;
+        max-width: 72%;
+        font-weight: normal;
+        margin-left: 2%;
+        height: 100%;
+        vertical-align: top;
+        line-height: 120%; }
+  .right .list {
+    display: none;
+    border: 1px solid #4A4A4A;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    max-height: 30%;
+    width: 30%;
+    top: 7%;
+    z-index: 99;
+    position: absolute;
+    overflow: scroll; }
+    .right .list .listItem {
+      padding: 8% 10%;
+      font-size: 100%;
+      cursor: pointer; }
+  .right .viz {
+    width: 100%;
+    height: 86%; }
+    .right .viz .indicators {
+      height: 61%; }
+      .right .viz .indicators svg {
+        border: 1px solid #eee; }
+      .right .viz .indicators .indicator {
+        height: 27%;
+        margin: 3% 0;
+        position: relative; }
+        .right .viz .indicators .indicator .label {
+          position: relative;
+          right: 0;
+          background-color: #f9f9f9;
+          padding-top: 0px;
+          font-weight: bold; }
+    .right .viz .timeline {
+      height: 6%;
+      margin-bottom: 3%;
+      opacity: 0.6; }
+    .right .viz #dyads {
+      height: 27%;
+      margin: 1% 0;
+      position: relative; }
+      .right .viz #dyads svg {
+        border: 1px solid #eee; }
+        .right .viz #dyads svg .yLabel {
+          font-size: 90%;
+          color: #bbbbbb; }
+        .right .viz #dyads svg.eventTimeline {
+          display: none; }
+      .right .viz #dyads .btn {
+        float: right;
+        padding: 0px 10px;
+        border-right: 2px solid #4A4A4A;
+        cursor: pointer; }
+        .right .viz #dyads .btn.active {
+          color: #006e98;
+          font-weight: bold; }
+      .right .viz #dyads .label {
+        position: relative;
+        right: 0;
+        background-color: #f9f9f9;
+        padding-top: 0px;
+        display: inline-block;
+        font-weight: bold; }
+      .right .viz #dyads .label.dataQuality {
+        width: 20%;
+        position: relative;
+        margin-left: 55%;
+        height: 10%;
+        text-decoration: underline; }
+      .right .viz #dyads .label.legend {
+        position: relative;
+        margin-left: 30%;
+        height: 10%;
+        width: 45%; }
+        .right .viz #dyads .label.legend .key {
+          width: 40.5%;
+          display: inline-block;
+          padding-left: 9%;
+          position: relative;
+          background-repeat: no-repeat;
+          background-position: 9% center; }
+          .right .viz #dyads .label.legend .key.high {
+            background-image: url(../images/high.png); }
+          .right .viz #dyads .label.legend .key.best {
+            background-image: url(../images/best.png); }
+    .right .viz #dyads::-webkit-scrollbar {
+      display: none; }
+
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 2.5vh; }
+
+  .tooltipCont .tooltip {
+    width: 75%; }
+
+  .tooltip2 {
+    width: 50%; }
+
+  .left {
+    float: none;
+    height: auto;
+    width: 95%;
+    margin-left: 2.5%; }
+    .left .header {
+      height: 20vh;
+      padding-bottom: 3vh;
+      margin: 0; }
+      .left .header .title {
+        height: auto;
+        margin-bottom: 4%;
+        width: 100%;
+        margin-top: 4%; }
+      .left .header .descr {
+        width: 100%; }
+    .left .mapContainer {
+      height: 72vh;
+      overflow: hidden;
+      border-bottom: 1px solid #bbbbbb;
+      border-top: 1px solid #bbbbbb; }
+      .left .mapContainer .mapLegend {
+        padding-top: 5%;
+        margin-left: 0; }
+        .left .mapContainer .mapLegend .label {
+          font-size: 80%;
+          margin-right: 0; }
+        .left .mapContainer .mapLegend .keys {
+          width: 100%; }
+          .left .mapContainer .mapLegend .keys .key {
+            font-size: 70%;
+            margin-top: 0; }
+
+  .right {
+    width: 95%;
+    margin-right: 0;
+    display: block;
+    margin-left: 2.5%; }
+    .right .user_selection {
+      padding-top: 5%; }
+      .right .user_selection .country.label {
+        display: inline-block;
+        font-size: 150%;
+        width: 80%; }
+        .right .user_selection .country.label .selected {
+          padding-right: 10%; }
+        .right .user_selection .country.label .text {
+          max-width: 60%;
+          font-size: 50%; }
+      .right .user_selection .africaToggle {
+        width: 18%;
+        display: inline-block;
+        background-image: url(../images/africa-icon.png);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: 70%;
+        height: 100%;
+        vertical-align: top;
+        margin-top: -9%;
+        background-color: #f9f9f9; }
+    .right .list {
+      width: 60%; }
+    .right .viz {
+      height: 88%;
+      padding-bottom: 0; }
+      .right .viz .indicators .indicator {
+        height: 40%;
+        margin: 0;
+        margin-top: 10%; }
+        .right .viz .indicators .indicator .label {
+          height: 15%;
+          position: static;
+          font-weight: normal; }
+      .right .viz #dyads .label {
+        height: 15%;
+        font-weight: normal; }
+      .right .viz #dyads svg {
+        border: 1px solid #eee; }
+        .right .viz #dyads svg .yLabel {
+          font-size: 70%; } }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,1708 @@
+Codebook for George P. Murdock's Ethnographic Atlas.
+ 
+ 
+1. society: Ethnographic Atlas society name
+Class=character; Type=; Number non-missing=1267; Number of unique values=1267
+First six non-missing records:
+society	society.1
+Kung	Kung
+Herero	Herero
+Swazi	Swazi
+Ila	Ila
+Pende	Pende
+Bajun	Bajun
+ 
+2. code: Murdock Culture Region
+Class=character; Type=; Number non-missing=1267; Number of unique values=1265
+First six non-missing records:
+society	code
+Kung	Aa1
+Herero	Ab1
+Swazi	Ab2
+Ila	Ac1
+Pende	Ac2
+Bajun	Ad1
+ 
+3. inea1: Is society present in the 862 society subsample published in 1967?
+Class=character; Type=; Number non-missing=1267; Number of unique values=2
+Freq	Value
+404	
+863	EA
+ 
+4. eanumber: Ethnographic Atlas society number
+Class=numeric; Type=; Number non-missing=1267; Number of unique values=1267
+Stat	Value
+n	1267
+mean	634
+sd	365.896
+min	1
+max	1267
+ 
+5. navn: Short Ethnographic Atlas society name
+Class=character; Type=; Number non-missing=1267; Number of unique values=1265
+First six non-missing records:
+society	navn
+Kung	KUNG
+Herero	HERERO
+Swazi	SWAZI
+Ila	ILA
+Pende	PENDE
+Bajun	BAJUN
+ 
+6. eareg: Major Murdock Culture Region
+Class=character; Type=; Number non-missing=1267; Number of unique values=8
+Freq	Value
+414	A
+164	C
+126	E
+167	I
+286	N
+1	newWorld
+1	oldWorld
+108	S
+ 
+7. continent: Continent
+Class=character; Type=; Number non-missing=1267; Number of unique values=7
+Freq	Value
+535	Africa
+215	Asia
+13	Australia
+30	Europe
+308	North America
+75	Oceania
+91	South America
+ 
+8. region: Sub-continental Region
+Class=character; Type=; Number non-missing=1267; Number of unique values=24
+First six non-missing records:
+society	region
+Kung	Southern Africa
+Herero	Southern Africa
+Swazi	Southern Africa
+Ila	Eastern Africa
+Pende	Middle Africa
+Bajun	Eastern Africa
+ 
+9. v1: Gathering
+Class=numeric; Type=; Number non-missing=1266; Number of unique values=9
+Freq	Value	Description
+706	0	0-5% Dependence
+264	1	6-15% Dependence
+112	2	16-25% Dependence
+61	3	26-35% Dependence
+48	4	36-45% Dependence
+35	5	46-55% Dependence
+31	6	56-65% Dependence
+6	7	66-75% Dependence
+3	8	76-85% Dependence
+1	NA	NA
+ 
+10. v2: Hunting
+Class=numeric; Type=; Number non-missing=1266; Number of unique values=10
+Freq	Value	Description
+381	0	0-5% Dependence
+451	1	6-15% Dependence
+174	2	16-25% Dependence
+135	3	26-35% Dependence
+68	4	36-45% Dependence
+27	5	46-55% Dependence
+12	6	56-65% Dependence
+6	7	66-75% Dependence
+9	8	76-85% Dependence
+3	9	86-100% Dependence
+1	NA	NA
+ 
+11. v3: Fishing
+Class=numeric; Type=; Number non-missing=1266; Number of unique values=10
+Freq	Value	Description
+441	0	0-5% Dependence
+338	1	6-15% Dependence
+204	2	16-25% Dependence
+106	3	26-35% Dependence
+77	4	36-45% Dependence
+57	5	46-55% Dependence
+27	6	56-65% Dependence
+8	7	66-75% Dependence
+7	8	76-85% Dependence
+1	9	86-100% Dependence
+1	NA	NA
+ 
+12. v4: Animal Husbandry
+Class=numeric; Type=; Number non-missing=1266; Number of unique values=10
+Freq	Value	Description
+428	0	0-5% Dependence
+335	1	6-15% Dependence
+226	2	16-25% Dependence
+137	3	26-35% Dependence
+55	4	36-45% Dependence
+33	5	46-55% Dependence
+13	6	56-65% Dependence
+12	7	66-75% Dependence
+15	8	76-85% Dependence
+12	9	86-100% Dependence
+1	NA	NA
+ 
+13. v5: Agriculture
+Class=numeric; Type=; Number non-missing=1266; Number of unique values=10
+Freq	Value	Description
+249	0	0-5% Dependence
+49	1	6-15% Dependence
+34	2	16-25% Dependence
+37	3	26-35% Dependence
+94	4	36-45% Dependence
+208	5	46-55% Dependence
+292	6	56-65% Dependence
+201	7	66-75% Dependence
+86	8	76-85% Dependence
+16	9	86-100% Dependence
+1	NA	NA
+ 
+14. v6: Mode of Marriage (Primary)
+Class=numeric; Type=; Number non-missing=1248; Number of unique values=7
+Freq	Value	Description
+19	NA	missing data
+646	1	Bride Price or wealth, to bride's family
+123	2	Bride Service, to bride's family
+68	3	Token bride price
+63	4	Gift Exchange, reciprocal
+39	5	Sister or female relative exchanged for bride
+276	6	Absence of consideration
+33	7	Dowry
+ 
+15. v7: Mode of Marriage (Alternate)
+Class=numeric; Type=; Number non-missing=1248; Number of unique values=6
+Freq	Value	Description
+19	NA	Missing data
+28	1	bride price or wealth, to bride's family
+121	2	bride Service, to bride's family
+31	3	Token bride price
+14	5	Sister or female relative exchanged
+25	7	Dowry, to bride from her family
+1029	8	no alternate mode
+ 
+16. v8: Domestic Organization
+Class=numeric; Type=; Number non-missing=1239; Number of unique values=8
+Freq	Value	Description
+28	NA	Missing data
+98	1	Independent nuclear family, monogamous
+263	2	Independent nuclear family, polygyny
+3	3	Independent polyandrous families
+58	4	Polygynous: unusual co-wives
+222	5	Polygynous: usual co-wives
+44	6	Minimal extended families
+320	7	Small extended families
+231	8	Large extended families
+ 
+17. v9: Marital Composition: Monogamy and Polygamy
+Class=numeric; Type=; Number non-missing=1231; Number of unique values=7
+Freq	Value	Description
+36	NA	missing data
+186	1	Independent nuclear, monogamous
+453	2	Independent nuclear, polygyny
+69	3	Preferentially sororal, same dwelling
+18	4	Preferentially sororal, separate dwellings
+344	5	Non-sororal, separate dwellings
+157	6	Non-sororal, same dwelling
+4	7	Independent polyandrous families
+ 
+18. v10: Marital Residence with Kin: First Years
+Class=numeric; Type=; Number non-missing=1243; Number of unique values=5
+Freq	Value	Description
+24	NA	missing data
+10	1	Ambilocal
+11	2	Nonestablishment of common household
+204	3	Uxrilocal
+15	4	Virilocal
+1003	9	Not different from later years
+ 
+19. v11: Transfer of Residence at Marriage: After First Years
+Class=numeric; Type=; Number non-missing=1243; Number of unique values=4
+Freq	Value	Description
+24	NA	missing data
+880	1	Wife to husband's group
+155	2	Couple to either group or neolocal
+200	3	Husband to wife's group
+8	9	NA
+ 
+20. v12: Marital Residence with Kin: After First Years
+Class=numeric; Type=; Number non-missing=1243; Number of unique values=10
+Freq	Value	Description
+24	NA	missing data
+55	1	Avunculocal
+82	2	Ambilocal
+5	3	Optionally uxorilocal or avunculocal
+11	4	Optionally patrilocal
+58	5	Matrilocal
+61	6	Neolocal
+8	7	No common residence
+633	8	Patrilocal
+83	9	Uxorilocal
+247	10	Virilocal
+ 
+21. v13: Marital Residence with Kin: Alternate Form
+Class=numeric; Type=; Number non-missing=1243; Number of unique values=5
+Freq	Value	Description
+24	NA	missing data
+93	1	Wife to husband's group
+145	2	Couple to either group
+225	3	Husband to wife's group
+1	4	No common residence
+779	9	No alternate form
+ 
+22. v14: Transfer of Residence at Marriage: Alternate Form
+Class=numeric; Type=; Number non-missing=1243; Number of unique values=11
+Freq	Value	Description
+24	NA	missing data
+74	1	Avunculocal
+6	2	Ambilocal
+1	3	Optionally uxorilocal or avunculocal
+3	4	Optionally patrilocal
+1	5	Matrilocal
+136	6	Neolocal
+1	7	No common residence
+8	8	Patrilocal
+149	9	Uxorilocal
+85	10	Virilocal
+779	11	No alternate form
+ 
+23. v15: Community Marriage Organization
+Class=numeric; Type=; Number non-missing=1079; Number of unique values=6
+Freq	Value	Description
+188	NA	Missing data
+78	1	Demes, not segregated into clan barrios
+259	2	Segmented comunities witout local exogamy
+387	3	Agamous communities
+115	4	Exogamous communities
+9	5	Segmented communities
+231	6	Clan communities, or clan barrios
+ 
+24. v16: Community Marriage Organization
+Class=numeric; Type=; Number non-missing=1079; Number of unique values=3
+Freq	Value	Description
+188	NA	missing data
+188	1	Clan communities not segmented into clan barrios
+43	2	Clan communities segmented into clan barrios
+848	9	Other than clan communities
+ 
+25. v17: Largest Patrilineal Kin Group
+Class=numeric; Type=; Number non-missing=1253; Number of unique values=6
+Freq	Value	Description
+14	NA	missing data
+580	1	None
+1	2	Patrilineal exogamy
+168	3	Lineages in single community
+392	4	Sibs, i.e.,  lineages in multiple communities
+62	5	Phratries, i.e., three or more maxmimally extended sibs
+50	6	Moieties
+ 
+26. v18: Largest Patrilineal Exogamous Group (If Different from Variable 17)
+Class=numeric; Type=; Number non-missing=1253; Number of unique values=4
+Freq	Value	Description
+14	NA	missing data
+87	3	Lineages in single community
+24	4	Sibs, i.e., lineages in multiple communities
+1	5	Phratries, i.e., three or more maximally extended sibs
+1141	9	No different from variable 17, or Lo, Po, or So
+ 
+27. v19: Largest Matrilineal Kin Group
+Class=numeric; Type=; Number non-missing=1253; Number of unique values=6
+Freq	Value	Description
+14	NA	missing data
+1030	1	None
+13	2	Partilineal exogamy
+44	3	Lineages in single community
+119	4	Sibs, i.e., lineages in multiple communities
+17	5	Phratries, i.e., three or more maximally extended sibs
+30	6	Moieties
+ 
+28. v20: Largest Matrilineal Exogamous Group (If Different from Variable 17)
+Class=numeric; Type=; Number non-missing=1253; Number of unique values=3
+Freq	Value	Description
+14	NA	missing data
+29	3	Lineages in a single community
+13	4	Sibs, i.e., Lineages in multiple community
+1211	9	No different from variable 17, or Lo, Po, or So
+ 
+29. v21: Largest Matrilineal Kin Group
+Class=numeric; Type=; Number non-missing=1254; Number of unique values=7
+Freq	Value	Description
+13	NA	missing data
+279	1	Bilateral descent
+109	2	Kindreds: ego-oriented bilateral kin groups
+4	3	Ambilineal descent
+40	4	Ramages: ancestor oriented
+9	5	exogamous ramages
+13	6	Quasi-lineages: filiation based
+800	9	Unilineal descent groups
+ 
+30. v22: Secondary Cognatic Kin Group: Kindreds and Ramages
+Class=numeric; Type=; Number non-missing=1254; Number of unique values=3
+Freq	Value	Description
+13	NA	missing data
+13	2	Kindreds: ego-oriented bilateral kin groups
+3	4	Ramages: ancestor oriented ambilineal groups
+1238	9	No secondary cognatic groups
+ 
+31. v23: Cousin Marriages (Allowed)
+Class=numeric; Type=; Number non-missing=1024; Number of unique values=11
+Freq	Value	Description
+243	NA	missing data
+200	1	Duolateral: either MoBrDa or FaSiDa
+1	2	Duolateral: either FaBrDa or FaSiDa
+8	3	Duolateral: either MoBrDa or MoSiDa
+44	6	Matrilineal cross-cousin: MoBrDa only
+272	7	Nonlateral all first and second cousin barred
+276	8	Nonlateral evidence only for first cousins
+5	9	Patrilineal cross-cousin: FaSiDa only
+117	10	Quadrilateral any first cousin allowed
+12	11	Nonlateral: no first cousins, some second cousins
+64	12	Nonlateral: no first cousins, all second cousins
+25	13	Trilateral: any first cousin not
+ 
+32. v24: Subtypes of Cousin Marriages
+Class=numeric; Type=; Number non-missing=1024; Number of unique values=8
+Freq	Value	Description
+243	NA	missing data
+117	1	All four cousins
+25	2	three of four cousins
+9	3	Two of four cousins
+249	4	One of Four cousins
+64	5	No first cousins, all second cousins
+12	6	First and some second cousins excluded
+276	7	No first, unknown for second
+272	8	No first or second cousins
+ 
+33. v25: Preferred rather than just Permitted Cousin Marriages
+Class=numeric; Type=; Number non-missing=1024; Number of unique values=15
+Freq	Value	Description
+243	NA	missing data
+81	1	Duolateral, symmetrical preference
+38	2	Duolateral, matrilateral preference
+13	3	Duolateral, patrilineal preference
+2	4	Duolateral, with maternal cousins only, MoBrDa
+27	5	Matrilineal cross-cousin, MoBrDa only
+3	6	Patrilineal cross-cousin, FaSiDa only
+44	7	Quadrilateral, FaSiDa preferred
+7	8	Quadrilateral, symmetrical preference
+4	9	Quadrilateral, matrilineal preference
+7	10	Nonlateral, some second cousins
+7	11	Nonlateral, all second cousins
+4	12	Trilateral with bilateral preference
+1	13	Trilateral with matrilateral preference
+1	14	Trilateral with patrilateral preference
+785	15	No preferred cousin marriages
+ 
+34. v26: Subtypes of Cousin Marriages (Preferred rather than just Permitted)
+Class=numeric; Type=; Number non-missing=1024; Number of unique values=6
+Freq	Value	Description
+243	NA	missing data
+92	1	Symmetrical prefernce
+72	2	MoBrDa preferred
+17	3	FaSiDa preferred
+44	4	FaBrDa preferred
+14	5	A second cousin preferred
+785	9	No preferred cousin marriage
+ 
+35. v27: Kin Terms for Cousins
+Class=numeric; Type=; Number non-missing=934; Number of unique values=8
+Freq	Value	Description
+333	NA	missing data
+58	1	crow
+74	2	Descriptive
+101	3	Eskimo
+339	4	Hawaiian
+257	5	Iroquois
+79	6	Omaha
+14	7	Sudanese
+12	8	Mixed
+ 
+36. v28: Intensity of Agriculture
+Class=numeric; Type=; Number non-missing=1164; Number of unique values=6
+Freq	Value	Description
+103	NA	missing data
+233	1	No agriculture
+43	2	Casual agriculture
+470	3	Extensive or shifting agriculture
+99	4	Horticulture
+193	5	Intensive agriculture
+126	6	Intensive irrigated agriculture
+ 
+37. v29: Major Crop Type
+Class=numeric; Type=; Number non-missing=1164; Number of unique values=6
+Freq	Value	Description
+103	NA	missing data
+242	1	None or noe specified
+2	2	Non food crops only
+3	3	Vegetables
+81	4	Tree fruits
+232	5	Roots or tubers
+604	6	Cereal grains
+ 
+38. v30: Settlement Patterns
+Class=numeric; Type=; Number non-missing=1163; Number of unique values=8
+Freq	Value	Description
+104	NA	missing data
+80	1	Nomadic or fully migratory
+187	2	Seminomadic
+93	3	Semisedentary
+15	4	Compact but impermenant settlements
+149	5	Neighborhoods of dispersed family homesteads
+106	6	Separated hamlets, forming a single community
+504	7	Compact and relatively permanent
+29	8	Complex settlements
+ 
+39. v31: Mean Size of Local Communities
+Class=numeric; Type=; Number non-missing=586; Number of unique values=8
+Freq	Value
+118	1
+107	2
+104	3
+83	4
+60	5
+16	6
+36	7
+62	8
+681	NA
+ 
+40. v32: Jurisdictional Hierarchy of Local Community
+Class=numeric; Type=; Number non-missing=1143; Number of unique values=3
+Freq	Value	Description
+124	NA	missing data
+355	2	Three levels
+634	3	Four levels
+154	4	NA
+ 
+41. v33: Jurisdictional Hierarchy Beyond Local Community
+Class=numeric; Type=; Number non-missing=1131; Number of unique values=5
+Freq	Value	Description
+136	NA	missing data
+516	1	No levels
+343	2	One levels
+162	3	Two levels
+83	4	Three levels
+27	5	Four levels
+ 
+42. v34: High Gods
+Class=numeric; Type=; Number non-missing=749; Number of unique values=5
+Freq	Value	Description
+1	0	missing data
+518	NA	missing data
+277	1	Absent or not reported
+248	2	Not active in human affairs
+42	3	Active in human affairs, not supportive of human morality
+181	4	Supportive of human morality
+ 
+43. v35: Games
+Class=numeric; Type=; Number non-missing=464; Number of unique values=7
+Freq	Value	Description
+803	NA	missing data
+26	1	None of the three types
+106	2	Physical skill only
+2	3	Chance only
+5	4	Strategy only
+250	5	Skill and chance
+29	6	Skill and strategy
+46	8	All
+ 
+44. v36: Post-partum Sex Taboos
+Class=numeric; Type=; Number non-missing=359; Number of unique values=6
+Freq	Value	Description
+908	NA	missing data
+8	1	none
+63	2	No longer than one month
+120	3	1 to 6 months
+38	4	6 months to 1 year
+72	5	More than one to two years
+58	6	Over two years
+ 
+45. v37: Male Genital Mutilations
+Class=numeric; Type=; Number non-missing=1092; Number of unique values=10
+Freq	Value	Description
+175	NA	missing data
+724	1	Absent
+12	2	Within two months after birth
+29	3	Two months to two years
+23	4	2 to 5 years
+72	5	6 to 10 years
+118	6	11 to 15 years
+12	7	16 to 25 years
+5	8	25 to 50 years
+1	9	After 50 years
+96	10	Normal age unclear
+ 
+46. v38: Segregation of Adolescent Boys
+Class=numeric; Type=; Number non-missing=740; Number of unique values=5
+Freq	Value	Description
+527	NA	missing data
+441	1	absent
+135	2	partial
+38	3	with relatives outside nuclear family
+10	4	with non-relatives
+116	5	with peers
+ 
+47. v39: Animals and Plow Cultivation
+Class=numeric; Type=; Number non-missing=1158; Number of unique values=3
+Freq	Value	Description
+109	NA	missing data
+999	1	absent
+18	2	not aboriginal
+141	3	aboriginal to prior contact
+ 
+48. v40: Predominant Type of Animal Husbandry
+Class=numeric; Type=; Number non-missing=1158; Number of unique values=7
+Freq	Value	Description
+109	NA	missing data
+321	1	absence or near absence of large domestic animals
+113	2	pigs the only large animals
+179	3	sheep and/ or goats without larger domestic animals
+64	4	equine animals
+8	5	deer
+26	6	camels, alpacas, or llamas
+447	7	bovine animals
+ 
+49. v41: Milking of Domestic Animals
+Class=numeric; Type=; Number non-missing=1158; Number of unique values=2
+Freq	Value	Description
+109	NA	missing data
+802	1	little or no milking
+356	2	milked more often than sporadically
+ 
+50. v42: Subsistence Economy (Not in the original EA)
+Class=numeric; Type=; Number non-missing=1266; Number of unique values=8
+Freq	Value	Description
+1	NA	missing data
+103	1	gathering contributes most
+116	2	fishing contributes most
+75	3	hunting contribuets most
+77	4	pastoralism contributes most
+475	6	extensive agriculture contributes most
+270	7	inensive agricultue contributes most
+64	8	two or more sources contribute equally
+86	9	agriculture contributes most, type unknown
+ 
+51. v43: Descent: Major Type (From Variables 17, 19, 21, Not in the Original EA)
+Class=numeric; Type=; Number non-missing=1250; Number of unique values=7
+Freq	Value	Description
+17	NA	missing data
+584	1	patrilineal
+52	2	duolateral
+160	3	matrilineal
+11	4	Quasi-lineages
+49	5	ambilineal
+349	6	bilateral
+45	7	mixed
+ 
+52. v44: Sex Differences: Metal Working
+Class=numeric; Type=; Number non-missing=951; Number of unique values=5
+Freq	Value	Description
+316	NA	missing data
+428	1	males only or almost alone
+1	2	malea appreciably more
+1	7	irrelevence of gender
+5	8	activity present
+516	9	absent or unimportant activity
+ 
+53. v45: Sex Differences: Weaving
+Class=numeric; Type=; Number non-missing=820; Number of unique values=9
+Freq	Value	Description
+447	NA	missing data
+97	1	males only
+5	2	males appreciably more
+15	3	differentialted but equal participation
+10	4	equal participation
+6	5	female appreciably more
+176	6	females only
+13	7	irrevelence of gender
+60	8	activity present
+438	9	absent or unimportant activity
+ 
+54. v46: Sex Differences: Leather Working
+Class=numeric; Type=; Number non-missing=612; Number of unique values=9
+Freq	Value	Description
+655	NA	missing data
+158	1	males only
+7	2	males appreciably more
+3	3	differentialted but equal participation
+19	4	equal participation
+18	5	female appreciably more
+135	6	females only
+4	7	irrevelence of gender
+102	8	activity present
+166	9	absent or unimportant activity
+ 
+55. v47: Sex Differences: Pottery Making
+Class=numeric; Type=; Number non-missing=842; Number of unique values=9
+Freq	Value	Description
+425	NA	missing data
+36	1	males only
+4	2	males appreciably more
+7	3	differentialted but equal participation
+6	4	equal participation
+12	5	female appreciably more
+345	6	females only
+8	7	irrevelence of gender
+130	8	activity present
+294	9	absent or unimportant activity
+ 
+56. v48: Sex Differences: Boat Building
+Class=numeric; Type=; Number non-missing=677; Number of unique values=8
+Freq	Value	Description
+590	NA	missing data
+233	1	males only
+10	2	males appreciably more
+4	3	differentialted but equal participation
+1	4	equal participation
+3	6	females only
+1	7	irrevelence of gender
+160	8	activity present
+265	9	absent or unimportant activity
+ 
+57. v49: Sex Differences: House Construction
+Class=numeric; Type=; Number non-missing=550; Number of unique values=8
+Freq	Value	Description
+717	NA	missing data
+343	1	males only
+70	2	males appreciably more
+33	3	differentialted but equal participation
+24	4	equal participation
+9	5	female appreciably more
+67	6	females only
+1	8	activity present
+3	9	absent or unimportant activity
+ 
+58. v50: Sex Differences: Gathering
+Class=numeric; Type=; Number non-missing=635; Number of unique values=8
+Freq	Value	Description
+632	NA	missing data
+19	1	males only
+17	2	males appreciably more
+19	3	differentialted but equal participation
+40	4	equal participation
+129	5	female appreciably more
+246	6	females only
+4	8	activity present
+161	9	absent or unimportant activity
+ 
+59. v51: Sex Differences: Hunting
+Class=numeric; Type=; Number non-missing=940; Number of unique values=3
+Freq	Value	Description
+327	NA	missing data
+841	1	males only
+14	2	males appreciably more
+85	9	absent or unimportant activity
+ 
+60. v52: Sex Differences: Fishing
+Class=numeric; Type=; Number non-missing=821; Number of unique values=8
+Freq	Value	Description
+446	NA	missing data
+303	1	males only
+201	2	males appreciably more
+55	3	differentialted but equal participation
+38	4	equal participation
+18	5	female appreciably more
+20	6	females only
+4	8	activity present
+182	9	absent or unimportant activity
+ 
+61. v53: Sex Differences: Animal Husbandry
+Class=numeric; Type=; Number non-missing=785; Number of unique values=8
+Freq	Value	Description
+482	NA	missing data
+194	1	males only
+107	2	males appreciably more
+65	3	differentialted but equal participation
+39	4	equal participation
+17	5	female appreciably more
+44	6	females only
+3	8	activity present
+316	9	absent or unimportant activity
+ 
+62. v54: Sex Differences: Agriculture
+Class=numeric; Type=; Number non-missing=952; Number of unique values=7
+Freq	Value	Description
+315	NA	missing data
+70	1	males only
+161	2	males appreciably more
+90	3	differentialted but equal participation
+140	4	equal participation
+227	5	female appreciably more
+32	6	females only
+232	9	absent or unimportant activity
+ 
+63. v55: Age or Occupational Specialization: Metal Working
+Class=numeric; Type=; Number non-missing=951; Number of unique values=3
+Freq	Value	Description
+316	NA	missing data
+416	3	craft specialization
+2	4	industrialized specialization
+533	9	task absent oe age/ occupational specialization absent
+ 
+64. v56: Age or Occupational Specialization: Weaving
+Class=numeric; Type=; Number non-missing=820; Number of unique values=3
+Freq	Value	Description
+447	NA	missing data
+46	3	craft specialization
+14	4	industrialized specialization
+760	9	task absent oe age/ occupational specialization absent
+ 
+65. v57: Age or Occupational Specialization: Leather Working
+Class=numeric; Type=; Number non-missing=612; Number of unique values=3
+Freq	Value	Description
+655	NA	missing data
+64	3	craft specialization
+4	4	industrialized specialization
+544	9	task absent oe age/ occupational specialization absent
+ 
+66. v58: Age or Occupational Specialization: Pottery Making
+Class=numeric; Type=; Number non-missing=842; Number of unique values=4
+Freq	Value	Description
+425	NA	missing data
+2	2	senior age specialization
+65	3	craft specialization
+8	4	industrialized specialization
+767	9	task absent oe age/ occupational specialization absent
+ 
+67. v59: Age or Occupational Specialization: Boat Building
+Class=numeric; Type=; Number non-missing=677; Number of unique values=3
+Freq	Value	Description
+590	NA	missing data
+36	3	craft specialization
+1	4	industrialized specialization
+640	9	task absent oe age/ occupational specialization absent
+ 
+68. v60: Age or Occupational Specialization: House Construction
+Class=numeric; Type=; Number non-missing=550; Number of unique values=2
+Freq	Value	Description
+717	NA	missing data
+37	3	craft specialization
+513	9	task absent oe age/ occupational specialization absent
+ 
+69. v61: Age or Occupational Specialization: Gathering
+Class=numeric; Type=; Number non-missing=635; Number of unique values=2
+Freq	Value	Description
+632	NA	missing data
+1	1	junior age specialization
+634	9	task absent oe age/ occupational specialization absent
+ 
+70. v62: Age or Occupational Specialization: Hunting
+Class=numeric; Type=; Number non-missing=939; Number of unique values=3
+Freq	Value	Description
+328	NA	missing data
+1	1	junior age specialization
+24	3	craft specialization
+914	9	task absent oe age/ occupational specialization absent
+ 
+71. v63: Age or Occupational Specialization: Fishing
+Class=numeric; Type=; Number non-missing=821; Number of unique values=2
+Freq	Value	Description
+446	NA	missing data
+22	3	craft specialization
+799	9	task absent oe age/ occupational specialization absent
+ 
+72. v64: Age or Occupational Specialization: Animal Husbandry
+Class=numeric; Type=; Number non-missing=785; Number of unique values=3
+Freq	Value	Description
+482	NA	missing data
+18	1	junior age specialization
+3	3	craft specialization
+764	9	task absent oe age/ occupational specialization absent
+ 
+73. v65: Age or Occupational Specialization: Agriculture
+Class=numeric; Type=; Number non-missing=952; Number of unique values=2
+Freq	Value	Description
+315	NA	missing data
+1	3	craft specialization
+951	9	task absent oe age/ occupational specialization absent
+ 
+74. v66: Class Stratification
+Class=numeric; Type=; Number non-missing=1085; Number of unique values=5
+Freq	Value	Description
+182	NA	missing data
+533	1	absence among freemen
+206	2	wealth distinctions
+39	3	elite
+228	4	dual
+79	5	complex
+ 
+75. v67: Class Stratification, Secondary Features
+Class=numeric; Type=; Number non-missing=1085; Number of unique values=5
+Freq	Value	Description
+182	NA	missing data
+10	2	wealth distinctions
+9	3	elite
+11	4	dual
+11	5	complex
+1044	9	no secondary type
+ 
+76. v68: Class Stratification (Endogamy)
+Class=numeric; Type=; Number non-missing=1079; Number of unique values=4
+Freq	Value	Description
+188	NA	missing data
+916	1	absent or insignificant
+103	2	despised occupational groups
+33	3	ethnic stratification
+27	4	complex
+ 
+77. v69: Class Stratification (Endogamy), Secondary Type
+Class=numeric; Type=; Number non-missing=1079; Number of unique values=3
+Freq	Value	Description
+188	NA	missing data
+4	2	Despised occupational group
+3	3	ethnic stratification
+1072	9	NA
+ 
+78. v70: Type of Slavery
+Class=numeric; Type=; Number non-missing=1097; Number of unique values=4
+Freq	Value	Description
+170	NA	missing data
+524	1	absence or near absence
+129	2	incipient or nonhereditary
+217	3	reported but type not identified
+227	4	hereditary and socially significant
+ 
+79. v71: Former Presence of Slavery
+Class=numeric; Type=; Number non-missing=1097; Number of unique values=2
+Freq	Value	Description
+170	NA	missing data
+804	1	absent or exists currently and in past
+293	2	fromerly present but not currently existing
+ 
+80. v72: Succession to the Office of Local Headman
+Class=numeric; Type=; Number non-missing=912; Number of unique values=8
+Freq	Value	Description
+355	NA	missing data
+410	1	Patrilineal heir
+101	2	Matrilineal heir
+42	3	Appointment by higher authority
+28	4	Senority or age
+42	5	Influence, wealth or social status
+100	6	Election or other formal consensus
+87	7	Informal consensus
+102	9	Absence of any such office
+ 
+81. v73: Succession to the Office of Local Headman: Type of Hereditary Succession
+Class=numeric; Type=; Number non-missing=912; Number of unique values=6
+Freq	Value	Description
+355	NA	missing data
+308	1	hereditary by son
+102	2	hereditary by other patrilineal heir
+37	3	hereditary by a sister's son
+64	4	hereditary by other matrilineal heir
+299	5	nonhereditary
+102	9	Absence of any such office
+ 
+82. v74: Inheritance Rule for Real Property (Land)
+Class=numeric; Type=; Number non-missing=831; Number of unique values=7
+Freq	Value	Description
+436	NA	missing data
+212	1	absence of individual property rights
+31	2	matrilineal (sister's sons)
+60	3	other matrilineal heirs
+43	4	children, with daughters recieving less
+55	5	children, equally for both sexes
+90	6	other patrilineal heirs
+340	7	patrilineal (sons)
+ 
+83. v75: Inheritance Distribution for Real Property (Land)
+Class=numeric; Type=; Number non-missing=795; Number of unique values=5
+Freq	Value	Description
+472	NA	missing data
+301	1	equal or relatively equal
+19	2	exclusively
+16	3	ultimogeniture
+247	4	primogeniture
+212	9	absence of inheritance of real property
+ 
+84. v76: Inheritance Rule for Movable Property
+Class=numeric; Type=; Number non-missing=886; Number of unique values=7
+Freq	Value	Description
+381	NA	missing data
+132	1	absence of individual property rights or rules
+45	2	Matrilineal
+73	3	other matrilineal
+67	4	children, with daughters receiving less
+89	5	children, equally for both sexes
+87	6	other patrilineal heirs
+393	7	patrilineal
+ 
+85. v77: Inheritance Distribution for Movable Property
+Class=numeric; Type=; Number non-missing=885; Number of unique values=5
+Freq	Value	Description
+382	NA	missing data
+435	1	equal or relatively equal
+18	2	exclusively
+14	3	ultimogeniture
+244	4	primogeniture
+174	9	absence of inheritance of real property
+ 
+86. v78: Norms of Premarital Sexual Behavior of Girls
+Class=numeric; Type=; Number non-missing=574; Number of unique values=6
+Freq	Value	Description
+693	NA	missing data
+47	1	early marriage of females
+146	2	insistence on virginity
+114	3	prohibited but weakly censured
+52	4	allowed, censured only if pregnancy
+10	5	trial, marriage, promiscuous relation prohibited
+205	6	freely permitted
+ 
+87. v79: Prevailing Type of Dwelling: Ground Plan
+Class=numeric; Type=; Number non-missing=1173; Number of unique values=6
+Freq	Value	Description
+94	NA	missing data
+6	1	semicircular
+510	2	circular
+42	3	elliptical or elongated with rounded ends
+2	4	polygonal
+562	5	rectangular or square
+51	6	quadrangular around
+ 
+88. v80: Prevailing Type of Dwelling: Floor Level
+Class=numeric; Type=; Number non-missing=1155; Number of unique values=4
+Freq	Value	Description
+112	NA	missing data
+83	1	subterranean or semi-subterranean
+927	2	floor formed by ground
+66	3	elevated slightly or raised platform
+79	4	raised substantially on piles, posts, or piers
+ 
+89. v81: Prevailing Type of Dwelling: Wall Material
+Class=numeric; Type=; Number non-missing=748; Number of unique values=10
+Freq	Value	Description
+1	0	missing data
+519	NA	missing data
+61	1	stone, stucco, concrete, or fired brink
+142	2	plaster, mud and dung, or wattle and daub
+173	3	wood, including logs, planks, poles, bamboo, or shingles
+19	4	bark
+6	5	hides or skin
+25	6	felt, cloth, or other fabrics
+86	7	mats, latticework, or wattle
+50	8	grass, leaves, or other thatch
+185	9	adobe, clay, or dried brick
+ 
+90. v82: Prevailing Type of Dwelling: Shape of Roof
+Class=numeric; Type=; Number non-missing=1111; Number of unique values=9
+Freq	Value	Description
+156	NA	missing data
+38	1	rounded or semi-cylindrical
+102	2	dome or hemisphere
+58	3	beehive with pointed peak
+350	4	conical
+8	5	semi-hemisphere
+15	6	shed
+95	7	flat or horizontal
+360	8	gabled
+85	9	hipped or pyramidal
+ 
+91. v83: Prevailing Type of Dwelling: Roofing Materials
+Class=numeric; Type=; Number non-missing=1136; Number of unique values=10
+Freq	Value	Description
+131	NA	missing data
+22	1	stone, slate, tile, or fired brink
+12	2	plaster, clay, mud and dung, or wattle and daub
+49	3	wood, including logs, planks, poles, bamboo, or shingles
+38	4	bark
+42	5	hides or skin
+24	6	felt, cloth, or other fabrics
+44	7	mats
+773	8	grass, leaves, brush or other thatch
+125	9	earth or turf
+7	10	ice or snow
+ 
+92. v84: Secondary or Alternative House Type: Ground Plan
+Class=numeric; Type=; Number non-missing=334; Number of unique values=6
+Freq	Value	Description
+933	NA	missing data
+7	1	semicircular
+143	2	circular
+11	3	elliptical or elongated with rounded ends
+1	4	polygonal
+163	5	rectangular or square
+9	6	quadrangular around
+ 
+93. v85: Secondary or Alternative House Type: Floor Level
+Class=numeric; Type=; Number non-missing=332; Number of unique values=4
+Freq	Value	Description
+935	NA	missing data
+25	1	subhterranean or semi-subterranean
+271	2	floor formed by ground
+15	3	elevated slighty or on raise platform
+21	4	raised substantially on piles, posts, or piers
+ 
+94. v86: Secondary or Alternative House Type: Wall Material
+Class=numeric; Type=; Number non-missing=176; Number of unique values=10
+Freq	Value	Description
+1	0	missing data
+1091	NA	missing data
+20	1	stone, stucco, concrete, or fired brink
+34	2	plaster, mud and dung, or wattle and daub
+27	3	wood, including logs, planks, polees, bamboo, or shingles
+8	4	bark
+1	5	hides or skin
+3	6	felt, cloth, or other fabrics
+18	7	mats. latticework, or wattle
+19	8	grass, leaves, or other thatch
+45	9	adobe, clay, or dried brick
+ 
+95. v87: Secondary or Alternative House Type: Shape of Roof
+Class=numeric; Type=; Number non-missing=313; Number of unique values=9
+Freq	Value	Description
+954	NA	missing data
+1	1	rounded or semi cylindrical
+28	2	dome or hemisphere
+10	3	behive with pointed peak
+103	4	conical
+8	5	semi-hemisphere
+8	6	shed
+39	7	flat or horizontal
+91	8	gabled
+25	9	hipped or pyramidal
+ 
+96. v88: Secondary or Alternative House Type: Roofing Materials
+Class=numeric; Type=; Number non-missing=327; Number of unique values=9
+Freq	Value	Description
+940	NA	missing data
+10	1	stone, or slate, tile, fired brink
+1	2	plaster, clay, mud and dung, or wattle and daub
+11	3	wood, including logs, planks, poles, bamboo, or shingles
+27	4	bark
+26	5	hides or skin
+3	6	felt, cloth, or other fabrics
+33	7	mats
+179	8	grass, leaves, brush, or other thatch
+37	9	ice or snow
+ 
+97. v89: Inclusion in Summary Atlas Volume (1967)
+Class=numeric; Type=; Number non-missing=1267; Number of unique values=2
+Freq	Value	Description
+405	0	no
+862	1	yes
+ 
+98. v90: Political Integration (WES Column 15)
+Class=numeric; Type=; Number non-missing=1267; Number of unique values=8
+Freq	Value	Description
+932	0	insufficient information
+23	1	absence, even at local level
+131	2	autonomous local communities
+9	3	peace groups transcending local communities
+79	4	minimal states
+28	5	little states
+42	6	states
+23	8	NA
+ 
+99. v91: Region
+Class=character; Type=; Number non-missing=1267; Number of unique values=6
+Freq	Value
+414	A
+164	C
+126	E
+168	I
+286	N
+109	S
+ 
+100. v92: Area within each region
+Class=character; Type=; Number non-missing=1267; Number of unique values=10
+Freq	Value
+145	a
+117	b
+139	c
+176	d
+147	e
+115	f
+114	g
+110	h
+112	i
+92	j
+ 
+101. v93: Ethnographic Atlas Number
+Class=numeric; Type=; Number non-missing=1267; Number of unique values=67
+Stat	Value
+n	1267
+mean	16.74
+sd	14.175
+min	1
+max	67
+ 
+102. v94: Political Succession for the Local Community (WES Column 15)
+Class=numeric; Type=; Number non-missing=1267; Number of unique values=12
+Freq	Value	Description
+973	0	insufficient information or not coded
+67	11	PL, a son preferred to a younger brother
+9	12	PL, a younger brother preferred to a son
+61	13	PL, other than B or S
+8	24	ML, a sister's son preferred to a younger brother
+8	25	ML, a younger brother preferred to a sister's son
+14	26	ML, other than SS or yB
+11	39	appointment by some higher authority
+26	49	election or formal consensus
+41	59	informal consensus, personal influence or age
+19	69	councils, or other collective body
+30	99	absence of indigenous political authority
+ 
+103. v95: Climate: Primary Environment (Coded by Frank Moore from Phillips Comparative Atlas)
+Class=numeric; Type=; Number non-missing=1267; Number of unique values=16
+Freq	Value
+869	0
+11	23
+21	36
+8	44
+19	46
+3	51
+37	52
+25	54
+11	55
+16	56
+5	65
+24	74
+27	78
+64	84
+14	87
+113	88
+ 
+104. v96: Climate: Secondary Environments (Coded by Frank Moore from Phillips Comparative Atlas)
+Class=numeric; Type=; Number non-missing=1267; Number of unique values=16
+Freq	Value	Description
+869	0	not coded
+1	23	tundra
+1	36	northern coniferous forest
+4	46	temperate forest
+1	51	desert
+7	52	desert grasses and shrubs
+1	54	temperate grasslands
+7	56	temperate woodland
+1	65	oases and certain restricted river valleys
+1	74	sub-tropical bush
+5	78	sub-tropical rain forest
+17	84	tropical grassland
+1	87	monsoon forest
+9	88	tropical rain forest
+341	99	no secondary environment
+1	55	NA
+ 
+105. v97: Linguistic Affiliation: Language Continent
+Class=numeric; Type=; Number non-missing=1203; Number of unique values=5
+Freq	Value	Description
+64	NA	no data
+531	1	Africa- Mideastern
+215	2	East Eurasia
+91	3	North Eurasisan
+267	4	North American
+99	5	South American
+ 
+106. v98: Linguistic Affiliation: Language Phylum
+Class=numeric; Type=; Number non-missing=1203; Number of unique values=72
+Stat	Value
+n	1203
+mean	20.931
+sd	23.509
+min	1
+max	99
+ 
+107. v99: Linguistic Affiliation: Subfamilies
+Class=numeric; Type=; Number non-missing=671; Number of unique values=57
+Stat	Value
+n	671
+mean	13.335
+sd	14.325
+min	1
+max	57
+ 
+108. v102: Date: Year with Century
+Class=numeric; Type=; Number non-missing=1258; Number of unique values=55
+Stat	Value
+n	1258
+mean	1897.542
+sd	135.409
+min	-800
+max	2000
+ 
+109. v104: Latitude
+Class=numeric; Type=; Number non-missing=1267; Number of unique values=113
+Stat	Value
+n	1267
+mean	14.522
+sd	22.16
+min	-55
+max	78
+ 
+110. v106: Longitude
+Class=numeric; Type=; Number non-missing=1267; Number of unique values=286
+Stat	Value
+n	1267
+mean	1.311
+sd	84.863
+min	-190
+max	179
+ 
+111. v107: Society name
+Class=character; Type=; Number non-missing=1267; Number of unique values=1265
+First six non-missing records:
+society	v107
+Kung	KUNG. . .
+Herero	HERERO. .
+Swazi	SWAZI . .
+Ila	ILA . . .
+Pende	PENDE . .
+Bajun	BAJUN . .
+ 
+112. v112: Trance States
+Class=numeric; Type=; Number non-missing=659; Number of unique values=8
+Freq	Value	Description
+135	1	trance behavior known to occur, no belief in possession
+45	2	a belief in possession exists
+68	3	trance behavior known to occur and is explained
+93	4	two types of trance states are known to occur
+79	5	trance state and belief in possission
+85	6	trance explained as due to possession
+36	7	trance states of two kinds are known to occur
+118	8	no trance states of any kind are known to occur
+608	NA	NA
+ 
+113. v113: Societal Rigidity
+Class=numeric; Type=; Number non-missing=32; Number of unique values=2
+Freq	Value	Description
+13	1	Rigid
+19	2	Flexible
+1235	NA	NA
+ 
+114. v114: Ethnographic Atlas Cluster number
+Class=numeric; Type=; Number non-missing=642; Number of unique values=350
+Stat	Value
+n	642
+mean	197.863
+sd	119.609
+min	1
+max	412
+ 
+115. meanalt: BIOCLIM: Mean altitude within 20 km radius (m)  (Hijmans et al. 2005)
+Class=numeric; Type=; Number non-missing=1267; Number of unique values=823
+Stat	Value
+n	1267
+mean	675.5
+sd	685.46
+min	-9
+max	5707
+ 
+116. sdalt: BIOCLIM: Standard deviation of altitude within 20 km radius (m) (Hijmans et al. 2005)
+Class=numeric; Type=; Number non-missing=1267; Number of unique values=400
+Stat	Value
+n	1267
+mean	142.065
+sd	156.632
+min	1
+max	1002
+ 
+117. bio.1: BIOCLIM: Annual Mean Temperature (°C*10) (Hijmans et al. 2005)
+Class=numeric; Type=; Number non-missing=1267; Number of unique values=1224
+Stat	Value
+n	1267
+mean	194.642
+sd	88.073
+min	-166.522
+max	301.41
+ 
+118. bio.2: BIOCLIM: Mean Diurnal Range (Mean of monthly (max temp - min temp))  (°C*10) (Hijmans et al. 2005)
+Class=numeric; Type=; Number non-missing=1267; Number of unique values=1219
+Stat	Value
+n	1267
+mean	115.707
+sd	30.312
+min	43.998
+max	189.576
+ 
+119. bio.3: BIOCLIM: Isothermality (bio_2/bio_7) (* 100) (Hijmans et al. 2005)
+Class=numeric; Type=; Number non-missing=1267; Number of unique values=1223
+Stat	Value
+n	1267
+mean	58.801
+sd	18.895
+min	13
+max	92.932
+ 
+120. bio.4: BIOCLIM: Temperature Seasonality (standard deviation *100) (Hijmans et al. 2005)
+Class=numeric; Type=; Number non-missing=1267; Number of unique values=1226
+Stat	Value
+n	1267
+mean	3552.52
+sd	3505.928
+min	108.25
+max	20324.361
+ 
+121. bio.5: BIOCLIM: Max Temperature of Warmest Month  (°C*10) (Hijmans et al. 2005)
+Class=numeric; Type=; Number non-missing=1267; Number of unique values=1225
+Stat	Value
+n	1267
+mean	309.416
+sd	58.4
+min	35.405
+max	459.643
+ 
+122. bio.6: BIOCLIM: Min Temperature of Coldest Month  (°C*10) (Hijmans et al. 2005)
+Class=numeric; Type=; Number non-missing=1267; Number of unique values=1225
+Stat	Value
+n	1267
+mean	84.575
+sd	130.875
+min	-425.984
+max	257
+ 
+123. bio.7: BIOCLIM: Temperature Annual Range (bio_5-bio_6)  (°C*10) (Hijmans et al. 2005)
+Class=numeric; Type=; Number non-missing=1267; Number of unique values=1226
+Stat	Value
+n	1267
+mean	225.07
+sd	109.712
+min	53.625
+max	658.63
+ 
+124. bio.8: BIOCLIM: Mean Temperature of Wettest Quarter  (°C*10) (Hijmans et al. 2005)
+Class=numeric; Type=; Number non-missing=1267; Number of unique values=1224
+Stat	Value
+n	1267
+mean	203.482
+sd	82.063
+min	-90.387
+max	350.964
+ 
+125. bio.9: BIOCLIM: Mean Temperature of Driest Quarter  (°C*10) (Hijmans et al. 2005)
+Class=numeric; Type=; Number non-missing=1267; Number of unique values=1225
+Stat	Value
+n	1267
+mean	183.965
+sd	110.888
+min	-339.844
+max	351.007
+ 
+126. bio.10: BIOCLIM:  Mean Temperature of Warmest Quarter  (°C*10) (Hijmans et al. 2005)
+Class=numeric; Type=; Number non-missing=1267; Number of unique values=1225
+Stat	Value
+n	1267
+mean	238.968
+sd	57.251
+min	-0.795
+max	357.838
+ 
+127. bio.11: BIOCLIM:  Mean Temperature of Coldest Quarter  (°C*10) (Hijmans et al. 2005)
+Class=numeric; Type=; Number non-missing=1267; Number of unique values=1226
+Stat	Value
+n	1267
+mean	148.605
+sd	127.304
+min	-369.864
+max	283.935
+ 
+128. bio.12: BIOCLIM:  Annual Precipitation  (mm) (Hijmans et al. 2005)
+Class=numeric; Type=; Number non-missing=1267; Number of unique values=1226
+Stat	Value
+n	1267
+mean	1332.765
+sd	960.875
+min	0.264
+max	6415.639
+ 
+129. bio.13: BIOCLIM:  Precipitation of Wettest Month  (mm) (Hijmans et al. 2005)
+Class=numeric; Type=; Number non-missing=1267; Number of unique values=1226
+Stat	Value
+n	1267
+mean	224.548
+sd	150.811
+min	0.254
+max	1215.786
+ 
+130. bio.14: BIOCLIM:  Precipitation of Driest Month  (mm) (Hijmans et al. 2005)
+Class=numeric; Type=; Number non-missing=1267; Number of unique values=1041
+Stat	Value
+n	1267
+mean	32.813
+sd	53.074
+min	0
+max	413.86
+ 
+131. bio.15: BIOCLIM:  Precipitation Seasonality (Coefficient of Variation)  (Hijmans et al. 2005)
+Class=numeric; Type=; Number non-missing=1267; Number of unique values=1225
+Stat	Value
+n	1267
+mean	65.8
+sd	33.262
+min	5.048
+max	215.847
+ 
+132. bio.16: BIOCLIM:  Precipitation of Wettest Quarter  (mm) (Hijmans et al. 2005)
+Class=numeric; Type=; Number non-missing=1267; Number of unique values=1226
+Stat	Value
+n	1267
+mean	594.111
+sd	402.803
+min	0.264
+max	3289.535
+ 
+133. bio.17: BIOCLIM:  Precipitation of Driest Quarter  (mm) (Hijmans et al. 2005)
+Class=numeric; Type=; Number non-missing=1267; Number of unique values=1153
+Stat	Value
+n	1267
+mean	119.208
+sd	174.592
+min	0
+max	1403.663
+ 
+134. bio.18: BIOCLIM:  Precipitation of Warmest Quarter  (mm) (Hijmans et al. 2005)
+Class=numeric; Type=; Number non-missing=1267; Number of unique values=1216
+Stat	Value
+n	1267
+mean	320.108
+sd	285.863
+min	0
+max	1914.123
+ 
+135. bio.19: BIOCLIM:  Precipitation of Coldest Quarter  (mm) (Hijmans et al. 2005)
+Class=numeric; Type=; Number non-missing=1267; Number of unique values=1191
+Stat	Value
+n	1267
+mean	302.898
+sd	350.816
+min	0
+max	2657.743
+ 
+136. mnnpp: Mean Net Primary Production within 50 km radius. (scaled) (Imhoff et al. 2004) 
+Class=numeric; Type=; Number non-missing=1267; Number of unique values=1223
+Stat	Value
+n	1267
+mean	0.142
+sd	1.028
+min	-1.369
+max	2.721
+ 
+137. long: Longitude (decimal degrees)--rectified
+Class=numeric; Type=; Number non-missing=1267; Number of unique values=829
+Stat	Value
+n	1267
+mean	1.201
+sd	84.866
+min	-178.132
+max	179.497
+ 
+138. lati: Latitude (decimal degrees)--rectified
+Class=numeric; Type=; Number non-missing=1267; Number of unique values=727
+Stat	Value
+n	1267
+mean	14.484
+sd	22.198
+min	-55.427
+max	78
+ 
+139. ecoregion: WWF ecoregion. (Olson et al. 2001)
+Class=character; Type=; Number non-missing=1267; Number of unique values=376
+First six non-missing records:
+society	ecoregion
+Kung	Kalahari Xeric Savanna
+Herero	Kalahari Xeric Savanna
+Swazi	Drakensburg Afro-montane Grassland and Woodland
+Ila	Zambezian Flooded Grassland
+Pende	Southern Congolian Forest-Savanna Mosaic
+Bajun	East African Mangroves
+ 
+140. mht.name: WWF major habitat type. (Olson et al. 2001)
+Class=character; Type=; Number non-missing=1267; Number of unique values=16
+Freq	Value
+24	Boreal forest/taigas
+133	Deserts and xeric shrublands
+12	Flooded grasslands
+15	Mangroves
+32	Mediterranean scrub
+24	Montane grasslands
+3	Snow, ice, glaciers, and rock
+59	Temperate broadleaf and mixed forests
+98	Temperate coniferous forests
+50	Temperate grasslands, savannas, and shrublands
+20	Tropical and subtropical coniferous forests
+55	Tropical and subtropical dry broadleaf forests
+338	Tropical and subtropical grasslands, savannas, and shrublands
+383	Tropical and subtropical moist broadleaf forests
+20	Tundra
+1	Water
+ 
+141. iso: ISO 3166-1 alpha-3 country codes (GADM-2 data from http://www.gadm.org/)
+Class=character; Type=; Number non-missing=1267; Number of unique values=153
+First six non-missing records:
+society	iso
+Kung	NAM
+Herero	NAM
+Swazi	SWZ
+Ila	ZMB
+Pende	COD
+Bajun	KEN
+ 
+142. name.0: Name of Country (GADM-2 data from http://www.gadm.org/)
+Class=character; Type=; Number non-missing=1267; Number of unique values=153
+First six non-missing records:
+society	name.0
+Kung	Namibia
+Herero	Namibia
+Swazi	Swaziland
+Ila	Zambia
+Pende	Democratic Republic of the Congo
+Bajun	Kenya
+ 
+143. name.1: Name of first subnational administrative level (GADM-2 data from http://www.gadm.org/)
+Class=character; Type=; Number non-missing=1155; Number of unique values=519
+First six non-missing records:
+society	name.1
+Kung	Omaheke
+Herero	Erongo
+Swazi	Manzini
+Ila	Southern
+Bajun	Coast
+Nyoro	Masindi
+ 
+144. hasc.1: Hierarchical administrative subdivision code--level 1 (GADM-2 data from http://www.gadm.org/)
+Class=character; Type=; Number non-missing=1177; Number of unique values=573
+First six non-missing records:
+society	hasc.1
+Kung	NA.OH
+Herero	NA.ER
+Swazi	SZ.MA
+Ila	ZM.SO
+Pende	CD.KC
+Bajun	KE.CO
+ 
+145. name.2: Name of second subnational administrative level (GADM-2 data from http://www.gadm.org/)
+Class=character; Type=; Number non-missing=1114; Number of unique values=870
+First six non-missing records:
+society	name.2
+Kung	Aminius
+Herero	Omaruru
+Ila	Itezhi-Tezhi
+Bajun	Lamu
+Nyoro	Kibanda
+Amba	Ituri
+ 
+146. hasc.2: Hierarchical administrative subdivision code--level 2 (GADM-2 data from http://www.gadm.org/)
+Class=character; Type=; Number non-missing=849; Number of unique values=693
+First six non-missing records:
+society	hasc.2
+Kung	NA.OH.AM
+Herero	NA.ER.OM
+Ila	ZM.SO.IT
+Bajun	KE.CO.LM
+Kpe	CM.SW.FA
+Fon	BJ.ZO.DJ
+ 
+147. name.3: Name of third subnational administrative level (GADM-2 data from http://www.gadm.org/)
+Class=character; Type=; Number non-missing=524; Number of unique values=463
+First six non-missing records:
+society	name.3
+Pende	Thikapa
+Bajun	Kiunga
+Nyoro	Kiryandongo
+Amba	Irumu
+Kissi	Beindou
+Bambara	MPessoba
+ 
+148. region: Major sub-continental geographic region
+Class=character; Type=; Number non-missing=1267; Number of unique values=24
+First six non-missing records:
+society	region
+Kung	Southern Africa
+Herero	Southern Africa
+Swazi	Southern Africa
+Ila	Eastern Africa
+Pende	Middle Africa
+Bajun	Eastern Africa
+ 
+149. continent: Continent
+Class=character; Type=; Number non-missing=1267; Number of unique values=7
+Freq	Value
+535	Africa
+215	Asia
+13	Australia
+30	Europe
+308	North America
+75	Oceania
+91	South America
+ 
+150. iso639.3: ISO 639-3 language code, used on Ethnologue (http://www.ethnologue.com/)
+Class=character; Type=; Number non-missing=1267; Number of unique values=1060
+First six non-missing records:
+society	iso639.3
+Kung	knw
+Herero	her
+Swazi	ssw
+Ila	ilb
+Pende	pem
+Bajun	swh
+ 
+151. lang: Language name, from Ethnologue (http://www.ethnologue.com/)
+Class=character; Type=; Number non-missing=1267; Number of unique values=1059
+First six non-missing records:
+society	lang
+Kung	Kung-Ekoka
+Herero	Herero
+Swazi	Swati
+Ila	Ila
+Pende	Phende
+Bajun	Swahili
+ 
+152. phyl: Language phylogenetic classification, from Ethnologue (http://www.ethnologue.com/)
+Class=character; Type=; Number non-missing=1267; Number of unique values=771
+First six non-missing records:
+society	phyl
+Kung	Khoisan, Southern Africa, Northern
+Herero	Niger-Congo, Atlantic-Congo, Volta-Congo, Benue-Congo, Bantoid, Southern, Narrow Bantu, Central, R, Herero (R.30)
+Swazi	Niger-Congo, Atlantic-Congo, Volta-Congo, Benue-Congo, Bantoid, Southern, Narrow Bantu, Central, S, Nguni (S.40)
+Ila	Niger-Congo, Atlantic-Congo, Volta-Congo, Benue-Congo, Bantoid, Southern, Narrow Bantu, Central, M, Lenje-Tonga (M.60), Tonga
+Pende	Niger-Congo, Atlantic-Congo, Volta-Congo, Benue-Congo, Bantoid, Southern, Narrow Bantu, Central, K, Holu (K.10)
+Bajun	Niger-Congo, Atlantic-Congo, Volta-Congo, Benue-Congo, Bantoid, Southern, Narrow Bantu, Central, G, Swahili (G.40)
+ 
+153. reg: Classification into Old World or New World. Used for calculation of linguistic proximity matrix.
+Class=character; Type=; Number non-missing=1267; Number of unique values=2
+Freq	Value
+389	newWorld
+878	oldWorld
+ 
+154. koeppengei: Koeppen-Geiger climate classification. (Kottek et al. 2006)
+Class=character; Type=; Number non-missing=1267; Number of unique values=25
+First six non-missing records:
+society	koeppengei
+Kung	BWh
+Herero	BWh
+Swazi	Cwb
+Ila	Cwa
+Pende	Aw
+Bajun	As
+ 
+155. eaid: Ethnographic Atlas ID number, if society is in the EA
+Class=numeric; Type=; Number non-missing=1267; Number of unique values=1267
+Stat	Value
+n	1267
+mean	634
+sd	365.896
+min	1
+max	1267
+ 
+156. wnaiid: Western North American Indian ID number, if society is in the WNAI
+Class=numeric; Type=; Number non-missing=97; Number of unique values=97
+Stat	Value
+n	97
+mean	78.144
+sd	47.603
+min	2
+max	170
+ 
+157. lrbid: Binford foragers ID number, if society is in the LRB
+Class=numeric; Type=; Number non-missing=207; Number of unique values=207
+Stat	Value
+n	207
+mean	190.517
+sd	89.601
+min	1
+max	339
+ 
+158. sccsid: Standard Cross Cultural Sample ID number, if society is in the SCCS
+Class=numeric; Type=; Number non-missing=186; Number of unique values=186
+Stat	Value
+n	186
+mean	93.5
+sd	53.838
+min	1
+max	186

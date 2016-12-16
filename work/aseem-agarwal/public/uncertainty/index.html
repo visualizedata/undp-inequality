@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="css/leaflet.min.css" />
+	<script src="js/lib/d3.min.js"></script>
+	<script src="js/queries.js"></script>
+	<script src="js/lib/africa-geo-json.js"></script>
+	<script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/leafleft.min.js"></script>
+	<title></title>
+	<script type="text/javascript">
+		// var dontShowUncertainty = true;
+	</script>
+</head>
+<body>
+	<div class='tooltipCont'>
+		<div class='tooltip'></div>
+	</div>
+	<div class='left'>
+		<div class='header'>
+			<div class='title'>
+				<div class='label'>How do </div>
+				<div data-help='i1' class='label info'>Conflicts </div>
+				<div class='label'> affect</div>
+				<div data-help='i2' class='label info'>Growth?</div>
+			</div>
+			<div class='descr'>Analysing the impact of violence due to conflicts on growth as measured by GDP per capita.</div>
+			</div>
+			<div class='sub disabled'></div>
+		<div class='ctypes'>
+			<div data-type="1" class='ctype'>
+				<div class='btn'></div>
+				<div data-help='ct1' class='label info'>Government Involved</div>
+			</div>
+			<div data-type="2" class='ctype'>
+				<div class='btn'></div>
+				<div data-help='ct2' class='label info'>Between Groups</div>
+			</div>
+			<div data-type="3" class='ctype'>
+				<div class='btn'></div>
+				<div data-help='ct3' class='label info'>One sided violence</div>
+			</div>
+		</div>
+			<div class='mapLegend'>
+			<div class='label'>Total Conflict Violence&nbsp;(Number of deaths) - 1989 to 2014 </div>
+			<div class='keys'></div>
+			</div>
+		<div id="mapp"></div>
+	</div>
+	<div class="right">
+		<div class='user_selection'>
+		<div class='country label'>
+			<span class='selected'></span>
+			<div class='text'></div>
+		</div>
+		</div>
+		<div class='list'>
+		</div>
+		<div class='viz'>
+			<div class='timeline'>
+				<div class='container'></div>
+			</div>
+			<div id="dyads">
+				<div data-help='conflicts' class='label info'>CONFLICT VIOLENCE</div>
+				<div data-help='legend' class='label legend info'><div class='high key'>HIGH ESTIMATION</div><div class='best key'>BEST ESTIMATION</div></div>
+			</div>
+			<div class='indicators'>
+			<div class='indicator gdp'>
+				<div data-help='gdp' class='label info'>GDP PER CAPITA</div>
+			</div>
+			</div>
+			
+		</div>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
