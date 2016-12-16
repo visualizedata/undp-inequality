@@ -1,0 +1,486 @@
+/*--------------------*/
+/*-----THE BASICS-----*/
+html {
+    overflow-y: scroll;
+    overflow-x: visible;
+    background-color: white;
+}
+
+body {
+    text-align: center;
+}
+
+a {
+    color: red !important;
+}
+
+a:hover {
+    color: black !important;
+}
+
+select {
+    display: inline-block;
+    margin: 0;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 2px;
+}
+
+select:focus {
+    outline: none;
+}
+
+/*Turn off scrollbar*/
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+
+
+/*--------------------------*/
+/*-----THE INSTRUCTIONS-----*/
+.instBox {
+    position: absolute;
+    width: auto;
+    min-width: 200px;
+    top: 700px;
+    padding: 10px;
+    background: black;
+    border-radius: 2px;
+    opacity: .6;
+    transform: translate(-50%,0);
+    
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+
+
+/*---------------------*/
+/*-----THE BUTTONS-----*/
+.subtitle {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    margin-top: 15px;
+    margin-bottom: 2px;
+    /*transform: translate(-1.6%);*/
+}
+
+.b {
+    text-transform: uppercase;
+    font-size: 8px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 2px 3px;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: help;
+}
+
+.b:hover {
+    background: black;
+    color: white;
+}
+
+.bComp {
+    margin-right: 10px;
+}
+
+.bReset {
+    cursor: pointer;
+}
+
+#bReset {
+    position: absolute;
+    top: 263px;
+}
+
+
+
+/*--------------------*/
+/*-----THE LAYOUT-----*/
+#svgAxes {
+    /*visibility: hidden;*/
+}
+
+.colscroll {
+    /*position: relative;*/
+    /*overflow-x: scroll;*/
+}
+
+.colnoscroll {
+    /*position: relative;*/
+    /*overflow-x: hidden;*/
+}
+
+/*#overlay {*/
+/*    position: absolute;*/
+    /*transform: translate(0, -820px);*/
+/*}*/
+
+.info {
+    transform: translate(0, -900px);
+}
+
+.graph-div-filter{
+    width: 100%;
+}
+    
+@media (min-width: 767px) {
+    .graph-div-filter {
+        padding-left: 75px;
+        padding-right: 80px;
+    }
+}
+
+#description {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+/*---------------------*/
+/*-----THE COUNTRY-----*/
+.info {
+    font-family: Arial, sans-erif;
+}
+
+.left {
+    text-align: left;
+}
+
+.iLeft {
+    margin-left: 60px;
+}
+
+.iRight {
+    margin-right: 100px;
+    text-align: right;
+}
+
+@media (max-width: 767px) {
+  .iLeft {
+       margin-right: 100px;
+  }
+  
+  .iRight {
+      margin-top: 15px;
+      margin-left: 60px;
+  }
+}
+
+.iTitle {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.iOverview {
+    font-size: 10px;
+}
+
+.iDeets {
+    width: auto;
+    /*text-align: left;*/
+    font-size: 10px;
+}
+
+.jayz {
+    display: inline-block;
+    margin-right: 5px;
+    text-align: left;
+}
+
+.top{
+    display: block;
+}
+
+.bottom{
+    display: block;
+}
+
+.iMore {
+    margin-top: 7px;
+    font-size: 8px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+
+/*---------------------*/
+/*-----THE FILTERS-----*/
+.graph-div-filter {
+    display: inline-block;
+    height: 50px;
+    margin-top: 1rem;
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    transform: translate(-1.6%);
+}
+
+.graph-div-filter div {
+    padding: 0px;
+}
+
+.graph-div-filter div>select {
+    margin-left: -8px;
+}
+
+.filter {
+    display: inline-block;
+    padding: 15px;
+}
+
+#indicator,
+#region {
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 0px;
+    font-size: 22px;
+    cursor: pointer;
+    background: url(../images/select-down.png) no-repeat right;
+    background-size: 16px;
+    padding: 0px;
+    -webkit-appearance: none;
+    /*REMOVES DEFAULT CHROME & SAFARI STYLE*/
+    -moz-appearance: none;
+    /*REMOVES DEFAULT FIREFOX STYLE*/
+}
+
+#indicator {
+    width: 224px;
+    margin-right: 5px;
+}
+
+#region {
+    margin-right: 5px;
+}
+
+
+/*-------------------*/
+/*-----THE VIZZY-----*/
+path {
+    stroke-width: 1.5px;
+    fill: none;
+}
+
+.pathA {
+    stroke: black;
+    stroke-width: 1px;
+    visibility: hidden;
+}
+
+.pathAI {
+    stroke: black;
+    stroke-width: 1px;
+    visibility: hidden;
+}
+
+.g-line {
+    opacity: 0.5;
+    stroke-width: 1.0px;
+    /*display: none;*/
+    /*stroke-linecap: round;*/
+    /*stroke-dasharray: 4, 4;*/
+}
+
+/*--tooltips--*/
+.tooltipMain {
+    font-family: Arial, sans-serif;
+    padding: 2px 7px;
+    color: white;
+    border-radius: 0px 3px 3px 0px;
+}
+
+.tooltipClick {
+    font-family: Arial, sans-serif;
+    padding: 2px 7px;
+    color: white;
+    border-radius: 3px;
+    transform: translate(-50%, 0);
+}
+
+#tooltipClick {
+    text-align: center;
+}
+
+#tooltipClickSub {
+    font-size: 10px;
+}
+
+.tooltipY {
+    font-family: Arial, sans-serif;
+    padding: 5px;
+    color: gray;
+    border-radius: 3px 3px 3px 3px;
+    top: 217px;
+    background-color: white;
+}
+
+/*--labels--*/
+#labelC {
+    font-size: 8px;
+    font-family: Arial, sans-serif;
+    opacity: .3;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    cursor: default;
+}
+#labelA {
+    font-size: 8px;
+    font-family: Arial, sans-serif;
+    /*opacity: .3;*/
+    letter-spacing: 0;
+    text-transform: uppercase;
+    cursor: default;
+    visibility: hidden;
+}
+#labelAI {
+    font-size: 8px;
+    font-family: Arial, sans-serif;
+    /*opacity: .3;*/
+    letter-spacing: 0;
+    text-transform: uppercase;
+    cursor: default;
+    visibility: hidden;
+}
+#labelD {
+    font-size: 8px;
+    font-family: Arial, sans-serif;
+    opacity: .3;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    cursor: default;
+}
+#labelI {
+    font-size: 8px;
+    font-family: Arial, sans-serif;
+    opacity: .3;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    cursor: default;
+}
+.yLabel {
+    position: absolute;
+    left: -30px;
+    font-family: Arial, sans-serif;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transform: rotate(-90deg);
+}
+.iInfo {
+    position: absolute;
+}
+.hLabel {
+    position: absolute;
+    /*left: -30px;*/
+    font-family: Arial, sans-serif;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transform: translate(-50%, 0);
+    margin-left: -4px;
+}
+#hLabelI-icon {
+    position: absolute;
+    top: 270px;
+    font-size: 9px;
+}
+.hLabelI-icon {
+    position: absolute;
+    top:0px;
+}
+
+#hLabelD-icon {
+    position: absolute;
+    top: 9px;
+    font-size: 9px;
+}
+.hLabelD-icon {
+    position: absolute;
+    top:0px;
+}
+
+/*--axes--*/
+.axis path, .axis line {
+    fill: black;
+    shape-rendering: crispEdges;
+}
+
+.xAxis path {
+    /*display: none;*/
+    transform: translate(0,-225px);
+    stroke-width: 2px;
+}
+
+.axis text {
+    font-family: Arial, sans-serif;
+    font-size: 9px;
+    opacity: .5;
+}
+
+.yAxis text {
+    transform: translate(-5px,0);    
+}
+
+.yAxis2 text {
+    transform: translate(-5px,0);    
+}
+
+.xAxis text {
+    display: none;
+}
+
+.xAxis2 text {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    transform: translate(0,20px);
+    color: black;
+    opacity: 1;
+}
+
+.tick line {
+    opacity: 0.2;
+    stroke-linecap: round;
+    stroke-dasharray: .1, 4;
+}
+
+/*--popovers--*/
+.popvert {
+    display: inline-block;
+    transform: rotate(90deg);
+}
+
+.popover {
+    width: 300px;
+}
+
+.popover-title {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+.popover-content {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+}
+
+.glyphVert {
+    transform: rotate(-90deg);
+    margin-left: -1px;
+}
+
+.footnote {
+  margin-top: 5px;
+  opacity: .7;
+  font-size: 7px;
+  text-align: left;
+  padding-bottom: 7px;
+  text-transform: none;
+  letter-spacing: 0;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Governance Indicators in Africa</title>
+
+    <!--Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!--D3 and Fonts-->
+    <script src="https://use.fontawesome.com/132433ada8.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="graph-div-filter">
+                    How does democracy impact
+                    <span id="iSelect"><select id="indicator" onchange="drawVisual(false)"> </select></span> in
+                    <span id="rSelect"><select id="region" onchange="drawVisual(true)"> </select></span> Africa?
+                    <!--Show Subtitle/Description-->
+                    <div id="description">Sub-Saharan Africa is transitioning toward more democratic leadership (four full electoral democracies in 1990 to twenty in 2016, according to Freedom House), which plays an important role in the governance of a country. This visualization explores the relationship between a country’s democratic score and its estimated score in six World Governance Indicators, and compares both to the inequality coefficient (GINI).</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 subtitle" id="subtitle">
+                <!--Show Averages and Show Gini Buttons-->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="colscroll">
+                    <div class="visualization" id="visualization"></div>
+                </div>
+                <div class="colnoscroll">
+                    <div class="overlay" id="overlay "></div>
+                </div>
+            </div>
+        </div>
+        <div class="row info">
+            <div class="col-sm-7">
+                <div class="left" id="iLeft">
+                </div>
+            </div>
+            <div class="hidden-xs col-sm-1"></div>
+            <div class="col-sm-4">
+                <div class="left" id="iRight">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!--LOAD DATA AND VISUALIZATION-->
+    <script src="js/data.js"></script>
+    <script src="js/visualization.js"></script>
+
+    <!--LOAD BOOTSTRAP PLUGINS-->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
