@@ -1,0 +1,2369 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <meta charset="utf-8">
+        <title>Education Financing Bar Chart.js</title>
+        <style>
+
+        body {
+          font: 10px arial;
+        }
+        
+        .axis text {
+          font: 6px arial;
+        }
+        .axis path,
+        .axis line {
+          fill: none;
+          stroke: #000;
+          shape-rendering: crispEdges;
+        }
+        
+        .tooltip {
+          position: absolute;
+          text-align: center;
+          width: 60px;
+          height: 12px;
+          padding: 8px;
+          margin-top: -20px;
+          font: 10px arial;
+          background: #ddd;
+          pointer-events: none;
+        }
+        
+        #myModal{
+    		display: none;
+    		position: fixed;
+    		top: 100px;
+    		left: 5%;
+    			/*padding: 20px;*/
+    			/*box-shadow: 0 0 5px;*/
+    		background-color: #F3E6CF;
+    		opacity: 0.95;
+    	    }
+    	
+    	 #overlay{
+    		display: none;
+    		position: fixed;
+    		top: 5px;
+    			/*padding: 20px;*/
+    			/*box-shadow: 0 0 5px;*/
+    		background-color: black;
+    		opacity: 0.90;
+    	    }
+    	   
+    	   #legend1{
+    	       color: white;
+    	       text-align: center;
+    	       background-color: #FF715f;
+    	   }
+    	   
+    	   #legend2{
+    	       color: white;
+    	       text-align: center;
+    	       background-color: #0A97D9;
+    	   }
+    	   
+    	   #legend3{
+    	       color: white;
+    	       text-align: center;
+    	       background-color: #19486A;
+    	   }
+    	   
+    	   #legend4{
+    	       color: white;
+    	       text-align: center;
+    	       background-color: #29ABA4;
+    	   }
+    	   
+    	   #legend5{
+    	       color: white;
+    	       text-align: center;
+    	       background-color: #E5243B;
+    	   }
+    	
+
+        </style>
+
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
+    </head>
+    
+    <body style="background-color: #F3E6CF"> <!--#E9E0D6 #F3E6CF-->
+        <div class="container">
+            <div class='row' id='title' class='col-lg-12 col-md-12 col-sm-12 col-xs-12' style='height:20px'></div>
+            <div class='row' id='title' class='col-lg-6 col-md-8 col-sm-10 col-xs-12' style='font-family:arial;font-size:18px; height: 35px; margin-left: 65px'>Education Financing and Inequality in Sub-Saharan African Countries</div>
+            <div class='row' id='question' class='col-lg-6 col-md-6 col-sm-6 col-xs-6' style='font-family:arial; font-weight: bold;  font-size:10px; height: 14px; margin-left: 65px'>How much education funding does one student receive on average?</div>
+            <div class="row" id='support' class='col-lg-12 col-md-12 col-sm-12 col-xs-12' style='margin-left: 50px'>
+                <div class='col-lg-6 col-md-6 col-sm-6 col-xs-6' style='font-family:arial;font-size:10px; height:60px'>Education is a form of human capital investment that is central to economic growth and reduce income inequality. This interactive breakdown of public, private and aid expenditures on education aims to examine the impact of such investment on inequality. Click on the bars for more information.</div>
+                <div class='col-lg-1 col-md-1 col-sm-1 col-xs-1' style='height:15px'></div>
+                <div id='legend1' class='col-lg-1 col-md-1 col-sm-1 col-xs-1' style='font-size:9px; height:15px'>Government</div>
+                <div id='legend2' class='col-lg-1 col-md-1 col-sm-1 col-xs-1' style='font-size:9px; height:15px'>Household</div>
+                <div id='legend3' class='col-lg-1 col-md-1 col-sm-1 col-xs-1' style='font-size:9px; height:15px'>Intl. Aid</div>
+                <div id='legend4' class='col-lg-1 col-md-1 col-sm-1 col-xs-1' style='font-size:9px; height:15px'>Gini(upward)</div>
+                <div id='legend5' class='col-lg-1 col-md-1 col-sm-1 col-xs-1' style='font-size:9px; height:15px'>Gini(downward)</div>
+                <div id='more' class='col-lg-1 col-md-1 col-sm-1 col-xs-1'></div>
+            </div> <!---style='height: 25px; width: 2000px'--> <!---style='height:25px; margin-left:45px'-->
+            <div class="row" id='figure' class='col-lg-12 col-md-12 col-sm-12 col-xs-12'></div> <!---style='height: 805px; width: 2000px; overflow-x: scroll; margin-bottom: 30px;'-->
+            <div class="row" id='source' class='col-lg-12 col-md-12 col-sm-12 col-xs-12' style='font-size:7px; font-style:italic; margin-left:65px'>DATA SOURCE: 1. Government expenditure per student, by education level: UNESCO Education Finance  2. Household expenditure education, by education level (re-calculated USD per student): UNESCO IIEP Pôle de Dakar  3.Official development assitance, by education level (re-calculated as USD by student): OECD Creditor Reporting System 5.Gini coefficient: IID-SSA & UNU-WIDER, 'World Income Inequality Database (WIID3c).  COUNTRY SELECTION: All countries are selected based on the completeness of their education expenditure data for all three sources.</div> <!---style='height: 50px; width: 2000px;'-->
+        </div>
+         <div id='overlay' class='col-lg-12 col-md-12 col-sm-12 col-xs-12' style='height: 800px'></div>
+        <div id='myModal' class='col-lg-8 col-md-8 col-sm-8'>
+            <div style="height: 40px">
+                <button class='btn-close' style="float: right" onclick="exitGraph()">Close</button>
+                <p></p>
+                <p id="countries" style="text-align:center" ></p>
+        </div>
+            
+          	<svg id="graph1"></svg>
+          	<svg id="graph2"></svg>          	
+
+        </div>
+        
+        <script>
+
+        var margin = {top: 50, right: 20, bottom: 10, left: 65},
+            width = 350 - margin.left - margin.right,
+            newWidth = document.getElementById('figure').offsetWidth*1/4,
+            height = 600 - margin.top - margin.bottom;
+            
+        
+        console.log(newWidth);
+        
+        var y = d3.scaleBand()
+            .range([0, height])
+            .padding(0.5);
+            
+        var x = d3.scaleLinear()
+            .range([0, newWidth]);
+        
+        function popupGraph() {
+            document.getElementById("myModal").style.display = "block";
+            document.getElementById("overlay").style.display = "block";
+        }
+        
+        function exitGraph() {
+            document.getElementById("myModal").style.display = "none";
+            document.getElementById("overlay").style.display = "none"
+        }
+        
+        var color1 = d3.scaleOrdinal()
+            .range(['#FF715f', '#0A97D9','#19486A']);
+        var color2 = d3.scaleOrdinal()
+            .range(['#FF715f', '#0A97D9','#19486A']);
+        var color3 = d3.scaleOrdinal()
+            .range(['#FF715f', '#0A97D9','#19486A']);
+        //'#EB7260', '#3A9AD9','#354458'
+
+        var xAxis = d3.axisTop(x);
+        
+        var xBottom = d3.axisBottom(x);
+
+        var yAxis = d3.axisLeft(y);
+
+        var chart1 = d3.select('#figure').append('svg')
+            .attr('class', 'col-lg-4 col-md-4 col-sm-6 col-xs-12') //width + margin.left + margin.right*2
+            .attr('height', height + margin.top + margin.bottom)
+            .attr('id', 'd3-plot')
+        .append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+        
+        color1.domain(['govPrimary', 'privPrimary', 'aidPrimary']);
+        
+        d3.csv("quantData.csv", function(error, data) {
+            
+            data.forEach(function(d) {
+            
+            d['aidPrimary']=parseFloat(d['aidPrimary']);
+            d['aidSecondary']=parseFloat(d['aidSecondary']);
+            d['aidTertiary']=parseFloat(d['aidTertiary']);
+            d['govPrimary']=parseFloat(d['govPrimary']);
+            d['govSecondary']=parseFloat(d['govSecondary']);
+            d['govTertiary']=parseFloat(d['govTertiary']);
+            d['privPrimary']=parseFloat(d['privPrimary']);
+            d['privSecondary']=parseFloat(d['privSecondary']);
+            d['privTertiary']=parseFloat(d['privTertiary']);
+            //d['gov9500']=parseFloat(d['gov9500']);
+            // d['gov0005']=parseFloat(d['gov0005']);
+            // d['gov0510']=parseFloat(d['gov0510']);
+            // d['gini9500']=parseFloat(d['gini9500']);
+            // d['gini0005']=parseFloat(d['gini0005']);
+            // d['gini0510']=parseFloat(d['gini0510']);
+          
+            
+            var x0 = 0;
+            d.boxes = color1.domain().map(function(name) { 
+            return {name: name, 
+                    x0: x0, 
+                    x1: x0 += +d[name],
+                    N: +d.N,
+                    n: +d[name],
+                    gini: d.gini
+            };
+                });
+            });
+            
+            console.log(data);
+            x.domain([0, 750]).nice();
+            y.domain(data.map(function(d) { 
+                return d.Country; 
+            }));
+        
+        chart1.append("g")
+            .attr("class", "x1 axis")
+            .call(xAxis);
+
+        chart1.append("g")
+            .attr("class", "y1 axis")
+            .call(yAxis);
+    
+        var div = d3.selectAll("body").append("div")
+            .attr('width', '100px')
+            //.attr('height', 10)
+            .style('fill', '#212121')
+            .attr("class", "tooltip");
+        
+        // var div1 = d3.selectAll("body").append("div")
+        //     .attr('width', 600)
+        //     .attr('height', 600)
+        //     .attr("class", "popup");
+        
+        // graph.append("svg")
+        //     .attr('width', newWidth*3/2)
+        //     .attr('height',newWidth*3/2)
+        //     .attr('id', 'graph1')
+       
+        // graph.append("svg")
+        //     .attr('width', newWidth*3/2)
+        //     .attr('height',newWidth*3/2)
+        //     .attr('id', 'graph2')
+            
+        var country = chart1.selectAll(".country")
+            .data(data)
+            .enter().append("g")
+            .attr("class", "bar")
+            .attr("id", "primary")
+            .attr("transform", function(d) { return "translate(0," + y(d.Country) + ")"; });
+            
+        var bars = country.selectAll("rect")
+            .data(function(d) { return d.boxes; })
+            .enter().append("g").attr("class", "subbar");
+        
+        bars.append("rect")
+            .attr("height", y.bandwidth())
+            .attr("x", function(d) { return x(d.x0); })
+            .attr("width", function(d) { return x(d.x1) - x(d.x0); })
+            .style("fill", function(d) { return color1(d.name); })
+            .on("mouseover", function(d) {     
+            div.transition()		
+                .duration(200)		
+                .style("opacity", .97)
+                .style("left", (d3.event.pageX) + "px")     
+                .style("top", (d3.event.pageY-20) + "px");		
+            div.text('$'+d.n)  
+                .style("left", (d3.event.pageX) + "px")     
+                .style("top", (d3.event.pageY-15) + "px");
+            console.log(d.n);
+            })          
+            .on("mouseout", function(d) {
+                div.transition()		
+                .duration(500)		
+                .style("opacity", 0);
+            });
+
+
+        //  bars.append("text")
+        //     .attr("x", function(d) { return x(d.x0); })
+        //     .attr("y", y.bandwidth()/2)
+        //     .attr("dy", "0.5em")
+        //     .attr("dx", "0.5em")
+        //     .style("font" ,"7px sans-serif")
+        //     .style("text-anchor", "begin")
+        //     .text(function(d) { 
+        //         if (d.n== 0 || d.name=='Foreign Aid') 
+        //             return d.n = '';
+        //         else return d.n; });
+            
+        country.insert("rect",":first-child")
+            .attr("height", y.bandwidth())
+            .attr("x", "1")
+            .attr("width", newWidth)
+            .attr("fill-opacity", "0.5")
+            .style("fill", "#F5F5F5")
+            .attr("class", function(d,index) { return index%2==0 ? "even" : "uneven"; });
+        
+        country.append("text")
+            .attr("x", newWidth)
+            .attr("y", y.bandwidth()/2)
+            .attr("dy", "0.5em")
+            .attr("dx", "0.5em")
+            .style("font" ,"7px sans-serif")
+            .style("fill", function(d) {
+                if (d.gini>0) return "#29ABA4";
+                else return "E5243B";
+            })
+            .style("text-anchor", "end")
+            .text(function(d) {
+                if (d.gini < 0)
+                return d.gini*(-1);
+                else return d.gini;})
+        
+        chart1.append("text")
+            .attr("x", 0)
+            .attr("y", -30)
+            .style("font" ,"13px sans-serif")
+            .style("text-anchor", "begin")
+            .text("PRIMARY EDUCATION ($1 USD per student)");
+            
+        var graph1 = country.on("click", function(d) { 
+                
+                d3.select("#graph1 > *").remove();
+                d3.select("#graph2 > *").remove();
+                d3.select("#circleA").remove();
+                d3.select("#circleB").remove();
+                d3.select("#circleC").remove();
+                d3.select("#lineA").remove();
+                d3.select("#lineB").remove();
+                d3.select("#textA").remove();
+                d3.select("#textB").remove();
+                d3.select("#textC").remove();
+                d3.select("#circleD").remove();
+                d3.select("#circleE").remove();
+                d3.select("#circleF").remove();
+                d3.select("#lineD").remove();
+                d3.select("#lineE").remove();
+                d3.select("#textD").remove();
+                d3.select("#textE").remove();
+                d3.select("#textF").remove();
+                d3.select("#circleG").remove();
+                d3.select("#circleH").remove();
+                d3.select("#circleI").remove();
+                d3.select("#lineG").remove();
+                d3.select("#lineH").remove();
+                d3.select("#textG").remove();
+                d3.select("#textH").remove();
+                d3.select("#textI").remove();
+                d3.select("#graphTitle1").remove();
+                d3.select("#graphTitle2").remove();
+                d3.select("#graph1").select("#year1").remove();
+                d3.select("#graph1").select("#year2").remove();
+                d3.select("#graph1").select("#year3").remove();
+                d3.select("#graph2").select("#year1").remove();
+                d3.select("#graph2").select("#year2").remove();
+                d3.select("#graph2").select("#year3").remove();
+                d3.select("#textJ").remove();
+                d3.select("#circleJ").remove();
+                
+                
+                var ttwidth = newWidth*4-200;
+                var graphWidth = ttwidth/3;
+                
+                
+                d3.select("#countries")
+                    .attr("y", 15)
+                    .text(d.Country);
+                
+                
+                var mapygraph1 = d3.scaleLinear().domain([0, 4000]).range([9*(graphWidth/10), graphWidth/10]);
+                var mapygraph2 = d3.scaleLinear().domain([0, 1]).range([9*(graphWidth/10), graphWidth/10]); 
+            
+                
+                for(var i = 1; i<=4; i++)
+                    {
+                        var id = "#graph" + i;
+                                    
+                        d3.select(id)
+                            .attr("width", graphWidth+10)
+                            .attr("height", graphWidth);
+                                
+                        d3.select(id)
+                            .append("line")
+                            .attr("x1", graphWidth/5)
+                            .attr("y1", graphWidth/10)
+                            .attr("x2", graphWidth)
+                            .attr("y2", graphWidth/10)
+                            .attr('stroke', '#ffffff')
+                            .attr('stroke-width', 1);
+                        d3.select(id)
+                            .append("line")
+                            .attr("x1", graphWidth/5 )
+                            .attr("y1", graphWidth/10*2)
+                            .attr("x2", graphWidth)
+                            .attr("y2", graphWidth/10*2)
+                            .attr('stroke', '#ffffff')
+                            .attr('stroke-width', 1);
+                        d3.select(id)
+                            .append("line")
+                            .attr("x1", graphWidth/5)
+                            .attr("y1", graphWidth/10*3)
+                            .attr("x2", graphWidth)
+                            .attr("y2", graphWidth/10*3)
+                            .attr('stroke', '#ffffff')
+                            .attr('stroke-width', 1);
+                        d3.select(id)
+                            .append("line")
+                            .attr("x1", graphWidth/5)
+                            .attr("y1", graphWidth/10*4)
+                            .attr("x2", graphWidth)
+                            .attr("y2", graphWidth/10*4)
+                            .attr('stroke', '#ffffff')
+                            .attr('stroke-width', 1); 
+                        
+                        d3.select(id)
+                            .append("line")
+                            .attr("x1", graphWidth/5)
+                            .attr("y1", graphWidth/10*5)
+                            .attr("x2", graphWidth)
+                            .attr("y2", graphWidth/10*5)
+                            .attr('stroke', '#ffffff')
+                            .attr('stroke-width', 1); 
+                            
+                        d3.select(id)
+                            .append("line")
+                            .attr("x1", graphWidth/5)
+                            .attr("y1", graphWidth/10*6)
+                            .attr("x2", graphWidth)
+                            .attr("y2", graphWidth/10*6)
+                            .attr('stroke', '#ffffff')
+                            .attr('stroke-width', 1); 
+                            
+                        d3.select(id)
+                            .append("line")
+                            .attr("x1", graphWidth/5)
+                            .attr("y1", graphWidth/10*7)
+                            .attr("x2", graphWidth)
+                            .attr("y2", graphWidth/10*7)
+                            .attr('stroke', '#ffffff')
+                            .attr('stroke-width', 1); 
+                            
+                        d3.select(id)
+                            .append("line")
+                            .attr("x1", graphWidth/5)
+                            .attr("y1", graphWidth/10*8)
+                            .attr("x2", graphWidth)
+                            .attr("y2", graphWidth/10*8)
+                            .attr('stroke', '#ffffff')
+                            .attr('stroke-width', 1); 
+                        
+                        d3.select(id)
+                            .append("line")
+                            .attr("x1", graphWidth/5)
+                            .attr("y1", graphWidth/10*9)
+                            .attr("x2", graphWidth)
+                            .attr("y2", graphWidth/10*9)
+                            .attr('stroke', '#ffffff')
+                            .attr('stroke-width', 1); 
+                            
+                                       
+                        d3.select(id)
+                            .append("line")
+                            .attr("x1", graphWidth/5)
+                            .attr("y1", graphWidth/10)
+                            .attr("x2", graphWidth/5)
+                            .attr("y2", graphWidth/10*9)
+                            .attr('stroke', '#ffffff')
+                            .attr('stroke-width', 1);
+                        
+                        d3.select(id)
+                            .append("line")
+                            .attr("x1", graphWidth)
+                            .attr("y1", graphWidth/10)
+                            .attr("x2", graphWidth)
+                            .attr("y2", graphWidth/10*9)
+                            .attr('stroke', '#ffffff')
+                            .attr('stroke-width', 1);
+                            
+                        d3.select(id)
+                            .append("text")
+                            .attr("x", graphWidth/5)
+                            .attr("y", graphWidth/10*9.5)
+                            .text("year 95-00")
+                            .attr("text-anchor", "middle")
+                            .style("font-size", "10px")
+                            .attr("id", "year1");
+                        
+                        d3.select(id)
+                            .append("text")
+                            .attr("x", graphWidth/5*3)
+                            .attr("y", graphWidth/10*9.5)
+                            .text("year 00-05")
+                            .attr("text-anchor", "middle")
+                            .style("font-size", "10px")
+                            .attr("id", "year2")
+                        
+                        d3.select(id)
+                            .append("text")
+                            .attr("x", graphWidth-20)
+                            .attr("y", graphWidth/10*9.5)
+                            .text("year 05-10")
+                            .attr("text-anchor", "middle")
+                            .style("font-size", "10px")
+                            .attr("id", "year3");
+                        }
+        
+                        
+                d3.select("#graph1")
+                    .append("text")
+                    .attr("class", "graphTitle")
+                    .attr("x", graphWidth/5*3)
+                    .attr("y", graphWidth/15)
+                    .text("Expenditure by Source (change over time)")
+                    .attr("font-size", "12px")
+                    .attr("text-anchor", "middle")
+                    .attr("id","graphTitle1");   
+                
+                
+                    
+                d3.select("#graph2")
+                    .append("text")
+                    .attr("class", "graphTitle")
+                    .attr("x", graphWidth/5*3)
+                    .attr("y", graphWidth/15)
+                    .text("Inequality - Gini Coefficient (change over time)")
+                    .attr("font-size", "12px")
+                    .attr("text-anchor", "middle")
+                    .attr("id","graphTitle2"); 
+                    
+                
+                    
+                popupGraph(d);
+                
+                //console.log(d['gov9500']);
+                
+                // if(isNaN(d['gov9500'])==true && isNaN(d['gov0005'])==true){
+                            
+                //     d3.select("#graph1")
+                //         .append("text")
+                //         .attr("class", "nodata")
+                //         .text("No Data")
+                //         .attr('x', graphWidth/5)
+                //         .attr('y', graphWidth/15*6)
+                //         .style("fill", "LightGrey")
+                //         .attr("text-anchor", "middle");    
+                //         }
+                
+                if(d['gov9500'] !== "" && d['gov0005'] !== ""){  
+                       
+                    var line1a = d3.select("#graph1")
+                        .append("line")
+                        .attr("x1", graphWidth/5)
+                        .attr("y1", mapygraph1(d['gov9500']))
+                        .attr("x2", graphWidth/5*3)
+                        .attr("y2", mapygraph1(d['gov0005']))
+                        .attr('stroke', '#FF715f')
+                        .attr('stroke-width', 2)
+                        .attr('id', 'lineA');
+                        }
+                        
+                if(d['gov9500'] !== ""){
+                    var circle1a = d3.select("#graph1")
+                            .append("circle")
+                            .attr("cx", graphWidth/5)
+                            .attr('cy', mapygraph1(d['gov9500']))
+                            .attr('r', 3)
+                            .attr('fill', '#FF715f')
+                            .attr('stroke', 'white')
+                            .attr('stroke-width', 1)
+                            .attr('id', 'circleA');
+                        
+                        var text1a = d3.select("#graph1")
+                            .append("text")
+                            .attr('class', 'label2')
+                            .text(d['gov9500'])
+                            .attr('x', graphWidth/5 - 30)
+                            .attr('y', mapygraph1(d['gov9500']) - 7)
+                            .attr('id','textA')
+                            .attr('font-size','10px');
+                                        
+                        }
+                
+                if(d['gov0005'] !== "" && d['gov0510'] !== ""){  
+                       
+                var line1b = d3.select("#graph1")
+                    .append("line")
+                    .attr("x1", graphWidth/5*3)
+                    .attr("y1", mapygraph1(d['gov0005']))
+                    .attr("x2", graphWidth)
+                    .attr("y2", mapygraph1(d['gov0510']))
+                    .attr('stroke', '#FF715f')
+                    .attr('stroke-width', 2)
+                    .attr('id', 'lineB');
+                        }
+                        
+                if(d['gov0005'] !== ""){
+                    var circle1b = d3.select("#graph1")
+                        .append("circle")
+                        .attr("cx", graphWidth/5*3)
+                        .attr('cy', mapygraph1(d['gov0005']))
+                        .attr('r', 3)
+                        .attr('fill', '#FF715f')
+                        .attr('stroke', 'white')
+                        .attr('stroke-width', 1)
+                        .attr('id', 'circleB');
+                        
+                    var text1b = d3.select("#graph1")
+                        .append("text")
+                        .attr('class', 'label2')
+                        .text(d['gov0005'])
+                        .attr('x', graphWidth/5*3 - 30)
+                        .attr('y', mapygraph1(d['gov0005']) - 7)
+                        .attr('id','textB')
+                        .attr('font-size','10px');
+                    }
+                    
+                if(d['gov0510'] !== ""){
+                    var circle1c = d3.select("#graph1")
+                        .append("circle")
+                        .attr("cx", graphWidth)
+                        .attr('cy', mapygraph1(d['gov0510']))
+                        .attr('r', 3)
+                        .attr('fill', '#FF715f')
+                        .attr('stroke', 'white')
+                        .attr('stroke-width', 1)
+                        .attr('id', 'circleC');;
+                        
+                    var text1c = d3.select("#graph1")
+                        .append("text")
+                        .attr('class', 'label2')
+                        .text(d['gov0510'])
+                        .attr('x', graphWidth - 30)
+                        .attr('y', mapygraph1(d['gov0510']) - 7)
+                        .attr('id','textC')
+                        .attr('font-size','10px');
+                                        
+                        }
+                
+                //household financing
+                
+                if(d['priv0510'] !== ""){
+                    var circle1j = d3.select("#graph1")
+                            .append("circle")
+                            .attr("cx", graphWidth/5)
+                            .attr('cy', mapygraph1(d['priv0510']))
+                            .attr('r', 3)
+                            .attr('fill', '#0A97D9')
+                            .attr('stroke', 'white')
+                            .attr('stroke-width', 1)
+                            .attr('id', 'circleJ');
+                        
+                        var text1j = d3.select("#graph1")
+                            .append("text")
+                            .attr('class', 'label2')
+                            .text(d['priv0510'])
+                            .attr('x', graphWidth/5 - 30)
+                            .attr('y', mapygraph1(d['priv0510']) - 7)
+                            .attr('id','textJ')
+                            .attr('font-size','10px');
+                                        
+                        }
+                
+                //aid financing
+                
+                if(d['aid9500'] !== "" && d['aid0005'] !== ""){  
+                       
+                    var line1g = d3.select("#graph1")
+                        .append("line")
+                        .attr("x1", graphWidth/5)
+                        .attr("y1", mapygraph1(d['aid9500']))
+                        .attr("x2", graphWidth/5*3)
+                        .attr("y2", mapygraph1(d['aid0005']))
+                        .attr('stroke', '#19486A')
+                        .attr('stroke-width', 2)
+                        .attr('id', 'lineG');
+                        }
+                        
+                if(d['aid9500'] !== ""){
+                    var circle1g = d3.select("#graph1")
+                            .append("circle")
+                            .attr("cx", graphWidth/5)
+                            .attr('cy', mapygraph1(d['aid9500']))
+                            .attr('r', 3)
+                            .attr('fill', '#19486A')
+                            .attr('stroke', 'white')
+                            .attr('stroke-width', 1)
+                            .attr('id', 'circleG');
+                        
+                        var text1g = d3.select("#graph1")
+                            .append("text")
+                            .attr('class', 'label2')
+                            .text(d['aid9500'])
+                            .attr('x', graphWidth/5 - 30)
+                            .attr('y', mapygraph1(d['aid9500']) - 7)
+                            .attr('id','textG')
+                            .attr('font-size','10px');
+                                        
+                        }
+                
+                if(d['aid0005'] !== "" && d['aid0510'] !== ""){  
+                       
+                var line1h = d3.select("#graph1")
+                    .append("line")
+                    .attr("x1", graphWidth/5*3)
+                    .attr("y1", mapygraph1(d['aid0005']))
+                    .attr("x2", graphWidth)
+                    .attr("y2", mapygraph1(d['aid0510']))
+                    .attr('stroke', '#19486A')
+                    .attr('stroke-width', 2)
+                    .attr('id', 'lineH');
+                        }
+                        
+                if(d['aid0005'] !== ""){
+                    var circle1h = d3.select("#graph1")
+                        .append("circle")
+                        .attr("cx", graphWidth/5*3)
+                        .attr('cy', mapygraph1(d['aid0005']))
+                        .attr('r', 3)
+                        .attr('fill', '##19486A')
+                        .attr('stroke', 'white')
+                        .attr('stroke-width', 1)
+                        .attr('id', 'circleH');
+                        
+                    var text1h = d3.select("#graph1")
+                        .append("text")
+                        .attr('class', 'label2')
+                        .text(d['aid0005'])
+                        .attr('x', graphWidth/5*3 - 30)
+                        .attr('y', mapygraph1(d['aid0005']) - 7)
+                        .attr('id','textH')
+                        .attr('font-size','10px');
+                    }
+                    
+                if(d['aid0510'] !== ""){
+                    var circle1i = d3.select("#graph1")
+                        .append("circle")
+                        .attr("cx", graphWidth)
+                        .attr('cy', mapygraph1(d['aid0510']))
+                        .attr('r', 3)
+                        .attr('fill', '#19486A')
+                        .attr('stroke', 'white')
+                        .attr('stroke-width', 1)
+                        .attr('id', 'circleI');;
+                        
+                    var text1i = d3.select("#graph1")
+                        .append("text")
+                        .attr('class', 'label2')
+                        .text(d['aid0510'])
+                        .attr('x', graphWidth - 30)
+                        .attr('y', mapygraph1(d['aid0510']) - 7)
+                        .attr('id','textI')
+                        .attr('font-size','10px');
+                                        
+                        }
+                
+                //gini coefficient
+                
+                if(d['gini9500'] !== "" && d['gini0005'] !== ""){  
+                       
+                    var line1d = d3.select("#graph2")
+                        .append("line")
+                        .attr("x1", graphWidth/5)
+                        .attr("y1", mapygraph2(d['gini9500']))
+                        .attr("x2", graphWidth/5*3)
+                        .attr("y2", mapygraph2(d['gini0005']))
+                        .attr('stroke', function(){
+                            if (d['gini0005']>d['gini9500']) return '#29ABA4'
+                            else return '#E5243B'
+                        })
+                        .attr('stroke-width', 2)
+                        .attr('id', 'lineD');
+                        }
+                        
+                if(d['gini9500'] !== ""){
+                    var circle1d = d3.select("#graph2")
+                            .append("circle")
+                            .attr("cx", graphWidth/5)
+                            .attr('cy', mapygraph2(d['gini9500']))
+                            .attr('r', 3)
+                            .attr('fill', 'black')
+                            .attr('stroke', 'white')
+                            .attr('stroke-width', 1)
+                            .attr('id', 'circleD');
+                        
+                        var text1d = d3.select("#graph2")
+                            .append("text")
+                            .attr('class', 'label2')
+                            .text(d['gini9500'])
+                            .attr('x', graphWidth/5 - 10)
+                            .attr('y', mapygraph2(d['gini9500']) - 15)
+                            .attr('id','textD')
+                            .attr('font-size','10px');
+                                        
+                        }
+                
+                if(d['gini0005'] !== "" && d['gini0510'] !== ""){  
+                       
+                var line1e = d3.select("#graph2")
+                    .append("line")
+                    .attr("x1", graphWidth/5*3)
+                    .attr("y1", mapygraph2(d['gini0005']))
+                    .attr("x2", graphWidth)
+                    .attr("y2", mapygraph2(d['gini0510']))
+                    .attr('stroke', function(){
+                            if (d['gini0510']>d['gini0005']) return '#29ABA4'
+                            else return '#E5243B'
+                        })
+                    .attr('stroke-width', 2)
+                    .attr('id', 'lineE');
+                        }
+                        
+                if(d['gini0005'] !== ""){
+                    var circle1e = d3.select("#graph2")
+                        .append("circle")
+                        .attr("cx", graphWidth/5*3)
+                        .attr('cy', mapygraph2(d['gini0005']))
+                        .attr('r', 3)
+                        .attr('fill', 'black')
+                        .attr('stroke', 'white')
+                        .attr('stroke-width', 1)
+                        .attr('id', 'circleE');
+                        
+                    var text1e = d3.select("#graph2")
+                        .append("text")
+                        .attr('class', 'label2')
+                        .text(d['gini0005'])
+                        .attr('x', graphWidth/5*3 - 30)
+                        .attr('y', mapygraph2(d['gini0005']) - 15)
+                        .attr('id','textE')
+                        .attr('font-size','10px');
+                    }
+                    
+                if(d['gini0510'] !== ""){
+                    var circle1f = d3.select("#graph2")
+                        .append("circle")
+                        .attr("cx", graphWidth)
+                        .attr('cy', mapygraph2(d['gini0510']))
+                        .attr('r', 3)
+                        .attr('fill', 'black')
+                        .attr('stroke', 'white')
+                        .attr('stroke-width', 1)
+                        .attr('id', 'circleF');;
+                        
+                    var text1f = d3.select("#graph2")
+                        .append("text")
+                        .attr('class', 'label2')
+                        .text(d['gini0510'])
+                        .attr('x', graphWidth - 30)
+                        .attr('y', mapygraph2(d['gini0510']) - 15)
+                        .attr('id','textF')
+                        .attr('font-size','10px');
+                                        
+                        }
+
+            });
+        
+        });
+        
+            
+        var chart2 = d3.select('#figure').append('svg')
+            .attr('class', 'col-lg-4 col-md-4 col-sm-6 col-xs-12') //.attr('width', width + margin.left + margin.right*2)
+            .attr('height', height + margin.top + margin.bottom)
+            .attr('id', 'd3-plot2')
+        .append("g")
+            .attr("transform", "translate( "+ margin.left +"," + margin.top + ")")
+        
+        color2.domain(['govSecondary', 'privSecondary', 'aidSecondary']);
+            
+        d3.csv("quantData.csv", function(error, data) {
+            
+            data.forEach(function(d) {
+            
+            d['aidPrimary']=parseFloat(d['aidPrimary']);
+            d['aidSecondary']=parseFloat(d['aidSecondary']);
+            d['aidTertiary']=parseFloat(d['aidTertiary']);
+            d['govPrimary']=parseFloat(d['govPrimary']);
+            d['govSecondary']=parseFloat(d['govSecondary']);
+            d['govTertiary']=parseFloat(d['govTertiary']);
+            d['privPrimary']=parseFloat(d['privPrimary']);
+            d['privSecondary']=parseFloat(d['privSecondary']);
+            d['privTertiary']=parseFloat(d['privTertiary']);
+            
+            var x0 = 0;
+            d.boxes = color2.domain().map(function(name) { 
+            return {name: name, 
+                    x0: x0, 
+                    x1: x0 += +d[name],
+                    N: +d.N,
+                    n: +d[name],
+                    gini: d.gini
+            };
+                });
+            });
+            
+            //console.log(data);
+            x.domain([0, 750]).nice();
+            y.domain(data.map(function(d) { 
+                return d.Country; 
+            }));
+            
+        chart2.append("g")
+            .attr("class", "x2 axis")
+            .call(xAxis);
+
+        chart2.append("g")
+            .attr("class", "y2 axis")
+            .call(yAxis);
+        
+        var div = d3.selectAll("body").append("div")
+            .attr('width', 50)
+            .attr('height', 50)
+            .attr("class", "tooltip")
+            
+        var country2 = chart2.selectAll(".Country")
+            .data(data)
+            .enter().append("g")
+            .attr("class", "bar")
+            .attr("id", "secondary")
+            .attr("transform", function(d) { return "translate(0," + y(d.Country) + ")"; });
+            
+        var bars2 = country2.selectAll("rect")
+            .data(function(d) { return d.boxes; })
+            .enter().append("g").attr("class", "subbar");
+        
+        bars2.append("rect")
+            .attr("height", y.bandwidth())
+            .attr("x", function(d) { return x(d.x0); })
+            .attr("width", function(d) { return x(d.x1) - x(d.x0); })
+            .style("fill", function(d) { return color2(d.name); })
+            .on("mouseover", function(d) {     
+                div.transition()		
+                    .duration(200)		
+                    .style("opacity", .97);		
+                div.text('$'+d.n)  
+                    .style("left", (d3.event.pageX) + "px")     
+                    .style("top", (d3.event.pageY - 15) + "px");
+                console.log(d.n);
+                })          
+                .on("mouseout", function(d) {
+                    div.transition()		
+                    .duration(500)		
+                    .style("opacity", 0);
+                });
+        // bars2.append("text")
+        //     .attr("x", function(d) { return x(d.x0); })
+        //     .attr("y", y.bandwidth()/2)
+        //     .attr("dy", "0.5em")
+        //     .attr("dx", "0.5em")
+        //     .style("font" ,"7px sans-serif")
+        //     .style("text-anchor", "begin")
+        //     .text(function(d) { 
+        //         if (d.n== 0 || d.name=='Foreign Aid') 
+        //             return d.n = '';
+        //         else return d.n; });
+            
+        country2.insert("rect",":first-child")
+            .attr("height", y.bandwidth())
+            .attr("x", "1")
+            .attr("width", newWidth)
+            .attr("fill-opacity", "0.5")
+            .style("fill", "#F5F5F5")
+            .attr("class", function(d,index) { return index%2==0 ? "even" : "uneven"; });
+    
+        country2.append("text")
+            .attr("x", newWidth)
+            .attr("y", y.bandwidth()/2)
+            .attr("dy", "0.5em")
+            .attr("dx", "0.5em")
+            .style("font" ,"7px sans-serif")
+            .style("fill", function(d) {
+                if (d.gini>0) return "#29ABA4";
+                else return "E5243B";
+            })
+            .style("text-anchor", "end")
+            .text(function(d) {
+                if (d.gini < 0)
+                return d.gini*(-1);
+                else return d.gini;});
+            
+        chart2.append("text")
+            .attr("x", 0)
+            .attr("y", -30)
+            .style("font" ,"13px sans-serif")
+            .style("text-anchor", "begin")
+            .text("SECONDARY EDUCATION ($1 USD per student)");
+        
+        // d3.select("input").on("change", change2);
+
+        // var sortTimeout = setTimeout(function() {
+        //     d3.select("input").property("checked", true).each(change2);
+        //     }, 2000);
+
+        // function change2() {
+        //     clearTimeout(sortTimeout);
+
+        // // Copy-on-write since tweens are evaluated after a delay.
+        // var y0 = y.domain(data.sort(this.checked
+        //     ? function(a, b) { return b.N - a.N; }
+        //     : function(a, b) { return d3.ascending(a.Country, b.Country); })
+        //     .map(function(d) { return d.Country; }))
+        //     .copy();
+    
+        // chart2.selectAll(".bar")
+        //     .sort(function(a, b) { return y0(a.Country) - y0(b.Country); });
+    
+        // var transition = chart2.transition().duration(750),
+        //     delay = function(d, i) { return i * 50; };
+    
+        // transition.selectAll(".bar")
+        //     .delay(delay)
+        //     .attr("y", function(d) { return y0(d.Country); });
+    
+        // transition.select(".y.axis")
+        //     .call(yAxis)
+        //   .selectAll("g")
+        //     .delay(delay);
+        // }
+        var graph2 = country2.on("click", function(d) { 
+                
+                d3.select("#graph1 > *").remove();
+                d3.select("#graph2 > *").remove();
+                d3.select("#circleA").remove();
+                d3.select("#circleB").remove();
+                d3.select("#circleC").remove();
+                d3.select("#lineA").remove();
+                d3.select("#lineB").remove();
+                d3.select("#textA").remove();
+                d3.select("#textB").remove();
+                d3.select("#textC").remove();
+                d3.select("#circleD").remove();
+                d3.select("#circleE").remove();
+                d3.select("#circleF").remove();
+                d3.select("#lineD").remove();
+                d3.select("#lineE").remove();
+                d3.select("#textD").remove();
+                d3.select("#textE").remove();
+                d3.select("#textF").remove();
+                d3.select("#circleG").remove();
+                d3.select("#circleH").remove();
+                d3.select("#circleI").remove();
+                d3.select("#lineG").remove();
+                d3.select("#lineH").remove();
+                d3.select("#textG").remove();
+                d3.select("#textH").remove();
+                d3.select("#textI").remove();
+                d3.select("#graphTitle1").remove();
+                d3.select("#graphTitle2").remove();
+                d3.select("#graph1").select("#year1").remove();
+                d3.select("#graph1").select("#year2").remove();
+                d3.select("#graph1").select("#year3").remove();
+                d3.select("#graph2").select("#year1").remove();
+                d3.select("#graph2").select("#year2").remove();
+                d3.select("#graph2").select("#year3").remove();
+                
+                d3.select("#textJ").remove();
+                d3.select("#circleJ").remove();
+                
+                var ttwidth = newWidth*4-200;
+                var graphWidth = ttwidth/3;
+                
+                
+                d3.select("#countries")
+                    .attr("y", 15)
+                    .text(d.Country);
+                
+                
+                var mapygraph1 = d3.scaleLinear().domain([0,4000]).range([9*(graphWidth/10), graphWidth/10]);
+                var mapygraph2 = d3.scaleLinear().domain([0,1]).range([9*(graphWidth/10), graphWidth/10]); 
+            
+                
+                for(var i = 1; i<=4; i++)
+                    {
+                        var id = "#graph" + i;
+                                    
+                        d3.select(id)
+                            .attr("width", graphWidth+10)
+                            .attr("height", graphWidth);
+                                
+                        d3.select(id)
+                            .append("line")
+                            .attr("x1", graphWidth/5)
+                            .attr("y1", graphWidth/10)
+                            .attr("x2", graphWidth)
+                            .attr("y2", graphWidth/10)
+                            .attr('stroke', '#ffffff')
+                            .attr('stroke-width', 1);
+                        d3.select(id)
+                            .append("line")
+                            .attr("x1", graphWidth/5 )
+                            .attr("y1", graphWidth/10*2)
+                            .attr("x2", graphWidth)
+                            .attr("y2", graphWidth/10*2)
+                            .attr('stroke', '#ffffff')
+                            .attr('stroke-width', 1);
+                        d3.select(id)
+                            .append("line")
+                            .attr("x1", graphWidth/5)
+                            .attr("y1", graphWidth/10*3)
+                            .attr("x2", graphWidth)
+                            .attr("y2", graphWidth/10*3)
+                            .attr('stroke', '#ffffff')
+                            .attr('stroke-width', 1);
+                        d3.select(id)
+                            .append("line")
+                            .attr("x1", graphWidth/5)
+                            .attr("y1", graphWidth/10*4)
+                            .attr("x2", graphWidth)
+                            .attr("y2", graphWidth/10*4)
+                            .attr('stroke', '#ffffff')
+                            .attr('stroke-width', 1); 
+                        
+                        d3.select(id)
+                            .append("line")
+                            .attr("x1", graphWidth/5)
+                            .attr("y1", graphWidth/10*5)
+                            .attr("x2", graphWidth)
+                            .attr("y2", graphWidth/10*5)
+                            .attr('stroke', '#ffffff')
+                            .attr('stroke-width', 1); 
+                            
+                        d3.select(id)
+                            .append("line")
+                            .attr("x1", graphWidth/5)
+                            .attr("y1", graphWidth/10*6)
+                            .attr("x2", graphWidth)
+                            .attr("y2", graphWidth/10*6)
+                            .attr('stroke', '#ffffff')
+                            .attr('stroke-width', 1); 
+                            
+                        d3.select(id)
+                            .append("line")
+                            .attr("x1", graphWidth/5)
+                            .attr("y1", graphWidth/10*7)
+                            .attr("x2", graphWidth)
+                            .attr("y2", graphWidth/10*7)
+                            .attr('stroke', '#ffffff')
+                            .attr('stroke-width', 1); 
+                            
+                        d3.select(id)
+                            .append("line")
+                            .attr("x1", graphWidth/5)
+                            .attr("y1", graphWidth/10*8)
+                            .attr("x2", graphWidth)
+                            .attr("y2", graphWidth/10*8)
+                            .attr('stroke', '#ffffff')
+                            .attr('stroke-width', 1); 
+                        
+                        d3.select(id)
+                            .append("line")
+                            .attr("x1", graphWidth/5)
+                            .attr("y1", graphWidth/10*9)
+                            .attr("x2", graphWidth)
+                            .attr("y2", graphWidth/10*9)
+                            .attr('stroke', '#ffffff')
+                            .attr('stroke-width', 1); 
+                            
+                                       
+                        d3.select(id)
+                            .append("line")
+                            .attr("x1", graphWidth/5)
+                            .attr("y1", graphWidth/10)
+                            .attr("x2", graphWidth/5)
+                            .attr("y2", graphWidth/10*9)
+                            .attr('stroke', '#ffffff')
+                            .attr('stroke-width', 1);
+                        
+                        d3.select(id)
+                            .append("line")
+                            .attr("x1", graphWidth)
+                            .attr("y1", graphWidth/10)
+                            .attr("x2", graphWidth)
+                            .attr("y2", graphWidth/10*9)
+                            .attr('stroke', '#ffffff')
+                            .attr('stroke-width', 1);
+                            
+                        d3.select(id)
+                            .append("text")
+                            .attr("x", graphWidth/5)
+                            .attr("y", graphWidth/10*9.5)
+                            .text("year 95-00")
+                            .attr("text-anchor", "middle")
+                            .style("font-size", "10px")
+                            .attr("id", "year1");
+                        
+                        d3.select(id)
+                            .append("text")
+                            .attr("x", graphWidth/5*3)
+                            .attr("y", graphWidth/10*9.5)
+                            .text("year 00-05")
+                            .attr("text-anchor", "middle")
+                            .style("font-size", "10px")
+                            .attr("id", "year2")
+                        
+                        d3.select(id)
+                            .append("text")
+                            .attr("x", graphWidth-20)
+                            .attr("y", graphWidth/10*9.5)
+                            .text("year 05-10")
+                            .attr("text-anchor", "middle")
+                            .style("font-size", "10px")
+                            .attr("id", "year3");
+                        }
+        
+                        
+                d3.select("#graph1")
+                    .append("text")
+                    .attr("class", "graphTitle")
+                    .attr("x", graphWidth/5*3)
+                    .attr("y", graphWidth/15)
+                    .text("Expenditure by Source (change over time)")
+                    .attr("font-size", "12px")
+                    .attr("text-anchor", "middle")
+                    .attr("id","graphTitle1");   
+    
+                    
+                d3.select("#graph2")
+                    .append("text")
+                    .attr("class", "graphTitle")
+                    .attr("x", graphWidth/5*3)
+                    .attr("y", graphWidth/15)
+                    .text("Inequality - Gini Coefficient (change over time)")
+                    .attr("font-size", "12px")
+                    .attr("text-anchor", "middle")
+                    .attr("id","graphTitle2"); 
+     
+                    
+                popupGraph(d);
+                
+                //console.log(d['gov9500']);
+                
+                // if(isNaN(d['gov9500'])==true && isNaN(d['gov0005'])==true){
+                            
+                //     d3.select("#graph1")
+                //         .append("text")
+                //         .attr("class", "nodata")
+                //         .text("No Data")
+                //         .attr('x', graphWidth/5)
+                //         .attr('y', graphWidth/15*6)
+                //         .style("fill", "LightGrey")
+                //         .attr("text-anchor", "middle");    
+                //         }
+                
+                if(d['gov9500'] !== "" && d['gov0005'] !== ""){  
+                       
+                    var line1a = d3.select("#graph1")
+                        .append("line")
+                        .attr("x1", graphWidth/5)
+                        .attr("y1", mapygraph1(d['gov9500']))
+                        .attr("x2", graphWidth/5*3)
+                        .attr("y2", mapygraph1(d['gov0005']))
+                        .attr('stroke', '#FF715f')
+                        .attr('stroke-width', 2)
+                        .attr('id', 'lineA');
+                        }
+                        
+                if(d['gov9500'] !== ""){
+                    var circle1a = d3.select("#graph1")
+                            .append("circle")
+                            .attr("cx", graphWidth/5)
+                            .attr('cy', mapygraph1(d['gov9500']))
+                            .attr('r', 3)
+                            .attr('fill', '#FF715f')
+                            .attr('stroke', 'white')
+                            .attr('stroke-width', 1)
+                            .attr('id', 'circleA');
+                        
+                        var text1a = d3.select("#graph1")
+                            .append("text")
+                            .attr('class', 'label2')
+                            .text(d['gov9500'])
+                            .attr('x', graphWidth/5 - 30)
+                            .attr('y', mapygraph1(d['gov9500']) - 7)
+                            .attr('id','textA')
+                            .attr('font-size','10px');
+                                        
+                        }
+                
+                if(d['gov0005'] !== "" && d['gov0510'] !== ""){  
+                       
+                var line1b = d3.select("#graph1")
+                    .append("line")
+                    .attr("x1", graphWidth/5*3)
+                    .attr("y1", mapygraph1(d['gov0005']))
+                    .attr("x2", graphWidth)
+                    .attr("y2", mapygraph1(d['gov0510']))
+                    .attr('stroke', '#FF715f')
+                    .attr('stroke-width', 2)
+                    .attr('id', 'lineB');
+                        }
+                        
+                if(d['gov0005'] !== ""){
+                    var circle1b = d3.select("#graph1")
+                        .append("circle")
+                        .attr("cx", graphWidth/5*3)
+                        .attr('cy', mapygraph1(d['gov0005']))
+                        .attr('r', 3)
+                        .attr('fill', '#FF715f')
+                        .attr('stroke', 'white')
+                        .attr('stroke-width', 1)
+                        .attr('id', 'circleB');
+                        
+                    var text1b = d3.select("#graph1")
+                        .append("text")
+                        .attr('class', 'label2')
+                        .text(d['gov0005'])
+                        .attr('x', graphWidth/5*3 - 30)
+                        .attr('y', mapygraph1(d['gov0005']) - 7)
+                        .attr('id','textB')
+                        .attr('font-size','10px');
+                    }
+                    
+                if(d['gov0510'] !== ""){
+                    var circle1c = d3.select("#graph1")
+                        .append("circle")
+                        .attr("cx", graphWidth)
+                        .attr('cy', mapygraph1(d['gov0510']))
+                        .attr('r', 3)
+                        .attr('fill', '#FF715f')
+                        .attr('stroke', 'white')
+                        .attr('stroke-width', 1)
+                        .attr('id', 'circleC');;
+                        
+                    var text1c = d3.select("#graph1")
+                        .append("text")
+                        .attr('class', 'label2')
+                        .text(d['gov0510'])
+                        .attr('x', graphWidth - 30)
+                        .attr('y', mapygraph1(d['gov0510']) - 7)
+                        .attr('id','textC')
+                        .attr('font-size','10px');
+                                        
+                        }
+                
+                //household financing
+                
+                if(d['priv0510'] !== ""){
+                    var circle1j = d3.select("#graph1")
+                            .append("circle")
+                            .attr("cx", graphWidth/5)
+                            .attr('cy', mapygraph1(d['priv0510']))
+                            .attr('r', 3)
+                            .attr('fill', '#0A97D9')
+                            .attr('stroke', 'white')
+                            .attr('stroke-width', 1)
+                            .attr('id', 'circleJ');
+                        
+                        var text1j = d3.select("#graph1")
+                            .append("text")
+                            .attr('class', 'label2')
+                            .text(d['priv0510'])
+                            .attr('x', graphWidth/5 - 30)
+                            .attr('y', mapygraph1(d['priv0510']) - 7)
+                            .attr('id','textJ')
+                            .attr('font-size','10px');
+                                        
+                        }
+                
+                //aid financing
+                
+                if(d['aid9500'] !== "" && d['aid0005'] !== ""){  
+                       
+                    var line1g = d3.select("#graph1")
+                        .append("line")
+                        .attr("x1", graphWidth/5)
+                        .attr("y1", mapygraph1(d['aid9500']))
+                        .attr("x2", graphWidth/5*3)
+                        .attr("y2", mapygraph1(d['aid0005']))
+                        .attr('stroke', '#19486A')
+                        .attr('stroke-width', 2)
+                        .attr('id', 'lineG');
+                        }
+                        
+                if(d['aid9500'] !== ""){
+                    var circle1g = d3.select("#graph1")
+                            .append("circle")
+                            .attr("cx", graphWidth/5)
+                            .attr('cy', mapygraph1(d['aid9500']))
+                            .attr('r', 3)
+                            .attr('fill', '#19486A')
+                            .attr('stroke', 'white')
+                            .attr('stroke-width', 1)
+                            .attr('id', 'circleG');
+                        
+                        var text1g = d3.select("#graph1")
+                            .append("text")
+                            .attr('class', 'label2')
+                            .text(d['aid9500'])
+                            .attr('x', graphWidth/5 - 30)
+                            .attr('y', mapygraph1(d['aid9500']) - 7)
+                            .attr('id','textG')
+                            .attr('font-size','10px');
+                                        
+                        }
+                
+                if(d['aid0005'] !== "" && d['aid0510'] !== ""){  
+                       
+                var line1h = d3.select("#graph1")
+                    .append("line")
+                    .attr("x1", graphWidth/5*3)
+                    .attr("y1", mapygraph1(d['aid0005']))
+                    .attr("x2", graphWidth)
+                    .attr("y2", mapygraph1(d['aid0510']))
+                    .attr('stroke', '#19486A')
+                    .attr('stroke-width', 2)
+                    .attr('id', 'lineH');
+                        }
+                        
+                if(d['aid0005'] !== ""){
+                    var circle1h = d3.select("#graph1")
+                        .append("circle")
+                        .attr("cx", graphWidth/5*3)
+                        .attr('cy', mapygraph1(d['aid0005']))
+                        .attr('r', 3)
+                        .attr('fill', '##19486A')
+                        .attr('stroke', 'white')
+                        .attr('stroke-width', 1)
+                        .attr('id', 'circleH');
+                        
+                    var text1h = d3.select("#graph1")
+                        .append("text")
+                        .attr('class', 'label2')
+                        .text(d['aid0005'])
+                        .attr('x', graphWidth/5*3 - 30)
+                        .attr('y', mapygraph1(d['aid0005']) - 7)
+                        .attr('id','textH')
+                        .attr('font-size','10px');
+                    }
+                    
+                if(d['aid0510'] !== ""){
+                    var circle1i = d3.select("#graph1")
+                        .append("circle")
+                        .attr("cx", graphWidth)
+                        .attr('cy', mapygraph1(d['aid0510']))
+                        .attr('r', 3)
+                        .attr('fill', '#19486A')
+                        .attr('stroke', 'white')
+                        .attr('stroke-width', 1)
+                        .attr('id', 'circleI');;
+                        
+                    var text1i = d3.select("#graph1")
+                        .append("text")
+                        .attr('class', 'label2')
+                        .text(d['aid0510'])
+                        .attr('x', graphWidth - 30)
+                        .attr('y', mapygraph1(d['aid0510']) - 7)
+                        .attr('id','textI')
+                        .attr('font-size','10px');
+                                        
+                        }
+                
+                //gini coefficient
+                if(d['gini9500'] !== "" && d['gini0005'] !== ""){  
+                       
+                    var line1d = d3.select("#graph2")
+                        .append("line")
+                        .attr("x1", graphWidth/5)
+                        .attr("y1", mapygraph2(d['gini9500']))
+                        .attr("x2", graphWidth/5*3)
+                        .attr("y2", mapygraph2(d['gini0005']))
+                        .attr('stroke', function(){
+                            if (d['gini0005']>d['gini9500']) return '#29ABA4'
+                            else return '#E5243B'
+                        })
+                        .attr('stroke-width', 2)
+                        .attr('id', 'lineD');
+                        }
+                        
+                if(d['gini9500'] !== ""){
+                    var circle1d = d3.select("#graph2")
+                            .append("circle")
+                            .attr("cx", graphWidth/5)
+                            .attr('cy', mapygraph2(d['gini9500']))
+                            .attr('r', 3)
+                            .attr('fill', 'black')
+                            .attr('stroke', 'white')
+                            .attr('stroke-width', 1)
+                            .attr('id', 'circleD');
+                        
+                        var text1d = d3.select("#graph2")
+                            .append("text")
+                            .attr('class', 'label2')
+                            .text(d['gini9500'])
+                            .attr('x', graphWidth/5 - 10)
+                            .attr('y', mapygraph2(d['gini9500']) - 15)
+                            .attr('id','textD')
+                            .attr('font-size','10px');
+                                        
+                        }
+                
+                if(d['gini0005'] !== "" && d['gini0510'] !== ""){  
+                       
+                var line1e = d3.select("#graph2")
+                    .append("line")
+                    .attr("x1", graphWidth/5*3)
+                    .attr("y1", mapygraph2(d['gini0005']))
+                    .attr("x2", graphWidth)
+                    .attr("y2", mapygraph2(d['gini0510']))
+                    .attr('stroke', function(){
+                            if (d['gini0510']>d['gini0005']) return '#29ABA4'
+                            else return '#E5243B'
+                        })
+                    .attr('stroke-width', 2)
+                    .attr('id', 'lineE');
+                        }
+                        
+                if(d['gini0005'] !== ""){
+                    var circle1e = d3.select("#graph2")
+                        .append("circle")
+                        .attr("cx", graphWidth/5*3)
+                        .attr('cy', mapygraph2(d['gini0005']))
+                        .attr('r', 3)
+                        .attr('fill', 'black')
+                        .attr('stroke', 'white')
+                        .attr('stroke-width', 1)
+                        .attr('id', 'circleE');
+                        
+                    var text1e = d3.select("#graph2")
+                        .append("text")
+                        .attr('class', 'label2')
+                        .text(d['gini0005'])
+                        .attr('x', graphWidth/5*3 - 30)
+                        .attr('y', mapygraph2(d['gini0005']) - 15)
+                        .attr('id','textE')
+                        .attr('font-size','10px');
+                    }
+                    
+                if(d['gini0510'] !== ""){
+                    var circle1f = d3.select("#graph2")
+                        .append("circle")
+                        .attr("cx", graphWidth)
+                        .attr('cy', mapygraph2(d['gini0510']))
+                        .attr('r', 3)
+                        .attr('fill', 'black')
+                        .attr('stroke', 'white')
+                        .attr('stroke-width', 1)
+                        .attr('id', 'circleF');;
+                        
+                    var text1f = d3.select("#graph2")
+                        .append("text")
+                        .attr('class', 'label2')
+                        .text(d['gini0510'])
+                        .attr('x', graphWidth - 30)
+                        .attr('y', mapygraph2(d['gini0510']) - 15)
+                        .attr('id','textF')
+                        .attr('font-size','10px');
+                                        
+                        }
+
+            });
+        });
+        
+       
+        
+        var chart3 = d3.select('#figure').append('svg')
+            .attr('class', 'col-lg-4 col-md-4 col-sm-6 col-xs-12')//.attr('width', width + margin.left + margin.right*2)
+            .attr('height', height + margin.top + margin.bottom)
+            .attr('id', 'd3-plot3')
+        .append("g")
+            .attr("transform", "translate( "+ margin.left +"," + margin.top + ")");
+            
+        color3.domain(['govTertiary', 'privTertiary', 'aidTertiary']);
+        
+        d3.csv("quantData.csv", function(error, data) {
+            
+            data.forEach(function(d) {
+            
+            d['aidPrimary']=parseFloat(d['aidPrimary']);
+            d['aidSecondary']=parseFloat(d['aidSecondary']);
+            d['aidTertiary']=parseFloat(d['aidTertiary']);
+            d['govPrimary']=parseFloat(d['govPrimary']);
+            d['govSecondary']=parseFloat(d['govSecondary']);
+            d['govTertiary']=parseFloat(d['govTertiary']);
+            d['privPrimary']=parseFloat(d['privPrimary']);
+            d['privSecondary']=parseFloat(d['privSecondary']);
+            d['privTertiary']=parseFloat(d['privTertiary']);
+            
+            var x0 = 0;
+            d.boxes = color3.domain().map(function(name) { 
+            return {name: name, 
+                    x0: x0, 
+                    x1: x0 += +d[name],
+                    N: +d.N,
+                    n: +d[name]*10,
+                    gini: d.gini
+            };
+                });
+            });
+            
+            //console.log(data);
+            x.domain([0, 800]).nice();
+            y.domain(data.map(function(d) { 
+                return d.Country; 
+            }));
+            
+        chart3.append("g")
+            .attr("class", "x3 axis")
+            .call(xAxis);
+
+        chart3.append("g")
+            .attr("class", "y3 axis")
+            .call(yAxis);
+         
+        var div = d3.selectAll("body").append("div")
+            .attr('width', 50)
+            .attr('height', 50)
+            .attr("class", "tooltip")
+            
+        var country3 = chart3.selectAll(".Country")
+            .data(data)
+            .enter().append("g")
+            .attr("class", "bar")
+            .attr("id", "tertiary")
+            .attr("transform", function(d) { return "translate(0," + y(d.Country) + ")"; });
+            
+        var bars3 = country3.selectAll("rect")
+            .data(function(d) { return d.boxes; })
+            .enter().append("g").attr("class", "subbar");
+        
+        bars3.append("rect")
+            .attr("height", y.bandwidth())
+            .attr("x", function(d) { return x(d.x0); })
+            .attr("width", function(d) { return x(d.x1) - x(d.x0); })
+            .style("fill", function(d) { return color3(d.name); })
+            .on("mouseover", function(d) {     
+                div.transition()		
+                    .duration(200)		
+                    .style("opacity", .97);		
+                div.text('$'+d.n)  
+                    .style("left", (d3.event.pageX) + "px")     
+                    .style("top", (d3.event.pageY - 15) + "px");
+                console.log(d.n);
+                })          
+                .on("mouseout", function(d) {
+                    div.transition()		
+                    .duration(500)		
+                    .style("opacity", 0);
+                });
+        // bars3.append("text")
+        //     .attr("x", function(d) { return x(d.x0); })
+        //     .attr("y", y.bandwidth()/2)
+        //     .attr("dy", "0.5em")
+        //     .attr("dx", "0.5em")
+        //     .style("font" ,"7px sans-serif")
+        //     .style("text-anchor", "begin")
+        //     .text(function(d) { 
+        //         if (d.n== 0 || d.name=='Foreign Aid') 
+        //             return d.n = '';
+        //         else return d.n; });
+            
+        country3.insert("rect",":first-child")
+            .attr("height", y.bandwidth())
+            .attr("x", "1")
+            .attr("width", newWidth)
+            .attr("fill-opacity", "0.5")
+            .style("fill", "#F5F5F5")
+            .attr("class", function(d,index) { return index%2==0 ? "even" : "uneven"; });
+        
+        country3.append("text")
+            .attr("x", newWidth)
+            .attr("y", y.bandwidth()/2)
+            .attr("dy", "0.5em")
+            .attr("dx", "0.5em")
+            .style("font" ,"7px sans-serif")
+            .style("fill", function(d) {
+                if (d.gini>0) return "#29ABA4";
+                else return "E5243B";
+            })
+            .style("text-anchor", "end")
+            .text(function(d) {
+                if (d.gini < 0)
+                return d.gini*(-1);
+                else return d.gini;});
+            
+        chart3.append("text")
+            .attr("x", 0)
+            .attr("y", -30)
+            .style("font" ,"13px sans-serif")
+            .style("text-anchor", "begin")
+            .text("TERTIARY EDUCATION ($10 USD per student)");
+            
+        // d3.select("input").on("change", change3);
+
+        // var sortTimeout = setTimeout(function() {
+        //     d3.select("input").property("checked", true).each(change3);
+        //     }, 2000);
+
+        // function change3() {
+        //     clearTimeout(sortTimeout);
+
+        // // Copy-on-write since tweens are evaluated after a delay.
+        // var y0 = y.domain(data.sort(this.checked
+        //     ? function(a, b) { return b.N - a.N; }
+        //     : function(a, b) { return d3.ascending(a.Country, b.Country); })
+        //     .map(function(d) { return d.Country; }))
+        //     .copy();
+    
+        // chart3.selectAll(".bars")
+        //     .sort(function(a, b) { return y0(a.Country) - y0(b.Country); });
+    
+        // var transition = chart3.transition().duration(750),
+        //     delay = function(d, i) { return i * 50; };
+    
+        // transition.selectAll(".bars")
+        //     .delay(delay)
+        //     .attr("y", function(d) { return y0(d.Country); });
+    
+        // transition.select(".y.axis")
+        //     .call(yAxis)
+        //   .selectAll("g")
+        //     .delay(delay);
+        // }
+        
+        var graph3 = country3.on("click", function(d) { 
+                
+                d3.select("#graph1 > *").remove();
+                d3.select("#graph2 > *").remove();
+                d3.select("#circleA").remove();
+                d3.select("#circleB").remove();
+                d3.select("#circleC").remove();
+                d3.select("#lineA").remove();
+                d3.select("#lineB").remove();
+                d3.select("#textA").remove();
+                d3.select("#textB").remove();
+                d3.select("#textC").remove();
+                d3.select("#circleD").remove();
+                d3.select("#circleE").remove();
+                d3.select("#circleF").remove();
+                d3.select("#lineD").remove();
+                d3.select("#lineE").remove();
+                d3.select("#textD").remove();
+                d3.select("#textE").remove();
+                d3.select("#textF").remove();
+                d3.select("#circleG").remove();
+                d3.select("#circleH").remove();
+                d3.select("#circleI").remove();
+                d3.select("#lineG").remove();
+                d3.select("#lineH").remove();
+                d3.select("#textG").remove();
+                d3.select("#textH").remove();
+                d3.select("#textI").remove();
+                d3.select("#graphTitle1").remove();
+                d3.select("#graphTitle2").remove();
+                d3.select("#graph1").select("#year1").remove();
+                d3.select("#graph1").select("#year2").remove();
+                d3.select("#graph1").select("#year3").remove();
+                d3.select("#graph2").select("#year1").remove();
+                d3.select("#graph2").select("#year2").remove();
+                d3.select("#graph2").select("#year3").remove();
+                d3.select("#circleJ").remove();
+                d3.select("#textJ").remove();
+                
+                var ttwidth = newWidth*4-200;
+                var graphWidth = ttwidth/3;
+                
+                
+                d3.select("#countries")
+                    .attr("y", 15)
+                    .text(d.Country);
+                
+                
+                var mapygraph1 = d3.scaleLinear().domain([0, 4000]).range([9*(graphWidth/10), graphWidth/10]);
+                var mapygraph2 = d3.scaleLinear().domain([0, 1]).range([9*(graphWidth/10), graphWidth/10]); 
+            
+                
+                for(var i = 1; i<=4; i++)
+                    {
+                        var id = "#graph" + i;
+                                    
+                        d3.select(id)
+                            .attr("width", graphWidth+10)
+                            .attr("height", graphWidth);
+                                
+                        d3.select(id)
+                            .append("line")
+                            .attr("x1", graphWidth/5)
+                            .attr("y1", graphWidth/10)
+                            .attr("x2", graphWidth)
+                            .attr("y2", graphWidth/10)
+                            .attr('stroke', '#ffffff')
+                            .attr('stroke-width', 1);
+                        d3.select(id)
+                            .append("line")
+                            .attr("x1", graphWidth/5 )
+                            .attr("y1", graphWidth/10*2)
+                            .attr("x2", graphWidth)
+                            .attr("y2", graphWidth/10*2)
+                            .attr('stroke', '#ffffff')
+                            .attr('stroke-width', 1);
+                        d3.select(id)
+                            .append("line")
+                            .attr("x1", graphWidth/5)
+                            .attr("y1", graphWidth/10*3)
+                            .attr("x2", graphWidth)
+                            .attr("y2", graphWidth/10*3)
+                            .attr('stroke', '#ffffff')
+                            .attr('stroke-width', 1);
+                        d3.select(id)
+                            .append("line")
+                            .attr("x1", graphWidth/5)
+                            .attr("y1", graphWidth/10*4)
+                            .attr("x2", graphWidth)
+                            .attr("y2", graphWidth/10*4)
+                            .attr('stroke', '#ffffff')
+                            .attr('stroke-width', 1); 
+                        
+                        d3.select(id)
+                            .append("line")
+                            .attr("x1", graphWidth/5)
+                            .attr("y1", graphWidth/10*5)
+                            .attr("x2", graphWidth)
+                            .attr("y2", graphWidth/10*5)
+                            .attr('stroke', '#ffffff')
+                            .attr('stroke-width', 1); 
+                            
+                        d3.select(id)
+                            .append("line")
+                            .attr("x1", graphWidth/5)
+                            .attr("y1", graphWidth/10*6)
+                            .attr("x2", graphWidth)
+                            .attr("y2", graphWidth/10*6)
+                            .attr('stroke', '#ffffff')
+                            .attr('stroke-width', 1); 
+                            
+                        d3.select(id)
+                            .append("line")
+                            .attr("x1", graphWidth/5)
+                            .attr("y1", graphWidth/10*7)
+                            .attr("x2", graphWidth)
+                            .attr("y2", graphWidth/10*7)
+                            .attr('stroke', '#ffffff')
+                            .attr('stroke-width', 1); 
+                            
+                        d3.select(id)
+                            .append("line")
+                            .attr("x1", graphWidth/5)
+                            .attr("y1", graphWidth/10*8)
+                            .attr("x2", graphWidth)
+                            .attr("y2", graphWidth/10*8)
+                            .attr('stroke', '#ffffff')
+                            .attr('stroke-width', 1); 
+                        
+                        d3.select(id)
+                            .append("line")
+                            .attr("x1", graphWidth/5)
+                            .attr("y1", graphWidth/10*9)
+                            .attr("x2", graphWidth)
+                            .attr("y2", graphWidth/10*9)
+                            .attr('stroke', '#ffffff')
+                            .attr('stroke-width', 1); 
+                            
+                                       
+                        d3.select(id)
+                            .append("line")
+                            .attr("x1", graphWidth/5)
+                            .attr("y1", graphWidth/10)
+                            .attr("x2", graphWidth/5)
+                            .attr("y2", graphWidth/10*9)
+                            .attr('stroke', '#ffffff')
+                            .attr('stroke-width', 1);
+                        
+                        d3.select(id)
+                            .append("line")
+                            .attr("x1", graphWidth)
+                            .attr("y1", graphWidth/10)
+                            .attr("x2", graphWidth)
+                            .attr("y2", graphWidth/10*9)
+                            .attr('stroke', '#ffffff')
+                            .attr('stroke-width', 1);
+                            
+                        d3.select(id)
+                            .append("text")
+                            .attr("x", graphWidth/5)
+                            .attr("y", graphWidth/10*9.5)
+                            .text("year 95-00")
+                            .attr("text-anchor", "middle")
+                            .style("font-size", "10px")
+                            .attr("id", "year1");
+                        
+                        d3.select(id)
+                            .append("text")
+                            .attr("x", graphWidth/5*3)
+                            .attr("y", graphWidth/10*9.5)
+                            .text("year 00-05")
+                            .attr("text-anchor", "middle")
+                            .style("font-size", "10px")
+                            .attr("id", "year2")
+                        
+                        d3.select(id)
+                            .append("text")
+                            .attr("x", graphWidth-20)
+                            .attr("y", graphWidth/10*9.5)
+                            .text("year 05-10")
+                            .attr("text-anchor", "middle")
+                            .style("font-size", "10px")
+                            .attr("id", "year3");
+                            
+                        }
+        
+                        
+                d3.select("#graph1")
+                    .append("text")
+                    .attr("class", "graphTitle")
+                    .attr("x", graphWidth/5*3)
+                    .attr("y", graphWidth/15)
+                    .text("Expenditure by Source (change over time)")
+                    .attr("text-anchor", "middle")
+                    .attr("font-size", "12px")
+                    .attr("id","graphTitle1");   
+                
+                    
+                d3.select("#graph2")
+                    .append("text")
+                    .attr("class", "graphTitle")
+                    .attr("x", graphWidth/5*3)
+                    .attr("y", graphWidth/15)
+                    .text("Inequality - Gini Coefficient (change over time)")
+                    .attr("font-size", "12px")
+                    .attr("text-anchor", "middle")
+                    .attr("id","graphTitle2"); 
+
+                    
+                popupGraph(d);
+                
+                //console.log(d['gov9500']);
+                
+                // if(isNaN(d['gov9500'])==true && isNaN(d['gov0005'])==true){
+                            
+                //     d3.select("#graph1")
+                //         .append("text")
+                //         .attr("class", "nodata")
+                //         .text("No Data")
+                //         .attr('x', graphWidth/5)
+                //         .attr('y', graphWidth/15*6)
+                //         .style("fill", "LightGrey")
+                //         .attr("text-anchor", "middle");    
+                //         }
+                
+                if(d['gov9500'] !== "" && d['gov0005'] !== ""){  
+                       
+                    var line1a = d3.select("#graph1")
+                        .append("line")
+                        .attr("x1", graphWidth/5)
+                        .attr("y1", mapygraph1(d['gov9500']))
+                        .attr("x2", graphWidth/5*3)
+                        .attr("y2", mapygraph1(d['gov0005']))
+                        .attr('stroke', '#FF715f')
+                        .attr('stroke-width', 2)
+                        .attr('id', 'lineA');
+                        }
+                        
+                if(d['gov9500'] !== ""){
+                    var circle1a = d3.select("#graph1")
+                            .append("circle")
+                            .attr("cx", graphWidth/5)
+                            .attr('cy', mapygraph1(d['gov9500']))
+                            .attr('r', 3)
+                            .attr('fill', '#FF715f')
+                            .attr('stroke', 'white')
+                            .attr('stroke-width', 1)
+                            .attr('id', 'circleA');
+                        
+                        var text1a = d3.select("#graph1")
+                            .append("text")
+                            .attr('class', 'label2')
+                            .text(d['gov9500'])
+                            .attr('x', graphWidth/5 - 30)
+                            .attr('y', mapygraph1(d['gov9500']) - 7)
+                            .attr('id','textA')
+                            .attr('font-size','10px');
+                                        
+                        }
+                
+                if(d['gov0005'] !== "" && d['gov0510'] !== ""){  
+                       
+                var line1b = d3.select("#graph1")
+                    .append("line")
+                    .attr("x1", graphWidth/5*3)
+                    .attr("y1", mapygraph1(d['gov0005']))
+                    .attr("x2", graphWidth)
+                    .attr("y2", mapygraph1(d['gov0510']))
+                    .attr('stroke', '#FF715f')
+                    .attr('stroke-width', 2)
+                    .attr('id', 'lineB');
+                        }
+                        
+                if(d['gov0005'] !== ""){
+                    var circle1b = d3.select("#graph1")
+                        .append("circle")
+                        .attr("cx", graphWidth/5*3)
+                        .attr('cy', mapygraph1(d['gov0005']))
+                        .attr('r', 3)
+                        .attr('fill', '#FF715f')
+                        .attr('stroke', 'white')
+                        .attr('stroke-width', 1)
+                        .attr('id', 'circleB');
+                        
+                    var text1b = d3.select("#graph1")
+                        .append("text")
+                        .attr('class', 'label2')
+                        .text(d['gov0005'])
+                        .attr('x', graphWidth/5*3 - 30)
+                        .attr('y', mapygraph1(d['gov0005']) - 7)
+                        .attr('id','textB')
+                        .attr('font-size','10px');
+                    }
+                    
+                if(d['gov0510'] !== ""){
+                    var circle1c = d3.select("#graph1")
+                        .append("circle")
+                        .attr("cx", graphWidth)
+                        .attr('cy', mapygraph1(d['gov0510']))
+                        .attr('r', 3)
+                        .attr('fill', '#FF715f')
+                        .attr('stroke', 'white')
+                        .attr('stroke-width', 1)
+                        .attr('id', 'circleC');;
+                        
+                    var text1c = d3.select("#graph1")
+                        .append("text")
+                        .attr('class', 'label2')
+                        .text(d['gov0510'])
+                        .attr('x', graphWidth - 30)
+                        .attr('y', mapygraph1(d['gov0510']) - 7)
+                        .attr('id','textC')
+                        .attr('font-size','10px');
+                                        
+                        }
+                
+                //household financing
+                if(d['priv0510'] !== ""){
+                    var circle1j = d3.select("#graph1")
+                            .append("circle")
+                            .attr("cx", graphWidth/5)
+                            .attr('cy', mapygraph1(d['priv0510']))
+                            .attr('r', 3)
+                            .attr('fill', '#0A97D9')
+                            .attr('stroke', 'white')
+                            .attr('stroke-width', 1)
+                            .attr('id', 'circleJ');
+                        
+                        var text1j = d3.select("#graph1")
+                            .append("text")
+                            .attr('class', 'label2')
+                            .text(d['priv0510'])
+                            .attr('x', graphWidth/5 - 30)
+                            .attr('y', mapygraph1(d['priv0510']) - 7)
+                            .attr('id','textJ')
+                            .attr('font-size','10px');
+                                        
+                        }
+                
+                //aid financing
+                if(d['aid9500'] !== "" && d['aid0005'] !== ""){  
+                       
+                    var line1g = d3.select("#graph1")
+                        .append("line")
+                        .attr("x1", graphWidth/5)
+                        .attr("y1", mapygraph1(d['aid9500']))
+                        .attr("x2", graphWidth/5*3)
+                        .attr("y2", mapygraph1(d['aid0005']))
+                        .attr('stroke', '#19486A')
+                        .attr('stroke-width', 2)
+                        .attr('id', 'lineG');
+                        }
+                        
+                if(d['aid9500'] !== ""){
+                    var circle1g = d3.select("#graph1")
+                            .append("circle")
+                            .attr("cx", graphWidth/5)
+                            .attr('cy', mapygraph1(d['aid9500']))
+                            .attr('r', 3)
+                            .attr('fill', '#19486A')
+                            .attr('stroke', 'white')
+                            .attr('stroke-width', 1)
+                            .attr('id', 'circleG');
+                        
+                        var text1g = d3.select("#graph1")
+                            .append("text")
+                            .attr('class', 'label2')
+                            .text(d['aid9500'])
+                            .attr('x', graphWidth/5 - 30)
+                            .attr('y', mapygraph1(d['aid9500']) - 7)
+                            .attr('id','textG')
+                            .attr('font-size','10px');
+                                        
+                        }
+                
+                if(d['aid0005'] !== "" && d['aid0510'] !== ""){  
+                       
+                var line1h = d3.select("#graph1")
+                    .append("line")
+                    .attr("x1", graphWidth/5*3)
+                    .attr("y1", mapygraph1(d['aid0005']))
+                    .attr("x2", graphWidth)
+                    .attr("y2", mapygraph1(d['aid0510']))
+                    .attr('stroke', '#19486A')
+                    .attr('stroke-width', 2)
+                    .attr('id', 'lineH');
+                        }
+                        
+                if(d['aid0005'] !== ""){
+                    var circle1h = d3.select("#graph1")
+                        .append("circle")
+                        .attr("cx", graphWidth/5*3)
+                        .attr('cy', mapygraph1(d['aid0005']))
+                        .attr('r', 3)
+                        .attr('fill', '##19486A')
+                        .attr('stroke', 'white')
+                        .attr('stroke-width', 1)
+                        .attr('id', 'circleH');
+                        
+                    var text1h = d3.select("#graph1")
+                        .append("text")
+                        .attr('class', 'label2')
+                        .text(d['aid0005'])
+                        .attr('x', graphWidth/5*3 - 30)
+                        .attr('y', mapygraph1(d['aid0005']) - 7)
+                        .attr('id','textH')
+                        .attr('font-size','10px');
+                    }
+                    
+                if(d['aid0510'] !== ""){
+                    var circle1i = d3.select("#graph1")
+                        .append("circle")
+                        .attr("cx", graphWidth)
+                        .attr('cy', mapygraph1(d['aid0510']))
+                        .attr('r', 3)
+                        .attr('fill', '#19486A')
+                        .attr('stroke', 'white')
+                        .attr('stroke-width', 1)
+                        .attr('id', 'circleI');;
+                        
+                    var text1i = d3.select("#graph1")
+                        .append("text")
+                        .attr('class', 'label2')
+                        .text(d['aid0510'])
+                        .attr('x', graphWidth - 30)
+                        .attr('y', mapygraph1(d['aid0510']) - 7)
+                        .attr('id','textI')
+                        .attr('font-size','10px');
+                                        
+                        }
+                
+                //gini coefficient
+            
+                if(d['gini9500'] !== "" && d['gini0005'] !== ""){  
+                       
+                    var line1d = d3.select("#graph2")
+                        .append("line")
+                        .attr("x1", graphWidth/5)
+                        .attr("y1", mapygraph2(d['gini9500']))
+                        .attr("x2", graphWidth/5*3)
+                        .attr("y2", mapygraph2(d['gini0005']))
+                        .attr('stroke', function(){
+                            if (d['gini0005']>d['gini9500']) return '#29ABA4'
+                            else return '#E5243B'
+                        })
+                        .attr('stroke-width', 2)
+                        .attr('id', 'lineD');
+                        }
+                        
+                if(d['gini9500'] !== ""){
+                    var circle1d = d3.select("#graph2")
+                            .append("circle")
+                            .attr("cx", graphWidth/5)
+                            .attr('cy', mapygraph2(d['gini9500']))
+                            .attr('r', 3)
+                            .attr('fill', 'black')
+                            .attr('stroke', 'white')
+                            .attr('stroke-width', 1)
+                            .attr('id', 'circleD');
+                        
+                        var text1d = d3.select("#graph2")
+                            .append("text")
+                            .attr('class', 'label2')
+                            .text(d['gini9500'])
+                            .attr('x', graphWidth/5 - 10)
+                            .attr('y', mapygraph2(d['gini9500']) - 15)
+                            .attr('id','textD')
+                            .attr('font-size','10px');
+                                        
+                        }
+                
+                if(d['gini0005'] !== "" && d['gini0510'] !== ""){  
+                       
+                var line1e = d3.select("#graph2")
+                    .append("line")
+                    .attr("x1", graphWidth/5*3)
+                    .attr("y1", mapygraph2(d['gini0005']))
+                    .attr("x2", graphWidth)
+                    .attr("y2", mapygraph2(d['gini0510']))
+                    .attr('stroke', function(){
+                            if (d['gini0510']>d['gini0005']) return '#29ABA4'
+                            else return '#E5243B'
+                        })
+                    .attr('stroke-width', 2)
+                    .attr('id', 'lineE');
+                        }
+                        
+                if(d['gini0005'] !== ""){
+                    var circle1e = d3.select("#graph2")
+                        .append("circle")
+                        .attr("cx", graphWidth/5*3)
+                        .attr('cy', mapygraph2(d['gini0005']))
+                        .attr('r', 3)
+                        .attr('fill', 'black')
+                        .attr('stroke', 'white')
+                        .attr('stroke-width', 1)
+                        .attr('id', 'circleE');
+                        
+                    var text1e = d3.select("#graph2")
+                        .append("text")
+                        .attr('class', 'label2')
+                        .text(d['gini0005'])
+                        .attr('x', graphWidth/5*3 - 30)
+                        .attr('y', mapygraph2(d['gini0005']) - 15)
+                        .attr('id','textE')
+                        .attr('font-size','10px');
+                    }
+                    
+                if(d['gini0510'] !== ""){
+                    var circle1f = d3.select("#graph2")
+                        .append("circle")
+                        .attr("cx", graphWidth)
+                        .attr('cy', mapygraph2(d['gini0510']))
+                        .attr('r', 3)
+                        .attr('fill', 'black')
+                        .attr('stroke', 'white')
+                        .attr('stroke-width', 1)
+                        .attr('id', 'circleF');;
+                        
+                    var text1f = d3.select("#graph2")
+                        .append("text")
+                        .attr('class', 'label2')
+                        .text(d['gini0510'])
+                        .attr('x', graphWidth - 30)
+                        .attr('y', mapygraph2(d['gini0510']) - 15)
+                        .attr('id','textF')
+                        .attr('font-size','10px');
+                                        
+                        }
+
+            });
+        });
+        
+    
+        
+        d3.select('#legend1').append("rect")
+            .attr("x", 370)
+            .attr("width", 15)
+            .attr("height", 15)
+            .style("fill", '#EB7260');
+            
+        // d3.select('#legend1').append("text")
+        //     .attr("x", 390)
+        //     .attr("y", 8)
+        //     .attr("dy", ".35em")
+        //     .style("text-anchor", "begin")
+        //     .style("font" ,"7px sans-serif")
+        //     .text("Government Expenditure");
+            
+        // .append('svg')
+        //     .attr('width', '100%')
+        //     .attr('height', '100%')
+        //     .attr('id', 'legendbox1');
+        
+        // legendbox.append("text")
+        //     .attr("x", 20)
+        //     .attr("y", 17)
+        //     .attr("dy", ".35em")
+        //     .style("text-anchor", "begin")
+        //     .style("font" ,"7px sans-serif")
+        //     .text("aims to examine the impact of such investment on inequality.");
+            
+        // legendbox.append("text")
+        //     .attr("x", 20)
+        //     .attr("y", 10)
+        //     .attr("dy", ".35em")
+        //     .style("text-anchor", "begin")
+        //     .style("font" ,"7px sans-serif")
+        //     .text("reduce income inequality. This breakdown of public, private and aid expenditure on education ");
+            
+        // legendbox.append("text")
+        //     .attr("x", 20)
+        //     .attr("y", 3)
+        //     .attr("dy", ".35em")
+        //     .style("text-anchor", "begin")
+        //     .style("font" ,"7px sans-serif")
+        //     .text("Education, is a form of human capital investment that is central to economic growth and");
+        
+            
+        // legendbox.append("rect")
+        //     .attr("x", 515)
+        //     .attr("width", 15)
+        //     .attr("height", 15)
+        //     .style("fill", '#3A9AD9');
+        
+        // legendbox.append("text")
+        //     .attr("x", 535)
+        //     .attr("y", 8)
+        //     .attr("dy", ".35em")
+        //     .style("text-anchor", "begin")
+        //     .style("font" ,"7px sans-serif")
+        //     .text("Household Expenditure");
+            
+        // legendbox.append("rect")
+        //     .attr("x", 660)
+        //     .attr("width", 15)
+        //     .attr("height", 15)
+        //     .style("fill", '#354458');
+        
+        // legendbox.append("text")
+        //     .attr("x", 680)
+        //     .attr("y", 8)
+        //     .attr("dy", ".35em")
+        //     .style("text-anchor", "begin")
+        //     .style("font" ,"7px sans-serif")
+        //     .text("Foreign Aid");
+        
+        // legendbox.append("rect")
+        //     .attr("x", 785)
+        //     .attr("width", 7.5)
+        //     .attr("height", 15)
+        //     .style("fill", '#29ABA4');
+        
+        // legendbox.append("rect")
+        //     .attr("x", 792.5)
+        //     .attr("width", 7.5)
+        //     .attr("height", 15)
+        //     .style("fill", '#E5243B');
+        
+        // legendbox.append("text")
+        //     .attr("x", 805)
+        //     .attr("y", 8)
+        //     .attr("dy", ".35em")
+        //     .style("text-anchor", "begin")
+        //     .style("font" ,"7px sans-serif")
+        //     .text("Gini Coefficient");
+            
+        // legendbox.append("text")
+        //     .attr("x", 1000)
+        //     .attr("y", 8)
+        //     .attr("dy", ".35em")
+        //     .style("text-anchor", "begin")
+        //     .style("font" ,"7px sans-serif")
+        //     .text("CLICK BAR TO VIEW MORE INFO")
+        //     .style("font-style" ,"ITALIC");
+          
+        // legendbox.append("text")
+        //     .attr("x", 1050)
+        //     .attr("y", 8)
+        //     .attr("dy", ".35em")
+        //     .style("text-anchor", "end")
+        //     .style("font" ,"7px sans-serif")
+        //     .style("font-style", "italic")
+        //     .text("Expenditure data are 1995-2014 average as % of GDP");
+        
+        //  var datasource = d3.select('#source')
+        // .append('text')
+        //     .attr("x", 10)
+        //     .attr("y", 8)
+        //     .attr("dy", ".35em")
+        //     .style("text-anchor", "begin")
+        //     .style("font" ,"7px sans-serif")
+        //     .style("font-style", "italic")
+        //     .text("DATA SOURCE: 1. Government expenditure % of GDP, by education level: UNESCO Education Finance  2. Share of household expenditure education, by education level (re-calculated as % of GDP): UNESCO IIEP Pôle de Dakar  3.Official development assitance, by education level (re-calculated as % of GDP): OECD Creditor Reporting System")
+        </script>
+
+    </body>
+</html>
