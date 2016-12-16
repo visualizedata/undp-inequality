@@ -1,0 +1,122 @@
+body{
+	font-family: 'Arial', serif;
+	/*background-color: #fcc30b;*/
+	color:white;
+	background-color: #0a97d9;
+
+}
+h1{
+	color:#26bde2;
+	color:white;
+	text-align: center;
+	margin-bottom:35px;
+}
+
+p.nav{
+	width:100%;
+	clear:both;
+	border-bottom:0.5px solid white;
+	/*border-bottom:0.5px solid #fd9d24;*/
+}
+
+.ynav{
+	font-family: 'Arial', serif;
+	font-size:15px;
+	color:#fcc30b;
+	border-bottom:0.5px solid #fcc30b;
+	border-radius:1px;
+	
+	width:100px;
+	text-align:center;
+	padding-top:5px;
+	padding-bottom:5px;
+	display:inline-block;
+	margin:0px;
+	float:left;
+	position:relative;
+	left:20px;
+	
+}
+
+#G{
+	margin-left:2px;
+	font-size:12px;
+	border:0.5px solid #fcc30b;
+	color:black;
+	color:white;
+	position:relative;
+	left:30px;
+}
+
+#S{
+	border:0.5px solid #fcc30b;
+	font-size:12px;
+	color:black;
+	color:white;
+	position:relative;
+	left:30px;
+
+}
+
+.rnav{
+	font-family: 'Arial', serif;
+	font-size:15px;
+	color:#fcc30b;
+	border-bottom:0.5px solid #fcc30b;
+	border-radius:1px;
+	width:200px;
+	text-align:center;
+	padding-top:5px;
+	padding-bottom:5px;
+	display:inline-block;
+	margin:0px;
+	float:left;
+	position:relative;
+	left:50px
+
+}
+
+#eq{
+	
+	color:black;
+	color:white;
+	font-size:12px;
+	border:0.5px solid #fcc30b;
+	width:100px;
+	position:relative;
+	left:60px;
+
+}
+
+#landa{
+	color:black;
+	color:white;
+	font-size:12px;
+	border:0.5px solid #fcc30b;
+	width:100px;
+	position:relative;
+	left:60px;
+
+}
+
+/*
+.label{
+	font-family: 'Droid Serif', serif;
+	font-weight: 'bold'
+}
+.xlabel{
+	font-family: 'Droid Serif', serif;
+	font-weight: 'bold'
+}
+.ylabel{
+	font-family: 'Droid Serif', serif;
+	font-weight: 'bold'
+}
+.xnav{
+	display:inline;
+}
+.rnav{
+	display:inline;
+}
+*/
+

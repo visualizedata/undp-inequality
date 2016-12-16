@@ -1,0 +1,5 @@
+eu: https://www.countries-ofthe-world.com/countries-of-europe.html
+ssa:https://www.loc.gov/rr/amed/guide/afr-countrylist.html
+south america:https://en.wikipedia.org/wiki/List_of_South_American_countries_by_population
+asia:https://en.wikipedia.org/wiki/List_of_Asian_countries_by_GDP
+
